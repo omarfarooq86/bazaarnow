@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
@@ -29,6 +30,8 @@ const iconMap: Record<string, LucideIcon> = {
 
 export default function CategoryGrid() {
   const categories = getCategories();
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => { setMounted(true); }, []);
 
   return (
     <section className="py-12 md:py-16">
@@ -41,7 +44,7 @@ export default function CategoryGrid() {
             <h2 className="heading-2 text-dark mt-1">Categories</h2>
           </div>
           <Link
-            href="/category/electronics"
+            href="/offers"
             className="hidden sm:flex items-center gap-1.5 text-sm font-semibold text-brand-500 hover:text-brand-600 transition-colors"
           >
             View All
@@ -55,10 +58,9 @@ export default function CategoryGrid() {
             return (
               <motion.div
                 key={category.slug}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.4, delay: index * 0.06 }}
+                initial={mounted ? { opacity: 0, y: 24 } : false}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: mounted ? index * 0.06 : 0 }}
               >
                 <Link
                   href={`/category/${category.slug}`}
@@ -87,7 +89,7 @@ export default function CategoryGrid() {
 
         <div className="text-center mt-6 sm:hidden">
           <Link
-            href="/category/electronics"
+            href="/offers"
             className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-500"
           >
             View All Categories

@@ -51,7 +51,7 @@ export default function Navbar() {
     { href: "/category/electronics", label: "Electronics" },
     { href: "/category/fashion", label: "Fashion" },
     { href: "/category/beauty", label: "Beauty" },
-    { href: "/category/home-living", label: "Home" },
+    { href: "/category/home-living", label: "Home & Living" },
     { href: "/offers", label: "Offers", highlight: true },
   ];
 
@@ -70,7 +70,6 @@ export default function Navbar() {
         {/* Top bar — promo */}
         <div className="bg-dark text-white text-xs font-medium py-1.5 px-4 text-center overflow-hidden">
           <div className="flex items-center justify-center gap-2">
-            <Percent className="w-3.5 h-3.5 text-gold-400" />
             <span className="hidden sm:inline">
               5% Discount on Advance Payment via JazzCash, EasyPaisa & Bank Transfer
             </span>
@@ -132,11 +131,13 @@ export default function Navbar() {
 
               {/* Phone / WhatsApp */}
               <a
-                href="tel:+923001234567"
+                href="https://wa.me/923101418307"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hidden md:flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-medium text-charcoal-600 hover:text-dark hover:bg-charcoal-50 transition-all"
               >
                 <Phone className="w-4 h-4" />
-                <span>0300 1234567</span>
+                <span>0310 1418307</span>
               </a>
 
               {/* Cart button */}
@@ -239,10 +240,12 @@ export default function Navbar() {
                     Need Help?
                   </p>
                   <a
-                    href="tel:+923001234567"
+                    href="https://wa.me/923101418307"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm text-brand-600 hover:underline"
                   >
-                    0300 1234567
+                    0310 1418307
                   </a>
                 </div>
               </div>

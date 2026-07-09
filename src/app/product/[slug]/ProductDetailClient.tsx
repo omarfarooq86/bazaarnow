@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -20,6 +20,7 @@ import {
   Smartphone,
   Building2,
   Play,
+  X,
 } from "lucide-react";
 import type { Product } from "@/types";
 import {
@@ -46,6 +47,14 @@ export default function ProductDetailClient({
   const [isAdded, setIsAdded] = useState(false);
   const [isWishlisted, setIsWishlisted] = useState(false);
   const [showVideo, setShowVideo] = useState(false);
+  const detailVideoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (showVideo && detailVideoRef.current) {
+      detailVideoRef.current.load();
+      detailVideoRef.current.play().catch(() => {});
+    }
+  }, [showVideo]);
 
   const addItem = useCartStore((s) => s.addItem);
   const config = getSiteConfig();
@@ -342,7 +351,7 @@ export default function ProductDetailClient({
                     : "bg-dark text-white hover:bg-charcoal-800"
                 }`}
               >
-                Buy Now
+                Order Now
               </Link>
             </div>
 
@@ -471,24 +480,57 @@ export default function ProductDetailClient({
           </div>
         </div>
 
-        {/* Video Section */}
-        {product.videoUrl && showVideo && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            className="mt-10"
-          >
-            <h2 className="heading-3 text-dark mb-4">Product Video</h2>
-            <div className="aspect-video rounded-2xl overflow-hidden bg-dark">
-              <iframe
-                src={product.videoUrl}
-                className="w-full h-full"
-                allowFullScreen
-                title={`${product.name} video`}
-              />
-            </div>
-          </motion.div>
-        )}
+        {/* Video Popup Modal */}
+        <AnimatePresence>
+          {product.videoUrl && showVideo && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
+              onClick={() => setShowVideo(false)}
+            >
+              <motion.div
+                initial={{ scale: 0.9, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                exit={{ scale: 0.9, opacity: 0 }}
+                transition={{ type: "spring", damping: 25 }}
+                className="relative w-full max-w-4xl"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <button
+                  onClick={() => setShowVideo(false)}
+                  className="absolute -top-12 right-0 z-10 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+                <div className="aspect-video rounded-2xl overflow-hidden bg-dark shadow-2xl">
+                  {product.videoUrl.includes("youtube") ||
+                  product.videoUrl.includes("youtu.be") ? (
+                    <iframe
+                      src={product.videoUrl}
+                      className="w-full h-full"
+                      allowFullScreen
+                      title={`${product.name} video`}
+                    />
+                  ) : (
+                    <video
+                      ref={detailVideoRef}
+                      src={product.videoUrl}
+                      className="w-full h-full object-contain"
+                      controls
+                      playsInline
+                      muted
+                      loop
+                      preload="auto"
+                      title={`${product.name} video`}
+                    />
+                  )}
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
 
         {/* Related Products */}
         {relatedProducts.length > 0 && (

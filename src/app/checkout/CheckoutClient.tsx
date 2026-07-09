@@ -320,14 +320,16 @@ export default function CheckoutClient() {
                   return (
                     <div key={item.product.slug} className="flex items-center gap-3">
                       <div className="w-12 h-12 rounded-lg bg-charcoal-50 flex items-center justify-center flex-shrink-0 overflow-hidden">
-                        {item.product.images[0] ? (
+                        <ShoppingBag className="w-5 h-5 text-charcoal-300 absolute" />
+                        {item.product.images?.[0] && (
                           <img
                             src={item.product.images[0]}
                             alt={item.product.name}
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-cover relative z-10"
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).style.display = "none";
+                            }}
                           />
-                        ) : (
-                          <ShoppingBag className="w-5 h-5 text-charcoal-300" />
                         )}
                       </div>
                       <div className="flex-1 min-w-0">
@@ -381,8 +383,16 @@ export default function CheckoutClient() {
                 {isSubmitting ? "Opening WhatsApp..." : "Order via WhatsApp"}
               </motion.button>
 
+              {/* Inventory notice */}
+              <p className="mt-4 text-[0.65rem] text-charcoal-400 text-center leading-relaxed px-2">
+                We do not hold inventory. Once you place your order, we will arrange
+                the product through our partner and deliver it to you. If you receive
+                a damaged product or it does not match the advertised condition, we
+                will refund your full amount.
+              </p>
+
               {/* Trust signals */}
-              <div className="mt-4 space-y-2">
+              <div className="mt-3 space-y-2">
                 <div className="flex items-center gap-2 text-xs text-charcoal-400">
                   <Truck className="w-3.5 h-3.5 text-emerald-500" />
                   Free delivery across Pakistan

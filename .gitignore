@@ -17,6 +17,12 @@
 /.next/
 /out/
 
+# downloaded product images (too large for git)
+/public/images/products/
+
+# temp files
+corrupt-images.json
+
 # production
 /build
 

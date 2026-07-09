@@ -47,6 +47,13 @@ export default function HeroBanner() {
             className="absolute inset-0 transition-colors duration-700"
             style={{ backgroundColor: banner.bgColor }}
           >
+            {/* Product image background */}
+            <img
+              src={banner.image}
+              alt=""
+              className="absolute right-0 top-0 w-1/2 h-full object-cover opacity-20 md:opacity-30"
+              loading="lazy"
+            />
             {/* Decorative elements */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/4" />
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full translate-y-1/2 -translate-x-1/4" />

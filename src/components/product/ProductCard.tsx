@@ -6,7 +6,8 @@ import { ShoppingBag, Eye, Heart, Star } from "lucide-react";
 import type { Product } from "@/types";
 import { formatPrice, getEffectivePrice, calculateSavings } from "@/lib/utils";
 import { useCartStore } from "@/lib/cart";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 interface ProductCardProps {
   product: Product;
@@ -17,7 +18,33 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
   const [isHovered, setIsHovered] = useState(false);
   const [isAdded, setIsAdded] = useState(false);
   const [isWishlisted, setIsWishlisted] = useState(false);
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const router = useRouter();
   const addItem = useCartStore((s) => s.addItem);
+
+  useEffect(() => { setMounted(true); }, []);
+
+  const hasVideo = !!product.videoUrl && !product.videoUrl.includes("youtube") && !product.videoUrl.includes("youtu.be");
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+    if (hasVideo && videoRef.current) {
+      videoRef.current.currentTime = 0;
+      videoRef.current.play().catch(() => {});
+      setIsVideoPlaying(true);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+    if (videoRef.current) {
+      videoRef.current.pause();
+      videoRef.current.currentTime = 0;
+      setIsVideoPlaying(false);
+    }
+  };
 
   const { current, original, hasDiscount } = getEffectivePrice(
     product.price,
@@ -37,32 +64,62 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-50px" }}
-      transition={{ duration: 0.4, delay: index * 0.08 }}
+      initial={mounted ? { opacity: 0, y: 24 } : false}
+      animate={mounted ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }}
+      transition={{ duration: 0.4, delay: mounted ? index * 0.08 : 0 }}
       className="group relative"
     >
       <Link
         href={`/product/${product.slug}`}
         className="block"
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
         <div className="relative aspect-square rounded-2xl bg-charcoal-50 overflow-hidden mb-3">
-          {/* Product image placeholder with gradient */}
+          {/* Product image with video-on-hover */}
           <div className="absolute inset-0 bg-gradient-to-br from-charcoal-100 to-charcoal-200 flex items-center justify-center">
+            {/* Video (hidden until hover) */}
+            {hasVideo && (
+              <video
+                ref={videoRef}
+                src={product.videoUrl}
+                className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${
+                  isVideoPlaying ? "opacity-100 z-10" : "opacity-0 z-0"
+                }`}
+                muted
+                loop
+                playsInline
+                preload="none"
+              >
+                <source src={product.videoUrl} type="video/mp4" />
+              </video>
+            )}
+            {/* Image (fades when video plays) */}
             {product.images[0] ? (
               <img
                 src={product.images[0]}
                 alt={product.name}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className={`w-full h-full object-cover transition-all duration-500 ${
+                  isVideoPlaying
+                    ? "opacity-0 scale-110"
+                    : "opacity-100 group-hover:scale-110"
+                }`}
                 loading="lazy"
               />
             ) : (
               <ShoppingBag className="w-12 h-12 text-charcoal-300" />
             )}
           </div>
+
+          {/* Video indicator badge */}
+          {hasVideo && (
+            <div className="absolute bottom-2 right-2 z-20 flex items-center gap-1 px-2 py-1 rounded-lg bg-dark/70 backdrop-blur-sm text-white text-[0.6rem] font-medium">
+              <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+              Video
+            </div>
+          )}
 
           {/* Badges */}
           <div className="absolute top-2.5 left-2.5 flex flex-col gap-1.5">
@@ -121,12 +178,16 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
                 : "opacity-0 translate-x-2"
             }`}
           >
-            <Link
-              href={`/product/${product.slug}`}
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                router.push(`/product/${product.slug}`);
+              }}
               className="w-8 h-8 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center text-charcoal-400 hover:text-brand-500"
             >
               <Eye className="w-4 h-4" />
-            </Link>
+            </button>
           </div>
         </div>
 

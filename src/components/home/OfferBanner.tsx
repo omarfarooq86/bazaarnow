@@ -1,17 +1,19 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Percent, ArrowRight, Smartphone, Building2 } from "lucide-react";
 
 export default function OfferBanner() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => { setMounted(true); }, []);
   return (
     <section className="py-12 md:py-16">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           className="relative rounded-3xl bg-dark overflow-hidden p-8 md:p-12"
         >
@@ -25,9 +27,8 @@ export default function OfferBanner() {
               <div>
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.1 }}
+                  animate={{ opacity: 1, x: 0 }}
+                          transition={{ delay: 0.1 }}
                   className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gold-500/20 text-gold-400 text-xs font-semibold uppercase tracking-wider mb-4"
                 >
                   <Percent className="w-3.5 h-3.5" />
@@ -36,9 +37,8 @@ export default function OfferBanner() {
 
                 <motion.h2
                   initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.15 }}
+                  animate={{ opacity: 1, x: 0 }}
+                          transition={{ delay: 0.15 }}
                   className="heading-2 text-white mb-4"
                 >
                   5% Discount on
@@ -48,9 +48,8 @@ export default function OfferBanner() {
 
                 <motion.p
                   initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.2 }}
+                  animate={{ opacity: 1, x: 0 }}
+                          transition={{ delay: 0.2 }}
                   className="text-charcoal-300 text-base max-w-md mb-6"
                 >
                   Pay via JazzCash, EasyPaisa, or Bank Transfer and save 5% on
@@ -59,9 +58,8 @@ export default function OfferBanner() {
 
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.25 }}
+                  animate={{ opacity: 1, x: 0 }}
+                          transition={{ delay: 0.25 }}
                   className="flex flex-wrap gap-3 mb-6"
                 >
                   <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 text-white text-sm">
@@ -80,9 +78,8 @@ export default function OfferBanner() {
 
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.3 }}
+                  animate={{ opacity: 1, x: 0 }}
+                          transition={{ delay: 0.3 }}
                 >
                   <Link
                     href="/offers"
@@ -99,9 +96,8 @@ export default function OfferBanner() {
                 <div className="relative">
                   <motion.div
                     initial={{ scale: 0, rotate: -180 }}
-                    whileInView={{ scale: 1, rotate: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.2, type: "spring", stiffness: 150 }}
+                    animate={{ scale: 1, rotate: 0 }}
+                              transition={{ delay: 0.2, type: "spring", stiffness: 150 }}
                     className="w-48 h-48 rounded-full bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center shadow-gold"
                   >
                     <div className="text-center">

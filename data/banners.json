@@ -1,11 +1,11 @@
 [
   {
     "id": "banner-1",
-    "title": "Premium Collection 2026",
-    "subtitle": "Discover handpicked quality at unbeatable prices. New arrivals every week!",
-    "cta": "Shop Now",
-    "ctaLink": "/category/electronics",
-    "image": "/images/banners/hero-1.jpg",
+    "title": "Premium Fashion Collection",
+    "subtitle": "777+ fashion items — watches, bags, clothing & more. Free delivery across Pakistan!",
+    "cta": "Shop Fashion",
+    "ctaLink": "/category/fashion",
+    "image": "/images/products/01-pair-silicone-foot-care-socks-anti-cracking-moisturizing-gel-socks-cracked-de-1.jpg",
     "bgColor": "#1A1A2E",
     "textColor": "#FFFFFF"
   },
@@ -15,18 +15,38 @@
     "subtitle": "Pay via JazzCash, EasyPaisa, or Bank Transfer and save on every order!",
     "cta": "Learn More",
     "ctaLink": "/offers",
-    "image": "/images/banners/hero-2.jpg",
-    "bgColor": "#FF6B35",
+    "image": "/images/products/1-pc-jumbo-multipurpose-crayon-highlighter-eyeshadow-creamy-crayon-1.jpeg",
+    "bgColor": "#C41E3A",
     "textColor": "#FFFFFF"
   },
   {
     "id": "banner-3",
-    "title": "Free Delivery Across Pakistan",
-    "subtitle": "From Lahore to Karachi — we deliver everywhere with care and speed.",
-    "cta": "Start Shopping",
-    "ctaLink": "/category/fashion",
-    "image": "/images/banners/hero-3.jpg",
+    "title": "Latest Electronics & Gadgets",
+    "subtitle": "143+ tech products — smartphones, audio, accessories at the best prices.",
+    "cta": "Shop Electronics",
+    "ctaLink": "/category/electronics",
+    "image": "/images/products/1-pc-car-scratch-repair-pen-deep-erase-and-fill-scratches-with-easy-amp-quick-pa-2.jpg",
     "bgColor": "#0A2E1A",
+    "textColor": "#FFFFFF"
+  },
+  {
+    "id": "banner-4",
+    "title": "Transform Your Home",
+    "subtitle": "370+ home & living products — decor, furniture, kitchen essentials & more.",
+    "cta": "Shop Home",
+    "ctaLink": "/category/home-living",
+    "image": "/images/products/1-pc-2mm-3d-wall-panels-peel-and-stick-foam-3d-brick-wallpaper-self-adhesive-wal-1.png",
+    "bgColor": "#2D2D45",
+    "textColor": "#FFFFFF"
+  },
+  {
+    "id": "banner-5",
+    "title": "Beauty & Personal Care",
+    "subtitle": "214+ beauty products — skincare, makeup, hair care at unbeatable prices.",
+    "cta": "Shop Beauty",
+    "ctaLink": "/category/beauty",
+    "image": "/images/products/1-pc-jumbo-multipurpose-crayon-highlighter-eyeshadow-creamy-crayon-1.jpeg",
+    "bgColor": "#7E2A11",
     "textColor": "#FFFFFF"
   }
 ]

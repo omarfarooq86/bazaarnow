@@ -1,0 +1,27 @@
+{
+  "slug": "silk-fancy-gown-3pc",
+  "name": "Silk Fancy Gown 3pc",
+  "category": "fashion",
+  "price": 3125,
+  "description": "Set Includes:\r\n●Finest Stitched Silk Shirt with Trouser\r\n●Beautifully Embroided Silk Gown of Large Flair\r\nColors: 3 colours available Black, blue ,gray\r\nSize: small/Medium/large\r\nChest:20/21/22\r\nInner length:37\r\nGown length:48",
+  "features": [],
+  "specifications": {
+    "Color": "3 colours available Black",
+    "Size": "small/Medium/large\r\nChest:20/21/22\r\nInner length:37\r\nGown length:48"
+  },
+  "images": [
+    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/11/fbb69330-b5a4-4c9c-9185-d530c49eb951.jpeg",
+    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/11/dedafa5a-5091-4384-8ae1-2fc005774048-1.jpeg",
+    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/11/1d16618b-5dcb-4a7c-809e-2090740553d0.jpeg"
+  ],
+  "inStock": true,
+  "stockCount": 17,
+  "isFeatured": false,
+  "tags": [
+    "silk",
+    "fancy",
+    "gown"
+  ],
+  "deliveryInfo": "Delivery in 2-4 working days across Pakistan",
+  "sku": "hhc-863915"
+}

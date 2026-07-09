@@ -5,9 +5,43 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Search, X, ArrowRight, Package } from "lucide-react";
 import Link from "next/link";
 import type { Product } from "@/types";
-import { searchProducts } from "@/lib/products";
 import { formatPrice } from "@/lib/utils";
 import { getEffectivePrice } from "@/lib/utils";
+
+interface SearchItem {
+  slug: string;
+  name: string;
+  category: string;
+  price: number;
+  salePrice?: number;
+  image: string;
+  tags: string[];
+}
+
+let searchCache: SearchItem[] | null = null;
+
+async function searchProducts(query: string): Promise<Product[]> {
+  if (!searchCache) {
+    const res = await fetch("/search-index.json");
+    searchCache = await res.json();
+  }
+  const lowerQuery = query.toLowerCase();
+  return ((searchCache || []).filter(
+    (p) =>
+      p.name.toLowerCase().includes(lowerQuery) ||
+      p.tags.some((tag) => tag.toLowerCase().includes(lowerQuery)) ||
+      p.category.toLowerCase().includes(lowerQuery)
+  )).map(p => ({
+    ...p,
+    images: [p.image],
+    description: "",
+    features: [],
+    specifications: {},
+    inStock: true,
+    isFeatured: false,
+    deliveryInfo: "",
+  })) as unknown as Product[];
+}
 
 interface SearchOverlayProps {
   isOpen: boolean;

@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://bazaarnow.pk
+
+# Sitemaps
 Sitemap: https://bazaarnow.pk/sitemap.xml

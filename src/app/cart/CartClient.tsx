@@ -90,14 +90,16 @@ export default function CartClient() {
                     href={`/product/${item.product.slug}`}
                     className="w-24 h-24 rounded-xl bg-charcoal-50 flex items-center justify-center flex-shrink-0 overflow-hidden"
                   >
-                    {item.product.images[0] ? (
+                    <ShoppingBag className="w-8 h-8 text-charcoal-300 absolute" />
+                    {item.product.images?.[0] && (
                       <img
                         src={item.product.images[0]}
                         alt={item.product.name}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover relative z-10"
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).style.display = "none";
+                        }}
                       />
-                    ) : (
-                      <ShoppingBag className="w-8 h-8 text-charcoal-300" />
                     )}
                   </Link>
 

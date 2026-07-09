@@ -1,0 +1,28 @@
+{
+  "slug": "elegant-pack-of-10-rings",
+  "name": "Elegant Pack Of 10 Rings",
+  "category": "fashion",
+  "price": 360,
+  "description": "Elegant Pack Of 10 rings Colour Silver Black Golden",
+  "features": [
+    "Elegant Pack Of 10 rings Colour Silver Black Golden"
+  ],
+  "specifications": {
+    "Product": "Elegant Pack Of 10 Rings"
+  },
+  "images": [
+    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/09/WhatsApp-Image-2023-09-11-at-12.18.36-AM.jpeg",
+    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/09/WhatsApp-Image-2023-09-11-at-12.18.35-AM-1.jpeg",
+    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/09/WhatsApp-Image-2023-09-11-at-12.18.35-AM.jpeg"
+  ],
+  "inStock": true,
+  "stockCount": 23,
+  "isFeatured": false,
+  "tags": [
+    "elegant",
+    "pack",
+    "rings"
+  ],
+  "deliveryInfo": "Delivery in 2-4 working days across Pakistan",
+  "sku": "hhc-580126"
+}

@@ -1,43 +1,35 @@
 [
   {
-    "slug": "electronics",
-    "name": "Electronics",
-    "description": "Smartphones, gadgets, and accessories",
-    "image": "/images/categories/electronics.jpg",
-    "icon": "Smartphone",
-    "productCount": 24
-  },
-  {
     "slug": "fashion",
     "name": "Fashion",
-    "description": "Clothing, shoes, and accessories for men & women",
+    "description": "Clothing, shoes, watches, and accessories for men & women",
     "image": "/images/categories/fashion.jpg",
     "icon": "Shirt",
-    "productCount": 36
+    "productCount": 777
   },
   {
     "slug": "home-living",
     "name": "Home & Living",
-    "description": "Furniture, decor, and kitchen essentials",
+    "description": "Furniture, decor, kitchen, and home essentials",
     "image": "/images/categories/home-living.jpg",
     "icon": "Home",
-    "productCount": 18
+    "productCount": 370
   },
   {
     "slug": "beauty",
     "name": "Beauty & Care",
-    "description": "Skincare, makeup, and personal care products",
+    "description": "Skincare, makeup, hair, and personal care products",
     "image": "/images/categories/beauty.jpg",
     "icon": "Sparkles",
-    "productCount": 22
+    "productCount": 214
   },
   {
-    "slug": "sports",
-    "name": "Sports & Fitness",
-    "description": "Equipment, activewear, and supplements",
-    "image": "/images/categories/sports.jpg",
-    "icon": "Dumbbell",
-    "productCount": 15
+    "slug": "electronics",
+    "name": "Electronics",
+    "description": "Smartphones, gadgets, audio, and accessories",
+    "image": "/images/categories/electronics.jpg",
+    "icon": "Smartphone",
+    "productCount": 143
   },
   {
     "slug": "kids",
@@ -45,7 +37,7 @@
     "description": "Toys, games, and children's essentials",
     "image": "/images/categories/kids.jpg",
     "icon": "Baby",
-    "productCount": 20
+    "productCount": 6
   },
   {
     "slug": "kitchen",
@@ -53,7 +45,15 @@
     "description": "Cookware, appliances, and dining sets",
     "image": "/images/categories/kitchen.jpg",
     "icon": "UtensilsCrossed",
-    "productCount": 12
+    "productCount": 4
+  },
+  {
+    "slug": "sports",
+    "name": "Sports & Fitness",
+    "description": "Equipment, activewear, and supplements",
+    "image": "/images/categories/sports.jpg",
+    "icon": "Dumbbell",
+    "productCount": 2
   },
   {
     "slug": "groceries",
@@ -61,6 +61,6 @@
     "description": "Food, beverages, and daily essentials",
     "image": "/images/categories/groceries.jpg",
     "icon": "ShoppingBasket",
-    "productCount": 30
+    "productCount": 0
   }
 ]
