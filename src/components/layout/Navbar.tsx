@@ -78,7 +78,7 @@ export default function Navbar() {
               href="/offers"
               className="text-gold-400 underline underline-offset-2 hover:text-gold-300 transition-colors ml-1"
             >
-              Learn More
+              5% Discount Details
             </Link>
           </div>
         </div>

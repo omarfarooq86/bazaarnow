@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import type { Product, Category } from "@/types";
+// Uses types only — no heavy imports
 import ProductCard from "@/components/product/ProductCard";
 
 interface CategoryClientProps {

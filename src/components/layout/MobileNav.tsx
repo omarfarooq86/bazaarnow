@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Home, Grid3X3, ShoppingBag, MessageCircle } from "lucide-react";
 import { useCartStore } from "@/lib/cart";
-import { getSiteConfig } from "@/lib/products";
+import { getSiteConfig } from "@/lib/config";
 
 export default function MobileNav() {
   const pathname = usePathname();

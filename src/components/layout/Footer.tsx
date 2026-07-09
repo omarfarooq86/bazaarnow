@@ -10,7 +10,7 @@ import {
   Phone,
   Mail,
 } from "lucide-react";
-import { getSiteConfig, getCategories } from "@/lib/products";
+import { getSiteConfig, getCategories } from "@/lib/config";
 
 export default function Footer() {
   const config = getSiteConfig();

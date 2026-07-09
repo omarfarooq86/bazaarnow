@@ -15,7 +15,7 @@ import {
   ArrowRight,
   LucideIcon,
 } from "lucide-react";
-import { getCategories } from "@/lib/products";
+import { getCategories } from "@/lib/config";
 
 const iconMap: Record<string, LucideIcon> = {
   Smartphone,

@@ -85,7 +85,7 @@ export default function OfferBanner() {
                     href="/offers"
                     className="btn-primary inline-flex items-center gap-2"
                   >
-                    Learn More
+                    View 5% Discount Offer
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                 </motion.div>

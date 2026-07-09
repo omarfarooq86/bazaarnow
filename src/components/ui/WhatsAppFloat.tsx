@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
-import { getSiteConfig } from "@/lib/products";
+import { getSiteConfig } from "@/lib/config";
 
 export default function WhatsAppFloat() {
   const config = getSiteConfig();

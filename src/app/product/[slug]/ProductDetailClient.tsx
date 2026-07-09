@@ -29,7 +29,7 @@ import {
   calculateSavings,
 } from "@/lib/utils";
 import { useCartStore } from "@/lib/cart";
-import { getSiteConfig } from "@/lib/products";
+import { getSiteConfig } from "@/lib/config";
 import ProductCard from "@/components/product/ProductCard";
 import { openWhatsApp } from "@/lib/whatsapp";
 

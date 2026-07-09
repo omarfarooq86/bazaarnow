@@ -1,6 +1,6 @@
 import type { CartItem, CustomerInfo, PaymentType } from "@/types";
 import { calculateAdvanceDiscount, getEffectivePrice } from "./utils";
-import { getSiteConfig } from "./products";
+import { getSiteConfig } from "./config";
 
 /**
  * Generate a formatted WhatsApp order message
