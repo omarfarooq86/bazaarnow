@@ -1,0 +1,42 @@
+{
+  "slug": "smart-watch-series-x",
+  "name": "Smart Watch Series X",
+  "category": "electronics",
+  "price": 12500,
+  "salePrice": 8999,
+  "description": "The Smart Watch Series X combines elegant design with powerful health tracking. Featuring a 1.9\" AMOLED display, heart rate monitor, SpO2 sensor, sleep tracking, and 100+ sports modes — stay on top of your health in style.\n\n**Why You'll Love It:**\n- Stunning 1.9\" AMOLED always-on display with 1000 nits brightness\n- 24/7 Heart Rate, SpO2, and Sleep monitoring\n- 100+ Sports modes with GPS tracking\n- 14-day battery life on a single charge\n- IP68 water resistant — swim-proof\n- Customizable watch faces and straps",
+  "features": [
+    "1.9\" AMOLED Always-On Display",
+    "Heart Rate & SpO2 Monitoring",
+    "Sleep & Stress Tracking",
+    "100+ Sports Modes",
+    "Built-in GPS",
+    "IP68 Water Resistant",
+    "14-Day Battery Life",
+    "Call & Message Notifications"
+  ],
+  "specifications": {
+    "Brand": "TechWear",
+    "Model": "TW-SX10",
+    "Display": "1.9\" AMOLED, 454x454",
+    "Battery": "380mAh, 14 days typical",
+    "Sensors": "HRM, SpO2, Accelerometer, Gyroscope",
+    "Water Rating": "IP68 (up to 50m)",
+    "Compatibility": "iOS 13+ / Android 8+",
+    "Strap": "Silicone, 22mm quick-release",
+    "Weight": "52g (without strap)",
+    "Warranty": "1 Year Brand Warranty"
+  },
+  "images": [
+    "/images/products/watch-1.jpg",
+    "/images/products/watch-2.jpg",
+    "/images/products/watch-3.jpg",
+    "/images/products/watch-4.jpg"
+  ],
+  "inStock": true,
+  "stockCount": 32,
+  "isFeatured": true,
+  "tags": ["smartwatch", "fitness", "electronics", "wearable", "health", "gadgets"],
+  "deliveryInfo": "Delivery in 2-3 working days across Pakistan",
+  "sku": "TW-SX10-BLK"
+}

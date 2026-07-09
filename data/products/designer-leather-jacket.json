@@ -1,0 +1,40 @@
+{
+  "slug": "designer-leather-jacket",
+  "name": "Designer Leather Jacket - Premium Edition",
+  "category": "fashion",
+  "price": 15000,
+  "salePrice": 11999,
+  "description": "Crafted from genuine full-grain leather, this premium jacket combines timeless style with modern comfort. The slim-fit silhouette, quilted lining, and brass YKK zippers make this a wardrobe essential for the discerning gentleman.\n\n**Premium Details:**\n- 100% genuine full-grain cowhide leather\n- Soft viscose inner lining with quilted padding\n- YKK brass zippers with leather pull tabs\n- Two exterior and two interior pockets\n- Adjustable waist tabs for a custom fit\n- Available in Black and Dark Brown",
+  "features": [
+    "100% Genuine Full-Grain Leather",
+    "Quilted Viscose Inner Lining",
+    "YKK Brass Zippers",
+    "Slim-Fit Silhouette",
+    "4 Functional Pockets",
+    "Adjustable Waist Tabs",
+    "Available in Multiple Colors",
+    "Premium Packaging Included"
+  ],
+  "specifications": {
+    "Material": "Full-Grain Cowhide Leather",
+    "Lining": "Viscose with Quilted Padding",
+    "Closure": "YKK Brass Zipper",
+    "Fit": "Slim Fit",
+    "Care": "Professional Leather Clean Only",
+    "Available Sizes": "S, M, L, XL, XXL",
+    "Colors": "Black, Dark Brown",
+    "Origin": "Pakistan"
+  },
+  "images": [
+    "/images/products/jacket-1.jpg",
+    "/images/products/jacket-2.jpg",
+    "/images/products/jacket-3.jpg",
+    "/images/products/jacket-4.jpg"
+  ],
+  "inStock": true,
+  "stockCount": 18,
+  "isFeatured": true,
+  "tags": ["leather", "jacket", "fashion", "men", "premium", "winter", "outerwear"],
+  "deliveryInfo": "Delivery in 2-4 working days across Pakistan",
+  "sku": "FL-LJ-BLK-M"
+}

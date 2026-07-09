@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "electronics",
+    "name": "Electronics",
+    "description": "Smartphones, gadgets, and accessories",
+    "image": "/images/categories/electronics.jpg",
+    "icon": "Smartphone",
+    "productCount": 24
+  },
+  {
+    "slug": "fashion",
+    "name": "Fashion",
+    "description": "Clothing, shoes, and accessories for men & women",
+    "image": "/images/categories/fashion.jpg",
+    "icon": "Shirt",
+    "productCount": 36
+  },
+  {
+    "slug": "home-living",
+    "name": "Home & Living",
+    "description": "Furniture, decor, and kitchen essentials",
+    "image": "/images/categories/home-living.jpg",
+    "icon": "Home",
+    "productCount": 18
+  },
+  {
+    "slug": "beauty",
+    "name": "Beauty & Care",
+    "description": "Skincare, makeup, and personal care products",
+    "image": "/images/categories/beauty.jpg",
+    "icon": "Sparkles",
+    "productCount": 22
+  },
+  {
+    "slug": "sports",
+    "name": "Sports & Fitness",
+    "description": "Equipment, activewear, and supplements",
+    "image": "/images/categories/sports.jpg",
+    "icon": "Dumbbell",
+    "productCount": 15
+  },
+  {
+    "slug": "kids",
+    "name": "Kids & Toys",
+    "description": "Toys, games, and children's essentials",
+    "image": "/images/categories/kids.jpg",
+    "icon": "Baby",
+    "productCount": 20
+  },
+  {
+    "slug": "kitchen",
+    "name": "Kitchen & Dining",
+    "description": "Cookware, appliances, and dining sets",
+    "image": "/images/categories/kitchen.jpg",
+    "icon": "UtensilsCrossed",
+    "productCount": 12
+  },
+  {
+    "slug": "groceries",
+    "name": "Groceries",
+    "description": "Food, beverages, and daily essentials",
+    "image": "/images/categories/groceries.jpg",
+    "icon": "ShoppingBasket",
+    "productCount": 30
+  }
+]

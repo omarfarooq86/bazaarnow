@@ -1,0 +1,32 @@
+[
+  {
+    "id": "banner-1",
+    "title": "Premium Collection 2026",
+    "subtitle": "Discover handpicked quality at unbeatable prices. New arrivals every week!",
+    "cta": "Shop Now",
+    "ctaLink": "/category/electronics",
+    "image": "/images/banners/hero-1.jpg",
+    "bgColor": "#1A1A2E",
+    "textColor": "#FFFFFF"
+  },
+  {
+    "id": "banner-2",
+    "title": "5% OFF on Advance Payment",
+    "subtitle": "Pay via JazzCash, EasyPaisa, or Bank Transfer and save on every order!",
+    "cta": "Learn More",
+    "ctaLink": "/offers",
+    "image": "/images/banners/hero-2.jpg",
+    "bgColor": "#FF6B35",
+    "textColor": "#FFFFFF"
+  },
+  {
+    "id": "banner-3",
+    "title": "Free Delivery Across Pakistan",
+    "subtitle": "From Lahore to Karachi — we deliver everywhere with care and speed.",
+    "cta": "Start Shopping",
+    "ctaLink": "/category/fashion",
+    "image": "/images/banners/hero-3.jpg",
+    "bgColor": "#0A2E1A",
+    "textColor": "#FFFFFF"
+  }
+]

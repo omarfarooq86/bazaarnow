@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bazaarnow.pk/sitemap.xml

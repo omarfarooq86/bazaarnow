@@ -1,0 +1,344 @@
+@import "tailwindcss";
+
+/* ============================================
+   BazaarNow — Design System
+   Vibrant Pakistani Marketplace Aesthetic
+   ============================================ */
+
+/* --- Design Tokens --- */
+@theme inline {
+  /* Brand Palette: "Bazaar Spice" */
+  --color-brand-50: #FFF5ED;
+  --color-brand-100: #FFE8D5;
+  --color-brand-200: #FFCFA8;
+  --color-brand-300: #FFAE71;
+  --color-brand-400: #FF8A3A;
+  --color-brand-500: #FF6B35;   /* Primary — Warm Saffron Orange */
+  --color-brand-600: #E8521A;
+  --color-brand-700: #C43D0F;
+  --color-brand-800: #9C3010;
+  --color-brand-900: #7E2A11;
+
+  /* Emerald Green — Secondary */
+  --color-emerald-50: #ECFDF5;
+  --color-emerald-100: #D1FAE5;
+  --color-emerald-200: #A7F3D0;
+  --color-emerald-300: #6EE7B7;
+  --color-emerald-400: #34D399;
+  --color-emerald-500: #0A9E5A;
+  --color-emerald-600: #059669;
+  --color-emerald-700: #047857;
+  --color-emerald-800: #065F46;
+  --color-emerald-900: #064E3B;
+
+  /* Gold — Accent */
+  --color-gold-50: #FFFBEB;
+  --color-gold-100: #FEF3C7;
+  --color-gold-200: #FDE68A;
+  --color-gold-300: #FCD34D;
+  --color-gold-400: #FBBF24;
+  --color-gold-500: #D4A843;
+  --color-gold-600: #B8860B;
+  --color-gold-700: #92400E;
+  --color-gold-800: #78350F;
+  --color-gold-900: #5C2E0A;
+
+  /* Deep Charcoal — Dark */
+  --color-charcoal-50: #F5F5F9;
+  --color-charcoal-100: #E4E4ED;
+  --color-charcoal-200: #C9C9D8;
+  --color-charcoal-300: #A1A1B8;
+  --color-charcoal-400: #7A7A99;
+  --color-charcoal-500: #5C5C7A;
+  --color-charcoal-600: #484866;
+  --color-charcoal-700: #3A3A54;
+  --color-charcoal-800: #2D2D45;
+  --color-charcoal-900: #1A1A2E;
+
+  /* Warm Cream — Light Background */
+  --color-cream-50: #FFFCF7;
+  --color-cream-100: #FFF8F0;
+  --color-cream-200: #FFF0E0;
+  --color-cream-300: #FFE4CC;
+  --color-cream-400: #FFD1A8;
+  --color-cream-500: #FFBD85;
+
+  /* Crimson — Sale/Urgency */
+  --color-crimson-50: #FEF2F2;
+  --color-crimson-100: #FEE2E2;
+  --color-crimson-200: #FECACA;
+  --color-crimson-300: #FCA5A5;
+  --color-crimson-400: #F87171;
+  --color-crimson-500: #C41E3A;
+  --color-crimson-600: #DC2626;
+  --color-crimson-700: #B91C1C;
+  --color-crimson-800: #991B1B;
+  --color-crimson-900: #7F1D1D;
+
+  /* Semantic shortcuts */
+  --color-primary: var(--color-brand-500);
+  --color-primary-dark: var(--color-brand-600);
+  --color-secondary: var(--color-emerald-500);
+  --color-accent: var(--color-gold-500);
+  --color-dark: var(--color-charcoal-900);
+  --color-light: var(--color-cream-50);
+  --color-sale: var(--color-crimson-500);
+
+  /* Typography */
+  --font-heading: "Playfair Display", "Georgia", serif;
+  --font-body: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+
+  /* Shadows */
+  --shadow-card: 0 2px 12px rgba(26, 26, 46, 0.08);
+  --shadow-card-hover: 0 8px 30px rgba(26, 26, 46, 0.14);
+  --shadow-button: 0 4px 14px rgba(255, 107, 53, 0.35);
+  --shadow-gold: 0 4px 16px rgba(212, 168, 67, 0.3);
+
+  /* Border radius */
+  --radius-card: 1rem;
+  --radius-button: 0.75rem;
+  --radius-badge: 9999px;
+}
+
+/* --- Base Styles --- */
+:root {
+  --background: #FFFCF7;
+  --foreground: #1A1A2E;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* --- Scrollbar Styling --- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF6B35;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E8521A;
+}
+
+/* --- Selection --- */
+::selection {
+  background: #FF6B35;
+  color: #FFFFFF;
+}
+
+/* --- Utility Classes --- */
+@utility container-custom {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@utility heading-1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+@utility heading-2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+@utility heading-3 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+@utility badge-sale {
+  background: #C41E3A;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+}
+
+@utility badge-new {
+  background: #0A9E5A;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+}
+
+@utility badge-cod {
+  background: #1A1A2E;
+  color: #FCD34D;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+@utility btn-primary {
+  background: #FF6B35;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(255, 107, 53, 0.35);
+}
+.btn-primary:hover {
+  background: #E8521A;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.45);
+}
+
+@utility btn-outline {
+  border: 2px solid #FF6B35;
+  color: #FF6B35;
+  font-weight: 600;
+  padding: 0.625rem 1.5rem;
+  border-radius: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+}
+.btn-outline:hover {
+  background: #FF6B35;
+  color: white;
+}
+
+/* --- Animations --- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 107, 53, 0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(255, 107, 53, 0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Stagger children animations */
+.stagger-children > * {
+  opacity: 0;
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+.stagger-children > *:nth-child(1) { animation-delay: 0.05s; }
+.stagger-children > *:nth-child(2) { animation-delay: 0.1s; }
+.stagger-children > *:nth-child(3) { animation-delay: 0.15s; }
+.stagger-children > *:nth-child(4) { animation-delay: 0.2s; }
+.stagger-children > *:nth-child(5) { animation-delay: 0.25s; }
+.stagger-children > *:nth-child(6) { animation-delay: 0.3s; }
+.stagger-children > *:nth-child(7) { animation-delay: 0.35s; }
+.stagger-children > *:nth-child(8) { animation-delay: 0.4s; }
+
+/* Scroll reveal */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-dark {
+  background: rgba(26, 26, 46, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* WhatsApp pulse */
+.whatsapp-pulse {
+  box-shadow: 0 0 0 0 rgba(10, 158, 90, 0.5);
+  animation: pulse-glow 2s infinite;
+  animation-delay: 1s;
+}
+
+/* Price Tag */
+.price-strikethrough {
+  text-decoration: line-through;
+  text-decoration-color: #C41E3A;
+  text-decoration-thickness: 2px;
+}

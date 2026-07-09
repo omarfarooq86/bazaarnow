@@ -1,0 +1,42 @@
+{
+  "slug": "premium-wireless-earbuds",
+  "name": "Premium Wireless Earbuds Pro",
+  "category": "electronics",
+  "price": 4500,
+  "salePrice": 3499,
+  "description": "Experience crystal-clear audio with our Premium Wireless Earbuds Pro. Featuring active noise cancellation, 36-hour battery life, and IPX5 water resistance — perfect for workouts, commuting, and everyday use.\n\n**Key Highlights:**\n- Active Noise Cancellation (ANC) blocks up to 95% of ambient noise\n- Bluetooth 5.3 with ultra-low latency for gaming and calls\n- Ergonomic design with 3 sizes of silicone tips for all-day comfort\n- Touch controls for music, calls, and voice assistant\n- USB-C fast charging: 10 min charge = 3 hours playback",
+  "features": [
+    "Active Noise Cancellation",
+    "36-Hour Total Battery Life",
+    "Bluetooth 5.3",
+    "IPX5 Water Resistant",
+    "Touch Controls",
+    "USB-C Fast Charging",
+    "Built-in Microphone",
+    "Voice Assistant Support"
+  ],
+  "specifications": {
+    "Brand": "AudioPro",
+    "Model": "EP-200",
+    "Driver Size": "13mm Dynamic",
+    "Battery Life": "8hr (buds) + 28hr (case)",
+    "Charging": "USB-C, 10min fast charge",
+    "Bluetooth": "5.3, up to 15m range",
+    "Water Resistance": "IPX5",
+    "Weight": "48g (with case)",
+    "Warranty": "1 Year Brand Warranty"
+  },
+  "images": [
+    "/images/products/earbuds-1.jpg",
+    "/images/products/earbuds-2.jpg",
+    "/images/products/earbuds-3.jpg",
+    "/images/products/earbuds-4.jpg"
+  ],
+  "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+  "inStock": true,
+  "stockCount": 45,
+  "isFeatured": true,
+  "tags": ["wireless", "earbuds", "audio", "bluetooth", "noise-cancelling", "headphones", "gadgets"],
+  "deliveryInfo": "Delivery in 2-3 working days across Pakistan",
+  "sku": "AP-EP200-BLK"
+}

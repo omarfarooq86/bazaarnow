@@ -1,0 +1,27 @@
+{
+  "name": "BazaarNow",
+  "tagline": "Pakistan Ka Apna Bazaar",
+  "description": "Pakistan's most trusted online marketplace — premium products at unbeatable prices with free delivery across Pakistan.",
+  "url": "https://bazaarnow.pk",
+  "whatsapp": "923001234567",
+  "phone": "+92 300 1234567",
+  "email": "hello@bazaarnow.pk",
+  "address": "Shop #42, Gulberg III, Lahore, Pakistan",
+  "social": {
+    "facebook": "https://facebook.com/bazaarnowpk",
+    "instagram": "https://instagram.com/bazaarnowpk",
+    "tiktok": "https://tiktok.com/@bazaarnowpk"
+  },
+  "paymentMethods": [
+    { "id": "cod", "name": "Cash on Delivery", "icon": "Banknote", "type": "cod" },
+    { "id": "jazzcash", "name": "JazzCash", "icon": "Smartphone", "type": "advance" },
+    { "id": "easypaisa", "name": "EasyPaisa", "icon": "Smartphone", "type": "advance" },
+    { "id": "bank", "name": "Bank Transfer", "icon": "Building2", "type": "advance" }
+  ],
+  "bankDetails": [
+    { "bank": "Meezan Bank", "accountTitle": "BazaarNow Pvt Ltd", "accountNumber": "1234 5678 9012 3456", "iban": "PK36MEZN0012345678901234" },
+    { "bank": "HBL", "accountTitle": "BazaarNow Pvt Ltd", "accountNumber": "9876 5432 1098 7654", "iban": "PK53HABB0012345678901234" }
+  ],
+  "deliveryCities": ["Lahore", "Karachi", "Islamabad", "Rawalpindi", "Faisalabad", "Multan", "Peshawar", "Quetta", "Gujranwala", "Sialkot", "Hyderabad", "Bahawalpur"],
+  "deliveryTime": "2-4 working days"
+}
