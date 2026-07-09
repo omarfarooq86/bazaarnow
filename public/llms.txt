@@ -1,0 +1,23 @@
+# BazaarNow — Pakistan Ka Apna Bazaar
+# LLMs.txt — AI crawler guidance for llms.txt standard
+# https://llmstxt.org
+
+# About
+BazaarNow is Pakistan's online marketplace with 1,400+ products across fashion, electronics, beauty, home & living, and more. Free delivery nationwide with COD and advance payment options.
+
+# Key pages
+- Home: https://www.bazaarnow.net/
+- About: https://www.bazaarnow.net/about/
+- Contact: https://www.bazaarnow.net/contact/
+- Return Policy: https://www.bazaarnow.net/returns/
+- Privacy Policy: https://www.bazaarnow.net/privacy/
+- Special Offers: https://www.bazaarnow.net/offers/
+
+# Product categories
+- Fashion (777+ items): https://www.bazaarnow.net/category/fashion/
+- Home & Living (370+ items): https://www.bazaarnow.net/category/home-living/
+- Beauty (214+ items): https://www.bazaarnow.net/category/beauty/
+- Electronics (143+ items): https://www.bazaarnow.net/category/electronics/
+- Kids & Toys: https://www.bazaarnow.net/category/kids/
+- Kitchen & Dining: https://www.bazaarnow.net/category/kitchen/
+- Sports & Fitness: https://www.bazaarnow.net/category/sports/

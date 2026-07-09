@@ -94,3 +94,35 @@ export interface Testimonial {
   text: string;
   avatar: string;
 }
+
+export interface BlogIndex {
+  slug: string;
+  title: string;
+  date: string;
+  author: string;
+  tag: string;
+  readTime: string;
+  excerpt: string;
+  image: string;
+}
+
+export interface BlogSection {
+  type: "opening" | "tldr" | "heading" | "subheading" | "paragraph" | "list" | "orderedList" | "faq" | "signoff";
+  content?: string;
+  title?: string;
+  text?: string;
+  items?: (string | { q: string; a: string })[];
+}
+
+export interface BlogPost {
+  slug: string;
+  title: string;
+  date: string;
+  author: string;
+  authorBio: string;
+  tag: string;
+  readTime: string;
+  excerpt: string;
+  image: string;
+  sections: BlogSection[];
+}

@@ -93,6 +93,7 @@ export default function Footer() {
               {[
                 { href: "/about", label: "About Us" },
                 { href: "/contact", label: "Contact Us" },
+                { href: "/blog", label: "Blog" },
                 { href: "/offers", label: "Special Offers" },
                 { href: "/cart", label: "My Cart" },
                 { href: "/returns", label: "Return Policy" },

@@ -52,6 +52,7 @@ export default function Navbar() {
     { href: "/category/fashion", label: "Fashion" },
     { href: "/category/beauty", label: "Beauty" },
     { href: "/category/home-living", label: "Home & Living" },
+    { href: "/blog", label: "Blog" },
     { href: "/offers", label: "Offers", highlight: true },
   ];
 
