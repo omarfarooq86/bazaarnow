@@ -5,7 +5,7 @@
     "subtitle": "777+ fashion items — watches, bags, clothing & more. Free delivery across Pakistan!",
     "cta": "Shop Fashion",
     "ctaLink": "/category/fashion",
-    "image": "/images/banners/hero-fashion.jpg",
+    "image": "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/1-6-600x600-1.jpg",
     "bgColor": "#1A1A2E",
     "textColor": "#FFFFFF"
   },
@@ -15,7 +15,7 @@
     "subtitle": "Pay via JazzCash, EasyPaisa, or Bank Transfer and save on every order!",
     "cta": "View Offer Details",
     "ctaLink": "/offers",
-    "image": "/images/banners/hero-offer.jpg",
+    "image": "/images/products/2025_10_30_4b0633ed7ffe5dbd812b5e172d57ee64.jpg",
     "bgColor": "#C41E3A",
     "textColor": "#FFFFFF"
   },
@@ -25,7 +25,7 @@
     "subtitle": "143+ tech products — smartphones, audio, accessories at the best prices.",
     "cta": "Shop Electronics",
     "ctaLink": "/category/electronics",
-    "image": "/images/banners/hero-electronics.jpg",
+    "image": "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/04/20/3968fb7731af95244e59a08ce0a10a09.webp",
     "bgColor": "#0A2E1A",
     "textColor": "#FFFFFF"
   },
@@ -35,7 +35,7 @@
     "subtitle": "370+ home & living products — decor, furniture, kitchen essentials & more.",
     "cta": "Shop Home & Living",
     "ctaLink": "/category/home-living",
-    "image": "/images/banners/hero-home.jpg",
+    "image": "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/12/18/2a06f049057f02ffabdc21b1c48f497d.jpeg",
     "bgColor": "#2D2D45",
     "textColor": "#FFFFFF"
   },
@@ -45,7 +45,7 @@
     "subtitle": "214+ beauty products — skincare, makeup, hair care at unbeatable prices.",
     "cta": "Shop Beauty",
     "ctaLink": "/category/beauty",
-    "image": "/images/banners/hero-beauty.jpg",
+    "image": "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/04/WhatsApp-Image-2025-04-12-at-1.17.32-AM-2.jpeg",
     "bgColor": "#7E2A11",
     "textColor": "#FFFFFF"
   }
