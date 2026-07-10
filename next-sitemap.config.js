@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://bazaarnow.pk",
+  siteUrl: "https://www.bazaarnow.net",
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   changefreq: "weekly",
@@ -14,6 +14,6 @@ module.exports = {
         allow: "/",
       },
     ],
-    additionalSitemaps: ["https://bazaarnow.pk/sitemap.xml"],
+    additionalSitemaps: ["https://www.bazaarnow.net/sitemap.xml"],
   },
 };

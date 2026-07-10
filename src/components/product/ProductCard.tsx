@@ -162,7 +162,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
                 ? "bg-crimson-500 text-white"
                 : "bg-white/80 backdrop-blur-sm text-charcoal-400 hover:text-crimson-500"
             }`}
-            aria-label="Add to wishlist"
+            aria-label={isWishlisted ? "Remove from wishlist" : "Add to wishlist"}
           >
             <Heart
               className="w-4 h-4"
@@ -185,6 +185,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
                 router.push(`/product/${product.slug}`);
               }}
               className="w-8 h-8 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center text-charcoal-400 hover:text-brand-500"
+              aria-label="Quick view"
             >
               <Eye className="w-4 h-4" />
             </button>

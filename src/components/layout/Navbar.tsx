@@ -93,9 +93,9 @@ export default function Navbar() {
                 B
               </div>
               <div>
-                <h1 className="font-heading font-bold text-xl leading-tight text-dark">
+                <span className="font-heading font-bold text-xl leading-tight text-dark">
                   Bazaar<span className="text-brand-500">Now</span>
-                </h1>
+                </span>
                 <p className="text-[0.6rem] text-charcoal-400 font-medium tracking-wider uppercase -mt-0.5">
                   Pakistan Ka Apna Bazaar
                 </p>
@@ -208,6 +208,7 @@ export default function Navbar() {
                   <button
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="p-2 rounded-lg text-charcoal-400 hover:text-dark hover:bg-charcoal-50"
+                    aria-label="Close menu"
                   >
                     <X className="w-5 h-5" />
                   </button>

@@ -79,7 +79,7 @@ export default function ProductDetailClient({
 
   const handleShareWhatsApp = () => {
     const message = encodeURIComponent(
-      `*${product.name}*\n\n💰 Price: Rs. ${current.toLocaleString("en-PK")}${hasDiscount ? ` (Was Rs. ${original.toLocaleString("en-PK")})` : ""}\n\n📦 ${product.deliveryInfo}\n\n🛒 Order now: https://bazaarnow.pk/product/${product.slug}`
+      `*${product.name}*\n\n💰 Price: Rs. ${current.toLocaleString("en-PK")}${hasDiscount ? ` (Was Rs. ${original.toLocaleString("en-PK")})` : ""}\n\n📦 ${product.deliveryInfo}\n\n🛒 Order now: https://www.bazaarnow.net/product/${product.slug}`
     );
     window.open(`https://wa.me/?text=${message}`, "_blank");
   };
@@ -138,6 +138,7 @@ export default function ProductDetailClient({
                       )
                     }
                     className="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/90 shadow-md flex items-center justify-center text-charcoal-600 hover:text-brand-500 transition-colors"
+                    aria-label="Previous image"
                   >
                     <ChevronLeft className="w-5 h-5" />
                   </button>
@@ -148,6 +149,7 @@ export default function ProductDetailClient({
                       )
                     }
                     className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/90 shadow-md flex items-center justify-center text-charcoal-600 hover:text-brand-500 transition-colors"
+                    aria-label="Next image"
                   >
                     <ChevronRight className="w-5 h-5" />
                   </button>
@@ -173,6 +175,7 @@ export default function ProductDetailClient({
                       ? "bg-crimson-500 text-white"
                       : "bg-white/90 shadow-md text-charcoal-400 hover:text-crimson-500"
                   }`}
+                  aria-label={isWishlisted ? "Remove from wishlist" : "Add to wishlist"}
                 >
                   <Heart
                     className="w-4 h-4"
@@ -182,6 +185,7 @@ export default function ProductDetailClient({
                 <button
                   onClick={handleShareWhatsApp}
                   className="w-9 h-9 rounded-full bg-white/90 shadow-md flex items-center justify-center text-charcoal-400 hover:text-emerald-500 transition-all"
+                  aria-label="Share on WhatsApp"
                 >
                   <Share2 className="w-4 h-4" />
                 </button>
@@ -192,6 +196,7 @@ export default function ProductDetailClient({
                 <button
                   onClick={() => setShowVideo(true)}
                   className="absolute bottom-4 left-4 flex items-center gap-2 px-4 py-2 rounded-xl bg-dark/70 backdrop-blur-sm text-white text-sm font-medium hover:bg-dark/90 transition-colors"
+                  aria-label="Watch product video"
                 >
                   <Play className="w-4 h-4 fill-white" />
                   Watch Video
@@ -297,6 +302,7 @@ export default function ProductDetailClient({
                   onClick={() => setQuantity(Math.max(1, quantity - 1))}
                   className="p-2.5 hover:bg-charcoal-50 transition-colors text-charcoal-500"
                   disabled={!product.inStock}
+                  aria-label="Decrease quantity"
                 >
                   <Minus className="w-4 h-4" />
                 </button>
@@ -314,6 +320,7 @@ export default function ProductDetailClient({
                   }
                   className="p-2.5 hover:bg-charcoal-50 transition-colors text-charcoal-500"
                   disabled={!product.inStock}
+                  aria-label="Increase quantity"
                 >
                   <Plus className="w-4 h-4" />
                 </button>
@@ -395,37 +402,52 @@ export default function ProductDetailClient({
           {/* Description */}
           <div className="lg:col-span-2">
             <h2 className="heading-3 text-dark mb-4">Product Description</h2>
-            <div className="prose prose-sm max-w-none text-charcoal-600 space-y-3">
-              {product.description.split("\n").map((paragraph, i) => {
-                // Handle markdown headings
-                if (paragraph.startsWith("**") && paragraph.endsWith("**")) {
-                  return (
-                    <h3
-                      key={i}
-                      className="text-base font-semibold text-dark mt-4 mb-2"
-                    >
-                      {paragraph.replace(/\*\*/g, "")}
-                    </h3>
-                  );
-                }
-                // Handle list items
-                if (paragraph.startsWith("- ")) {
-                  return (
-                    <p key={i} className="text-sm flex gap-2 ml-2">
-                      <span className="text-brand-500">•</span>
-                      {paragraph.slice(2)}
-                    </p>
-                  );
-                }
-                if (paragraph.trim()) {
-                  return (
-                    <p key={i} className="text-sm leading-relaxed">
-                      {paragraph.replace(/\*\*/g, "")}
-                    </p>
-                  );
-                }
-                return null;
-              })}
+            <div className="text-charcoal-600 space-y-4">
+              {(() => {
+                const text = product.description;
+                // Split on Key Features marker
+                const keyFeatIdx = text.search(/Key Features[:]?/i);
+                const mainText = keyFeatIdx > -1 ? text.slice(0, keyFeatIdx).trim() : text;
+                const featText = keyFeatIdx > -1 ? text.slice(keyFeatIdx) : "";
+
+                // Split main text into paragraphs on sentence boundaries
+                const paragraphs = mainText
+                  .replace(/\*\*/g, "")
+                  .split(/(?<=[.!])\s+(?=[A-Z])/)
+                  .filter((p) => p.length > 10);
+
+                return (
+                  <>
+                    {paragraphs.map((p, i) => (
+                      <p key={i} className="text-sm leading-relaxed text-charcoal-600">
+                        {p.trim()}
+                      </p>
+                    ))}
+                    {featText && (
+                      <div className="mt-4">
+                        <h3 className="text-sm font-bold text-dark mb-3">
+                          {featText.match(/Key Features[:]?/i)?.[0] || "Key Features"}
+                        </h3>
+                        <ul className="space-y-2">
+                          {featText
+                            .replace(/Key Features[:]?\s*/i, "")
+                            .split(/(?<=[.!])\s*(?=[A-Z])/)
+                            .filter((f) => f.length > 10)
+                            .map((f, i) => (
+                              <li
+                                key={i}
+                                className="flex items-start gap-3 text-sm text-charcoal-600 p-3 rounded-xl bg-charcoal-50"
+                              >
+                                <Check className="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5" />
+                                <span>{f.trim().replace(/\.$/, "")}</span>
+                              </li>
+                            ))}
+                        </ul>
+                      </div>
+                    )}
+                  </>
+                );
+              })()}
             </div>
 
             {/* Features */}
@@ -501,6 +523,7 @@ export default function ProductDetailClient({
                 <button
                   onClick={() => setShowVideo(false)}
                   className="absolute -top-12 right-0 z-10 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors"
+                  aria-label="Close video"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -586,19 +609,19 @@ export default function ProductDetailClient({
                   "@type": "ListItem",
                   position: 1,
                   name: "Home",
-                  item: "https://bazaarnow.pk",
+                  item: "https://www.bazaarnow.net",
                 },
                 {
                   "@type": "ListItem",
                   position: 2,
                   name: product.category.replace("-", " & "),
-                  item: `https://bazaarnow.pk/category/${product.category}`,
+                  item: `https://www.bazaarnow.net/category/${product.category}`,
                 },
                 {
                   "@type": "ListItem",
                   position: 3,
                   name: product.name,
-                  item: `https://bazaarnow.pk/product/${product.slug}`,
+                  item: `https://www.bazaarnow.net/product/${product.slug}`,
                 },
               ],
             }),

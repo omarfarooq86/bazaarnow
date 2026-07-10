@@ -289,7 +289,7 @@ export default function CheckoutClient() {
                             navigator.clipboard.writeText(bank.accountNumber);
                           }}
                           className="p-1.5 rounded-lg hover:bg-gold-100 text-charcoal-400 transition-colors"
-                          title="Copy account number"
+                          aria-label={`Copy ${bank.bank} account number`}
                         >
                           <Copy className="w-3.5 h-3.5" />
                         </button>

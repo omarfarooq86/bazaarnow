@@ -127,7 +127,7 @@ export default function AboutPage() {
               </ul>
               <p>
                 <strong>How to Return:</strong> Contact us via WhatsApp at
-                0300 1234567 or email hello@bazaarnow.pk. Our team will guide
+                0300 1234567 or email hello@www.bazaarnow.net. Our team will guide
                 you through the process.
               </p>
             </div>

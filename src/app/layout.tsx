@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "easypaisa payment",
   ],
   authors: [{ name: "BazaarNow" }],
-  metadataBase: new URL("https://bazaarnow.pk"),
+  metadataBase: new URL("https://www.bazaarnow.net"),
   openGraph: {
     type: "website",
     locale: "en_PK",
@@ -90,8 +90,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "BazaarNow",
-              url: "https://bazaarnow.pk",
-              logo: "https://bazaarnow.pk/images/logo.png",
+              url: "https://www.bazaarnow.net",
+              logo: "https://www.bazaarnow.net/images/logo.png",
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+92-300-1234567",

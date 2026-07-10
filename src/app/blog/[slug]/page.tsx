@@ -14,8 +14,9 @@ export async function generateMetadata({
   const post = getBlogPostBySlug(slug);
   if (!post) return { title: "Post Not Found" };
 
+  const seoTitle = post.title.length > 60 ? post.title.split(" — ")[0].slice(0, 57) + "..." : post.title;
   return {
-    title: post.title,
+    title: seoTitle,
     description: post.excerpt,
     openGraph: {
       title: post.title,

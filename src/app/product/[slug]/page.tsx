@@ -22,9 +22,10 @@ export async function generateMetadata({
   const currentPrice = product.salePrice ?? product.price;
   const category = getCategoryBySlug(product.category);
 
+  const shortName = product.name.length > 45 ? product.name.slice(0, 42) + "..." : product.name;
   return {
-    title: `${product.name} — Buy Online in Pakistan at Rs. ${currentPrice.toLocaleString("en-PK")}`,
-    description: `${product.name} — ${product.description.slice(0, 150).replace(/[*_#\n]/g, " ")}... Shop now at BazaarNow with free delivery across Pakistan. COD available.`,
+    title: `${shortName} | Rs. ${currentPrice.toLocaleString("en-PK")} — Buy Online Pakistan`,
+    description: `Buy ${shortName} online in Pakistan. Rs. ${currentPrice.toLocaleString("en-PK")} with free delivery, COD & advance payment. Shop at BazaarNow.`,
     openGraph: {
       title: product.name,
       description: product.description.slice(0, 200).replace(/[*_#\n]/g, " "),

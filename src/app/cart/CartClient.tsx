@@ -127,6 +127,7 @@ export default function CartClient() {
                               )
                             }
                             className="p-1.5 hover:bg-charcoal-50 transition-colors text-charcoal-500"
+                            aria-label="Decrease quantity"
                           >
                             <Minus className="w-3.5 h-3.5" />
                           </button>
@@ -141,6 +142,7 @@ export default function CartClient() {
                               )
                             }
                             className="p-1.5 hover:bg-charcoal-50 transition-colors text-charcoal-500"
+                            aria-label="Increase quantity"
                           >
                             <Plus className="w-3.5 h-3.5" />
                           </button>
@@ -150,7 +152,7 @@ export default function CartClient() {
                         <button
                           onClick={() => removeItem(item.product.slug)}
                           className="p-1.5 rounded-lg hover:bg-crimson-50 text-charcoal-400 hover:text-crimson-500 transition-colors"
-                          aria-label="Remove item"
+                          aria-label={`Remove ${item.product.name} from cart`}
                         >
                           <Trash2 className="w-4 h-4" />
                         </button>

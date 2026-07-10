@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react";
 import type { Product, Category } from "@/types";
 // Uses types only — no heavy imports
 import ProductCard from "@/components/product/ProductCard";
@@ -15,12 +15,18 @@ interface CategoryClientProps {
 
 type SortOption = "featured" | "price-low" | "price-high" | "name";
 
+const PER_PAGE = 24;
+
 export default function CategoryClient({
   slug,
   category,
   products,
 }: CategoryClientProps) {
   const [sort, setSort] = useState<SortOption>("featured");
+  const [page, setPage] = useState(1);
+
+  // Reset to page 1 when sort or category changes
+  useEffect(() => { setPage(1); }, [sort, slug]);
 
   const sortedProducts = [...products].sort((a, b) => {
     const priceA = a.salePrice ?? a.price;
@@ -102,15 +108,66 @@ export default function CategoryClient({
               </Link>
             </div>
           ) : (
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-              {sortedProducts.map((product, index) => (
-                <ProductCard
-                  key={product.slug}
-                  product={product}
-                  index={index}
-                />
-              ))}
-            </div>
+            <>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+                {sortedProducts
+                  .slice((page - 1) * PER_PAGE, page * PER_PAGE)
+                  .map((product, index) => (
+                    <ProductCard
+                      key={product.slug}
+                      product={product}
+                      index={index}
+                    />
+                  ))}
+              </div>
+
+              {/* Pagination */}
+              {sortedProducts.length > PER_PAGE && (
+                <div className="mt-10 flex items-center justify-center gap-2">
+                  <button
+                    onClick={() => setPage(Math.max(1, page - 1))}
+                    disabled={page === 1}
+                    className="w-10 h-10 rounded-xl flex items-center justify-center border border-charcoal-200 hover:bg-charcoal-50 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                    aria-label="Previous page"
+                  >
+                    <ChevronLeft className="w-4 h-4" />
+                  </button>
+                  {Array.from(
+                    { length: Math.ceil(sortedProducts.length / PER_PAGE) },
+                    (_, i) => (
+                      <button
+                        key={i}
+                        onClick={() => setPage(i + 1)}
+                        className={`w-10 h-10 rounded-xl text-sm font-semibold transition-all ${
+                          page === i + 1
+                            ? "bg-brand-500 text-white shadow-md"
+                            : "border border-charcoal-200 hover:bg-charcoal-50 text-charcoal-600"
+                        }`}
+                      >
+                        {i + 1}
+                      </button>
+                    )
+                  )}
+                  <button
+                    onClick={() =>
+                      setPage(
+                        Math.min(
+                          Math.ceil(sortedProducts.length / PER_PAGE),
+                          page + 1
+                        )
+                      )
+                    }
+                    disabled={
+                      page === Math.ceil(sortedProducts.length / PER_PAGE)
+                    }
+                    className="w-10 h-10 rounded-xl flex items-center justify-center border border-charcoal-200 hover:bg-charcoal-50 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                    aria-label="Next page"
+                  >
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
+              )}
+            </>
           )}
         </div>
       </section>
@@ -127,13 +184,13 @@ export default function CategoryClient({
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://bazaarnow.pk",
+                item: "https://www.bazaarnow.net",
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: category.name,
-                item: `https://bazaarnow.pk/category/${category.slug}`,
+                item: `https://www.bazaarnow.net/category/${category.slug}`,
               },
             ],
           }),
