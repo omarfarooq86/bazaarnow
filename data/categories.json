@@ -5,7 +5,7 @@
     "description": "Clothing, shoes, watches, and accessories for men & women",
     "image": "/images/categories/fashion.jpg",
     "icon": "Shirt",
-    "productCount": 777
+    "productCount": 798
   },
   {
     "slug": "home-living",
@@ -13,7 +13,7 @@
     "description": "Furniture, decor, kitchen, and home essentials",
     "image": "/images/categories/home-living.jpg",
     "icon": "Home",
-    "productCount": 370
+    "productCount": 477
   },
   {
     "slug": "beauty",
@@ -21,7 +21,7 @@
     "description": "Skincare, makeup, hair, and personal care products",
     "image": "/images/categories/beauty.jpg",
     "icon": "Sparkles",
-    "productCount": 214
+    "productCount": 397
   },
   {
     "slug": "electronics",
@@ -29,7 +29,7 @@
     "description": "Smartphones, gadgets, audio, and accessories",
     "image": "/images/categories/electronics.jpg",
     "icon": "Smartphone",
-    "productCount": 143
+    "productCount": 259
   },
   {
     "slug": "kids",
@@ -37,7 +37,7 @@
     "description": "Toys, games, and children's essentials",
     "image": "/images/categories/kids.jpg",
     "icon": "Baby",
-    "productCount": 6
+    "productCount": 27
   },
   {
     "slug": "kitchen",
