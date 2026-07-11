@@ -69,10 +69,8 @@ Read ALL of these files before writing a single word:
 
 ### 1.5 Find images
 
-- Read `PexelAPIkey` from the project root
-- Search Pexels API: `https://api.pexels.com/v1/search?query=[topic]&per_page=6&orientation=landscape&size=medium`
-- Use the API key as the Authorization header
-- Select 3-4 relevant images
+
+- Select 3-4 relevant images from my "Images" folder
 - Place them above H2 sections in the post
 
 ---
@@ -148,7 +146,7 @@ Add these three `<script type="application/ld+json">` blocks:
 
 ### 3.5 IMAGES
 
-- [ ] Downloaded locally to `blog/images/` (never hotlinked from CDN)
+- [ ] Downloaded locally to `/images/` (never hotlinked from CDN)
 - [ ] Descriptive filenames with hyphens (`custom-phone-case-design.jpg`)
 - [ ] Alt text describes the image + keyword where natural
 - [ ] `width` and `height` attributes (prevents CLS)
@@ -260,16 +258,6 @@ When the user provides the Lighthouse report:
 
 ---
 
-## Reference: Image Download (Pexels API)
-
-```powershell
-$key = Get-Content "PexelAPIkey" -Raw; $key = $key.Trim()
-$headers = @{ Authorization = $key }
-$r = Invoke-RestMethod -Uri "https://api.pexels.com/v1/search?query=TOPIC&per_page=6&orientation=landscape&size=medium" -Headers $headers
-foreach ($p in $r.photos) { Write-Output "$($p.id)|$($p.photographer)|$($p.src.large)" }
-```
-
-Download selected images to `blog/images/` with descriptive hyphenated filenames. Keep files under 200 KB — resize via the `w=800` parameter if needed.
 
 ---
 
