@@ -7,70 +7,64 @@ import Link from "next/link";
 import type { Product } from "@/types";
 import { formatPrice, getEffectivePrice, fuzzyMatch, findClosestMatch, getCategoryLabel } from "@/lib/utils";
 
-interface SearchItem {
-  slug: string;
-  name: string;
-  category: string;
-  price: number;
-  salePrice?: number;
-  image: string;
-  tags: string[];
-}
+// Slim index fields: s=slug, n=name, c=category, p=price, d=salePrice, i=image
+interface SlimItem { s: string; n: string; c: string; p: number; d?: number; i: string; }
+interface SearchItem { slug: string; name: string; category: string; price: number; salePrice?: number; image: string; }
 
-let searchCache: SearchItem[] | null = null;
+let searchCache: SlimItem[] | null = null;
 let categoryList: { slug: string; count: number }[] = [];
+let searchPromise: Promise<void> | null = null;
+
+// Start preloading immediately — called from module level
+function preloadSearchIndex() {
+  if (searchPromise) return;
+  searchPromise = (async () => {
+    try {
+      const res = await fetch("/search-index-slim.json");
+      searchCache = await res.json();
+      // Build category list once
+      const catCounts: Record<string, number> = {};
+      searchCache!.forEach((p) => {
+        catCounts[p.c] = (catCounts[p.c] || 0) + 1;
+      });
+      categoryList = Object.entries(catCounts)
+        .sort((a, b) => b[1] - a[1])
+        .map(([slug, count]) => ({ slug, count }));
+    } catch {}
+  })();
+}
+preloadSearchIndex();
+
+function expandItem(s: SlimItem): SearchItem {
+  return { slug: s.s, name: s.n, category: s.c, price: s.p, salePrice: s.d, image: s.i };
+}
 
 async function searchProducts(query: string): Promise<Product[]> {
   if (!searchCache) {
-    const res = await fetch("/search-index.json");
-    searchCache = await res.json();
-    // Build category list
-    const catCounts: Record<string, number> = {};
-    searchCache!.forEach((p) => {
-      catCounts[p.category] = (catCounts[p.category] || 0) + 1;
-    });
-    categoryList = Object.entries(catCounts)
-      .sort((a, b) => b[1] - a[1])
-      .map(([slug, count]) => ({ slug, count }));
+    // Wait for preload if it hasn't finished
+    try { const res = await fetch("/search-index-slim.json"); searchCache = await res.json(); } catch { return []; }
   }
   const lowerQuery = query.toLowerCase();
-  // Fuzzy match against name, tags, category
   return searchCache!
-    .filter(
-      (p) =>
-        fuzzyMatch(lowerQuery, p.name) ||
-        p.tags.some((tag) => fuzzyMatch(lowerQuery, tag)) ||
-        fuzzyMatch(lowerQuery, p.category)
-    )
+    .filter((p) => fuzzyMatch(lowerQuery, p.n) || fuzzyMatch(lowerQuery, p.c))
     .sort((a, b) => {
-      // Boost exact name matches to top
-      const aExact = a.name.toLowerCase().includes(lowerQuery);
-      const bExact = b.name.toLowerCase().includes(lowerQuery);
+      const aExact = a.n.toLowerCase().includes(lowerQuery);
+      const bExact = b.n.toLowerCase().includes(lowerQuery);
       if (aExact && !bExact) return -1;
       if (!aExact && bExact) return 1;
       return 0;
     })
-    .map((p) => ({
-      ...p,
-      images: [p.image],
-      description: "",
-      features: [],
-      specifications: {},
-      inStock: true,
-      isFeatured: false,
-      deliveryInfo: "",
-    })) as unknown as Product[];
+    .map((p) => {
+      const item = expandItem(p);
+      return { ...item, images: [item.image], description: "", features: [], specifications: {}, inStock: true, isFeatured: false, deliveryInfo: "" } as unknown as Product;
+    });
 }
 
 async function getSuggestions(query: string): Promise<string[]> {
   if (!searchCache) {
-    const res = await fetch("/search-index.json");
-    searchCache = await res.json();
+    try { const res = await fetch("/search-index-slim.json"); searchCache = await res.json(); } catch { return []; }
   }
-  return findClosestMatch(
-    query,
-    searchCache!.map((p) => p.name)
-  );
+  return findClosestMatch(query, searchCache!.map((p) => p.n));
 }
 
 const POPULAR_SEARCHES = ["airpods", "watch", "charger", "handbag", "earbuds", "jacket", "tracksuit", "lipstick", "perfume"];

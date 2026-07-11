@@ -9,21 +9,19 @@ import type { Product } from "@/types";
 import { fuzzyMatch, findClosestMatch, getCategoryLabel } from "@/lib/utils";
 import ProductCard from "@/components/product/ProductCard";
 
-interface SearchItem {
-  slug: string;
-  name: string;
-  category: string;
-  price: number;
-  salePrice?: number;
-  image: string;
-  tags: string[];
+// Slim index fields: s=slug, n=name, c=category, p=price, d=salePrice, i=image
+interface SlimItem { s: string; n: string; c: string; p: number; d?: number; i: string; }
+interface SearchItem { slug: string; name: string; category: string; price: number; salePrice?: number; image: string; }
+
+let searchCache: SlimItem[] | null = null;
+
+function expandItem(s: SlimItem): SearchItem {
+  return { slug: s.s, name: s.n, category: s.c, price: s.p, salePrice: s.d, image: s.i };
 }
 
-let searchCache: SearchItem[] | null = null;
-
-async function loadCache(): Promise<SearchItem[]> {
+async function loadCache(): Promise<SlimItem[]> {
   if (!searchCache) {
-    const res = await fetch("/search-index.json");
+    const res = await fetch("/search-index-slim.json");
     searchCache = await res.json();
   }
   return searchCache!;
@@ -33,34 +31,23 @@ async function searchAll(query: string): Promise<Product[]> {
   const cache = await loadCache();
   const lowerQuery = query.toLowerCase();
   return cache
-    .filter(
-      (p) =>
-        fuzzyMatch(lowerQuery, p.name) ||
-        p.tags.some((tag) => fuzzyMatch(lowerQuery, tag)) ||
-        fuzzyMatch(lowerQuery, p.category)
-    )
+    .filter((p) => fuzzyMatch(lowerQuery, p.n) || fuzzyMatch(lowerQuery, p.c))
     .sort((a, b) => {
-      const aExact = a.name.toLowerCase().includes(lowerQuery);
-      const bExact = b.name.toLowerCase().includes(lowerQuery);
+      const aExact = a.n.toLowerCase().includes(lowerQuery);
+      const bExact = b.n.toLowerCase().includes(lowerQuery);
       if (aExact && !bExact) return -1;
       if (!aExact && bExact) return 1;
       return 0;
     })
-    .map((p) => ({
-      ...p,
-      images: [p.image],
-      description: "",
-      features: [],
-      specifications: {},
-      inStock: true,
-      isFeatured: false,
-      deliveryInfo: "",
-    })) as unknown as Product[];
+    .map((p) => {
+      const item = expandItem(p);
+      return { ...item, images: [item.image], description: "", features: [], specifications: {}, inStock: true, isFeatured: false, deliveryInfo: "" } as unknown as Product;
+    });
 }
 
 async function getSuggestions(query: string): Promise<string[]> {
   const cache = await loadCache();
-  return findClosestMatch(query, cache.map((p) => p.name));
+  return findClosestMatch(query, cache.map((p) => p.n));
 }
 
 type SortOpt = "relevance" | "price-low" | "price-high";
