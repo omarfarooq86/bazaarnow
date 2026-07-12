@@ -274,6 +274,7 @@ Phase 2: WRITE
   → Create blog/[post-slug].html with brand voice
   → Add to blog/index.html posts array
   → Voice checklist: dad jokes, asides, opinions, sign-off
+  -> add atleast 3 images related to the keyword. You can fetch them using Pexels API key. I have written key in the file @Pexels-API.md
 
 Phase 3: SEO
   → Read on-page-seo.md
