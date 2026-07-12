@@ -88,22 +88,22 @@ export default function ProductDetailClient({
     <>
       {/* Breadcrumb */}
       <div className="container-custom py-4">
-        <nav className="flex items-center gap-2 text-sm">
+        <nav className="flex items-center gap-1.5 text-sm overflow-x-auto whitespace-nowrap">
           <Link
             href="/"
-            className="text-charcoal-400 hover:text-brand-500 transition-colors"
+            className="text-charcoal-400 hover:text-brand-500 transition-colors flex-shrink-0"
           >
             Home
           </Link>
-          <span className="text-charcoal-300">/</span>
+          <span className="text-charcoal-300 flex-shrink-0">/</span>
           <Link
             href={`/category/${product.category}`}
-            className="text-charcoal-400 hover:text-brand-500 transition-colors capitalize"
+            className="text-charcoal-400 hover:text-brand-500 transition-colors capitalize flex-shrink-0"
           >
             {product.category.replace("-", " & ")}
           </Link>
-          <span className="text-charcoal-300">/</span>
-          <span className="text-charcoal-600 font-medium truncate max-w-[200px]">
+          <span className="text-charcoal-300 flex-shrink-0">/</span>
+          <span className="text-charcoal-600 font-medium truncate">
             {product.name}
           </span>
         </nav>
@@ -236,7 +236,7 @@ export default function ProductDetailClient({
             <p className="text-sm text-brand-500 font-semibold uppercase tracking-wider mb-2">
               {product.category.replace("-", " & ")}
             </p>
-            <h1 className="heading-2 text-dark mb-4">{product.name}</h1>
+            <h1 className="heading-2 text-dark mb-4 break-words hyphens-auto">{product.name}</h1>
 
             {/* Rating */}
             <div className="flex items-center gap-2 mb-4">
@@ -296,8 +296,8 @@ export default function ProductDetailClient({
             </p>
 
             {/* Quantity + Add to Cart */}
-            <div className="flex items-center gap-3 mb-6">
-              <div className="flex items-center gap-0 border border-charcoal-200 rounded-xl overflow-hidden">
+            <div className="flex flex-wrap items-center gap-2.5 mb-6">
+              <div className="flex items-center gap-0 border border-charcoal-200 rounded-xl overflow-hidden flex-shrink-0">
                 <button
                   onClick={() => setQuantity(Math.max(1, quantity - 1))}
                   className="p-2.5 hover:bg-charcoal-50 transition-colors text-charcoal-500"
@@ -306,7 +306,7 @@ export default function ProductDetailClient({
                 >
                   <Minus className="w-4 h-4" />
                 </button>
-                <span className="w-12 text-center text-sm font-semibold text-dark select-none">
+                <span className="w-10 text-center text-sm font-semibold text-dark select-none">
                   {quantity}
                 </span>
                 <button
@@ -330,7 +330,7 @@ export default function ProductDetailClient({
                 whileTap={{ scale: 0.97 }}
                 onClick={handleAddToCart}
                 disabled={!product.inStock}
-                className={`flex-1 py-3 px-6 rounded-xl text-sm font-semibold transition-all duration-200 flex items-center justify-center gap-2 ${
+                className={`flex-1 min-w-[140px] py-3 px-4 rounded-xl text-sm font-semibold transition-all duration-200 flex items-center justify-center gap-1.5 ${
                   !product.inStock
                     ? "bg-charcoal-200 text-charcoal-400 cursor-not-allowed"
                     : isAdded
@@ -340,7 +340,7 @@ export default function ProductDetailClient({
               >
                 {isAdded ? (
                   <>
-                    <Check className="w-4 h-4" /> Added to Cart
+                    <Check className="w-4 h-4" /> Added
                   </>
                 ) : (
                   <>
@@ -352,7 +352,7 @@ export default function ProductDetailClient({
               <Link
                 href="/cart"
                 onClick={handleBuyNow}
-                className={`py-3 px-6 rounded-xl text-sm font-semibold transition-all duration-200 flex items-center justify-center gap-2 ${
+                className={`flex-1 min-w-[120px] py-3 px-4 rounded-xl text-sm font-semibold transition-all duration-200 flex items-center justify-center gap-1.5 ${
                   !product.inStock
                     ? "bg-charcoal-200 text-charcoal-400 cursor-not-allowed pointer-events-none"
                     : "bg-dark text-white hover:bg-charcoal-800"
@@ -477,7 +477,7 @@ export default function ProductDetailClient({
           <div>
             <h2 className="heading-3 text-dark mb-4">Specifications</h2>
             <div className="rounded-2xl bg-white border border-charcoal-100 overflow-hidden">
-              <table className="w-full">
+              <table className="w-full table-fixed">
                 <tbody>
                   {Object.entries(product.specifications).map(
                     ([key, value], i) => (
@@ -487,10 +487,10 @@ export default function ProductDetailClient({
                           i % 2 === 0 ? "bg-charcoal-50/50" : "bg-white"
                         }
                       >
-                        <td className="px-4 py-3 text-xs font-semibold text-charcoal-600 whitespace-nowrap">
+                        <td className="px-3 py-3 text-xs font-semibold text-charcoal-600 break-words w-2/5">
                           {key}
                         </td>
-                        <td className="px-4 py-3 text-xs text-charcoal-500">
+                        <td className="px-3 py-3 text-xs text-charcoal-500 break-words w-3/5">
                           {value}
                         </td>
                       </tr>
