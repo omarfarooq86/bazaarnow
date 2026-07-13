@@ -11,11 +11,11 @@
     "weight": "body"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4-1_1726841266.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-1_1726841266.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-1_1726841266.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/dc0c6b38c2c4ecddad25515cb4c9e24f_1727542280.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8_1726841266.jpg"
+    "/images/products/crusher-juicer-2-in-1-mini-portable-blender-usb-rechargeable-6-blade-high-speed--1.jpg",
+    "/images/products/crusher-juicer-2-in-1-mini-portable-blender-usb-rechargeable-6-blade-high-speed--2.jpg",
+    "/images/products/crusher-juicer-2-in-1-mini-portable-blender-usb-rechargeable-6-blade-high-speed--3.jpg",
+    "/images/products/crusher-juicer-2-in-1-mini-portable-blender-usb-rechargeable-6-blade-high-speed--4.jpg",
+    "/images/products/crusher-juicer-2-in-1-mini-portable-blender-usb-rechargeable-6-blade-high-speed--5.jpg"
   ],
   "inStock": true,
   "stockCount": 16,

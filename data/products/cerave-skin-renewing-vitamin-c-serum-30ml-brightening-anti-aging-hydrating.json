@@ -22,14 +22,14 @@
     "Material": "Vitamin"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/28_1758026263.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/29_1758026264.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/30_1758026264.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/31_1758026265.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/32_1758026265.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/33_1758026266.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/34_1758026266.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/35_1758026267.jpg"
+    "/images/products/cerave-skin-renewing-vitamin-c-serum-30ml-brightening-anti-aging-hydrating-1.jpg",
+    "/images/products/cerave-skin-renewing-vitamin-c-serum-30ml-brightening-anti-aging-hydrating-2.jpg",
+    "/images/products/cerave-skin-renewing-vitamin-c-serum-30ml-brightening-anti-aging-hydrating-3.jpg",
+    "/images/products/cerave-skin-renewing-vitamin-c-serum-30ml-brightening-anti-aging-hydrating-4.jpg",
+    "/images/products/cerave-skin-renewing-vitamin-c-serum-30ml-brightening-anti-aging-hydrating-5.jpg",
+    "/images/products/cerave-skin-renewing-vitamin-c-serum-30ml-brightening-anti-aging-hydrating-6.jpg",
+    "/images/products/cerave-skin-renewing-vitamin-c-serum-30ml-brightening-anti-aging-hydrating-7.jpg",
+    "/images/products/cerave-skin-renewing-vitamin-c-serum-30ml-brightening-anti-aging-hydrating-8.jpg"
   ],
   "inStock": true,
   "stockCount": 22,

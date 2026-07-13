@@ -16,9 +16,9 @@
     "Product": "The Miracle All Purpose Cleaning Paste (The Pink Stuff) -"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/08/WhatsApp-Image-2023-08-25-at-5.37.02-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/08/WhatsApp-Image-2023-08-25-at-5.37.02-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/08/Ac37fd16517174ae68eb8e23401641355R.png"
+    "/images/products/the-miracle-all-purpose-cleaning-paste-the-pink-stuff-1.jpeg",
+    "/images/products/the-miracle-all-purpose-cleaning-paste-the-pink-stuff-2.jpeg",
+    "/images/products/the-miracle-all-purpose-cleaning-paste-the-pink-stuff-3.png"
   ],
   "inStock": true,
   "stockCount": 13,

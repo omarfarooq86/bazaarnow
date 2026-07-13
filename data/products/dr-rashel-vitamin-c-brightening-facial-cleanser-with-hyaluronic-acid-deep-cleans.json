@@ -11,12 +11,12 @@
     "Brand": "Dr."
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(61)_1761811739.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(56)_1761811738.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(65)_1761821245.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(64)_1761821245.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(63)_1761821245.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(62)_1761821244.webp"
+    "/images/products/dr-rashel-vitamin-c-brightening-facial-cleanser-with-hyaluronic-acid-deep-cleans-1.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-facial-cleanser-with-hyaluronic-acid-deep-cleans-2.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-facial-cleanser-with-hyaluronic-acid-deep-cleans-3.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-facial-cleanser-with-hyaluronic-acid-deep-cleans-4.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-facial-cleanser-with-hyaluronic-acid-deep-cleans-5.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-facial-cleanser-with-hyaluronic-acid-deep-cleans-6.webp"
   ],
   "inStock": true,
   "stockCount": 12,

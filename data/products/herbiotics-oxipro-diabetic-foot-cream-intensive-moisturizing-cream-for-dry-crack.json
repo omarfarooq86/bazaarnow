@@ -11,10 +11,10 @@
     "Brand": "Herbiotics"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/OXIPRO(2)_1783332935.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/OXIPRO(1)_1783332935.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/OXIPRO_1783332935.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/OXIPRO(3)_1783332935.webp"
+    "/images/products/herbiotics-oxipro-diabetic-foot-cream-intensive-moisturizing-cream-for-dry-crack-1.webp",
+    "/images/products/herbiotics-oxipro-diabetic-foot-cream-intensive-moisturizing-cream-for-dry-crack-2.webp",
+    "/images/products/herbiotics-oxipro-diabetic-foot-cream-intensive-moisturizing-cream-for-dry-crack-3.webp",
+    "/images/products/herbiotics-oxipro-diabetic-foot-cream-intensive-moisturizing-cream-for-dry-crack-4.webp"
   ],
   "inStock": true,
   "stockCount": 22,

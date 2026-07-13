@@ -11,12 +11,12 @@
     "weight": "design"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-14_1726842834.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-11_1726842834.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4-10_1726842834.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5-8_1726842834.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6-8_1726842834.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-14_1726842834.jpg"
+    "/images/products/portable-toothbrush-toothpaste-holder-case-travel-storage-box-with-cup-function-1.jpg",
+    "/images/products/portable-toothbrush-toothpaste-holder-case-travel-storage-box-with-cup-function-2.jpg",
+    "/images/products/portable-toothbrush-toothpaste-holder-case-travel-storage-box-with-cup-function-3.jpg",
+    "/images/products/portable-toothbrush-toothpaste-holder-case-travel-storage-box-with-cup-function-4.jpg",
+    "/images/products/portable-toothbrush-toothpaste-holder-case-travel-storage-box-with-cup-function-5.jpg",
+    "/images/products/portable-toothbrush-toothpaste-holder-case-travel-storage-box-with-cup-function-6.jpg"
   ],
   "inStock": true,
   "stockCount": 23,

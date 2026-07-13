@@ -21,13 +21,7 @@
   "specifications": {
     "material": "construction"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1746302509.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1746302509.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1746302508.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1746302508.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1746302507.jpg"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 19,
   "isFeatured": false,

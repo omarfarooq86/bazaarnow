@@ -22,13 +22,13 @@
     "Material": "ABS"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1756453390.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1756453389.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1756453389.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1756453388.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756453388.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756453387.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756453386.webp"
+    "/images/products/lelisu-ls-210-wireless-headphones-deep-bass-noise-canceling-long-battery-life-1.webp",
+    "/images/products/lelisu-ls-210-wireless-headphones-deep-bass-noise-canceling-long-battery-life-2.webp",
+    "/images/products/lelisu-ls-210-wireless-headphones-deep-bass-noise-canceling-long-battery-life-3.webp",
+    "/images/products/lelisu-ls-210-wireless-headphones-deep-bass-noise-canceling-long-battery-life-4.webp",
+    "/images/products/lelisu-ls-210-wireless-headphones-deep-bass-noise-canceling-long-battery-life-5.webp",
+    "/images/products/lelisu-ls-210-wireless-headphones-deep-bass-noise-canceling-long-battery-life-6.webp",
+    "/images/products/lelisu-ls-210-wireless-headphones-deep-bass-noise-canceling-long-battery-life-7.webp"
   ],
   "inStock": true,
   "stockCount": 27,

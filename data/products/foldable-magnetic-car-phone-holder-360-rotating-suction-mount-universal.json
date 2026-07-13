@@ -22,13 +22,13 @@
     "Material": "ABS"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/10_1756446142.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1756446142.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1756446141.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756446141.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756446094.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756446095.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756446094.webp"
+    "/images/products/foldable-magnetic-car-phone-holder-360-rotating-suction-mount-universal-1.webp",
+    "/images/products/foldable-magnetic-car-phone-holder-360-rotating-suction-mount-universal-2.webp",
+    "/images/products/foldable-magnetic-car-phone-holder-360-rotating-suction-mount-universal-3.webp",
+    "/images/products/foldable-magnetic-car-phone-holder-360-rotating-suction-mount-universal-4.webp",
+    "/images/products/foldable-magnetic-car-phone-holder-360-rotating-suction-mount-universal-5.webp",
+    "/images/products/foldable-magnetic-car-phone-holder-360-rotating-suction-mount-universal-6.webp",
+    "/images/products/foldable-magnetic-car-phone-holder-360-rotating-suction-mount-universal-7.webp"
   ],
   "inStock": true,
   "stockCount": 15,

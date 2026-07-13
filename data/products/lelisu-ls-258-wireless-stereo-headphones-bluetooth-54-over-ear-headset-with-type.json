@@ -22,10 +22,10 @@
     "Material": "ABS"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/117_1756467187.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/116_1756467187.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/115_1756467186.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/114_1756467185.webp"
+    "/images/products/lelisu-ls-258-wireless-stereo-headphones-bluetooth-54-over-ear-headset-with-type-1.webp",
+    "/images/products/lelisu-ls-258-wireless-stereo-headphones-bluetooth-54-over-ear-headset-with-type-2.webp",
+    "/images/products/lelisu-ls-258-wireless-stereo-headphones-bluetooth-54-over-ear-headset-with-type-3.webp",
+    "/images/products/lelisu-ls-258-wireless-stereo-headphones-bluetooth-54-over-ear-headset-with-type-4.webp"
   ],
   "inStock": true,
   "stockCount": 25,

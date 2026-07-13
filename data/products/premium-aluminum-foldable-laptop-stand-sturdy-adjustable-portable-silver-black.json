@@ -11,11 +11,11 @@
     "weight": "yet"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1740133608.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1740133608.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1740133608.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1740133607.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1740133607.jpg"
+    "/images/products/premium-aluminum-foldable-laptop-stand-sturdy-adjustable-portable-silver-black-1.jpg",
+    "/images/products/premium-aluminum-foldable-laptop-stand-sturdy-adjustable-portable-silver-black-2.jpg",
+    "/images/products/premium-aluminum-foldable-laptop-stand-sturdy-adjustable-portable-silver-black-3.jpg",
+    "/images/products/premium-aluminum-foldable-laptop-stand-sturdy-adjustable-portable-silver-black-4.jpg",
+    "/images/products/premium-aluminum-foldable-laptop-stand-sturdy-adjustable-portable-silver-black-5.jpg"
   ],
   "inStock": true,
   "stockCount": 8,

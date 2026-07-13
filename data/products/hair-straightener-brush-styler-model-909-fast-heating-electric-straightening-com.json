@@ -11,12 +11,11 @@
     "Model": "909"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-2-2-150x150_1727332308.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/61SRJS64E2L._AC_SX569__1727332308.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Lisseur-de-cheveux-professionnel-en-c-ramique-Tourmaline-brosse-boucler-peigne-cheveux-fer-friser-multifonctionnel.jpg_-600x600_1727332308.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-7-150x150_1727332308.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-2-2-150x150_1727332308.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0-8_1727332308.jpg"
+    "/images/products/hair-straightener-brush-styler-model-909-fast-heating-electric-straightening-com-1.jpg",
+    "/images/products/hair-straightener-brush-styler-model-909-fast-heating-electric-straightening-com-2.jpg",
+    "/images/products/hair-straightener-brush-styler-model-909-fast-heating-electric-straightening-com-4.jpg",
+    "/images/products/hair-straightener-brush-styler-model-909-fast-heating-electric-straightening-com-5.jpg",
+    "/images/products/hair-straightener-brush-styler-model-909-fast-heating-electric-straightening-com-6.jpg"
   ],
   "inStock": true,
   "stockCount": 12,

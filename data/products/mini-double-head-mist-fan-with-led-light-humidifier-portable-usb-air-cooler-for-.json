@@ -21,17 +21,7 @@
   "specifications": {
     "weight": "fan"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/71SRAy5QYBL._SX679__1746306632.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5129sWWIzeL._SX569__1746306632.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/71gfWKWimL._AC_SX679__1746306631.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/61wxG5jRk8L._SX569__1746306631.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/51QKRRbmkPL._AC__1746306631.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/51XIPj3cZcL._AC_(1)_1746306630.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/41l1mPY6gWL._SX569__1746306629.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/61ff-wcLARL._SX569__1746306630.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/51ni3ysKL3L._AC__1746306630.jpg"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 17,
   "isFeatured": false,

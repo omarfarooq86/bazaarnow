@@ -11,10 +11,9 @@
     "color": "lighting"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/image_15_967cb3fd-0db3-443f-9e23-c3edff4c9c2d_1726840046.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/bt-3401-g-lamp-multi-functional-led-clock-display-speaker-wireless-charging-bluetooth-speaker-atmosphere-lamp-with-alarm-clock-sound-machine-night-l_1726840046.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/bYIpHaut-parleur-Bluetooth-sans-fil-multifonctionnel-X-63-avec-horloge-lumineuse-L_1726840046.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/bt-3401-g-lamp-multi-functional-led-clock-display-speaker-wireless-charging-bluetooth-speaker-atmosphere-lamp-with-alarm-clock-sound-machine-night-light-15w-wireless-charger-speaker-for-bedside-lamp-2(1)_1727542470.jpg"
+    "/images/products/bt-3401-led-wireless-charging-speaker-atmosphere-lamp-rgb-night-light-bluetooth--1.webp",
+    "/images/products/bt-3401-led-wireless-charging-speaker-atmosphere-lamp-rgb-night-light-bluetooth--2.jpg",
+    "/images/products/bt-3401-led-wireless-charging-speaker-atmosphere-lamp-rgb-night-light-bluetooth--3.webp"
   ],
   "inStock": true,
   "stockCount": 7,

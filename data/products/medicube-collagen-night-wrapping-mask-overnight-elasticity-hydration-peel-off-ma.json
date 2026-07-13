@@ -11,11 +11,11 @@
     "Brand": "Medicube"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign-2025-12-30T173807.632_1767099173.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign-2025-12-30T174012.180_1767099173.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign-2025-12-30T174026.526_1767099173.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign-2025-12-30T174045.962_1767099174.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign-2025-12-30T173745.515_1767099172.webp"
+    "/images/products/medicube-collagen-night-wrapping-mask-overnight-elasticity-hydration-peel-off-ma-1.webp",
+    "/images/products/medicube-collagen-night-wrapping-mask-overnight-elasticity-hydration-peel-off-ma-2.webp",
+    "/images/products/medicube-collagen-night-wrapping-mask-overnight-elasticity-hydration-peel-off-ma-3.webp",
+    "/images/products/medicube-collagen-night-wrapping-mask-overnight-elasticity-hydration-peel-off-ma-4.webp",
+    "/images/products/medicube-collagen-night-wrapping-mask-overnight-elasticity-hydration-peel-off-ma-5.webp"
   ],
   "inStock": true,
   "stockCount": 28,

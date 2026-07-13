@@ -11,12 +11,12 @@
     "weight": "micro"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(93)_1762344921.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(96)_1762344921.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(97)_1762344921.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(94)_1762344791.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(70)_1761907101.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(71)_1761907101.webp"
+    "/images/products/lion-printed-yellow-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-me-1.jpg",
+    "/images/products/lion-printed-yellow-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-me-2.jpg",
+    "/images/products/lion-printed-yellow-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-me-3.jpg",
+    "/images/products/lion-printed-yellow-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-me-4.jpg",
+    "/images/products/lion-printed-yellow-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-me-5.webp",
+    "/images/products/lion-printed-yellow-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-me-6.webp"
   ],
   "inStock": true,
   "stockCount": 12,

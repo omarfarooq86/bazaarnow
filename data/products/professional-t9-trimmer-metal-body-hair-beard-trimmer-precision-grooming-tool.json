@@ -11,10 +11,10 @@
     "Material": "Titanium"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-8_1726834730.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/professional-t9-trimmer-plastic-shaver-mens-cordless-hair-beard-trimmer-for-men-haircut-shaving-machin_1726835344.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/professional-t9-trimmer-plastic-shaver-mens-cordless-hair-beard-trimmer-for-men-haircut-shaving-machine-1_1726835344.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/professional-t9-trimmer-plastic-shaver-mens-cordless-hair-beard-trimmer-for-men-haircut-shaving-machine-3_1726835344.jpg"
+    "/images/products/professional-t9-trimmer-metal-body-hair-beard-trimmer-precision-grooming-tool-1.jpg",
+    "/images/products/professional-t9-trimmer-metal-body-hair-beard-trimmer-precision-grooming-tool-2.jpg",
+    "/images/products/professional-t9-trimmer-metal-body-hair-beard-trimmer-precision-grooming-tool-3.jpg",
+    "/images/products/professional-t9-trimmer-metal-body-hair-beard-trimmer-precision-grooming-tool-4.jpg"
   ],
   "inStock": true,
   "stockCount": 13,

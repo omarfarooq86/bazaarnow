@@ -11,14 +11,14 @@
     "color": "optionsProduct"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsAppImage2023-12-15at1.34.16PM_8a24585a-72b7-41fc-a8e5-f00fbc8ba911(1)_1740129123.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsAppImage2023-12-15at1.34.16PM_1_518628cb-18d5-43bb-b550-269915bf567b_1740129123.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsAppImage2023-12-15at1.34.15PM_b800895e-baf7-42e5-a2fd-1c31de059bb0_1740129123.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1740129122.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1740129120.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1740129120.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1740129121.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1740129122.jpg"
+    "/images/products/airpods-max-wireless-over-ear-headphones-active-noise-cancelling-spatial-audio-r-1.webp",
+    "/images/products/airpods-max-wireless-over-ear-headphones-active-noise-cancelling-spatial-audio-r-2.webp",
+    "/images/products/airpods-max-wireless-over-ear-headphones-active-noise-cancelling-spatial-audio-r-3.webp",
+    "/images/products/airpods-max-wireless-over-ear-headphones-active-noise-cancelling-spatial-audio-r-4.jpg",
+    "/images/products/airpods-max-wireless-over-ear-headphones-active-noise-cancelling-spatial-audio-r-5.jpg",
+    "/images/products/airpods-max-wireless-over-ear-headphones-active-noise-cancelling-spatial-audio-r-6.jpg",
+    "/images/products/airpods-max-wireless-over-ear-headphones-active-noise-cancelling-spatial-audio-r-7.jpg",
+    "/images/products/airpods-max-wireless-over-ear-headphones-active-noise-cancelling-spatial-audio-r-8.jpg"
   ],
   "inStock": true,
   "stockCount": 17,

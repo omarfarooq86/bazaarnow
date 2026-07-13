@@ -22,12 +22,10 @@
     "Product": "Pack of 6"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductSize(1)_1752744301.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/c_1752932137.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/b_1752932137.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/a_1752932136.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright"
+    "/images/products/pack-of-6-cerave-hydrating-mineral-facial-kit-deep-moisture-skin-repair-skincare-1.jpg",
+    "/images/products/pack-of-6-cerave-hydrating-mineral-facial-kit-deep-moisture-skin-repair-skincare-2.jpg",
+    "/images/products/pack-of-6-cerave-hydrating-mineral-facial-kit-deep-moisture-skin-repair-skincare-3.jpg",
+    "/images/products/pack-of-6-cerave-hydrating-mineral-facial-kit-deep-moisture-skin-repair-skincare-4.jpg"
   ],
   "inStock": true,
   "stockCount": 20,

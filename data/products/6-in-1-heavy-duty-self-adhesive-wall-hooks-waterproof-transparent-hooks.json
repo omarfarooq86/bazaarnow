@@ -11,10 +11,9 @@
     "color": "variations"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsAppImage2024-10-01at13.42.02_1728911435.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/41hecnicq7L_1728911435.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Screenshot2024-10-14at6.03.38 PM_1728911435.png",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/41kQ35x6f7L_1728911435.jpg"
+    "/images/products/6-in-1-heavy-duty-self-adhesive-wall-hooks-waterproof-transparent-hooks-1.jpg",
+    "/images/products/6-in-1-heavy-duty-self-adhesive-wall-hooks-waterproof-transparent-hooks-2.jpg",
+    "/images/products/6-in-1-heavy-duty-self-adhesive-wall-hooks-waterproof-transparent-hooks-4.jpg"
   ],
   "inStock": true,
   "stockCount": 5,

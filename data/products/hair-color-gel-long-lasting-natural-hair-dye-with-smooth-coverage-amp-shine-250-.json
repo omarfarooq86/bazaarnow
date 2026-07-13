@@ -11,9 +11,9 @@
     "Product": "Hair Color Gel"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/07/imgi_92_ffa98ef590c25273870377ad2e189b5a-1.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/07/imgi_86_2d5bda9003f40e84770947c030d64d40.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/07/imgi_74_9e1106f07cbcc4bc61d228f78a77d452.jpg"
+    "/images/products/hair-color-gel-long-lasting-natural-hair-dye-with-smooth-coverage-amp-shine-250--1.jpg",
+    "/images/products/hair-color-gel-long-lasting-natural-hair-dye-with-smooth-coverage-amp-shine-250--2.jpg",
+    "/images/products/hair-color-gel-long-lasting-natural-hair-dye-with-smooth-coverage-amp-shine-250--3.jpg"
   ],
   "inStock": true,
   "stockCount": 16,

@@ -22,10 +22,8 @@
     "color": "and"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RGB-Led-Soft-Ring-Light_1748121159.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Led-Studio-Camera-Ring-Light_1748121160.avif",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RGB-Ring-Light-800x800-1_1748121160.avif",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/26CM-LED-Studio-Camera-Ring-Light-Photography-800x800-1_1748121160.webp"
+    "/images/products/mj26-rgb-led-ring-light-26cm-with-tripod-phone-holder-360-color-modes-1.webp",
+    "/images/products/mj26-rgb-led-ring-light-26cm-with-tripod-phone-holder-360-color-modes-4.webp"
   ],
   "inStock": true,
   "stockCount": 27,

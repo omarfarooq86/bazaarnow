@@ -23,10 +23,10 @@
     "Material": "Glycolic"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/64_1756456902.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/63_1756456902.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/62_1756456902.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/61_1756456901.webp"
+    "/images/products/urapra-glycolic-acid-7-toner-100ml-exfoliating-face-solution-for-clear-radiant-s-1.webp",
+    "/images/products/urapra-glycolic-acid-7-toner-100ml-exfoliating-face-solution-for-clear-radiant-s-2.webp",
+    "/images/products/urapra-glycolic-acid-7-toner-100ml-exfoliating-face-solution-for-clear-radiant-s-3.webp",
+    "/images/products/urapra-glycolic-acid-7-toner-100ml-exfoliating-face-solution-for-clear-radiant-s-4.webp"
   ],
   "inStock": true,
   "stockCount": 5,

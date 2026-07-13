@@ -11,12 +11,12 @@
     "Color": "White"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/274_1771218840.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/278_1771218841.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/273_1771218840.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/276_1771218841.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/277_1771218841.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/275_1771218840.webp"
+    "/images/products/speed-x-bulb-camera-1080p-wifi-360-panoramic-security-camera-night-vision-two-wa-1.webp",
+    "/images/products/speed-x-bulb-camera-1080p-wifi-360-panoramic-security-camera-night-vision-two-wa-2.webp",
+    "/images/products/speed-x-bulb-camera-1080p-wifi-360-panoramic-security-camera-night-vision-two-wa-3.webp",
+    "/images/products/speed-x-bulb-camera-1080p-wifi-360-panoramic-security-camera-night-vision-two-wa-4.webp",
+    "/images/products/speed-x-bulb-camera-1080p-wifi-360-panoramic-security-camera-night-vision-two-wa-5.webp",
+    "/images/products/speed-x-bulb-camera-1080p-wifi-360-panoramic-security-camera-night-vision-two-wa-6.webp"
   ],
   "inStock": true,
   "stockCount": 29,

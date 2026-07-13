@@ -22,9 +22,9 @@
     "weight": "Texture"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1759743510.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1759743510.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1759743510.webp"
+    "/images/products/husn-e-mesir-vitamin-c-brightening-cream-natural-glow-anti-blemish-deep-action-f-1.webp",
+    "/images/products/husn-e-mesir-vitamin-c-brightening-cream-natural-glow-anti-blemish-deep-action-f-2.webp",
+    "/images/products/husn-e-mesir-vitamin-c-brightening-cream-natural-glow-anti-blemish-deep-action-f-3.webp"
   ],
   "inStock": true,
   "stockCount": 15,

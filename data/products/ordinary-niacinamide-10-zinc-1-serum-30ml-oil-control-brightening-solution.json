@@ -22,12 +22,12 @@
     "weight": "texture,"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1752336172.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1752336172.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1752336172.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1752336172.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1752336172.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1752336171.jpg"
+    "/images/products/ordinary-niacinamide-10-zinc-1-serum-30ml-oil-control-brightening-solution-1.jpg",
+    "/images/products/ordinary-niacinamide-10-zinc-1-serum-30ml-oil-control-brightening-solution-2.jpg",
+    "/images/products/ordinary-niacinamide-10-zinc-1-serum-30ml-oil-control-brightening-solution-3.jpg",
+    "/images/products/ordinary-niacinamide-10-zinc-1-serum-30ml-oil-control-brightening-solution-4.jpg",
+    "/images/products/ordinary-niacinamide-10-zinc-1-serum-30ml-oil-control-brightening-solution-5.jpg",
+    "/images/products/ordinary-niacinamide-10-zinc-1-serum-30ml-oil-control-brightening-solution-6.jpg"
   ],
   "inStock": true,
   "stockCount": 13,

@@ -10,13 +10,7 @@
   "specifications": {
     "weight": "and"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-21T142656.339_1763718059.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-21T142815.078_1763718058.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/dream-lipstick-pack-of-6-matte-colors_1763718057.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-21T142712.341_1763718057.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-21T142740.877_1763718058.webp"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 5,
   "isFeatured": false,

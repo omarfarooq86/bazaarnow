@@ -10,16 +10,7 @@
   "specifications": {
     "Material": "Premium"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1743752221.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1743752220.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1743752220.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1743752220.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1743752219.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1743752219.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1743752219.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Product'sPictures(59)_1778568901.webp"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 25,
   "isFeatured": false,

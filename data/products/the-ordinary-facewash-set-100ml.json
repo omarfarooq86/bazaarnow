@@ -15,11 +15,11 @@
     "Product": "The Ordinary Facewash Set 100ml"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsAppImage2024-07-15at3.03.15PM_1.webp",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsAppImage2024-07-15at3.03.16PM.webp",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-04-at-10.56.42-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-04-at-10.56.41-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-04-at-10.56.40-PM.jpeg"
+    "/images/products/the-ordinary-facewash-set-100ml-1.webp",
+    "/images/products/the-ordinary-facewash-set-100ml-2.webp",
+    "/images/products/the-ordinary-facewash-set-100ml-3.jpeg",
+    "/images/products/the-ordinary-facewash-set-100ml-4.jpeg",
+    "/images/products/the-ordinary-facewash-set-100ml-5.jpeg"
   ],
   "inStock": true,
   "stockCount": 13,

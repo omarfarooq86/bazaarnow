@@ -22,10 +22,10 @@
     "Material": "Premium"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1758777794.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1758777794.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1758777794.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Products800x800(1)_1758777870.webp"
+    "/images/products/luxury-womens-shoulder-bag-in-grey-faux-leather-for-casual-work-and-formal-use-1.webp",
+    "/images/products/luxury-womens-shoulder-bag-in-grey-faux-leather-for-casual-work-and-formal-use-2.webp",
+    "/images/products/luxury-womens-shoulder-bag-in-grey-faux-leather-for-casual-work-and-formal-use-3.webp",
+    "/images/products/luxury-womens-shoulder-bag-in-grey-faux-leather-for-casual-work-and-formal-use-4.webp"
   ],
   "inStock": true,
   "stockCount": 26,

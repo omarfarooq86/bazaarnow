@@ -16,11 +16,11 @@
     "Product": "Double Side Bath Towel Scrubber - Random Color"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/6-19.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/5-21.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/3-16.webp",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/2-18.webp",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/1-14.webp"
+    "/images/products/double-side-bath-towel-scrubber-random-color-1.jpg",
+    "/images/products/double-side-bath-towel-scrubber-random-color-2.jpg",
+    "/images/products/double-side-bath-towel-scrubber-random-color-3.webp",
+    "/images/products/double-side-bath-towel-scrubber-random-color-4.webp",
+    "/images/products/double-side-bath-towel-scrubber-random-color-5.webp"
   ],
   "inStock": true,
   "stockCount": 8,

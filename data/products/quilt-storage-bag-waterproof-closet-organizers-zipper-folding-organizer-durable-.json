@@ -17,11 +17,11 @@
     "Size": "Small"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/02/2.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/02/3.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/02/4.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/02/6.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/02/7.png"
+    "/images/products/quilt-storage-bag-waterproof-closet-organizers-zipper-folding-organizer-durable--1.png",
+    "/images/products/quilt-storage-bag-waterproof-closet-organizers-zipper-folding-organizer-durable--2.png",
+    "/images/products/quilt-storage-bag-waterproof-closet-organizers-zipper-folding-organizer-durable--3.png",
+    "/images/products/quilt-storage-bag-waterproof-closet-organizers-zipper-folding-organizer-durable--4.png",
+    "/images/products/quilt-storage-bag-waterproof-closet-organizers-zipper-folding-organizer-durable--5.png"
   ],
   "inStock": true,
   "stockCount": 5,

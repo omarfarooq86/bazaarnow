@@ -21,18 +21,7 @@
   "specifications": {
     "Product": "Portable USB Air Cooler Fan"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/10_1744966383.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/9_1744966383.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8_1744966383.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1744966383.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1744966383.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1744966382.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1744966382.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1744966382.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1744966381.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1744966381.jpg"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 27,
   "isFeatured": false,

@@ -22,9 +22,9 @@
     "Material": "Encapsulated"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/w3_1753004422.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/w2_1753004422.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/w1_1753004421.jpg"
+    "/images/products/cerave-resurfacing-retinol-serum-30ml-post-acne-marks-brightening-pore-minimizer-1.jpg",
+    "/images/products/cerave-resurfacing-retinol-serum-30ml-post-acne-marks-brightening-pore-minimizer-2.jpg",
+    "/images/products/cerave-resurfacing-retinol-serum-30ml-post-acne-marks-brightening-pore-minimizer-3.jpg"
   ],
   "inStock": true,
   "stockCount": 13,

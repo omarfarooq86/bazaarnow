@@ -11,11 +11,11 @@
     "weight": "and"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5-9_1726843149.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4-13_1726843149.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-14_1726843149.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-17_1726843149.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0-18_1726843149.jpg"
+    "/images/products/heart-shape-jewellery-box-for-girls-cute-stylish-jewelry-organizer-1.jpg",
+    "/images/products/heart-shape-jewellery-box-for-girls-cute-stylish-jewelry-organizer-2.jpg",
+    "/images/products/heart-shape-jewellery-box-for-girls-cute-stylish-jewelry-organizer-3.jpg",
+    "/images/products/heart-shape-jewellery-box-for-girls-cute-stylish-jewelry-organizer-4.jpg",
+    "/images/products/heart-shape-jewellery-box-for-girls-cute-stylish-jewelry-organizer-5.jpg"
   ],
   "inStock": true,
   "stockCount": 25,

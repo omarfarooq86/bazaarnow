@@ -11,10 +11,10 @@
     "Color": "Design"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/33-1_1733344575.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/32-1_1733344575.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/31-1_1733344575.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/30-1_1733344575.jpg"
+    "/images/products/portable-refillable-mini-perfume-atomizer-travel-size-spray-bottle-5ml-random-co-1.jpg",
+    "/images/products/portable-refillable-mini-perfume-atomizer-travel-size-spray-bottle-5ml-random-co-2.jpg",
+    "/images/products/portable-refillable-mini-perfume-atomizer-travel-size-spray-bottle-5ml-random-co-3.jpg",
+    "/images/products/portable-refillable-mini-perfume-atomizer-travel-size-spray-bottle-5ml-random-co-4.jpg"
   ],
   "inStock": true,
   "stockCount": 20,

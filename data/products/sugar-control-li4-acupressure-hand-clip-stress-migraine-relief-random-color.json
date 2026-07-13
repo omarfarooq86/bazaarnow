@@ -23,14 +23,14 @@
     "Material": "Durable"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8_1756136932.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1756136932.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1756136932.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1756136931.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1756136931.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756136931.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756136930.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756136930.webp"
+    "/images/products/sugar-control-li4-acupressure-hand-clip-stress-migraine-relief-random-color-1.webp",
+    "/images/products/sugar-control-li4-acupressure-hand-clip-stress-migraine-relief-random-color-2.webp",
+    "/images/products/sugar-control-li4-acupressure-hand-clip-stress-migraine-relief-random-color-3.webp",
+    "/images/products/sugar-control-li4-acupressure-hand-clip-stress-migraine-relief-random-color-4.webp",
+    "/images/products/sugar-control-li4-acupressure-hand-clip-stress-migraine-relief-random-color-5.webp",
+    "/images/products/sugar-control-li4-acupressure-hand-clip-stress-migraine-relief-random-color-6.webp",
+    "/images/products/sugar-control-li4-acupressure-hand-clip-stress-migraine-relief-random-color-7.webp",
+    "/images/products/sugar-control-li4-acupressure-hand-clip-stress-migraine-relief-random-color-8.webp"
   ],
   "inStock": true,
   "stockCount": 12,

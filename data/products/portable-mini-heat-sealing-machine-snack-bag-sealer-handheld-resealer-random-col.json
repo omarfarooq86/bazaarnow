@@ -11,13 +11,13 @@
     "material": "Instant"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(7)_1765287417.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(8)_1765287417.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(11)_1765287418.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(12)_1765287418.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(13)_1765287419.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(10)_1765287418.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(9)_1765287418.webp"
+    "/images/products/portable-mini-heat-sealing-machine-snack-bag-sealer-handheld-resealer-random-col-1.webp",
+    "/images/products/portable-mini-heat-sealing-machine-snack-bag-sealer-handheld-resealer-random-col-2.webp",
+    "/images/products/portable-mini-heat-sealing-machine-snack-bag-sealer-handheld-resealer-random-col-3.webp",
+    "/images/products/portable-mini-heat-sealing-machine-snack-bag-sealer-handheld-resealer-random-col-4.webp",
+    "/images/products/portable-mini-heat-sealing-machine-snack-bag-sealer-handheld-resealer-random-col-5.webp",
+    "/images/products/portable-mini-heat-sealing-machine-snack-bag-sealer-handheld-resealer-random-col-6.webp",
+    "/images/products/portable-mini-heat-sealing-machine-snack-bag-sealer-handheld-resealer-random-col-7.webp"
   ],
   "inStock": true,
   "stockCount": 22,

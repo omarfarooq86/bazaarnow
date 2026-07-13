@@ -22,9 +22,9 @@
     "weight": "tool"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1753463020.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1753463013.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1753463008.jpg"
+    "/images/products/flawless-pedicure-callus-remover-tool-rechargeable-cordless-foot-care-kit-for-sm-1.jpg",
+    "/images/products/flawless-pedicure-callus-remover-tool-rechargeable-cordless-foot-care-kit-for-sm-2.jpg",
+    "/images/products/flawless-pedicure-callus-remover-tool-rechargeable-cordless-foot-care-kit-for-sm-3.jpg"
   ],
   "inStock": true,
   "stockCount": 9,

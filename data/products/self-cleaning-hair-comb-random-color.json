@@ -15,11 +15,11 @@
     "Product": "Self cleaning hair comb (random color)"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/07/17115551366ae0f0681c7a0bfffdf5380382f470d5.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/07/17115551363648dfa1ee6297d7a8153313bbd401aa.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/07/1711555136ec7e38cb69e5f0b99bb05dc3232c36aa.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/07/1711555136e16c9ed09b116f24c05fcdf609842311.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/07/17115551363a20d96201d256e97e6226b272b3ff72.jpg"
+    "/images/products/self-cleaning-hair-comb-random-color-1.jpg",
+    "/images/products/self-cleaning-hair-comb-random-color-2.jpg",
+    "/images/products/self-cleaning-hair-comb-random-color-3.jpg",
+    "/images/products/self-cleaning-hair-comb-random-color-4.jpg",
+    "/images/products/self-cleaning-hair-comb-random-color-5.jpg"
   ],
   "inStock": true,
   "stockCount": 17,

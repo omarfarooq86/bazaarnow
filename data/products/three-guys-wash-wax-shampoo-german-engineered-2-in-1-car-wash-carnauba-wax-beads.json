@@ -11,8 +11,8 @@
     "Product": "THREE GUYS Wash & Wax Shampoo | German-Engineered 2-in-1 Car Wash | Carnauba Wax Beads & High Foam Formula"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/03/12/77792d8b135ea238c9e49363f842cb4f.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/03/12/dcbb08d2567660a7f249d83c7d10992f.jpg"
+    "/images/products/three-guys-wash-wax-shampoo-german-engineered-2-in-1-car-wash-carnauba-wax-beads-1.jpg",
+    "/images/products/three-guys-wash-wax-shampoo-german-engineered-2-in-1-car-wash-carnauba-wax-beads-2.jpg"
   ],
   "inStock": true,
   "stockCount": 9,

@@ -12,11 +12,11 @@
     "Product": "Kashees Handi base"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-11-at-4.24.02-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-11-at-4.24.01-PM-2.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-11-at-4.24.01-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-11-at-4.24.01-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-11-at-4.24.00-PM-1.jpeg"
+    "/images/products/kashees-handi-base-1.jpeg",
+    "/images/products/kashees-handi-base-2.jpeg",
+    "/images/products/kashees-handi-base-3.jpeg",
+    "/images/products/kashees-handi-base-4.jpeg",
+    "/images/products/kashees-handi-base-5.jpeg"
   ],
   "inStock": true,
   "stockCount": 13,

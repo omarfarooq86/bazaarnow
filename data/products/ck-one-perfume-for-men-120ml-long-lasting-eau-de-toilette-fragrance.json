@@ -22,10 +22,10 @@
     "Material": "Fragrance"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1756315174.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756315173.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756315173.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756315173.webp"
+    "/images/products/ck-one-perfume-for-men-120ml-long-lasting-eau-de-toilette-fragrance-1.webp",
+    "/images/products/ck-one-perfume-for-men-120ml-long-lasting-eau-de-toilette-fragrance-2.webp",
+    "/images/products/ck-one-perfume-for-men-120ml-long-lasting-eau-de-toilette-fragrance-3.webp",
+    "/images/products/ck-one-perfume-for-men-120ml-long-lasting-eau-de-toilette-fragrance-4.webp"
   ],
   "inStock": true,
   "stockCount": 13,

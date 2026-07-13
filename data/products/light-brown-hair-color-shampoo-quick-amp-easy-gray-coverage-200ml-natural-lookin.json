@@ -11,9 +11,9 @@
     "Product": "Light Brown Hair Color Shampoo"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/07/imgi_3_c97d0208577fcb9aaa907f7fcf1c8d78.jpg_720x720q80.jpg_.webp",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/07/imgi_14_8ec7b3c6f70ca87763a5c8df152e4867.png_2200x2200q80.png_.webp",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/07/imgi_60_8e14f498ef657c4125d889dbdc4eae8c.jpg"
+    "/images/products/light-brown-hair-color-shampoo-quick-amp-easy-gray-coverage-200ml-natural-lookin-1.webp",
+    "/images/products/light-brown-hair-color-shampoo-quick-amp-easy-gray-coverage-200ml-natural-lookin-2.webp",
+    "/images/products/light-brown-hair-color-shampoo-quick-amp-easy-gray-coverage-200ml-natural-lookin-3.jpg"
   ],
   "inStock": true,
   "stockCount": 33,

@@ -10,12 +10,7 @@
   "specifications": {
     "weight": "design"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign_1741937789.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/CBCFD346700A49C211854D141E2EFCEA_1741937788.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/10AADD70E0D2EADF7CCCB68AD84FA521_1741937788.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5F2FFB99612EB249BBAD7D468DC65FE1_1741937788.jpg"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 13,
   "isFeatured": false,

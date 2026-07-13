@@ -21,12 +21,7 @@
   "specifications": {
     "weight": "Beauty"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 11,
   "isFeatured": false,

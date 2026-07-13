@@ -10,9 +10,9 @@
     "Size": "small/Medium/large\r\nChest:20/21/22\r\nInner length:37\r\nGown length:48"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/11/fbb69330-b5a4-4c9c-9185-d530c49eb951.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/11/dedafa5a-5091-4384-8ae1-2fc005774048-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/11/1d16618b-5dcb-4a7c-809e-2090740553d0.jpeg"
+    "/images/products/silk-fancy-gown-3pc-1.jpeg",
+    "/images/products/silk-fancy-gown-3pc-2.jpeg",
+    "/images/products/silk-fancy-gown-3pc-3.jpeg"
   ],
   "inStock": true,
   "stockCount": 17,

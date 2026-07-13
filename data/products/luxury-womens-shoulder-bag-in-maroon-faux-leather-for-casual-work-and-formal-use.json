@@ -22,10 +22,10 @@
     "Material": "Premium"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1758779835.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1758779835.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1758779835.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1758779836.webp"
+    "/images/products/luxury-womens-shoulder-bag-in-maroon-faux-leather-for-casual-work-and-formal-use-1.webp",
+    "/images/products/luxury-womens-shoulder-bag-in-maroon-faux-leather-for-casual-work-and-formal-use-2.webp",
+    "/images/products/luxury-womens-shoulder-bag-in-maroon-faux-leather-for-casual-work-and-formal-use-3.webp",
+    "/images/products/luxury-womens-shoulder-bag-in-maroon-faux-leather-for-casual-work-and-formal-use-4.webp"
   ],
   "inStock": true,
   "stockCount": 26,

@@ -10,16 +10,7 @@
   "specifications": {
     "color": "options"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign(1)_1740151753.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/718BE8K+VSL._AC_SL1500__1740151753.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/613lgPBQlTL._AC_SL1000__1740151753.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/612dPLLUXUL._AC_SL1000__1740151752.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/71yj5Yj3cfL._AC_SL1500__1740151752.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/71Rmme42e5L._AC_SL1500__1740151752.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/71OgI2AJ5XL._AC_SL1500__1740151752.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/71E3cdjtpZL._AC_SL1500__1740151751.jpg"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 5,
   "isFeatured": false,

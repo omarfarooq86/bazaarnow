@@ -10,13 +10,7 @@
   "specifications": {
     "Model": "Instant"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-28T180145.607_1764335572.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-28T180154.119_1764335572.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-28T180200.863_1764335572.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-28T180303.866_1764335573.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-28T180239.314_1764335574.webp"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 27,
   "isFeatured": false,

@@ -14,10 +14,10 @@
     "Product": "Premium Colored Contact Lenses"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/09/WhatsApp-Image-2025-09-06-at-6.36.18-PM-2.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/09/WhatsApp-Image-2025-09-06-at-6.36.18-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/09/WhatsApp-Image-2025-09-06-at-6.36.18-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/09/imgi_35_contact-lenses-package.jpg"
+    "/images/products/premium-colored-contact-lenses-multiple-shades-available-1.jpeg",
+    "/images/products/premium-colored-contact-lenses-multiple-shades-available-2.jpeg",
+    "/images/products/premium-colored-contact-lenses-multiple-shades-available-3.jpeg",
+    "/images/products/premium-colored-contact-lenses-multiple-shades-available-4.jpg"
   ],
   "inStock": true,
   "stockCount": 9,

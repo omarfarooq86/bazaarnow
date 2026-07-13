@@ -10,11 +10,11 @@
     "Color": "Red"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/12/WhatsApp-Image-2024-12-06-at-12.02.19-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/12/WhatsApp-Image-2024-12-18-at-4.16.53-PM-2.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/12/WhatsApp-Image-2024-12-18-at-4.16.42-PM-2.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/12/WhatsApp-Image-2024-12-18-at-4.16.41-PM-2.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/12/WhatsApp-Image-2024-12-18-at-4.16.19-PM-2.jpeg"
+    "/images/products/girl-stainless-steel-bracelet-stylish-watch-without-box-1.jpeg",
+    "/images/products/girl-stainless-steel-bracelet-stylish-watch-without-box-2.jpeg",
+    "/images/products/girl-stainless-steel-bracelet-stylish-watch-without-box-3.jpeg",
+    "/images/products/girl-stainless-steel-bracelet-stylish-watch-without-box-4.jpeg",
+    "/images/products/girl-stainless-steel-bracelet-stylish-watch-without-box-5.jpeg"
   ],
   "inStock": true,
   "stockCount": 7,

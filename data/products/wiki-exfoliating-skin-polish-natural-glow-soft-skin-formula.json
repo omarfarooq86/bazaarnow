@@ -22,12 +22,12 @@
     "Material": "Natural"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1755685145.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1755685388.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign(6)_1755775461.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign(7)_1755775666.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/wikiskinpolish4_1757934280.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/wikiskinpolish1_1757934281.jpg"
+    "/images/products/wiki-exfoliating-skin-polish-natural-glow-soft-skin-formula-1.webp",
+    "/images/products/wiki-exfoliating-skin-polish-natural-glow-soft-skin-formula-2.webp",
+    "/images/products/wiki-exfoliating-skin-polish-natural-glow-soft-skin-formula-3.webp",
+    "/images/products/wiki-exfoliating-skin-polish-natural-glow-soft-skin-formula-4.webp",
+    "/images/products/wiki-exfoliating-skin-polish-natural-glow-soft-skin-formula-5.jpg",
+    "/images/products/wiki-exfoliating-skin-polish-natural-glow-soft-skin-formula-6.jpg"
   ],
   "inStock": true,
   "stockCount": 27,

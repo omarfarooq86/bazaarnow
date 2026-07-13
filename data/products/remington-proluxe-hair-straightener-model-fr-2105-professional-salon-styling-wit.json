@@ -11,10 +11,10 @@
     "Brand": "Remington"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Yourmartproducts(90)_1781006535.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Yourmartproducts(91)_1781006535.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Yourmartproducts(89)_1781006535.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Yourmartproducts(92)_1781007093.webp"
+    "/images/products/remington-proluxe-hair-straightener-model-fr-2105-professional-salon-styling-wit-1.webp",
+    "/images/products/remington-proluxe-hair-straightener-model-fr-2105-professional-salon-styling-wit-2.webp",
+    "/images/products/remington-proluxe-hair-straightener-model-fr-2105-professional-salon-styling-wit-3.webp",
+    "/images/products/remington-proluxe-hair-straightener-model-fr-2105-professional-salon-styling-wit-4.webp"
   ],
   "inStock": true,
   "stockCount": 15,

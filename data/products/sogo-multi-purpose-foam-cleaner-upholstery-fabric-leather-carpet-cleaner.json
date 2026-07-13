@@ -11,8 +11,8 @@
     "color": "variation"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0-1_1726900804.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-2_1726900804.jpg"
+    "/images/products/sogo-multi-purpose-foam-cleaner-upholstery-fabric-leather-carpet-cleaner-1.jpg",
+    "/images/products/sogo-multi-purpose-foam-cleaner-upholstery-fabric-leather-carpet-cleaner-2.jpg"
   ],
   "inStock": true,
   "stockCount": 9,

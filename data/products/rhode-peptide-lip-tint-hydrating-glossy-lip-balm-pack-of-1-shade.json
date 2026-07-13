@@ -13,9 +13,9 @@
     "Product": "Rhode Peptide Lip Tint"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/07/02/dcd745eb28c2731f90d4dd9d342517bb.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/07/02/ec496ef30d0045caaf7268a698d1a4f9.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/07/02/670c88542b1658691135ceef82e2da9e.jpeg"
+    "/images/products/rhode-peptide-lip-tint-hydrating-glossy-lip-balm-pack-of-1-shade-1.jpeg",
+    "/images/products/rhode-peptide-lip-tint-hydrating-glossy-lip-balm-pack-of-1-shade-2.jpeg",
+    "/images/products/rhode-peptide-lip-tint-hydrating-glossy-lip-balm-pack-of-1-shade-3.jpeg"
   ],
   "inStock": true,
   "stockCount": 24,

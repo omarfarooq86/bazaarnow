@@ -14,9 +14,9 @@
     "Product": "Beautiful Fruit Bonsai Tree for Home Decor"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/05/WhatsApp-Image-2024-05-02-at-9.28.14-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/05/WhatsApp-Image-2024-05-02-at-9.27.23-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/05/WhatsApp-Image-2024-05-02-at-9.27.23-PM.jpeg"
+    "/images/products/beautiful-fruit-bonsai-tree-for-home-decor-1.jpeg",
+    "/images/products/beautiful-fruit-bonsai-tree-for-home-decor-2.jpeg",
+    "/images/products/beautiful-fruit-bonsai-tree-for-home-decor-3.jpeg"
   ],
   "inStock": true,
   "stockCount": 18,

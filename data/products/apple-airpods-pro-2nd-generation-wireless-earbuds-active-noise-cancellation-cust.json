@@ -11,9 +11,9 @@
     "Model": "Apple"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0-6_1726906745.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/airpods-2nd-gen_1726906745.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Products800x800_1747777628.jpg"
+    "/images/products/apple-airpods-pro-2nd-generation-wireless-earbuds-active-noise-cancellation-cust-1.jpg",
+    "/images/products/apple-airpods-pro-2nd-generation-wireless-earbuds-active-noise-cancellation-cust-2.webp",
+    "/images/products/apple-airpods-pro-2nd-generation-wireless-earbuds-active-noise-cancellation-cust-3.jpg"
   ],
   "inStock": true,
   "stockCount": 6,

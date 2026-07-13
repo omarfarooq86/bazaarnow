@@ -11,9 +11,9 @@
     "Material": "Stainless"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/d9a6f6ac71cae15c3ade0a2896942f72.jpg_750x750.jpg_-600x600-1_1727600840.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ManualChopper_1727600840.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/9efc9d316f95078124ad4dfb7ad8098b.jpg_750x750.jpg_-600x609-1_1727600840.webp"
+    "/images/products/2l-manual-hand-push-chopper-multifunctional-mixer-vegetable-chopper-meat-grinder-1.webp",
+    "/images/products/2l-manual-hand-push-chopper-multifunctional-mixer-vegetable-chopper-meat-grinder-2.jpg",
+    "/images/products/2l-manual-hand-push-chopper-multifunctional-mixer-vegetable-chopper-meat-grinder-3.webp"
   ],
   "inStock": true,
   "stockCount": 14,

@@ -22,12 +22,12 @@
     "Material": "90%"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1759223123.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1759223122.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1759223124.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1759223123.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1759223123.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1759223123.webp"
+    "/images/products/black-stylish-stanley-barbie-tumbler-h20-tumbler-118l-limited-edition-double-wal-1.webp",
+    "/images/products/black-stylish-stanley-barbie-tumbler-h20-tumbler-118l-limited-edition-double-wal-2.webp",
+    "/images/products/black-stylish-stanley-barbie-tumbler-h20-tumbler-118l-limited-edition-double-wal-3.webp",
+    "/images/products/black-stylish-stanley-barbie-tumbler-h20-tumbler-118l-limited-edition-double-wal-4.webp",
+    "/images/products/black-stylish-stanley-barbie-tumbler-h20-tumbler-118l-limited-edition-double-wal-5.webp",
+    "/images/products/black-stylish-stanley-barbie-tumbler-h20-tumbler-118l-limited-edition-double-wal-6.webp"
   ],
   "inStock": true,
   "stockCount": 11,

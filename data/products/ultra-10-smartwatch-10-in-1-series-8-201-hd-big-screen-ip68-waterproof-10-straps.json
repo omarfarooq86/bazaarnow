@@ -11,9 +11,9 @@
     "Model": "Ultra"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-6-scaled_1726906626.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-9-scaled_1726906626.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-4-scaled_1726906626.jpg"
+    "/images/products/ultra-10-smartwatch-10-in-1-series-8-201-hd-big-screen-ip68-waterproof-10-straps-1.jpg",
+    "/images/products/ultra-10-smartwatch-10-in-1-series-8-201-hd-big-screen-ip68-waterproof-10-straps-2.jpg",
+    "/images/products/ultra-10-smartwatch-10-in-1-series-8-201-hd-big-screen-ip68-waterproof-10-straps-3.jpg"
   ],
   "inStock": true,
   "stockCount": 15,

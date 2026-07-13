@@ -23,11 +23,11 @@
     "Material": "High-quality"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/84_1756460666.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/83_1756460665.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/82_1756460665.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/81_1756460665.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/80_1756460664.webp"
+    "/images/products/lelisu-ls-212-wireless-stereo-headphones-bluetooth-headset-for-smartphones-table-1.webp",
+    "/images/products/lelisu-ls-212-wireless-stereo-headphones-bluetooth-headset-for-smartphones-table-2.webp",
+    "/images/products/lelisu-ls-212-wireless-stereo-headphones-bluetooth-headset-for-smartphones-table-3.webp",
+    "/images/products/lelisu-ls-212-wireless-stereo-headphones-bluetooth-headset-for-smartphones-table-4.webp",
+    "/images/products/lelisu-ls-212-wireless-stereo-headphones-bluetooth-headset-for-smartphones-table-5.webp"
   ],
   "inStock": true,
   "stockCount": 28,

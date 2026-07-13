@@ -23,9 +23,9 @@
     "Color": "as"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1754393941.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1754393941.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1754393940.webp"
+    "/images/products/white-grey-gold-marble-sheet-sticker-60x200cm-waterproof-self-adhesive-pvc-wallp-1.webp",
+    "/images/products/white-grey-gold-marble-sheet-sticker-60x200cm-waterproof-self-adhesive-pvc-wallp-2.webp",
+    "/images/products/white-grey-gold-marble-sheet-sticker-60x200cm-waterproof-self-adhesive-pvc-wallp-3.webp"
   ],
   "inStock": true,
   "stockCount": 26,

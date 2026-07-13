@@ -23,13 +23,13 @@
     "Material": "Metal"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1755607113.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1755607113.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1755607113.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1755607112.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1755607112.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1755607112.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1755607111.webp"
+    "/images/products/led-galaxy-star-usb-decoration-light-starry-laser-projector-night-light-for-home-1.webp",
+    "/images/products/led-galaxy-star-usb-decoration-light-starry-laser-projector-night-light-for-home-2.webp",
+    "/images/products/led-galaxy-star-usb-decoration-light-starry-laser-projector-night-light-for-home-3.webp",
+    "/images/products/led-galaxy-star-usb-decoration-light-starry-laser-projector-night-light-for-home-4.webp",
+    "/images/products/led-galaxy-star-usb-decoration-light-starry-laser-projector-night-light-for-home-5.webp",
+    "/images/products/led-galaxy-star-usb-decoration-light-starry-laser-projector-night-light-for-home-6.webp",
+    "/images/products/led-galaxy-star-usb-decoration-light-starry-laser-projector-night-light-for-home-7.webp"
   ],
   "inStock": true,
   "stockCount": 27,

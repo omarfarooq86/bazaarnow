@@ -11,11 +11,11 @@
     "Material": "Safe,"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0-17_1726842995.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-16_1726842995.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-16_1726842995.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-13_1726842995.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4-12_1726842995.jpg"
+    "/images/products/foam-sheet-fomic-sheet-for-dining-table-cabinet-protection-waterproof-eva-shelf--1.jpg",
+    "/images/products/foam-sheet-fomic-sheet-for-dining-table-cabinet-protection-waterproof-eva-shelf--2.jpg",
+    "/images/products/foam-sheet-fomic-sheet-for-dining-table-cabinet-protection-waterproof-eva-shelf--3.jpg",
+    "/images/products/foam-sheet-fomic-sheet-for-dining-table-cabinet-protection-waterproof-eva-shelf--4.jpg",
+    "/images/products/foam-sheet-fomic-sheet-for-dining-table-cabinet-protection-waterproof-eva-shelf--5.jpg"
   ],
   "inStock": true,
   "stockCount": 15,

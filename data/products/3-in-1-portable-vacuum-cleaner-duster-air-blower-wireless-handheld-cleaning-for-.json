@@ -11,9 +11,9 @@
     "color": "variation"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0c6ab99ae73301715f22d4369ed43123_2048x2048_1726901686.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/bd1b124689d704a88ae8d94d459cd23e_2048x2048_1726901686.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7e01286515db228489f020682759aabf_2048x2048_1726901686.jpg"
+    "/images/products/3-in-1-portable-vacuum-cleaner-duster-air-blower-wireless-handheld-cleaning-for--1.jpg",
+    "/images/products/3-in-1-portable-vacuum-cleaner-duster-air-blower-wireless-handheld-cleaning-for--2.jpg",
+    "/images/products/3-in-1-portable-vacuum-cleaner-duster-air-blower-wireless-handheld-cleaning-for--3.jpg"
   ],
   "inStock": true,
   "stockCount": 21,

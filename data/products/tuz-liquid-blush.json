@@ -10,8 +10,8 @@
     "Color": "1"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/08/WhatsApp-Image-2024-08-16-at-9.59.08-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/08/WhatsApp-Image-2024-08-16-at-9.59.07-PM.jpeg"
+    "/images/products/tuz-liquid-blush-1.jpeg",
+    "/images/products/tuz-liquid-blush-2.jpeg"
   ],
   "inStock": true,
   "stockCount": 30,

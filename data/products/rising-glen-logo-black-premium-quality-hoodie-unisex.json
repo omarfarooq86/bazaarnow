@@ -18,8 +18,8 @@
     "Brand": "Showcase your love for the Rising Glen brand with this high-quality"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/Member-3-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/Member-2.png"
+    "/images/products/rising-glen-logo-black-premium-quality-hoodie-unisex-1.jpeg",
+    "/images/products/rising-glen-logo-black-premium-quality-hoodie-unisex-2.png"
   ],
   "inStock": true,
   "stockCount": 15,

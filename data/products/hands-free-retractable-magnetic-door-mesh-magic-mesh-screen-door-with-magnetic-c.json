@@ -11,12 +11,12 @@
     "material": "ensures"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/190_1772107078.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/192_1772107078.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/193_1772107077.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/188_1772107078.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/189_1772107079.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/191_1772107078.webp"
+    "/images/products/hands-free-retractable-magnetic-door-mesh-magic-mesh-screen-door-with-magnetic-c-1.webp",
+    "/images/products/hands-free-retractable-magnetic-door-mesh-magic-mesh-screen-door-with-magnetic-c-2.webp",
+    "/images/products/hands-free-retractable-magnetic-door-mesh-magic-mesh-screen-door-with-magnetic-c-3.webp",
+    "/images/products/hands-free-retractable-magnetic-door-mesh-magic-mesh-screen-door-with-magnetic-c-4.webp",
+    "/images/products/hands-free-retractable-magnetic-door-mesh-magic-mesh-screen-door-with-magnetic-c-5.webp",
+    "/images/products/hands-free-retractable-magnetic-door-mesh-magic-mesh-screen-door-with-magnetic-c-6.webp"
   ],
   "inStock": true,
   "stockCount": 26,

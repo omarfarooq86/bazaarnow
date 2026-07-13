@@ -23,11 +23,11 @@
     "Weight": "140"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/A9-airpods-Pro-ANC-ENC-Touch-Screen-Type-C_1726913003.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1727090992.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1727090992.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1727090992.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1727090992.jpg"
+    "/images/products/black-a9-pro-anc-bluetooth-54-wireless-earbuds-with-smart-screen-and-active-nois-1.jpg",
+    "/images/products/black-a9-pro-anc-bluetooth-54-wireless-earbuds-with-smart-screen-and-active-nois-2.jpg",
+    "/images/products/black-a9-pro-anc-bluetooth-54-wireless-earbuds-with-smart-screen-and-active-nois-3.jpg",
+    "/images/products/black-a9-pro-anc-bluetooth-54-wireless-earbuds-with-smart-screen-and-active-nois-4.jpg",
+    "/images/products/black-a9-pro-anc-bluetooth-54-wireless-earbuds-with-smart-screen-and-active-nois-5.jpg"
   ],
   "inStock": true,
   "stockCount": 12,

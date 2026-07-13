@@ -22,12 +22,12 @@
     "Material": "Soft"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/main_1726836842.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/9_1726836842.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8-1_1726836842.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-7_1726836842.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-in-1-Magnetic-Wireless-charger-Foldable-15W-Original-Charging-Station_1726836842.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7-2_1726836842.jpg"
+    "/images/products/3-in-1-foldable-magnetic-wireless-charger-15w-charging-station-for-iphone-apple--1.jpg",
+    "/images/products/3-in-1-foldable-magnetic-wireless-charger-15w-charging-station-for-iphone-apple--2.jpg",
+    "/images/products/3-in-1-foldable-magnetic-wireless-charger-15w-charging-station-for-iphone-apple--3.jpg",
+    "/images/products/3-in-1-foldable-magnetic-wireless-charger-15w-charging-station-for-iphone-apple--4.jpg",
+    "/images/products/3-in-1-foldable-magnetic-wireless-charger-15w-charging-station-for-iphone-apple--5.webp",
+    "/images/products/3-in-1-foldable-magnetic-wireless-charger-15w-charging-station-for-iphone-apple--6.jpg"
   ],
   "inStock": true,
   "stockCount": 27,

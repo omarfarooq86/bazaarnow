@@ -22,9 +22,9 @@
     "Material": "Premium"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/silicone-washing-full-finger-gloves-for-home-random-colors-19-3_1727621093.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/silicone-washing-full-finger-gloves-for-home-random-colors-19-2_1727621093.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/silicone-washing-full-finger-gloves-for-home-random-colors-19-1_1727621093.jpg"
+    "/images/products/reusable-silicone-washing-gloves-with-built-in-scrubber-for-kitchen-bathroom-car-1.jpg",
+    "/images/products/reusable-silicone-washing-gloves-with-built-in-scrubber-for-kitchen-bathroom-car-2.jpg",
+    "/images/products/reusable-silicone-washing-gloves-with-built-in-scrubber-for-kitchen-bathroom-car-3.jpg"
   ],
   "inStock": true,
   "stockCount": 25,

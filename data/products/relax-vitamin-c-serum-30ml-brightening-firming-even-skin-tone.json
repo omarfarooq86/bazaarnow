@@ -22,11 +22,11 @@
     "Material": "Vitamin"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/34_1756455999.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/33_1756455998.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/32_1756455998.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/31_1756455998.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/30_1756455998.webp"
+    "/images/products/relax-vitamin-c-serum-30ml-brightening-firming-even-skin-tone-1.webp",
+    "/images/products/relax-vitamin-c-serum-30ml-brightening-firming-even-skin-tone-2.webp",
+    "/images/products/relax-vitamin-c-serum-30ml-brightening-firming-even-skin-tone-3.webp",
+    "/images/products/relax-vitamin-c-serum-30ml-brightening-firming-even-skin-tone-4.webp",
+    "/images/products/relax-vitamin-c-serum-30ml-brightening-firming-even-skin-tone-5.webp"
   ],
   "inStock": true,
   "stockCount": 26,

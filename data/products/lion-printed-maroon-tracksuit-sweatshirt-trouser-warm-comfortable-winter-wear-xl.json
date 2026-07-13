@@ -11,11 +11,11 @@
     "weight": "micro"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(83)_1761993319.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(84)_1761993319.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(85)_1761993318.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(70)_1761907101.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(71)_1761907101.webp"
+    "/images/products/lion-printed-maroon-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-xl-1.webp",
+    "/images/products/lion-printed-maroon-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-xl-2.webp",
+    "/images/products/lion-printed-maroon-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-xl-3.webp",
+    "/images/products/lion-printed-maroon-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-xl-4.webp",
+    "/images/products/lion-printed-maroon-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-xl-5.webp"
   ],
   "inStock": true,
   "stockCount": 29,

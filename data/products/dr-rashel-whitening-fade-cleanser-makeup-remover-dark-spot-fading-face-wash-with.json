@@ -11,12 +11,12 @@
     "Brand": "Dr."
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(20)_1761735994.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(22)_1761735994.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(23)_1761735994.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(24)_1761735993.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(25)_1761735993.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(26)_1761735993.webp"
+    "/images/products/dr-rashel-whitening-fade-cleanser-makeup-remover-dark-spot-fading-face-wash-with-1.webp",
+    "/images/products/dr-rashel-whitening-fade-cleanser-makeup-remover-dark-spot-fading-face-wash-with-2.webp",
+    "/images/products/dr-rashel-whitening-fade-cleanser-makeup-remover-dark-spot-fading-face-wash-with-3.webp",
+    "/images/products/dr-rashel-whitening-fade-cleanser-makeup-remover-dark-spot-fading-face-wash-with-4.webp",
+    "/images/products/dr-rashel-whitening-fade-cleanser-makeup-remover-dark-spot-fading-face-wash-with-5.webp",
+    "/images/products/dr-rashel-whitening-fade-cleanser-makeup-remover-dark-spot-fading-face-wash-with-6.webp"
   ],
   "inStock": true,
   "stockCount": 25,

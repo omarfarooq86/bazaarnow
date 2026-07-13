@@ -10,11 +10,11 @@
     "Color": "Shades of Red"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/5-in-1-lipstick-pen-huda-beauty-nude-shades-2-6.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/5-in-1-lipstick-pen-huda-beauty-nude-shades-2-3.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/5-in-1-lipstick-pen-huda-beauty-nude-shades-2-4.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/5-in-1-lipstick-pen-huda-beauty-nude-shades-2-2.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/5-in-1-lipstick-pen-huda-beauty-nude-shades-2-1.jpeg"
+    "/images/products/5-in-1-huda-beauty-lipstick-nude-shades-1.jpeg",
+    "/images/products/5-in-1-huda-beauty-lipstick-nude-shades-2.jpeg",
+    "/images/products/5-in-1-huda-beauty-lipstick-nude-shades-3.jpeg",
+    "/images/products/5-in-1-huda-beauty-lipstick-nude-shades-4.jpeg",
+    "/images/products/5-in-1-huda-beauty-lipstick-nude-shades-5.jpeg"
   ],
   "inStock": true,
   "stockCount": 8,

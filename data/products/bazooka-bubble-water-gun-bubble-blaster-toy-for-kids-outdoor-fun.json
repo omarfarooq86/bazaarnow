@@ -23,12 +23,12 @@
     "Material": "ABS"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756757653.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756757653.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756757653.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756758271.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756758271.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756758271.webp"
+    "/images/products/bazooka-bubble-water-gun-bubble-blaster-toy-for-kids-outdoor-fun-1.webp",
+    "/images/products/bazooka-bubble-water-gun-bubble-blaster-toy-for-kids-outdoor-fun-2.webp",
+    "/images/products/bazooka-bubble-water-gun-bubble-blaster-toy-for-kids-outdoor-fun-3.webp",
+    "/images/products/bazooka-bubble-water-gun-bubble-blaster-toy-for-kids-outdoor-fun-4.webp",
+    "/images/products/bazooka-bubble-water-gun-bubble-blaster-toy-for-kids-outdoor-fun-5.webp",
+    "/images/products/bazooka-bubble-water-gun-bubble-blaster-toy-for-kids-outdoor-fun-6.webp"
   ],
   "inStock": true,
   "stockCount": 15,

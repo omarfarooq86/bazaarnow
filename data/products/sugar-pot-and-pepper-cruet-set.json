@@ -9,11 +9,11 @@
     "Product": "Sugar Pot and Pepper Cruet Set"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsApp-Image-2024-11-28-at-12.05.37-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsApp-Image-2024-11-28-at-12.05.37-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsAppImage2022-01-20at9.30.54AM-2_870dccdb-b8b3-4107-a6c2-0fe3765f7257-1.webp",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsAppImage2022-01-20at9.30.54AM_94f034ad-ec7e-4914-bfe4-c834d88f9a45.webp",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsAppImage2022-01-20at9.30.54AM-2_870dccdb-b8b3-4107-a6c2-0fe3765f7257.webp"
+    "/images/products/sugar-pot-and-pepper-cruet-set-1.jpeg",
+    "/images/products/sugar-pot-and-pepper-cruet-set-2.jpeg",
+    "/images/products/sugar-pot-and-pepper-cruet-set-3.webp",
+    "/images/products/sugar-pot-and-pepper-cruet-set-4.webp",
+    "/images/products/sugar-pot-and-pepper-cruet-set-5.webp"
   ],
   "inStock": true,
   "stockCount": 33,

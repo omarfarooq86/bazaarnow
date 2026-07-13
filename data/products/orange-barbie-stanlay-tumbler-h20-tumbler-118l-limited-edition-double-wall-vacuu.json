@@ -22,12 +22,12 @@
     "Material": "90%"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1759304883.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1759304883.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1759304882.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1759304882.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1759304882.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1759255997.webp"
+    "/images/products/orange-barbie-stanlay-tumbler-h20-tumbler-118l-limited-edition-double-wall-vacuu-1.webp",
+    "/images/products/orange-barbie-stanlay-tumbler-h20-tumbler-118l-limited-edition-double-wall-vacuu-2.webp",
+    "/images/products/orange-barbie-stanlay-tumbler-h20-tumbler-118l-limited-edition-double-wall-vacuu-3.webp",
+    "/images/products/orange-barbie-stanlay-tumbler-h20-tumbler-118l-limited-edition-double-wall-vacuu-4.webp",
+    "/images/products/orange-barbie-stanlay-tumbler-h20-tumbler-118l-limited-edition-double-wall-vacuu-5.webp",
+    "/images/products/orange-barbie-stanlay-tumbler-h20-tumbler-118l-limited-edition-double-wall-vacuu-6.webp"
   ],
   "inStock": true,
   "stockCount": 12,

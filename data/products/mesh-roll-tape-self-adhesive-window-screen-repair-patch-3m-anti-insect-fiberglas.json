@@ -22,14 +22,14 @@
     "Material": "Fiberglass"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8_1756136205.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1756136205.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1756136205.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1756136204.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1756136204.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756136204.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756136204.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756136203.webp"
+    "/images/products/mesh-roll-tape-self-adhesive-window-screen-repair-patch-3m-anti-insect-fiberglas-1.webp",
+    "/images/products/mesh-roll-tape-self-adhesive-window-screen-repair-patch-3m-anti-insect-fiberglas-2.webp",
+    "/images/products/mesh-roll-tape-self-adhesive-window-screen-repair-patch-3m-anti-insect-fiberglas-3.webp",
+    "/images/products/mesh-roll-tape-self-adhesive-window-screen-repair-patch-3m-anti-insect-fiberglas-4.webp",
+    "/images/products/mesh-roll-tape-self-adhesive-window-screen-repair-patch-3m-anti-insect-fiberglas-5.webp",
+    "/images/products/mesh-roll-tape-self-adhesive-window-screen-repair-patch-3m-anti-insect-fiberglas-6.webp",
+    "/images/products/mesh-roll-tape-self-adhesive-window-screen-repair-patch-3m-anti-insect-fiberglas-7.webp",
+    "/images/products/mesh-roll-tape-self-adhesive-window-screen-repair-patch-3m-anti-insect-fiberglas-8.webp"
   ],
   "inStock": true,
   "stockCount": 17,

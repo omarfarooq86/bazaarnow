@@ -11,10 +11,10 @@
     "color": "straps"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6-10_1736249634.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-31-600x600_1736249634.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/i20_1736249634.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7-7_1736249634.jpg"
+    "/images/products/i20-ultra-max-suit-smartwatch-earbuds-combo-10-in-1-set-with-7-straps-random-col-1.jpg",
+    "/images/products/i20-ultra-max-suit-smartwatch-earbuds-combo-10-in-1-set-with-7-straps-random-col-2.jpg",
+    "/images/products/i20-ultra-max-suit-smartwatch-earbuds-combo-10-in-1-set-with-7-straps-random-col-3.jpg",
+    "/images/products/i20-ultra-max-suit-smartwatch-earbuds-combo-10-in-1-set-with-7-straps-random-col-4.jpg"
   ],
   "inStock": true,
   "stockCount": 8,

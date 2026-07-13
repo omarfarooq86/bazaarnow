@@ -22,10 +22,10 @@
     "Material": "Advanced"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign(1)_1755759112.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/37_1756473523.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/36_1756473522.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/35_1756473522.webp"
+    "/images/products/wiki-special-care-fair-whitening-beauty-cream-instant-glow-skin-brightening-1.webp",
+    "/images/products/wiki-special-care-fair-whitening-beauty-cream-instant-glow-skin-brightening-2.webp",
+    "/images/products/wiki-special-care-fair-whitening-beauty-cream-instant-glow-skin-brightening-3.webp",
+    "/images/products/wiki-special-care-fair-whitening-beauty-cream-instant-glow-skin-brightening-4.webp"
   ],
   "inStock": true,
   "stockCount": 29,

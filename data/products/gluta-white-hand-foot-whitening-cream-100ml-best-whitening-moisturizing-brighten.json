@@ -11,10 +11,10 @@
     "Weight": "100gm"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/EasyToUse(5)_1768885402.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/EasyToUse(6)_1768885401.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/handandfoot-creaminPakistan-800x800_1768830437.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/gluta_white_hand_and_foot_cream_benefits_1768830436.webp"
+    "/images/products/gluta-white-hand-foot-whitening-cream-100ml-best-whitening-moisturizing-brighten-1.webp",
+    "/images/products/gluta-white-hand-foot-whitening-cream-100ml-best-whitening-moisturizing-brighten-2.webp",
+    "/images/products/gluta-white-hand-foot-whitening-cream-100ml-best-whitening-moisturizing-brighten-3.webp",
+    "/images/products/gluta-white-hand-foot-whitening-cream-100ml-best-whitening-moisturizing-brighten-4.webp"
   ],
   "inStock": true,
   "stockCount": 5,

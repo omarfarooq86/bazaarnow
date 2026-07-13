@@ -22,11 +22,11 @@
     "material": "construction"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/S4cbea527cb1f4154904919a14c80ca47u_1726836632.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/extended-triangle-auto-squeeze-long-handle-mop-360-tw_1726836632.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/extended-triangle-mop-360-twist-squeeze-wringing-window-glass-toilet-bathroom-floor-household-cleaning-ceiling-random-color-2-2_1726923097.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/premium-quality-telescopic-triangle-mop-360-rotatable-self-wringing-triangle-extended-adjustable-mop-floor-squeeze-free-hand-washing-lazy-tool-random-colour-4_1726923097.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/premium-quality-telescopic-triangle-mop-360-rotatable-self-wringing-triangle-extended-adjustable-mop-floor-squeeze-free-hand-washing-lazy-tool-random-colour-6_1726923097.jpg"
+    "/images/products/360-twist-rotatable-triangle-mop-with-long-handle-auto-squeeze-design-for-floor--1.webp",
+    "/images/products/360-twist-rotatable-triangle-mop-with-long-handle-auto-squeeze-design-for-floor--2.jpg",
+    "/images/products/360-twist-rotatable-triangle-mop-with-long-handle-auto-squeeze-design-for-floor--3.webp",
+    "/images/products/360-twist-rotatable-triangle-mop-with-long-handle-auto-squeeze-design-for-floor--4.jpg",
+    "/images/products/360-twist-rotatable-triangle-mop-with-long-handle-auto-squeeze-design-for-floor--5.jpg"
   ],
   "inStock": true,
   "stockCount": 24,

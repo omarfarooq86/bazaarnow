@@ -11,13 +11,11 @@
     "Material": "—"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/de59ffcb-c219-4e7b-9df5-5bdf38dc8385_1730978097.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/c9cb85ce-a086-42a9-833d-c246ef7bca66_1730978097.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3M-5M-Long-Strong-Double-sided-Adhesive-Nano-Non-marking-Transparent-Acrylic-Tape-Home-Appliances-Wall.jpg__1730978097.avif",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3M-5M-Long-Strong-Double-sided-Adhesive-Nano-Non-marking-Transparent-Acrylic-Tape-Home-Appliances-Wall.jpg_(1)_1730978097.avif",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-10-1-600x600_1730978097.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-8-1-600x600_1730978097.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-8-1-600x600_1730978097.webp"
+    "/images/products/nano-gel-grip-tape-5m-double-sided-transparent-nano-tape-washable-reusable-trace-1.webp",
+    "/images/products/nano-gel-grip-tape-5m-double-sided-transparent-nano-tape-washable-reusable-trace-2.webp",
+    "/images/products/nano-gel-grip-tape-5m-double-sided-transparent-nano-tape-washable-reusable-trace-5.webp",
+    "/images/products/nano-gel-grip-tape-5m-double-sided-transparent-nano-tape-washable-reusable-trace-6.webp",
+    "/images/products/nano-gel-grip-tape-5m-double-sided-transparent-nano-tape-washable-reusable-trace-7.webp"
   ],
   "inStock": true,
   "stockCount": 17,

@@ -10,13 +10,7 @@
   "specifications": {
     "weight": "design"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/71O1ISRZ0iL._AC_SL1000__1740151249.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/71dsbNj5X6L._AC_SL1000__1740151249.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/S465237b7ed7e4a6ab681e1214291bc26t_1753174961.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/s-l400_1753174962.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/images(1)_1753174962.jpg"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 15,
   "isFeatured": false,

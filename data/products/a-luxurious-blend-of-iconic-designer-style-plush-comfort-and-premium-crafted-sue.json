@@ -13,9 +13,9 @@
     "Product": "A Luxurious Blend of Iconic Designer Style, Plush Comfort, and Premium Crafted Suede Materials"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/12/20/3d5c22d06a00a7a58612c598d0356081.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/12/20/5d8f4f28db8bb72c70368a6c395610ea.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/12/20/6e45fdee925ae036d257e16d59df4a3a.jpeg"
+    "/images/products/a-luxurious-blend-of-iconic-designer-style-plush-comfort-and-premium-crafted-sue-1.jpeg",
+    "/images/products/a-luxurious-blend-of-iconic-designer-style-plush-comfort-and-premium-crafted-sue-2.jpeg",
+    "/images/products/a-luxurious-blend-of-iconic-designer-style-plush-comfort-and-premium-crafted-sue-3.jpeg"
   ],
   "inStock": true,
   "stockCount": 15,

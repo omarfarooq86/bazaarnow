@@ -21,13 +21,7 @@
   "specifications": {
     "Product": "Vacuum Sealer Hand Machine ZKFK-001 | Automatic Food Sealer with 5 Vacuum Bags for Fresh Food Storage"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1764928712.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1764928712.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1764928712.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1764928712.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1764928711.webp"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 14,
   "isFeatured": false,

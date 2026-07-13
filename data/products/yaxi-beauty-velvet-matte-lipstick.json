@@ -9,11 +9,11 @@
     "Material": "Cream\r\nTexture: Velvety\r\nShade: 1"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsApp-Image-2024-11-07-at-9.38.22-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsApp-Image-2024-11-07-at-9.38.22-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsApp-Image-2024-11-07-at-9.38.21-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsApp-Image-2024-11-07-at-9.38.20-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsApp-Image-2024-11-07-at-9.38.19-PM.jpeg"
+    "/images/products/yaxi-beauty-velvet-matte-lipstick-1.jpeg",
+    "/images/products/yaxi-beauty-velvet-matte-lipstick-2.jpeg",
+    "/images/products/yaxi-beauty-velvet-matte-lipstick-3.jpeg",
+    "/images/products/yaxi-beauty-velvet-matte-lipstick-4.jpeg",
+    "/images/products/yaxi-beauty-velvet-matte-lipstick-5.jpeg"
   ],
   "inStock": true,
   "stockCount": 25,

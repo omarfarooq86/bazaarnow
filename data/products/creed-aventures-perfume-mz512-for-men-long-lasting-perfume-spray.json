@@ -22,11 +22,11 @@
     "Material": "High-quality"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-08-21T113236.228_1755758194.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756311737.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756311737.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756311736.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/YourMartProductImages(1)_1756312128.jpg"
+    "/images/products/creed-aventures-perfume-mz512-for-men-long-lasting-perfume-spray-1.webp",
+    "/images/products/creed-aventures-perfume-mz512-for-men-long-lasting-perfume-spray-2.webp",
+    "/images/products/creed-aventures-perfume-mz512-for-men-long-lasting-perfume-spray-3.webp",
+    "/images/products/creed-aventures-perfume-mz512-for-men-long-lasting-perfume-spray-4.webp",
+    "/images/products/creed-aventures-perfume-mz512-for-men-long-lasting-perfume-spray-5.jpg"
   ],
   "inStock": true,
   "stockCount": 5,

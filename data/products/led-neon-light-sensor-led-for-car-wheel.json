@@ -9,10 +9,10 @@
     "Color": "Green"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/10/WhatsApp-Image-2023-10-24-at-2.53.36-PM-1-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/10/WhatsApp-Image-2023-10-24-at-2.53.35-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/10/WhatsApp-Image-2023-10-24-at-2.53.35-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/10/WhatsApp-Image-2023-10-24-at-2.53.36-PM-3.jpeg"
+    "/images/products/led-neon-light-sensor-led-for-car-wheel-1.jpeg",
+    "/images/products/led-neon-light-sensor-led-for-car-wheel-2.jpeg",
+    "/images/products/led-neon-light-sensor-led-for-car-wheel-3.jpeg",
+    "/images/products/led-neon-light-sensor-led-for-car-wheel-4.jpeg"
   ],
   "inStock": true,
   "stockCount": 21,

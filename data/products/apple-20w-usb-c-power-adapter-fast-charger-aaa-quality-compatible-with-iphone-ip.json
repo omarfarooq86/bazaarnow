@@ -11,10 +11,10 @@
     "weight": "design"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1738323196.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1738323195.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1738323195.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1738323195.jpg"
+    "/images/products/apple-20w-usb-c-power-adapter-fast-charger-aaa-quality-compatible-with-iphone-ip-1.jpg",
+    "/images/products/apple-20w-usb-c-power-adapter-fast-charger-aaa-quality-compatible-with-iphone-ip-2.jpg",
+    "/images/products/apple-20w-usb-c-power-adapter-fast-charger-aaa-quality-compatible-with-iphone-ip-3.jpg",
+    "/images/products/apple-20w-usb-c-power-adapter-fast-charger-aaa-quality-compatible-with-iphone-ip-4.jpg"
   ],
   "inStock": true,
   "stockCount": 27,

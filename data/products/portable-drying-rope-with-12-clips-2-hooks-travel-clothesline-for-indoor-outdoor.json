@@ -11,11 +11,11 @@
     "weight": "and"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0-26_1726899773.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-27_1726899773.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-21_1726899773.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4-19_1726899773.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5-12_1726899773.jpg"
+    "/images/products/portable-drying-rope-with-12-clips-2-hooks-travel-clothesline-for-indoor-outdoor-1.jpg",
+    "/images/products/portable-drying-rope-with-12-clips-2-hooks-travel-clothesline-for-indoor-outdoor-2.jpg",
+    "/images/products/portable-drying-rope-with-12-clips-2-hooks-travel-clothesline-for-indoor-outdoor-3.jpg",
+    "/images/products/portable-drying-rope-with-12-clips-2-hooks-travel-clothesline-for-indoor-outdoor-4.jpg",
+    "/images/products/portable-drying-rope-with-12-clips-2-hooks-travel-clothesline-for-indoor-outdoor-5.jpg"
   ],
   "inStock": true,
   "stockCount": 22,

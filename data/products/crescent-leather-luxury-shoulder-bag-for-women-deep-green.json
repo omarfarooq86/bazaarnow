@@ -22,10 +22,10 @@
     "Material": "Premium"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-08-23T170411.546_1755950907.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-08-23T170423.129_1755950907.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-08-23T170432.993_1755950907.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-08-30T161038.115_1756552387.webp"
+    "/images/products/crescent-leather-luxury-shoulder-bag-for-women-deep-green-1.webp",
+    "/images/products/crescent-leather-luxury-shoulder-bag-for-women-deep-green-2.webp",
+    "/images/products/crescent-leather-luxury-shoulder-bag-for-women-deep-green-3.webp",
+    "/images/products/crescent-leather-luxury-shoulder-bag-for-women-deep-green-4.webp"
   ],
   "inStock": true,
   "stockCount": 13,

@@ -11,11 +11,11 @@
     "weight": "Made"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/-cleaningBrush_1727868200.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/multi-purpose-shoe-brush-soft-bristle-automatic-liquid-long-handle-cleaning-brush-clothes-board-brush-household-cleaning-tools-random-color-3-8_1727868200.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/multi-purpose-shoe-brush-soft-bristle-automatic-liquid-long-handle-cleaning-brush-clothes-board-brush-household-cleaning-tools-random-color-3-5_1727868200.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/multi-purpose-shoe-brush-soft-bristle-automatic-liquid-long-handle-cleaning-brush-clothes-board-brush-household-cleaning-tools-random-color-3-4_1727868200.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/multi-purpose-shoe-brush-soft-bristle-automatic-liquid-long-handle-cleaning-brush-clothes-board-brush-household-cleaning-tools-random-color-3-2_1727868200.jpg"
+    "/images/products/shoe-brush-with-liquid-dispensing-multi-purpose-cleaning-tool-1.jpg",
+    "/images/products/shoe-brush-with-liquid-dispensing-multi-purpose-cleaning-tool-2.jpg",
+    "/images/products/shoe-brush-with-liquid-dispensing-multi-purpose-cleaning-tool-3.jpg",
+    "/images/products/shoe-brush-with-liquid-dispensing-multi-purpose-cleaning-tool-4.jpg",
+    "/images/products/shoe-brush-with-liquid-dispensing-multi-purpose-cleaning-tool-5.jpg"
   ],
   "inStock": true,
   "stockCount": 10,

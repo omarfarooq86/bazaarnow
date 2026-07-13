@@ -15,8 +15,8 @@
     "Product": "Red Heart Wire String Blinds Curtain"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/04/3-12.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/04/2-20.jpeg"
+    "/images/products/red-heart-wire-string-blinds-curtain-1.jpeg",
+    "/images/products/red-heart-wire-string-blinds-curtain-2.jpeg"
   ],
   "inStock": true,
   "stockCount": 10,

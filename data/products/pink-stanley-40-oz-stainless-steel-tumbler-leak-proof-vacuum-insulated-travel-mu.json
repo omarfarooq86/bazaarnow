@@ -22,12 +22,12 @@
     "Material": "Rust-Resistant"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1757936128.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/15_1757936138.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/9_1757936131.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/10_1757936133.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8_1757936131.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/14_1757936138.jpg"
+    "/images/products/pink-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-mu-1.jpg",
+    "/images/products/pink-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-mu-2.jpg",
+    "/images/products/pink-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-mu-3.jpg",
+    "/images/products/pink-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-mu-4.jpg",
+    "/images/products/pink-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-mu-5.jpg",
+    "/images/products/pink-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-mu-6.jpg"
   ],
   "inStock": true,
   "stockCount": 17,

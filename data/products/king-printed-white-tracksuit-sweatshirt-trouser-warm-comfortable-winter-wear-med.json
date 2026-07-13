@@ -11,11 +11,11 @@
     "weight": "micro"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(67)_1761823445.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(69)_1761823446.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(68)_1761823446.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(71)_1761823445.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(70)_1761823444.webp"
+    "/images/products/king-printed-white-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-med-1.webp",
+    "/images/products/king-printed-white-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-med-2.webp",
+    "/images/products/king-printed-white-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-med-3.webp",
+    "/images/products/king-printed-white-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-med-4.webp",
+    "/images/products/king-printed-white-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-med-5.webp"
   ],
   "inStock": true,
   "stockCount": 28,

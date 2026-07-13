@@ -22,9 +22,9 @@
     "Product": "LT-11 GT 3 Smart Watch | 1.3 Touchscreen, Fitness Tracker, Heart Rate & Notifications"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1748120060.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1748120060.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1748120060.jpg"
+    "/images/products/lt-11-gt-3-smart-watch-13-touchscreen-fitness-tracker-heart-rate-notifications-1.jpg",
+    "/images/products/lt-11-gt-3-smart-watch-13-touchscreen-fitness-tracker-heart-rate-notifications-2.jpg",
+    "/images/products/lt-11-gt-3-smart-watch-13-touchscreen-fitness-tracker-heart-rate-notifications-3.jpg"
   ],
   "inStock": true,
   "stockCount": 15,

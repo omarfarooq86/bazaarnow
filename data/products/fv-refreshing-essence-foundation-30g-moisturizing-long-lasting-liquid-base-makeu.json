@@ -22,10 +22,10 @@
     "Material": "Liquid"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/FV3_1752998372.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/FV2_1752998372.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/FV1_1752998372.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/FV0_1752998371.jpg"
+    "/images/products/fv-refreshing-essence-foundation-30g-moisturizing-long-lasting-liquid-base-makeu-1.jpg",
+    "/images/products/fv-refreshing-essence-foundation-30g-moisturizing-long-lasting-liquid-base-makeu-2.jpg",
+    "/images/products/fv-refreshing-essence-foundation-30g-moisturizing-long-lasting-liquid-base-makeu-3.jpg",
+    "/images/products/fv-refreshing-essence-foundation-30g-moisturizing-long-lasting-liquid-base-makeu-4.jpg"
   ],
   "inStock": true,
   "stockCount": 27,

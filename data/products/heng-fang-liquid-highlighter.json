@@ -14,10 +14,10 @@
     "Product": "Heng Fang Liquid Highlighter"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-10-at-11.33.54-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-10-at-11.33.54-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-10-at-11.33.53-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-10-at-11.33.53-PM.jpeg"
+    "/images/products/heng-fang-liquid-highlighter-1.jpeg",
+    "/images/products/heng-fang-liquid-highlighter-2.jpeg",
+    "/images/products/heng-fang-liquid-highlighter-3.jpeg",
+    "/images/products/heng-fang-liquid-highlighter-4.jpeg"
   ],
   "inStock": true,
   "stockCount": 14,

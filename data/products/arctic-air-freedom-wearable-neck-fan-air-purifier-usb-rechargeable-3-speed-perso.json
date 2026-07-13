@@ -23,11 +23,8 @@
     "color": "included"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsApp-Image-2025-03-17-at-4.43.16-PM(1)_1746347176.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/61jCl6tqz4L._AC_SX679__1746347176.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/33_1746347175.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-3_1746347175.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-11_1746347174.jpg"
+    "/images/products/arctic-air-freedom-wearable-neck-fan-air-purifier-usb-rechargeable-3-speed-perso-4.jpg",
+    "/images/products/arctic-air-freedom-wearable-neck-fan-air-purifier-usb-rechargeable-3-speed-perso-5.jpg"
   ],
   "inStock": true,
   "stockCount": 29,

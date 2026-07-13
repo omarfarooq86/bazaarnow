@@ -22,11 +22,11 @@
     "weight": "and"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1763709761.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1763709761.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1763709760.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1763709760.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1763709760.webp"
+    "/images/products/eventone-c-skin-brightening-cream-with-l-glutathione-vitamin-c-for-radiant-even--1.webp",
+    "/images/products/eventone-c-skin-brightening-cream-with-l-glutathione-vitamin-c-for-radiant-even--2.webp",
+    "/images/products/eventone-c-skin-brightening-cream-with-l-glutathione-vitamin-c-for-radiant-even--3.webp",
+    "/images/products/eventone-c-skin-brightening-cream-with-l-glutathione-vitamin-c-for-radiant-even--4.webp",
+    "/images/products/eventone-c-skin-brightening-cream-with-l-glutathione-vitamin-c-for-radiant-even--5.webp"
   ],
   "inStock": true,
   "stockCount": 15,

@@ -23,14 +23,14 @@
     "Material": "Premium"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1758020567.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1758020567.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8_1758020570.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1758020569.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1758020569.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1758020568.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1758020568.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1758020568.jpg"
+    "/images/products/nova-nv-1290-foldable-hair-dryer-1000w-hot-air-styling-quick-drying-machine-1.jpg",
+    "/images/products/nova-nv-1290-foldable-hair-dryer-1000w-hot-air-styling-quick-drying-machine-2.jpg",
+    "/images/products/nova-nv-1290-foldable-hair-dryer-1000w-hot-air-styling-quick-drying-machine-3.jpg",
+    "/images/products/nova-nv-1290-foldable-hair-dryer-1000w-hot-air-styling-quick-drying-machine-4.jpg",
+    "/images/products/nova-nv-1290-foldable-hair-dryer-1000w-hot-air-styling-quick-drying-machine-5.jpg",
+    "/images/products/nova-nv-1290-foldable-hair-dryer-1000w-hot-air-styling-quick-drying-machine-6.jpg",
+    "/images/products/nova-nv-1290-foldable-hair-dryer-1000w-hot-air-styling-quick-drying-machine-7.jpg",
+    "/images/products/nova-nv-1290-foldable-hair-dryer-1000w-hot-air-styling-quick-drying-machine-8.jpg"
   ],
   "inStock": true,
   "stockCount": 17,

@@ -22,13 +22,7 @@
     "weight": "bottle",
     "color": "with"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1764932936.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/146_1770116550.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/145_1770116551.webp"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 6,
   "isFeatured": false,

@@ -11,12 +11,12 @@
     "Brand": "Dr."
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(33)_1761737901.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(27)_1761737904.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(28)_1761737903.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(29)_1761737903.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(30)_1761737902.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(31)_1761737902.webp"
+    "/images/products/dr-rashel-vitamin-c-brightening-anti-aging-day-cream-spf-protection-radiant-glow-1.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-anti-aging-day-cream-spf-protection-radiant-glow-2.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-anti-aging-day-cream-spf-protection-radiant-glow-3.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-anti-aging-day-cream-spf-protection-radiant-glow-4.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-anti-aging-day-cream-spf-protection-radiant-glow-5.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-anti-aging-day-cream-spf-protection-radiant-glow-6.webp"
   ],
   "inStock": true,
   "stockCount": 16,

@@ -22,11 +22,11 @@
     "Material": "Natural"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/42_1756459837.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/41_1756459837.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/40_1756459836.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/39_1756459835.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/38_1756459834.webp"
+    "/images/products/miracle-herbal-hair-oil-150ml-hair-growth-strengthening-shine-formula-1.webp",
+    "/images/products/miracle-herbal-hair-oil-150ml-hair-growth-strengthening-shine-formula-2.webp",
+    "/images/products/miracle-herbal-hair-oil-150ml-hair-growth-strengthening-shine-formula-3.webp",
+    "/images/products/miracle-herbal-hair-oil-150ml-hair-growth-strengthening-shine-formula-4.webp",
+    "/images/products/miracle-herbal-hair-oil-150ml-hair-growth-strengthening-shine-formula-5.webp"
   ],
   "inStock": true,
   "stockCount": 22,

@@ -15,10 +15,10 @@
     "Product": "Magic Hose Pipe (Random Color)"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2022/09/Magic-Hose-Pipe-copy-4.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2022/09/Magic-Hose-Pipe-copy-3.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2022/09/WhatsApp-Image-2022-09-08-at-5.45.42-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsApp-Image-2024-11-06-at-4.12.05-PM-1.jpeg"
+    "/images/products/magic-hose-pipe-random-color-1.jpeg",
+    "/images/products/magic-hose-pipe-random-color-2.jpeg",
+    "/images/products/magic-hose-pipe-random-color-3.jpeg",
+    "/images/products/magic-hose-pipe-random-color-4.jpeg"
   ],
   "inStock": true,
   "stockCount": 13,

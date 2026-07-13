@@ -23,11 +23,11 @@
     "Material": "High-quality"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/16_1762772525.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8_1762772522.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1762772521.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1762772521.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1762772521.webp"
+    "/images/products/light-green-self-adhesive-wall-mounted-luxury-soap-holder-with-lid-and-drainage--1.webp",
+    "/images/products/light-green-self-adhesive-wall-mounted-luxury-soap-holder-with-lid-and-drainage--2.webp",
+    "/images/products/light-green-self-adhesive-wall-mounted-luxury-soap-holder-with-lid-and-drainage--3.webp",
+    "/images/products/light-green-self-adhesive-wall-mounted-luxury-soap-holder-with-lid-and-drainage--4.webp",
+    "/images/products/light-green-self-adhesive-wall-mounted-luxury-soap-holder-with-lid-and-drainage--5.webp"
   ],
   "inStock": true,
   "stockCount": 7,

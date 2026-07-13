@@ -21,12 +21,7 @@
   "specifications": {
     "weight": "texture"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1763711809.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1763711808.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1763713551.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1763713551.webp"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 28,
   "isFeatured": false,

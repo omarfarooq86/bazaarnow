@@ -16,10 +16,10 @@
     "Product": "Portable Lint Remover Clothes Fuzz Shaver (Random Color)"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/01/55-11.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/01/44-14.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/01/33-15.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/01/22-15.jpg"
+    "/images/products/portable-lint-remover-clothes-fuzz-shaver-random-color-1.jpg",
+    "/images/products/portable-lint-remover-clothes-fuzz-shaver-random-color-2.jpg",
+    "/images/products/portable-lint-remover-clothes-fuzz-shaver-random-color-3.jpg",
+    "/images/products/portable-lint-remover-clothes-fuzz-shaver-random-color-4.jpg"
   ],
   "inStock": true,
   "stockCount": 28,

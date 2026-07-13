@@ -22,10 +22,10 @@
     "Material": "Premium"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/500-ml-temperature-display-indicator-insulated-stainless-steel-hot-cold-flask-bottle-random-color-2-3(1)_1726913338.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsAppImage2024-09-19at02.57.00_1727542632.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsAppImage2024-09-15at23.34.05_1727542632.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsAppImage2024-09-19at02.56.58_1727542632.jpg"
+    "/images/products/temperature-display-thermos-water-bottle-500ml-stainless-steel-insulated-hot-and-1.jpg",
+    "/images/products/temperature-display-thermos-water-bottle-500ml-stainless-steel-insulated-hot-and-2.jpg",
+    "/images/products/temperature-display-thermos-water-bottle-500ml-stainless-steel-insulated-hot-and-3.jpg",
+    "/images/products/temperature-display-thermos-water-bottle-500ml-stainless-steel-insulated-hot-and-4.jpg"
   ],
   "inStock": true,
   "stockCount": 19,

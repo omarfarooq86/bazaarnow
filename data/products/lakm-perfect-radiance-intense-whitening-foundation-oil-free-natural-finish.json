@@ -19,12 +19,7 @@
   "specifications": {
     "weight": "foundation"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 8,
   "isFeatured": false,

@@ -23,11 +23,8 @@
     "Material": "Natural"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/77_1756457709.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/76_1756457708.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright"
+    "/images/products/haya-herbal-beauty-cream-30gm-brightening-glow-formula-for-radiant-skin-1.webp",
+    "/images/products/haya-herbal-beauty-cream-30gm-brightening-glow-formula-for-radiant-skin-2.webp"
   ],
   "inStock": true,
   "stockCount": 5,

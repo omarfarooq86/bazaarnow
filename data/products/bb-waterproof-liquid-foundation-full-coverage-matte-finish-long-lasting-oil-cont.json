@@ -11,9 +11,9 @@
     "weight": "&"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1738661457.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1738661457.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1738661457.jpg"
+    "/images/products/bb-waterproof-liquid-foundation-full-coverage-matte-finish-long-lasting-oil-cont-1.jpg",
+    "/images/products/bb-waterproof-liquid-foundation-full-coverage-matte-finish-long-lasting-oil-cont-2.jpg",
+    "/images/products/bb-waterproof-liquid-foundation-full-coverage-matte-finish-long-lasting-oil-cont-3.jpg"
   ],
   "inStock": true,
   "stockCount": 9,

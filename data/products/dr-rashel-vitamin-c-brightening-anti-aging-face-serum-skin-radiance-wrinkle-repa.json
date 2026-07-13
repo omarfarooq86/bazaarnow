@@ -11,11 +11,11 @@
     "weight": "serum"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(52)_1761810269.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(48)_1761810272.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(47)_1761810272.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(46)_1761810271.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(45)_1761810271.webp"
+    "/images/products/dr-rashel-vitamin-c-brightening-anti-aging-face-serum-skin-radiance-wrinkle-repa-1.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-anti-aging-face-serum-skin-radiance-wrinkle-repa-2.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-anti-aging-face-serum-skin-radiance-wrinkle-repa-3.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-anti-aging-face-serum-skin-radiance-wrinkle-repa-4.webp",
+    "/images/products/dr-rashel-vitamin-c-brightening-anti-aging-face-serum-skin-radiance-wrinkle-repa-5.webp"
   ],
   "inStock": true,
   "stockCount": 6,

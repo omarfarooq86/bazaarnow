@@ -11,11 +11,11 @@
     "Model": "P47"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0-8_1726907242.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-6_1726907242.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-8_1726907242.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4-4_1726907242.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5-5_1726907242.jpg"
+    "/images/products/p47-wireless-headphones-bluetooth-foldable-headset-stereo-sound-fm-radio-tf-card-1.jpg",
+    "/images/products/p47-wireless-headphones-bluetooth-foldable-headset-stereo-sound-fm-radio-tf-card-2.jpg",
+    "/images/products/p47-wireless-headphones-bluetooth-foldable-headset-stereo-sound-fm-radio-tf-card-3.jpg",
+    "/images/products/p47-wireless-headphones-bluetooth-foldable-headset-stereo-sound-fm-radio-tf-card-4.jpg",
+    "/images/products/p47-wireless-headphones-bluetooth-foldable-headset-stereo-sound-fm-radio-tf-card-5.jpg"
   ],
   "inStock": true,
   "stockCount": 27,

@@ -22,11 +22,11 @@
     "weight": "lotion"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1762802566.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1762802565.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1762802565.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1762802565.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1762802564.webp"
+    "/images/products/dermive-sensitive-moisturizing-lotion-100ml-1.webp",
+    "/images/products/dermive-sensitive-moisturizing-lotion-100ml-2.webp",
+    "/images/products/dermive-sensitive-moisturizing-lotion-100ml-3.webp",
+    "/images/products/dermive-sensitive-moisturizing-lotion-100ml-4.webp",
+    "/images/products/dermive-sensitive-moisturizing-lotion-100ml-5.webp"
   ],
   "inStock": true,
   "stockCount": 19,

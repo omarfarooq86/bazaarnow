@@ -21,12 +21,7 @@
   "specifications": {
     "Product": "Umrah Saving Box"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/a_1745946572.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/b_1745946573.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/c_1745946577.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/d_1745946579.jpg"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 22,
   "isFeatured": false,

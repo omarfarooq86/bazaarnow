@@ -11,11 +11,11 @@
     "Model": "AirPods"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1726904892.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4-2_1726904892.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-4_1726904892.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-6_1726904892.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/AirpodANCpro2_1727597530.jpg"
+    "/images/products/airpods-pro-2-wireless-earbuds-with-anc-technology-super-bass-bluetooth-pop-up-f-1.jpg",
+    "/images/products/airpods-pro-2-wireless-earbuds-with-anc-technology-super-bass-bluetooth-pop-up-f-2.jpg",
+    "/images/products/airpods-pro-2-wireless-earbuds-with-anc-technology-super-bass-bluetooth-pop-up-f-3.jpg",
+    "/images/products/airpods-pro-2-wireless-earbuds-with-anc-technology-super-bass-bluetooth-pop-up-f-4.jpg",
+    "/images/products/airpods-pro-2-wireless-earbuds-with-anc-technology-super-bass-bluetooth-pop-up-f-5.jpg"
   ],
   "inStock": true,
   "stockCount": 5,

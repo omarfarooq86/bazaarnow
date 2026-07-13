@@ -11,12 +11,12 @@
     "material": "Durable,"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4-18_1726843700.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5-11_1726843700.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3-19_1726843700.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-23_1726843700.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0-23_1726843700.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-23_1726843700.jpg"
+    "/images/products/5-grid-multipurpose-divider-storage-box-cosmetic-jewelry-kitchen-organizer-rando-1.jpg",
+    "/images/products/5-grid-multipurpose-divider-storage-box-cosmetic-jewelry-kitchen-organizer-rando-2.jpg",
+    "/images/products/5-grid-multipurpose-divider-storage-box-cosmetic-jewelry-kitchen-organizer-rando-3.jpg",
+    "/images/products/5-grid-multipurpose-divider-storage-box-cosmetic-jewelry-kitchen-organizer-rando-4.jpg",
+    "/images/products/5-grid-multipurpose-divider-storage-box-cosmetic-jewelry-kitchen-organizer-rando-5.jpg",
+    "/images/products/5-grid-multipurpose-divider-storage-box-cosmetic-jewelry-kitchen-organizer-rando-6.jpg"
   ],
   "inStock": true,
   "stockCount": 13,

@@ -23,11 +23,10 @@
     "color": "with"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1764932937.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1764932935.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/152_1770115779.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/151_1770115779.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright"
+    "/images/products/black-stylish-water-sport-bottle-1000ml-with-straw-leakproof-bpa-free-hydration--1.webp",
+    "/images/products/black-stylish-water-sport-bottle-1000ml-with-straw-leakproof-bpa-free-hydration--2.webp",
+    "/images/products/black-stylish-water-sport-bottle-1000ml-with-straw-leakproof-bpa-free-hydration--3.webp",
+    "/images/products/black-stylish-water-sport-bottle-1000ml-with-straw-leakproof-bpa-free-hydration--4.webp"
   ],
   "inStock": true,
   "stockCount": 10,

@@ -22,13 +22,13 @@
     "Material": "Premium"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1755889878.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1755889880.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1755889879.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1755889878.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/67_1757933386.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/68_1757933386.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/70_1757933387.jpg"
+    "/images/products/bleu-de-chanel-eau-de-parfum-spray-long-lasting-perfume-100ml-1.webp",
+    "/images/products/bleu-de-chanel-eau-de-parfum-spray-long-lasting-perfume-100ml-2.webp",
+    "/images/products/bleu-de-chanel-eau-de-parfum-spray-long-lasting-perfume-100ml-3.webp",
+    "/images/products/bleu-de-chanel-eau-de-parfum-spray-long-lasting-perfume-100ml-4.webp",
+    "/images/products/bleu-de-chanel-eau-de-parfum-spray-long-lasting-perfume-100ml-5.jpg",
+    "/images/products/bleu-de-chanel-eau-de-parfum-spray-long-lasting-perfume-100ml-6.jpg",
+    "/images/products/bleu-de-chanel-eau-de-parfum-spray-long-lasting-perfume-100ml-7.jpg"
   ],
   "inStock": true,
   "stockCount": 9,

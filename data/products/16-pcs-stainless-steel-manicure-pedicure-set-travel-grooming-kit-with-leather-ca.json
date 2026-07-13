@@ -23,10 +23,10 @@
     "Color": "coating,"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Products800x800_1751524167.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Products800x800(3)_1751524167.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Products800x800(2)_1751524166.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Products800x800(1)_1751524166.jpg"
+    "/images/products/16-pcs-stainless-steel-manicure-pedicure-set-travel-grooming-kit-with-leather-ca-1.jpg",
+    "/images/products/16-pcs-stainless-steel-manicure-pedicure-set-travel-grooming-kit-with-leather-ca-2.jpg",
+    "/images/products/16-pcs-stainless-steel-manicure-pedicure-set-travel-grooming-kit-with-leather-ca-3.jpg",
+    "/images/products/16-pcs-stainless-steel-manicure-pedicure-set-travel-grooming-kit-with-leather-ca-4.jpg"
   ],
   "inStock": true,
   "stockCount": 14,

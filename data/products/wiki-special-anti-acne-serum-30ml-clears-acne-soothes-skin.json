@@ -22,10 +22,10 @@
     "Material": "Active"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1755635607.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1755635606.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1755635606.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1755635607.webp"
+    "/images/products/wiki-special-anti-acne-serum-30ml-clears-acne-soothes-skin-1.webp",
+    "/images/products/wiki-special-anti-acne-serum-30ml-clears-acne-soothes-skin-2.webp",
+    "/images/products/wiki-special-anti-acne-serum-30ml-clears-acne-soothes-skin-3.webp",
+    "/images/products/wiki-special-anti-acne-serum-30ml-clears-acne-soothes-skin-4.webp"
   ],
   "inStock": true,
   "stockCount": 19,

@@ -10,15 +10,7 @@
   "specifications": {
     "color": "Acrylic"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-12-04T180134.218_1764853848.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-12-04T180201.431_1764853847.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-12-04T180156.154_1764853847.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-12-04T180141.925_1764853849.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-12-04T180147.350_1764853848.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-12-04T180211.695_1764853847.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-12-04T180126.977_1764853848.webp"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 20,
   "isFeatured": false,

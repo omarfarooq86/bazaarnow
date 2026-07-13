@@ -11,9 +11,9 @@
     "Product": "Valam Naturals Chia Seeds"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/10/16/80721ad8ef29ebbfb289b83ff0676a6f.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/10/16/c075d9c437d8299b4e38df1ab9041333.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/10/16/090d235110265c4227d54324bb867fc1.jpeg"
+    "/images/products/valam-naturals-chia-seeds-100-pure-clean-nutrient-rich-superfood-1.jpeg",
+    "/images/products/valam-naturals-chia-seeds-100-pure-clean-nutrient-rich-superfood-2.jpeg",
+    "/images/products/valam-naturals-chia-seeds-100-pure-clean-nutrient-rich-superfood-3.jpeg"
   ],
   "inStock": true,
   "stockCount": 6,

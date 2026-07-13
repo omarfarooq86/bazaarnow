@@ -22,10 +22,9 @@
     "weight": "cream"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1763462874.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1763462873.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1763462873.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright"
+    "/images/products/zafrani-beauty-cream-anti-acne-freckle-dark-circle-extra-whitening-glow-1.webp",
+    "/images/products/zafrani-beauty-cream-anti-acne-freckle-dark-circle-extra-whitening-glow-2.webp",
+    "/images/products/zafrani-beauty-cream-anti-acne-freckle-dark-circle-extra-whitening-glow-3.webp"
   ],
   "inStock": true,
   "stockCount": 15,

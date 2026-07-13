@@ -11,10 +11,9 @@
     "Material": "High-quality"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Screenshot2024-11-22at10.27.55 PM_1732296627.png",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/IMG-20241028-WA0105_540x_1733156297.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsApp-Image-2024-11-18-at-6.58.39-PM_1733156297.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsApp-Image-2024-11-06-at-4.18.28-PM(1)_1733156297.jpg"
+    "/images/products/electric-water-heating-rod-2000w-safe-shockproof-fast-water-heater-with-box-2.webp",
+    "/images/products/electric-water-heating-rod-2000w-safe-shockproof-fast-water-heater-with-box-3.jpg",
+    "/images/products/electric-water-heating-rod-2000w-safe-shockproof-fast-water-heater-with-box-4.jpg"
   ],
   "inStock": true,
   "stockCount": 24,

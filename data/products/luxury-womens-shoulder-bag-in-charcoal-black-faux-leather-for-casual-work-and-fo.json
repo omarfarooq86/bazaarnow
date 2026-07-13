@@ -22,10 +22,10 @@
     "Material": "Premium"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1758780285.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1758780285.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1758780285.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1758780285.webp"
+    "/images/products/luxury-womens-shoulder-bag-in-charcoal-black-faux-leather-for-casual-work-and-fo-1.webp",
+    "/images/products/luxury-womens-shoulder-bag-in-charcoal-black-faux-leather-for-casual-work-and-fo-2.webp",
+    "/images/products/luxury-womens-shoulder-bag-in-charcoal-black-faux-leather-for-casual-work-and-fo-3.webp",
+    "/images/products/luxury-womens-shoulder-bag-in-charcoal-black-faux-leather-for-casual-work-and-fo-4.webp"
   ],
   "inStock": true,
   "stockCount": 24,

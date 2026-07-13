@@ -24,12 +24,12 @@
     "Material": "Durable"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1759828184.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1759828184.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1759828183.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1759828184.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1759828183.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1759828184.webp"
+    "/images/products/xingchao-lint-remover-ad-218-pink-white-portable-fabric-shaver-usb-rechargeable--1.webp",
+    "/images/products/xingchao-lint-remover-ad-218-pink-white-portable-fabric-shaver-usb-rechargeable--2.webp",
+    "/images/products/xingchao-lint-remover-ad-218-pink-white-portable-fabric-shaver-usb-rechargeable--3.webp",
+    "/images/products/xingchao-lint-remover-ad-218-pink-white-portable-fabric-shaver-usb-rechargeable--4.webp",
+    "/images/products/xingchao-lint-remover-ad-218-pink-white-portable-fabric-shaver-usb-rechargeable--5.webp",
+    "/images/products/xingchao-lint-remover-ad-218-pink-white-portable-fabric-shaver-usb-rechargeable--6.webp"
   ],
   "inStock": true,
   "stockCount": 23,

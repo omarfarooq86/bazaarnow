@@ -15,10 +15,10 @@
     "Product": "Fruit Pacifier/ Fresh Fruit Food Baby , Feeding Safe Fruit Feeder ( Random Color )"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/0-8.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/1-82.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/2-52.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/3-30.jpg"
+    "/images/products/fruit-pacifier-fresh-fruit-food-baby-feeding-safe-fruit-feeder-random-color-1.jpg",
+    "/images/products/fruit-pacifier-fresh-fruit-food-baby-feeding-safe-fruit-feeder-random-color-2.jpg",
+    "/images/products/fruit-pacifier-fresh-fruit-food-baby-feeding-safe-fruit-feeder-random-color-3.jpg",
+    "/images/products/fruit-pacifier-fresh-fruit-food-baby-feeding-safe-fruit-feeder-random-color-4.jpg"
   ],
   "inStock": true,
   "stockCount": 26,

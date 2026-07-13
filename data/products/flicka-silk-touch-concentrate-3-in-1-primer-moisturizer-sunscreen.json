@@ -22,11 +22,11 @@
     "weight": "milk-cream"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/SilkTouchPrimer_6_52f40270-fa03-41e1-af99-f2760e24608f_1766657052.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/SilkTouchPrimer_4_2a14d96c-731f-46af-8161-b08c73d2cfe9_1766657052.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/SilkTouchPrimer_2_1cde5be9-b056-4449-9744-a1b6b262d92c_1766657051.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Product800x800_1766657051.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/68_1766657051.webp"
+    "/images/products/flicka-silk-touch-concentrate-3-in-1-primer-moisturizer-sunscreen-1.webp",
+    "/images/products/flicka-silk-touch-concentrate-3-in-1-primer-moisturizer-sunscreen-2.webp",
+    "/images/products/flicka-silk-touch-concentrate-3-in-1-primer-moisturizer-sunscreen-3.webp",
+    "/images/products/flicka-silk-touch-concentrate-3-in-1-primer-moisturizer-sunscreen-4.webp",
+    "/images/products/flicka-silk-touch-concentrate-3-in-1-primer-moisturizer-sunscreen-5.webp"
   ],
   "inStock": true,
   "stockCount": 25,

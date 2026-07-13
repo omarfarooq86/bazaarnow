@@ -23,14 +23,14 @@
     "Material": "Tritan"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/10_1756133496.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/9_1756133496.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8_1756133496.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1756133496.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1756133496.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756133495.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756133495.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756133495.webp"
+    "/images/products/bus-shape-school-water-bottle-500ml-with-strap-cute-leak-proof-random-color-1.webp",
+    "/images/products/bus-shape-school-water-bottle-500ml-with-strap-cute-leak-proof-random-color-2.webp",
+    "/images/products/bus-shape-school-water-bottle-500ml-with-strap-cute-leak-proof-random-color-3.webp",
+    "/images/products/bus-shape-school-water-bottle-500ml-with-strap-cute-leak-proof-random-color-4.webp",
+    "/images/products/bus-shape-school-water-bottle-500ml-with-strap-cute-leak-proof-random-color-5.webp",
+    "/images/products/bus-shape-school-water-bottle-500ml-with-strap-cute-leak-proof-random-color-6.webp",
+    "/images/products/bus-shape-school-water-bottle-500ml-with-strap-cute-leak-proof-random-color-7.webp",
+    "/images/products/bus-shape-school-water-bottle-500ml-with-strap-cute-leak-proof-random-color-8.webp"
   ],
   "inStock": true,
   "stockCount": 26,

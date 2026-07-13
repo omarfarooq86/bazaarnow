@@ -11,13 +11,11 @@
     "Model": "Instant"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign-2025-12-27T152322.033_1766831230.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign-2025-12-27T152334.539_1766831230.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign-2025-12-27T152327.879_1766831229.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign-2025-12-27T152312.269_1766831230.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Untitleddesign-2025-12-27T152339.529_1766831229.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-28T180239.314_1764335574.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-28T180303.866_1764335573.webp"
+    "/images/products/premium-electric-instant-heating-faucet-digital-temperature-display-metal-handle-1.webp",
+    "/images/products/premium-electric-instant-heating-faucet-digital-temperature-display-metal-handle-2.webp",
+    "/images/products/premium-electric-instant-heating-faucet-digital-temperature-display-metal-handle-3.webp",
+    "/images/products/premium-electric-instant-heating-faucet-digital-temperature-display-metal-handle-4.webp",
+    "/images/products/premium-electric-instant-heating-faucet-digital-temperature-display-metal-handle-5.webp"
   ],
   "inStock": true,
   "stockCount": 17,

@@ -11,12 +11,12 @@
     "Material": "304"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/67085883-5768-4655-8d12-a82b6fadbdde_1737798357.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/bf7339f2-7764-4321-acfb-14b7301e0e47_640x_1737798355.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4870047e-ace9-4c41-a535-7fb5ceb71989_1737798356.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsAppImage2023-09-21at6.26.05PM_1737798355.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/a00f1b8f17dfa0301e42b21210dc239d_1737798356.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/380ml-510ml-Smart-Thermos-Bottle-for-Coffee-LED-Temperature-Display-Thermal-Mug-Insulated-Tumbler-taza-termica.jpg_Q90-1-510x510_1737798356.webp"
+    "/images/products/smart-temperature-coffee-mug-17oz-insulated-stainless-steel-travel-mug-with-leak-1.webp",
+    "/images/products/smart-temperature-coffee-mug-17oz-insulated-stainless-steel-travel-mug-with-leak-2.webp",
+    "/images/products/smart-temperature-coffee-mug-17oz-insulated-stainless-steel-travel-mug-with-leak-3.webp",
+    "/images/products/smart-temperature-coffee-mug-17oz-insulated-stainless-steel-travel-mug-with-leak-4.webp",
+    "/images/products/smart-temperature-coffee-mug-17oz-insulated-stainless-steel-travel-mug-with-leak-5.webp",
+    "/images/products/smart-temperature-coffee-mug-17oz-insulated-stainless-steel-travel-mug-with-leak-6.webp"
   ],
   "inStock": true,
   "stockCount": 18,

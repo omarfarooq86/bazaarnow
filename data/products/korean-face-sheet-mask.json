@@ -14,9 +14,9 @@
     "Material": "Synthetic\r\n• Product Feature: Hydrating"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-11-at-4.17.54-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-11-at-4.17.54-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-11-at-4.17.53-PM-1.jpeg"
+    "/images/products/korean-face-sheet-mask-1.jpeg",
+    "/images/products/korean-face-sheet-mask-2.jpeg",
+    "/images/products/korean-face-sheet-mask-3.jpeg"
   ],
   "inStock": true,
   "stockCount": 13,

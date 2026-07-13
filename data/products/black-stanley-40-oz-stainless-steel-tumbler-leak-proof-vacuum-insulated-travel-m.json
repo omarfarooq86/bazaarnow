@@ -22,13 +22,13 @@
     "Material": "Rust-Resistant"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1757936126.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1757936129.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1757936129.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1757936140.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1757936141.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1757936141.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1757936128.jpg"
+    "/images/products/black-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-m-1.jpg",
+    "/images/products/black-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-m-2.jpg",
+    "/images/products/black-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-m-3.jpg",
+    "/images/products/black-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-m-4.jpg",
+    "/images/products/black-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-m-5.jpg",
+    "/images/products/black-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-m-6.jpg",
+    "/images/products/black-stanley-40-oz-stainless-steel-tumbler-leak-proof-vacuum-insulated-travel-m-7.jpg"
   ],
   "inStock": true,
   "stockCount": 23,

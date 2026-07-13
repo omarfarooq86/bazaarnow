@@ -11,11 +11,11 @@
     "Color": "—"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1738316991.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1738316991.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1738316990.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1738316990.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1738316989.jpg"
+    "/images/products/jbl-m3-mini-portable-bluetooth-speaker-compact-wireless-speaker-powerful-bass-lo-1.jpg",
+    "/images/products/jbl-m3-mini-portable-bluetooth-speaker-compact-wireless-speaker-powerful-bass-lo-2.jpg",
+    "/images/products/jbl-m3-mini-portable-bluetooth-speaker-compact-wireless-speaker-powerful-bass-lo-3.jpg",
+    "/images/products/jbl-m3-mini-portable-bluetooth-speaker-compact-wireless-speaker-powerful-bass-lo-4.jpg",
+    "/images/products/jbl-m3-mini-portable-bluetooth-speaker-compact-wireless-speaker-powerful-bass-lo-5.jpg"
   ],
   "inStock": true,
   "stockCount": 25,

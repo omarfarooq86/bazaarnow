@@ -11,10 +11,10 @@
     "weight": "and"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsApp-Image-2024-05-28-at-1.46.05-PM-1-600x617-1_1726836697.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsApp-Image-2022-09-08-at-5.45.42-PM-600x600-1_1726836697.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Magic-Hose-Pipe-copy-4_1726836697.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Magic-Hose-Pipe-copy-3_1726836697.jpg"
+    "/images/products/magic-expandable-hose-pipe-50ft-lightweight-tangle-free-7-mode-spray-gun-1.jpg",
+    "/images/products/magic-expandable-hose-pipe-50ft-lightweight-tangle-free-7-mode-spray-gun-2.jpg",
+    "/images/products/magic-expandable-hose-pipe-50ft-lightweight-tangle-free-7-mode-spray-gun-3.jpg",
+    "/images/products/magic-expandable-hose-pipe-50ft-lightweight-tangle-free-7-mode-spray-gun-4.jpg"
   ],
   "inStock": true,
   "stockCount": 7,

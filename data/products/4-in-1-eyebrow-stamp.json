@@ -12,11 +12,11 @@
     "Product": "4 in 1 eyebrow stamp"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-07-at-10.26.58-PM-2.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-07-at-10.26.58-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-07-at-10.26.58-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-07-at-10.26.57-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-07-at-10.26.57-PM.jpeg"
+    "/images/products/4-in-1-eyebrow-stamp-1.jpeg",
+    "/images/products/4-in-1-eyebrow-stamp-2.jpeg",
+    "/images/products/4-in-1-eyebrow-stamp-3.jpeg",
+    "/images/products/4-in-1-eyebrow-stamp-4.jpeg",
+    "/images/products/4-in-1-eyebrow-stamp-5.jpeg"
   ],
   "inStock": true,
   "stockCount": 17,

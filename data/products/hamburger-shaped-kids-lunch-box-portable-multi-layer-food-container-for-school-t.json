@@ -11,13 +11,13 @@
     "weight": "build"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Product'sPictures(9)_1776767982.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Product'sPictures(10)_1776767982.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Product'sPictures(6)_1776767983.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Product'sPictures(7)_1776767983.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Product'sPictures(8)_1776767983.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Product'sPictures(11)_1776767981.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Product'sPictures(12)_1776767982.webp"
+    "/images/products/hamburger-shaped-kids-lunch-box-portable-multi-layer-food-container-for-school-t-1.webp",
+    "/images/products/hamburger-shaped-kids-lunch-box-portable-multi-layer-food-container-for-school-t-2.webp",
+    "/images/products/hamburger-shaped-kids-lunch-box-portable-multi-layer-food-container-for-school-t-3.webp",
+    "/images/products/hamburger-shaped-kids-lunch-box-portable-multi-layer-food-container-for-school-t-4.webp",
+    "/images/products/hamburger-shaped-kids-lunch-box-portable-multi-layer-food-container-for-school-t-5.webp",
+    "/images/products/hamburger-shaped-kids-lunch-box-portable-multi-layer-food-container-for-school-t-6.webp",
+    "/images/products/hamburger-shaped-kids-lunch-box-portable-multi-layer-food-container-for-school-t-7.webp"
   ],
   "inStock": true,
   "stockCount": 23,

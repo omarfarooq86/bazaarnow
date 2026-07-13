@@ -12,11 +12,11 @@
     "Product": "Stanley Tumblers"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/25/32fe5c7bd7203f65187002784612ddc2.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/25/e68513170ba18b9e65b75fdbcba07f89.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/25/752035f15ce6e963bced00e4f09e3a1a.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/25/ce2b1d1a1ffdb58b94d7b7f7448f5d74.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/25/5974160518b62b582fa3ba29655b4aff.jpeg"
+    "/images/products/stanley-tumblers-perfect-for-every-sip-every-adventure-1.jpeg",
+    "/images/products/stanley-tumblers-perfect-for-every-sip-every-adventure-2.jpeg",
+    "/images/products/stanley-tumblers-perfect-for-every-sip-every-adventure-3.jpeg",
+    "/images/products/stanley-tumblers-perfect-for-every-sip-every-adventure-4.jpeg",
+    "/images/products/stanley-tumblers-perfect-for-every-sip-every-adventure-5.jpeg"
   ],
   "inStock": true,
   "stockCount": 14,

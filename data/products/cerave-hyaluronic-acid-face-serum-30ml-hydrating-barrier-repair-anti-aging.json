@@ -22,9 +22,9 @@
     "Material": "Hyaluronic"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/s2_1753004951.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/s1_1753004951.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Productimages_1753005053.jpg"
+    "/images/products/cerave-hyaluronic-acid-face-serum-30ml-hydrating-barrier-repair-anti-aging-1.jpg",
+    "/images/products/cerave-hyaluronic-acid-face-serum-30ml-hydrating-barrier-repair-anti-aging-2.jpg",
+    "/images/products/cerave-hyaluronic-acid-face-serum-30ml-hydrating-barrier-repair-anti-aging-3.jpg"
   ],
   "inStock": true,
   "stockCount": 23,

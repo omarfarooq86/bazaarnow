@@ -23,11 +23,11 @@
     "Material": "ABS"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1756139834.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1756139834.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756139833.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756139833.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756139832.webp"
+    "/images/products/dunlandi-24v-cordless-drill-machine-set-2-batteries-complete-diy-tool-kit-1.webp",
+    "/images/products/dunlandi-24v-cordless-drill-machine-set-2-batteries-complete-diy-tool-kit-2.webp",
+    "/images/products/dunlandi-24v-cordless-drill-machine-set-2-batteries-complete-diy-tool-kit-3.webp",
+    "/images/products/dunlandi-24v-cordless-drill-machine-set-2-batteries-complete-diy-tool-kit-4.webp",
+    "/images/products/dunlandi-24v-cordless-drill-machine-set-2-batteries-complete-diy-tool-kit-5.webp"
   ],
   "inStock": true,
   "stockCount": 9,

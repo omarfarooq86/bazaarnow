@@ -11,9 +11,9 @@
     "Product": "Elegant Pack Of 10 Rings"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/09/WhatsApp-Image-2023-09-11-at-12.18.36-AM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/09/WhatsApp-Image-2023-09-11-at-12.18.35-AM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/09/WhatsApp-Image-2023-09-11-at-12.18.35-AM.jpeg"
+    "/images/products/elegant-pack-of-10-rings-1.jpeg",
+    "/images/products/elegant-pack-of-10-rings-2.jpeg",
+    "/images/products/elegant-pack-of-10-rings-3.jpeg"
   ],
   "inStock": true,
   "stockCount": 23,

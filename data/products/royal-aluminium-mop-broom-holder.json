@@ -11,10 +11,10 @@
     "Product": "Royal Aluminium Mop & Broom Holder"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/14/eb021e135876c741ababfeb6e1b82dd7.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/14/9b4f5d85d2cc0471018d1347828d211c.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/14/c3de3d171c661430c4cfef59aa5e3c6e.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/14/76aa448d0278ffc08a5f830532b918c0.jpg"
+    "/images/products/royal-aluminium-mop-broom-holder-1.png",
+    "/images/products/royal-aluminium-mop-broom-holder-2.png",
+    "/images/products/royal-aluminium-mop-broom-holder-3.jpg",
+    "/images/products/royal-aluminium-mop-broom-holder-4.jpg"
   ],
   "inStock": true,
   "stockCount": 13,

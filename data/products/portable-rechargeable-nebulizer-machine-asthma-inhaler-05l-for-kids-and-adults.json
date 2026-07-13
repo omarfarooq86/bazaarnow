@@ -22,12 +22,12 @@
     "weight": "at"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1749917994.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1749917994.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1749917994.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1749917994.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1749917994.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1749917993.jpg"
+    "/images/products/portable-rechargeable-nebulizer-machine-asthma-inhaler-05l-for-kids-and-adults-1.jpg",
+    "/images/products/portable-rechargeable-nebulizer-machine-asthma-inhaler-05l-for-kids-and-adults-2.jpg",
+    "/images/products/portable-rechargeable-nebulizer-machine-asthma-inhaler-05l-for-kids-and-adults-3.jpg",
+    "/images/products/portable-rechargeable-nebulizer-machine-asthma-inhaler-05l-for-kids-and-adults-4.jpg",
+    "/images/products/portable-rechargeable-nebulizer-machine-asthma-inhaler-05l-for-kids-and-adults-5.jpg",
+    "/images/products/portable-rechargeable-nebulizer-machine-asthma-inhaler-05l-for-kids-and-adults-6.jpg"
   ],
   "inStock": true,
   "stockCount": 20,

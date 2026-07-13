@@ -24,13 +24,13 @@
     "Material": "High-carbon"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1756135163.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1756135163.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1756135162.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1756135162.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756135162.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756135161.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756135161.webp"
+    "/images/products/transparent-lcd-electric-hair-trimmer-usb-rechargeable-professional-grooming-1.webp",
+    "/images/products/transparent-lcd-electric-hair-trimmer-usb-rechargeable-professional-grooming-2.webp",
+    "/images/products/transparent-lcd-electric-hair-trimmer-usb-rechargeable-professional-grooming-3.webp",
+    "/images/products/transparent-lcd-electric-hair-trimmer-usb-rechargeable-professional-grooming-4.webp",
+    "/images/products/transparent-lcd-electric-hair-trimmer-usb-rechargeable-professional-grooming-5.webp",
+    "/images/products/transparent-lcd-electric-hair-trimmer-usb-rechargeable-professional-grooming-6.webp",
+    "/images/products/transparent-lcd-electric-hair-trimmer-usb-rechargeable-professional-grooming-7.webp"
   ],
   "inStock": true,
   "stockCount": 17,

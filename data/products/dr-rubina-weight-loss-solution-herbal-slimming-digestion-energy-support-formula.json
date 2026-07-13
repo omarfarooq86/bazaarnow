@@ -23,11 +23,11 @@
     "weight": "management"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/9_1758021308.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/10_1758021308.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/11_1758021309.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/12_1758021309.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/13_1758021310.jpg"
+    "/images/products/dr-rubina-weight-loss-solution-herbal-slimming-digestion-energy-support-formula-1.jpg",
+    "/images/products/dr-rubina-weight-loss-solution-herbal-slimming-digestion-energy-support-formula-2.jpg",
+    "/images/products/dr-rubina-weight-loss-solution-herbal-slimming-digestion-energy-support-formula-3.jpg",
+    "/images/products/dr-rubina-weight-loss-solution-herbal-slimming-digestion-energy-support-formula-4.jpg",
+    "/images/products/dr-rubina-weight-loss-solution-herbal-slimming-digestion-energy-support-formula-5.jpg"
   ],
   "inStock": true,
   "stockCount": 9,

@@ -22,10 +22,10 @@
     "Material": "Premium"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1758779758.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1758779758.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1758779758.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1758779758.jpg"
+    "/images/products/luxury-womens-shoulder-bag-in-pink-faux-leather-for-casual-work-and-formal-use-1.jpg",
+    "/images/products/luxury-womens-shoulder-bag-in-pink-faux-leather-for-casual-work-and-formal-use-2.jpg",
+    "/images/products/luxury-womens-shoulder-bag-in-pink-faux-leather-for-casual-work-and-formal-use-3.jpg",
+    "/images/products/luxury-womens-shoulder-bag-in-pink-faux-leather-for-casual-work-and-formal-use-4.jpg"
   ],
   "inStock": true,
   "stockCount": 10,

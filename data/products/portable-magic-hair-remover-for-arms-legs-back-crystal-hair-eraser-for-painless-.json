@@ -11,9 +11,9 @@
     "color": "variation"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0-4_1726903967.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-2_1726903967.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-4_1726903967.jpg"
+    "/images/products/portable-magic-hair-remover-for-arms-legs-back-crystal-hair-eraser-for-painless--1.jpg",
+    "/images/products/portable-magic-hair-remover-for-arms-legs-back-crystal-hair-eraser-for-painless--2.jpg",
+    "/images/products/portable-magic-hair-remover-for-arms-legs-back-crystal-hair-eraser-for-painless--3.jpg"
   ],
   "inStock": true,
   "stockCount": 20,

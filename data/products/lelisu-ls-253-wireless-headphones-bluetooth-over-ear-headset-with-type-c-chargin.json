@@ -22,10 +22,10 @@
     "Material": "ABS"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/75_1756463953.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/74_1756463953.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/73_1756463952.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/72_1756463951.webp"
+    "/images/products/lelisu-ls-253-wireless-headphones-bluetooth-over-ear-headset-with-type-c-chargin-1.webp",
+    "/images/products/lelisu-ls-253-wireless-headphones-bluetooth-over-ear-headset-with-type-c-chargin-2.webp",
+    "/images/products/lelisu-ls-253-wireless-headphones-bluetooth-over-ear-headset-with-type-c-chargin-3.webp",
+    "/images/products/lelisu-ls-253-wireless-headphones-bluetooth-over-ear-headset-with-type-c-chargin-4.webp"
   ],
   "inStock": true,
   "stockCount": 15,

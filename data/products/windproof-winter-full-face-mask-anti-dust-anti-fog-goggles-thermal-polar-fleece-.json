@@ -11,10 +11,9 @@
     "Material": "Polar"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/s-l960-2_1733384118.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/H8450002fb2c745328a64c1d7cf134188Q_1733384795.avif",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2020112709173768059_1733384795.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/s-l960-2_1733384795.webp"
+    "/images/products/windproof-winter-full-face-mask-anti-dust-anti-fog-goggles-thermal-polar-fleece--1.webp",
+    "/images/products/windproof-winter-full-face-mask-anti-dust-anti-fog-goggles-thermal-polar-fleece--3.webp",
+    "/images/products/windproof-winter-full-face-mask-anti-dust-anti-fog-goggles-thermal-polar-fleece--4.webp"
   ],
   "inStock": true,
   "stockCount": 6,

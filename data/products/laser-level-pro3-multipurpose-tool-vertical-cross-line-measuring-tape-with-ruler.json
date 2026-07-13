@@ -23,12 +23,12 @@
     "Material": "ABS"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(15)_1753448247.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(14)_1753448248.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(13)_1753448248.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(16)_1753448247.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(17)_1753448247.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(18)_1753448246.jpg"
+    "/images/products/laser-level-pro3-multipurpose-tool-vertical-cross-line-measuring-tape-with-ruler-1.jpg",
+    "/images/products/laser-level-pro3-multipurpose-tool-vertical-cross-line-measuring-tape-with-ruler-2.jpg",
+    "/images/products/laser-level-pro3-multipurpose-tool-vertical-cross-line-measuring-tape-with-ruler-3.jpg",
+    "/images/products/laser-level-pro3-multipurpose-tool-vertical-cross-line-measuring-tape-with-ruler-4.jpg",
+    "/images/products/laser-level-pro3-multipurpose-tool-vertical-cross-line-measuring-tape-with-ruler-5.jpg",
+    "/images/products/laser-level-pro3-multipurpose-tool-vertical-cross-line-measuring-tape-with-ruler-6.jpg"
   ],
   "inStock": true,
   "stockCount": 7,

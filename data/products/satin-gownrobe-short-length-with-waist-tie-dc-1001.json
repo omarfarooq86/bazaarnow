@@ -13,10 +13,10 @@
     "Product": "Satin Gown/Robe"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/08/DeWatermark.ai_1756292550994.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/08/DeWatermark.ai_1756292320155.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/08/DeWatermark.ai_1756292504824.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/08/wmremove-transformed_cleanup.png"
+    "/images/products/satin-gownrobe-short-length-with-waist-tie-dc-1001-1.jpeg",
+    "/images/products/satin-gownrobe-short-length-with-waist-tie-dc-1001-2.jpeg",
+    "/images/products/satin-gownrobe-short-length-with-waist-tie-dc-1001-3.jpeg",
+    "/images/products/satin-gownrobe-short-length-with-waist-tie-dc-1001-4.png"
   ],
   "inStock": true,
   "stockCount": 26,

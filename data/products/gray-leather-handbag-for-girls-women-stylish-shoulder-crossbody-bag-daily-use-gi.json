@@ -21,11 +21,7 @@
   "specifications": {
     "weight": "and"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-26T184653.583_1764165090.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-26T184702.644_1764165090.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage-2025-11-26T184708.527_1764165091.webp"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 26,
   "isFeatured": false,

@@ -22,13 +22,13 @@
     "Material": "ABS"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(5)_1753270350.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(9)_1753270349.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(8)_1753270350.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(6)_1753270350.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(7)_1753270350.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(10)_1753270349.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(11)_1753270349.jpg"
+    "/images/products/2-in-1-rechargeable-painless-hair-remover-finishing-touch-sensa-light-for-face-b-1.jpg",
+    "/images/products/2-in-1-rechargeable-painless-hair-remover-finishing-touch-sensa-light-for-face-b-2.jpg",
+    "/images/products/2-in-1-rechargeable-painless-hair-remover-finishing-touch-sensa-light-for-face-b-3.jpg",
+    "/images/products/2-in-1-rechargeable-painless-hair-remover-finishing-touch-sensa-light-for-face-b-4.jpg",
+    "/images/products/2-in-1-rechargeable-painless-hair-remover-finishing-touch-sensa-light-for-face-b-5.jpg",
+    "/images/products/2-in-1-rechargeable-painless-hair-remover-finishing-touch-sensa-light-for-face-b-6.jpg",
+    "/images/products/2-in-1-rechargeable-painless-hair-remover-finishing-touch-sensa-light-for-face-b-7.jpg"
   ],
   "inStock": true,
   "stockCount": 28,

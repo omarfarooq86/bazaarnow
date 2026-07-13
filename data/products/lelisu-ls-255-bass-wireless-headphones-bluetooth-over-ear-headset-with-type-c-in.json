@@ -22,10 +22,10 @@
     "Material": "ABS"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/80_1756464612.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/81_1756464613.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/82_1756464614.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/83_1756464614.webp"
+    "/images/products/lelisu-ls-255-bass-wireless-headphones-bluetooth-over-ear-headset-with-type-c-in-1.webp",
+    "/images/products/lelisu-ls-255-bass-wireless-headphones-bluetooth-over-ear-headset-with-type-c-in-2.webp",
+    "/images/products/lelisu-ls-255-bass-wireless-headphones-bluetooth-over-ear-headset-with-type-c-in-3.webp",
+    "/images/products/lelisu-ls-255-bass-wireless-headphones-bluetooth-over-ear-headset-with-type-c-in-4.webp"
   ],
   "inStock": true,
   "stockCount": 17,

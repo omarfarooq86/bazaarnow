@@ -10,15 +10,7 @@
   "specifications": {
     "Material": "ABS"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8_1742196432.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1742196431.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1742196431.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1742196431.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1742196430.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1742196430.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1742196429.jpg"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 22,
   "isFeatured": false,

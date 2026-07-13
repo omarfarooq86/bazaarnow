@@ -22,11 +22,11 @@
     "weight": "and"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(25)_1753453032.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(26)_1753453032.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(27)_1753453031.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(28)_1753453030.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(24)_1753453032.jpg"
+    "/images/products/headache-relief-gel-cap-hot-cold-therapy-migraine-tension-puffy-eyes-relief-1.jpg",
+    "/images/products/headache-relief-gel-cap-hot-cold-therapy-migraine-tension-puffy-eyes-relief-2.jpg",
+    "/images/products/headache-relief-gel-cap-hot-cold-therapy-migraine-tension-puffy-eyes-relief-3.jpg",
+    "/images/products/headache-relief-gel-cap-hot-cold-therapy-migraine-tension-puffy-eyes-relief-4.jpg",
+    "/images/products/headache-relief-gel-cap-hot-cold-therapy-migraine-tension-puffy-eyes-relief-5.jpg"
   ],
   "inStock": true,
   "stockCount": 6,

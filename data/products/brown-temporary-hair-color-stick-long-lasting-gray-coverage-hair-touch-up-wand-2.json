@@ -10,12 +10,7 @@
   "specifications": {
     "Color": "Stick,"
   },
-  "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/RefreshingCleanserBright"
-  ],
+  "images": [],
   "inStock": true,
   "stockCount": 9,
   "isFeatured": false,

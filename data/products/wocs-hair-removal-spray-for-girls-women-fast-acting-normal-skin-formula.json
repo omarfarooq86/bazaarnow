@@ -11,9 +11,9 @@
     "Color": "and"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0-24_1726843947.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1-25_1726843947.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2-24_1726843947.jpg"
+    "/images/products/wocs-hair-removal-spray-for-girls-women-fast-acting-normal-skin-formula-1.jpg",
+    "/images/products/wocs-hair-removal-spray-for-girls-women-fast-acting-normal-skin-formula-2.jpg",
+    "/images/products/wocs-hair-removal-spray-for-girls-women-fast-acting-normal-skin-formula-3.jpg"
   ],
   "inStock": true,
   "stockCount": 23,

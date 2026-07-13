@@ -22,13 +22,12 @@
     "Material": "ABS"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsAppImage2024-09-16at00.27.27_1727543589.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/S8b43b04b7850418fb7bd4c350c0f630cl_1727544224.avif",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1747477867.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1747477866.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1747477866.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1747477866.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1747477866.jpg"
+    "/images/products/multi-functional-tabletop-drum-grater-manual-vegetable-cutter-slicer-and-grater--1.jpg",
+    "/images/products/multi-functional-tabletop-drum-grater-manual-vegetable-cutter-slicer-and-grater--3.jpg",
+    "/images/products/multi-functional-tabletop-drum-grater-manual-vegetable-cutter-slicer-and-grater--4.jpg",
+    "/images/products/multi-functional-tabletop-drum-grater-manual-vegetable-cutter-slicer-and-grater--5.jpg",
+    "/images/products/multi-functional-tabletop-drum-grater-manual-vegetable-cutter-slicer-and-grater--6.jpg",
+    "/images/products/multi-functional-tabletop-drum-grater-manual-vegetable-cutter-slicer-and-grater--7.jpg"
   ],
   "inStock": true,
   "stockCount": 9,

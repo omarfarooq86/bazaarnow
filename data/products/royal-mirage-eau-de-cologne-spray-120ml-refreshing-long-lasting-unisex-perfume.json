@@ -22,14 +22,14 @@
     "Material": "Fragrance"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8_1756297522.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/7_1756297521.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/6_1756297521.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1756297521.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1756297521.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756297520.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756297520.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756297520.webp"
+    "/images/products/royal-mirage-eau-de-cologne-spray-120ml-refreshing-long-lasting-unisex-perfume-1.webp",
+    "/images/products/royal-mirage-eau-de-cologne-spray-120ml-refreshing-long-lasting-unisex-perfume-2.webp",
+    "/images/products/royal-mirage-eau-de-cologne-spray-120ml-refreshing-long-lasting-unisex-perfume-3.webp",
+    "/images/products/royal-mirage-eau-de-cologne-spray-120ml-refreshing-long-lasting-unisex-perfume-4.webp",
+    "/images/products/royal-mirage-eau-de-cologne-spray-120ml-refreshing-long-lasting-unisex-perfume-5.webp",
+    "/images/products/royal-mirage-eau-de-cologne-spray-120ml-refreshing-long-lasting-unisex-perfume-6.webp",
+    "/images/products/royal-mirage-eau-de-cologne-spray-120ml-refreshing-long-lasting-unisex-perfume-7.webp",
+    "/images/products/royal-mirage-eau-de-cologne-spray-120ml-refreshing-long-lasting-unisex-perfume-8.webp"
   ],
   "inStock": true,
   "stockCount": 7,

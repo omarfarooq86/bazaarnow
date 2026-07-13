@@ -22,10 +22,10 @@
     "Material": "Glutathione,"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductSize(32)_1752759377.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductSize(33)_1752759377.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/222_1753007134.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/111_1753007134.jpg"
+    "/images/products/haya-glutathione-skin-whitening-serum-30ml-brightening-anti-aging-dark-spot-remo-1.jpg",
+    "/images/products/haya-glutathione-skin-whitening-serum-30ml-brightening-anti-aging-dark-spot-remo-2.jpg",
+    "/images/products/haya-glutathione-skin-whitening-serum-30ml-brightening-anti-aging-dark-spot-remo-3.jpg",
+    "/images/products/haya-glutathione-skin-whitening-serum-30ml-brightening-anti-aging-dark-spot-remo-4.jpg"
   ],
   "inStock": true,
   "stockCount": 23,

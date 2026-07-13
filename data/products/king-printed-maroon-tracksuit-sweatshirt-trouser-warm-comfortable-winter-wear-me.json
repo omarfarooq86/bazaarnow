@@ -11,11 +11,11 @@
     "weight": "micro"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(86)_1761993824.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(88)_1761993824.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(87)_1761993824.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(70)_1761907101.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(71)_1761907101.webp"
+    "/images/products/king-printed-maroon-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-me-1.webp",
+    "/images/products/king-printed-maroon-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-me-2.webp",
+    "/images/products/king-printed-maroon-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-me-3.webp",
+    "/images/products/king-printed-maroon-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-me-4.webp",
+    "/images/products/king-printed-maroon-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-me-5.webp"
   ],
   "inStock": true,
   "stockCount": 24,

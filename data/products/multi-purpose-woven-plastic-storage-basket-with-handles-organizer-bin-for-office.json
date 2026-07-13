@@ -22,9 +22,9 @@
     "Material": "Food-safe,"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1727593250.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1727593250.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1727593250.jpg"
+    "/images/products/multi-purpose-woven-plastic-storage-basket-with-handles-organizer-bin-for-office-1.jpg",
+    "/images/products/multi-purpose-woven-plastic-storage-basket-with-handles-organizer-bin-for-office-2.jpg",
+    "/images/products/multi-purpose-woven-plastic-storage-basket-with-handles-organizer-bin-for-office-3.jpg"
   ],
   "inStock": true,
   "stockCount": 20,

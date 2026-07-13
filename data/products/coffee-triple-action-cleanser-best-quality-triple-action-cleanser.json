@@ -11,9 +11,9 @@
     "Product": "Coffee Triple Action Cleanser | Best Quality Triple Action Cleanser"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/03/Coffee2tripleaction-moontouch.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/03/CoffeeTripleAction-moontouch.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/03/WhatsAppImage2023-02-21at7.11.28PM.jpg"
+    "/images/products/coffee-triple-action-cleanser-best-quality-triple-action-cleanser-1.jpg",
+    "/images/products/coffee-triple-action-cleanser-best-quality-triple-action-cleanser-2.jpg",
+    "/images/products/coffee-triple-action-cleanser-best-quality-triple-action-cleanser-3.jpg"
   ],
   "inStock": true,
   "stockCount": 28,

@@ -11,11 +11,11 @@
     "Material": "Stainless"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1738735764.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1738735764.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1738735763.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1738735762.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1738735762.jpg"
+    "/images/products/rechargeable-electric-coffee-frother-egg-beater-high-speed-handheld-mixer-with-u-1.jpg",
+    "/images/products/rechargeable-electric-coffee-frother-egg-beater-high-speed-handheld-mixer-with-u-2.jpg",
+    "/images/products/rechargeable-electric-coffee-frother-egg-beater-high-speed-handheld-mixer-with-u-3.jpg",
+    "/images/products/rechargeable-electric-coffee-frother-egg-beater-high-speed-handheld-mixer-with-u-4.jpg",
+    "/images/products/rechargeable-electric-coffee-frother-egg-beater-high-speed-handheld-mixer-with-u-5.jpg"
   ],
   "inStock": true,
   "stockCount": 9,

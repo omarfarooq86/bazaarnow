@@ -11,10 +11,10 @@
     "Product": "Simple Facial Wash"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/07/54af89b280f2d3afe1bd2d485b437208.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/07/1dcf62e1d9685b066c9ca2f458d6df03.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/07/cd94b4367ca911d7d7f3febedf773fc0.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/05/07/c4c06fd987e8095feccb01777d794e33.jpeg"
+    "/images/products/simple-facial-wash-hydrating-face-cleanser-for-soft-smooth-fresh-skin-1.jpeg",
+    "/images/products/simple-facial-wash-hydrating-face-cleanser-for-soft-smooth-fresh-skin-2.png",
+    "/images/products/simple-facial-wash-hydrating-face-cleanser-for-soft-smooth-fresh-skin-3.jpeg",
+    "/images/products/simple-facial-wash-hydrating-face-cleanser-for-soft-smooth-fresh-skin-4.jpeg"
   ],
   "inStock": true,
   "stockCount": 34,

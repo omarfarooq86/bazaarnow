@@ -17,9 +17,9 @@
     "Product": "Multi-Compartment College & Office Backpack"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/06/09/9e1c26e1e0eb27523ceea8366f8d34a0.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/06/09/d8189a5648ff565b5908ac5c1fba980e.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/06/09/ba113e6196e4becafe244ba3fd73abee.jpeg"
+    "/images/products/multi-compartment-college-office-backpack-1.jpeg",
+    "/images/products/multi-compartment-college-office-backpack-2.jpeg",
+    "/images/products/multi-compartment-college-office-backpack-3.jpeg"
   ],
   "inStock": true,
   "stockCount": 22,

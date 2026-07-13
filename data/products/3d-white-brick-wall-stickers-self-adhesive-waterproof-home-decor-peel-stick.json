@@ -11,9 +11,9 @@
     "weight": "and"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/WhatsApp-Image-2024-08-24-at-5.22.35-PM_1728552295.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3d-wall-stickers-faux-brick-white-brick-bedroom-home-decor-waterproof-self-adhesive-living-room-wallpaper-2-4_1728552295.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3d-wall-stickers-faux-brick-white-brick-bedroom-home-decor-waterproof-self-adhesive-living-room-wallpaper-2-1_1728552295.jpg"
+    "/images/products/3d-white-brick-wall-stickers-self-adhesive-waterproof-home-decor-peel-stick-1.jpg",
+    "/images/products/3d-white-brick-wall-stickers-self-adhesive-waterproof-home-decor-peel-stick-2.jpg",
+    "/images/products/3d-white-brick-wall-stickers-self-adhesive-waterproof-home-decor-peel-stick-3.jpg"
   ],
   "inStock": true,
   "stockCount": 22,

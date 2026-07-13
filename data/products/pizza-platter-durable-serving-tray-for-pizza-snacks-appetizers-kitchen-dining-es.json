@@ -11,11 +11,11 @@
     "Product": "Pizza Platter"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/03/18/2f3389aea63c800f88a8455f2eea67d6.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/03/18/f5803ed1fabc20828e9d927aeb3dbcbf.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/03/18/cf670ba415de27682ce5630d6e211113.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/03/18/2451394f6e57608538d846811b66d73f.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/03/18/d41f3e0618f3ec2b3e2c025449bb49cf.jpeg"
+    "/images/products/pizza-platter-durable-serving-tray-for-pizza-snacks-appetizers-kitchen-dining-es-1.jpeg",
+    "/images/products/pizza-platter-durable-serving-tray-for-pizza-snacks-appetizers-kitchen-dining-es-2.jpeg",
+    "/images/products/pizza-platter-durable-serving-tray-for-pizza-snacks-appetizers-kitchen-dining-es-3.png",
+    "/images/products/pizza-platter-durable-serving-tray-for-pizza-snacks-appetizers-kitchen-dining-es-4.png",
+    "/images/products/pizza-platter-durable-serving-tray-for-pizza-snacks-appetizers-kitchen-dining-es-5.jpeg"
   ],
   "inStock": true,
   "stockCount": 17,

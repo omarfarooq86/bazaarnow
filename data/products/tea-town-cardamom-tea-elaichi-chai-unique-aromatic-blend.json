@@ -11,10 +11,10 @@
     "Product": "Tea Town Cardamom Tea Elaichi Chai Unique Aromatic Blend"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/04/17/d71448f7161dfa88ab2e6ee676b1058a.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/04/17/0af563b34e26dac1d9fa9486a45b10cd.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/04/17/52c37c5f5f5bfe4c9ffd7e8f2e36406f.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/04/17/768c5e5ce1b5a0d8cad30059f107a839.jpeg"
+    "/images/products/tea-town-cardamom-tea-elaichi-chai-unique-aromatic-blend-1.png",
+    "/images/products/tea-town-cardamom-tea-elaichi-chai-unique-aromatic-blend-2.png",
+    "/images/products/tea-town-cardamom-tea-elaichi-chai-unique-aromatic-blend-3.jpeg",
+    "/images/products/tea-town-cardamom-tea-elaichi-chai-unique-aromatic-blend-4.jpeg"
   ],
   "inStock": true,
   "stockCount": 17,

@@ -16,8 +16,8 @@
     "Product": "Citizen Magnetic Chain Strap"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/a0d319df-0dc8-433b-ae0a-f6f94bfd5b7c-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2023/02/a0d319df-0dc8-433b-ae0a-f6f94bfd5b7c.jpeg"
+    "/images/products/citizen-magnetic-chain-strap-1.jpeg",
+    "/images/products/citizen-magnetic-chain-strap-2.jpeg"
   ],
   "inStock": true,
   "stockCount": 9,

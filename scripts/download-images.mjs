@@ -14,7 +14,16 @@ function downloadFile(url, destPath) {
   return new Promise((resolve) => {
     const file = fs.createWriteStream(destPath);
     const protocol = url.startsWith("https") ? https : http;
-    const req = protocol.get(url, { timeout: 15000 }, (response) => {
+    const options = {
+      timeout: 15000,
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Cache-Control': 'no-cache',
+      },
+    };
+    const req = protocol.get(url, options, (response) => {
       if (response.statusCode === 301 || response.statusCode === 302) {
         const redirectUrl = response.headers.location;
         file.close();
@@ -23,6 +32,14 @@ function downloadFile(url, destPath) {
         return;
       }
       if (response.statusCode !== 200) {
+        file.close();
+        fs.unlinkSync(destPath);
+        resolve(false);
+        return;
+      }
+      // Verify it's actually an image
+      const ct = response.headers['content-type'] || '';
+      if (!ct.startsWith('image/')) {
         file.close();
         fs.unlinkSync(destPath);
         resolve(false);

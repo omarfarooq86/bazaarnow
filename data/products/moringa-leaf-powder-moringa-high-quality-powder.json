@@ -9,10 +9,10 @@
     "Product": "Moringa Leaf Powder Moringa high quality powder"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/1528051099493.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/Hero-image-moringa-259c523.jpg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsApp-Image-2024-11-28-at-1.35.03-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/11/WhatsApp-Image-2024-11-28-at-1.35.03-PM.jpeg"
+    "/images/products/moringa-leaf-powder-moringa-high-quality-powder-1.jpeg",
+    "/images/products/moringa-leaf-powder-moringa-high-quality-powder-2.jpg",
+    "/images/products/moringa-leaf-powder-moringa-high-quality-powder-3.jpeg",
+    "/images/products/moringa-leaf-powder-moringa-high-quality-powder-4.jpeg"
   ],
   "inStock": true,
   "stockCount": 7,

@@ -11,14 +11,11 @@
     "weight": "design,"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/H217680c80dcd4845b8f91c3dc246d695Y.png_720x720q50_1738325030.avif",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/H25becb1cb1b3457699f2403eff237eaaq_1738325030.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/H65fe5f097adb46e6b6a77ddde707e1d0V_1738325030.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Hc6d9902af4884c79adb2fd0e06f385dfS.png_720x720q50_1738325029.avif",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Hc695a9b673fa4fcbbfd6b94348e6b9a3N.png_720x720q50_1738325028.avif",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Had222712c30e40fe9096f1cfe3ea0e39M_1738325028.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1738325308.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1738325308.jpg"
+    "/images/products/sh-309-mini-wireless-bluetooth-speaker-portable-5w-outdoor-speaker-rgb-night-lig-2.webp",
+    "/images/products/sh-309-mini-wireless-bluetooth-speaker-portable-5w-outdoor-speaker-rgb-night-lig-3.webp",
+    "/images/products/sh-309-mini-wireless-bluetooth-speaker-portable-5w-outdoor-speaker-rgb-night-lig-6.webp",
+    "/images/products/sh-309-mini-wireless-bluetooth-speaker-portable-5w-outdoor-speaker-rgb-night-lig-7.jpg",
+    "/images/products/sh-309-mini-wireless-bluetooth-speaker-portable-5w-outdoor-speaker-rgb-night-lig-8.jpg"
   ],
   "inStock": true,
   "stockCount": 16,

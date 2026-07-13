@@ -11,11 +11,11 @@
     "Color": "1"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-15-at-11.44.12-AM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-15-at-11.44.11-AM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-15-at-11.44.11-AM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-15-at-11.44.10-AM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/09/WhatsApp-Image-2024-09-15-at-11.44.09-AM.jpeg"
+    "/images/products/crazy-girl-liquid-blush-1.jpeg",
+    "/images/products/crazy-girl-liquid-blush-2.jpeg",
+    "/images/products/crazy-girl-liquid-blush-3.jpeg",
+    "/images/products/crazy-girl-liquid-blush-4.jpeg",
+    "/images/products/crazy-girl-liquid-blush-5.jpeg"
   ],
   "inStock": true,
   "stockCount": 31,

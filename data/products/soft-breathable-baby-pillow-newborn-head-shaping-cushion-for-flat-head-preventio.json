@@ -23,11 +23,11 @@
     "material": "How"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1754931835.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1754931835.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1754931835.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1754931835.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1754931834.webp"
+    "/images/products/soft-breathable-baby-pillow-newborn-head-shaping-cushion-for-flat-head-preventio-1.webp",
+    "/images/products/soft-breathable-baby-pillow-newborn-head-shaping-cushion-for-flat-head-preventio-2.webp",
+    "/images/products/soft-breathable-baby-pillow-newborn-head-shaping-cushion-for-flat-head-preventio-3.webp",
+    "/images/products/soft-breathable-baby-pillow-newborn-head-shaping-cushion-for-flat-head-preventio-4.webp",
+    "/images/products/soft-breathable-baby-pillow-newborn-head-shaping-cushion-for-flat-head-preventio-5.webp"
   ],
   "inStock": true,
   "stockCount": 8,

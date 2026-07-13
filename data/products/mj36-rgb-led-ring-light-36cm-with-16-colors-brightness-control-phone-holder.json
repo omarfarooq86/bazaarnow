@@ -23,10 +23,10 @@
     "weight": "36cm"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/a63d99d450000bfa7069c9eb980523a4.jpg_720x720q80.jpg__1748121965.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/16_81664d90-6a82-4dce-a254-f6645bced9f7_1748122043.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ring-light-rgb-mj36-2_1748122154.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/26CM-LED-Studio-Camera-Ring-Light-Photography-800x800-1_1748121160.webp"
+    "/images/products/mj36-rgb-led-ring-light-36cm-with-16-colors-brightness-control-phone-holder-1.webp",
+    "/images/products/mj36-rgb-led-ring-light-36cm-with-16-colors-brightness-control-phone-holder-2.webp",
+    "/images/products/mj36-rgb-led-ring-light-36cm-with-16-colors-brightness-control-phone-holder-3.jpg",
+    "/images/products/mj36-rgb-led-ring-light-36cm-with-16-colors-brightness-control-phone-holder-4.webp"
   ],
   "inStock": true,
   "stockCount": 5,

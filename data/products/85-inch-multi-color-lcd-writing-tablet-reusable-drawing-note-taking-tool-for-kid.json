@@ -11,9 +11,9 @@
     "Color": "LCD"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1727540756.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/8.5_1727540756.jpg",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1727540756.jpg"
+    "/images/products/85-inch-multi-color-lcd-writing-tablet-reusable-drawing-note-taking-tool-for-kid-1.jpg",
+    "/images/products/85-inch-multi-color-lcd-writing-tablet-reusable-drawing-note-taking-tool-for-kid-2.jpg",
+    "/images/products/85-inch-multi-color-lcd-writing-tablet-reusable-drawing-note-taking-tool-for-kid-3.jpg"
   ],
   "inStock": true,
   "stockCount": 9,

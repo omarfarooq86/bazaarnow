@@ -12,10 +12,10 @@
     "Color": "Red"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-07-at-10.16.59-PM-2.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-07-at-10.16.59-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-07-at-10.16.58-PM-1.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/10/WhatsApp-Image-2024-10-07-at-10.16.58-PM.jpeg"
+    "/images/products/2-in-1-blushlipgloss-multifunction-blush-1.jpeg",
+    "/images/products/2-in-1-blushlipgloss-multifunction-blush-2.jpeg",
+    "/images/products/2-in-1-blushlipgloss-multifunction-blush-3.jpeg",
+    "/images/products/2-in-1-blushlipgloss-multifunction-blush-4.jpeg"
   ],
   "inStock": true,
   "stockCount": 8,

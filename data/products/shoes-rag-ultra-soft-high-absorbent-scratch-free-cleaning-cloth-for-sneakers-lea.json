@@ -11,9 +11,9 @@
     "Product": "Shoes Rag"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/01/17/7dbd9f7e925dc1997e20d9fb2fcf5423.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/01/17/7779788ad80a24a5e444a298db805489.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2026/01/17/0997208cffc6785fb02feced3b04b89c.jpeg"
+    "/images/products/shoes-rag-ultra-soft-high-absorbent-scratch-free-cleaning-cloth-for-sneakers-lea-1.png",
+    "/images/products/shoes-rag-ultra-soft-high-absorbent-scratch-free-cleaning-cloth-for-sneakers-lea-2.png",
+    "/images/products/shoes-rag-ultra-soft-high-absorbent-scratch-free-cleaning-cloth-for-sneakers-lea-3.jpeg"
   ],
   "inStock": true,
   "stockCount": 33,

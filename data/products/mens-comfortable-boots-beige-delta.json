@@ -12,9 +12,9 @@
     "Size": "40"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/08/WhatsApp-Image-2024-08-09-at-6.40.22-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/08/WhatsApp-Image-2024-08-09-at-6.40.21-PM.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2024/08/WhatsApp-Image-2024-08-09-at-6.40.20-PM.jpeg"
+    "/images/products/mens-comfortable-boots-beige-delta-1.jpeg",
+    "/images/products/mens-comfortable-boots-beige-delta-2.jpeg",
+    "/images/products/mens-comfortable-boots-beige-delta-3.jpeg"
   ],
   "inStock": true,
   "stockCount": 12,

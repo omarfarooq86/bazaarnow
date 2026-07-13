@@ -22,11 +22,11 @@
     "Material": "High-quality"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/5_1756206424.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/4_1756206424.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/3_1756206424.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/2_1756206423.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/1_1756206423.webp"
+    "/images/products/4-in-1-retractable-car-charger-dual-usb-usb-c-pd-fast-charging-100w-1.webp",
+    "/images/products/4-in-1-retractable-car-charger-dual-usb-usb-c-pd-fast-charging-100w-2.webp",
+    "/images/products/4-in-1-retractable-car-charger-dual-usb-usb-c-pd-fast-charging-100w-3.webp",
+    "/images/products/4-in-1-retractable-car-charger-dual-usb-usb-c-pd-fast-charging-100w-4.webp",
+    "/images/products/4-in-1-retractable-car-charger-dual-usb-usb-c-pd-fast-charging-100w-5.webp"
   ],
   "inStock": true,
   "stockCount": 10,

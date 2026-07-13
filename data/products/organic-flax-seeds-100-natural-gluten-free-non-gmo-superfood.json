@@ -11,10 +11,10 @@
     "Product": "Organic Flax Seeds"
   },
   "images": [
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/10/16/3acb429f26851e4c5b1dad786e0716ba.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/10/16/a66f5c9053a9d70f4f464a75cc54f24e.png",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/10/16/ff945f99f75bcb4a101107ca79dbd756.jpeg",
-    "https://hhcnewapp.blr1.cdn.digitaloceanspaces.com/uploads/2025/10/16/37390886e419f3c4b591b8eb77dbbf04.jpeg"
+    "/images/products/organic-flax-seeds-100-natural-gluten-free-non-gmo-superfood-1.png",
+    "/images/products/organic-flax-seeds-100-natural-gluten-free-non-gmo-superfood-2.png",
+    "/images/products/organic-flax-seeds-100-natural-gluten-free-non-gmo-superfood-3.jpeg",
+    "/images/products/organic-flax-seeds-100-natural-gluten-free-non-gmo-superfood-4.jpeg"
   ],
   "inStock": true,
   "stockCount": 16,

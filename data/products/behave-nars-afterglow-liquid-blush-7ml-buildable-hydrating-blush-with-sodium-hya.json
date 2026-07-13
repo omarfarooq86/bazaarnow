@@ -23,13 +23,13 @@
     "weight": "texture"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/NARS_SP25_AfterglowCollection_PDPCrop_LiquidBlush_Onmodel_Grid_04_Behaave_GLBL_1758883232.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/Afterglowblush_OnModel_1758882576.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/999NAC0000159_8_1758882608.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/0194251146003_AfterglowLiquidBlush_OrgasmRush_3_1758882609.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/999NAC0000192_6_1758882609.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/NARS_SU24_SweetSensationsCollection_LiquidBlush_PDPCrop_Ingredients_1758882577.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/NARS_SU24_SweetSensationsCollection_LiquidBlush_PDPCrop_Benefits_1758882577.webp"
+    "/images/products/behave-nars-afterglow-liquid-blush-7ml-buildable-hydrating-blush-with-sodium-hya-1.webp",
+    "/images/products/behave-nars-afterglow-liquid-blush-7ml-buildable-hydrating-blush-with-sodium-hya-2.webp",
+    "/images/products/behave-nars-afterglow-liquid-blush-7ml-buildable-hydrating-blush-with-sodium-hya-3.webp",
+    "/images/products/behave-nars-afterglow-liquid-blush-7ml-buildable-hydrating-blush-with-sodium-hya-4.webp",
+    "/images/products/behave-nars-afterglow-liquid-blush-7ml-buildable-hydrating-blush-with-sodium-hya-5.webp",
+    "/images/products/behave-nars-afterglow-liquid-blush-7ml-buildable-hydrating-blush-with-sodium-hya-6.webp",
+    "/images/products/behave-nars-afterglow-liquid-blush-7ml-buildable-hydrating-blush-with-sodium-hya-7.webp"
   ],
   "inStock": true,
   "stockCount": 16,

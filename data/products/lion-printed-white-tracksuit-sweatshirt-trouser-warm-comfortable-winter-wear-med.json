@@ -11,11 +11,11 @@
     "weight": "micro"
   },
   "images": [
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(74)_1761907100.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(73)_1761907100.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(72)_1761907100.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(70)_1761907101.webp",
-    "https://admin.yourmart.pk/storage/uploads/inventory/products/media/ProductImage(71)_1761907101.webp"
+    "/images/products/lion-printed-white-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-med-1.webp",
+    "/images/products/lion-printed-white-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-med-2.webp",
+    "/images/products/lion-printed-white-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-med-3.webp",
+    "/images/products/lion-printed-white-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-med-4.webp",
+    "/images/products/lion-printed-white-tracksuit-sweatshirt-trouser-warm-comfortable-winter-wear-med-5.webp"
   ],
   "inStock": true,
   "stockCount": 23,
