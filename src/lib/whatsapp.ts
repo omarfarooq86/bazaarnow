@@ -61,6 +61,10 @@ export function generateWhatsAppMessage(
     lines.push(`Notes: ${customer.notes}`);
   }
 
+  lines.push("");
+  lines.push("---");
+  lines.push("*Help us grow!* Share your order on Instagram or Facebook and tag us @bazaarnowpk. Customers who share get a special discount on their next order.");
+
   if (isAdvance) {
     lines.push("");
     lines.push("---");

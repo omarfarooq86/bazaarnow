@@ -36,7 +36,17 @@
   "inStock": true,
   "stockCount": 30,
   "isFeatured": true,
-  "tags": ["kids", "building-blocks", "play-set", "educational", "toys", "table-chair", "creative", "preschool"],
+  "tags": [
+    "kids",
+    "building-blocks",
+    "play-set",
+    "educational",
+    "toys",
+    "table-chair",
+    "creative",
+    "preschool"
+  ],
   "deliveryInfo": "Delivery in 2-4 working days across Pakistan",
-  "sku": "KIDS-BBT-001"
+  "sku": "KIDS-BBT-001",
+  "salePrice": 5924
 }

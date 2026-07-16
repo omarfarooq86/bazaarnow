@@ -110,9 +110,9 @@ export default function RootLayout({
                 availableLanguage: ["English", "Urdu"],
               },
               sameAs: [
-                "https://facebook.com/bazaarnowpk",
-                "https://instagram.com/bazaarnowpk",
-                "https://tiktok.com/@bazaarnowpk",
+                "https://facebook.com/bazaarnow",
+                "https://instagram.com/bazaarnow",
+                "https://tiktok.com/@bazaarnow",
               ],
             }),
           }}

@@ -385,8 +385,18 @@ export default function CheckoutClient() {
                 {isSubmitting ? "Opening WhatsApp..." : "Order via WhatsApp"}
               </motion.button>
 
+              {/* Social sharing */}
+              <div className="mt-4 p-3 rounded-xl bg-brand-50 border border-brand-100 text-center">
+                <p className="text-[0.7rem] font-semibold text-brand-700 mb-1">
+                  Share your order & get a discount
+                </p>
+                <p className="text-[0.6rem] text-brand-600">
+                  Tag @bazaarnowpk on Instagram or Facebook with your unboxing. We'll DM you a discount code for your next order.
+                </p>
+              </div>
+
               {/* Inventory notice */}
-              <p className="mt-4 text-[0.65rem] text-charcoal-400 text-center leading-relaxed px-2">
+              <p className="mt-3 text-[0.65rem] text-charcoal-400 text-center leading-relaxed px-2">
                 We do not hold inventory. Once you place your order, we will arrange
                 the product through our partner and deliver it to you. If you receive
                 a damaged product or it does not match the advertised condition, we
