@@ -1,0 +1,142 @@
+{
+  "category": "Schema & Structured Data",
+  "url": "https://www.bazaarnow.net",
+  "date": "2026-07-16",
+  "findings": [
+    {
+      "id": "SCHEMA-001",
+      "title": "Product image URLs are relative instead of absolute",
+      "severity": "critical",
+      "location": "Product JSON-LD (all ~1964 product pages)",
+      "description": "All Product schema image properties use relative paths (e.g., `/images/products/...`) instead of absolute URLs (e.g., `https://www.bazaarnow.net/images/products/...`). Google requires absolute URLs for image properties to display in rich results.",
+      "recommendation": "Prepend `https://www.bazaarnow.net` to all image URLs in Product schema blocks. Example: change `/images/products/foo-1.jpg` to `https://www.bazaarnow.net/images/products/foo-1.jpg`.",
+      "code": "\"image\": [\n  \"https://www.bazaarnow.net/images/products/example-1.jpg\",\n  \"https://www.bazaarnow.net/images/products/example-2.jpg\"\n]"
+    },
+    {
+      "id": "SCHEMA-002",
+      "title": "Blog posts missing from sitemap.xml",
+      "severity": "critical",
+      "location": "/sitemap.xml",
+      "description": "The sitemap contains 1,979 URLs but zero blog post URLs. Blog posts exist at paths like `/blog/cash-on-delivery-pakistan-online-shopping/` but are not listed in the sitemap. Google cannot discover these pages through the sitemap, significantly reducing crawl priority.",
+      "recommendation": "Add all blog post pages to the sitemap. There are at least 10 blog posts (discovered from the blog listing page). Each should have an appropriate `<lastmod>`, `<changefreq>`, and `<priority>`."
+    },
+    {
+      "id": "SCHEMA-003",
+      "title": "Organization logo URL returns HTTP 404",
+      "severity": "critical",
+      "location": "Organization JSON-LD on all pages",
+      "description": "The `logo` property points to `https://www.bazaarnow.net/images/logo.png` which returns HTTP 404. This breaks the organization identity in Google Knowledge Panel and rich results.",
+      "recommendation": "Either restore the logo image at the current path or update the schema `logo` URL to point to a valid image."
+    },
+    {
+      "id": "SCHEMA-004",
+      "title": "Missing AggregateRating on Product schema",
+      "severity": "critical",
+      "location": "Product JSON-LD (all product pages)",
+      "description": "No Product schema includes `aggregateRating` or `review` properties. These are required for product review star rich results in Google SERP and are highly weighted by AI/LLM systems using schema data.",
+      "recommendation": "If any review/rating system exists, add `aggregateRating` with `ratingValue` and `reviewCount`. If not, implement a review system and add the markup."
+    },
+    {
+      "id": "SCHEMA-005",
+      "title": "Missing @id and url in Product schema",
+      "severity": "high",
+      "location": "Product JSON-LD (all product pages)",
+      "description": "Product schema blocks lack both `@id` and `url` properties. Google uses these to correlate the product with its canonical page. Without them, the product entity is disconnected from the page context.",
+      "recommendation": "Add both: `\"@id\": \"https://www.bazaarnow.net/product/SLUG/#product\"` and `\"url\": \"https://www.bazaarnow.net/product/SLUG/\"` to every Product schema block."
+    },
+    {
+      "id": "SCHEMA-006",
+      "title": "Missing WebSite schema with SearchAction",
+      "severity": "high",
+      "location": "Homepage and all pages",
+      "description": "No WebSite schema exists anywhere on the site. Adding WebSite with SearchAction enables the Sitelinks Search Box in Google SERP, allowing users to search the site directly from search results.",
+      "recommendation": "Add the WebSite + SearchAction schema block to the homepage and/or all pages (as a global include).",
+      "code": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebSite\",\n  \"name\": \"BazaarNow\",\n  \"url\": \"https://www.bazaarnow.net\",\n  \"potentialAction\": {\n    \"@type\": \"SearchAction\",\n    \"target\": {\n      \"@type\": \"EntryPoint\",\n      \"urlTemplate\": \"https://www.bazaarnow.net/search?q={search_term_string}\"\n    },\n    \"query-input\": \"required name=search_term_string\"\n  }\n}"
+    },
+    {
+      "id": "SCHEMA-007",
+      "title": "All sitemap lastmod dates are identical build timestamps",
+      "severity": "high",
+      "location": "/sitemap.xml",
+      "description": "All 1,979 URLs share only 6 unique lastmod timestamps differing by milliseconds (2026-07-14T16:29:22.303Z through .309Z). This indicates a build-time timestamp rather than per-page modification dates. Google uses lastmod to determine crawl priority; identical dates provide no signal.",
+      "recommendation": "Generate accurate per-page lastmod dates. Blog posts should reflect their actual publish/modified dates. Products should reflect last inventory or price change. Static pages can use a fixed date."
+    },
+    {
+      "id": "SCHEMA-008",
+      "title": "All sitemap priority values set to 0.7 regardless of content type",
+      "severity": "medium",
+      "location": "/sitemap.xml",
+      "description": "Every URL in the sitemap has priority 0.7. Standard practice: homepage=1.0, categories=0.8, products=0.5-0.6, static pages (privacy, returns)=0.3-0.4, blog listing=0.8, blog posts=0.6.",
+      "recommendation": "Differentiate priority values based on content importance. Homepage should be 1.0, category pages 0.8, product pages 0.5-0.6, static policy pages 0.3."
+    },
+    {
+      "id": "SCHEMA-009",
+      "title": "Missing offers.url and priceValidUntil in Product offers",
+      "severity": "high",
+      "location": "Product JSON-LD (all product pages)",
+      "description": "The `offers` block is missing `url` (recommended for Google to link offer to the page) and `priceValidUntil` (helps Google determine offer freshness).",
+      "recommendation": "Add `\"url\": \"https://www.bazaarnow.net/product/SLUG/\"` and `\"priceValidUntil\": \"2027-12-31\"` (or a dynamically computed date) to the offers object in each Product schema."
+    },
+    {
+      "id": "SCHEMA-010",
+      "title": "Article image uses relative URL",
+      "severity": "high",
+      "location": "Article JSON-LD on blog posts",
+      "description": "The Article schema `image` property uses a relative path (`/images/blog/cod-pakistan.jpg`) instead of an absolute URL. Same issue as Product images.",
+      "recommendation": "Change to absolute URLs: `https://www.bazaarnow.net/images/blog/cod-pakistan.jpg`"
+    },
+    {
+      "id": "SCHEMA-011",
+      "title": "Organization schema missing description",
+      "severity": "medium",
+      "location": "Organization JSON-LD on all pages",
+      "description": "The Organization block has no `description` property. This is used by Google to summarize the entity in knowledge panels and by AI systems for entity understanding.",
+      "recommendation": "Add `\"description\": \"Pakistan's most trusted online marketplace - premium products at unbeatable prices with free delivery across Pakistan.\"`"
+    },
+    {
+      "id": "SCHEMA-012",
+      "title": "Missing ItemList schema on category pages",
+      "severity": "medium",
+      "location": "Category pages (/category/electronics/, etc.)",
+      "description": "Category pages list products but have no structured data indicating this. Adding ItemList helps Google understand the page as a collection of products.",
+      "recommendation": "Add ItemList schema to category pages enumerating the products listed."
+    },
+    {
+      "id": "SCHEMA-013",
+      "title": "No image tags in sitemap",
+      "severity": "medium",
+      "location": "/sitemap.xml",
+      "description": "Although the sitemap declares the `xmlns:image` namespace, no `<image:image>` tags are used. For an e-commerce site with 1,964 products each having 3-5 images, this is a missed opportunity for Google Images discovery.",
+      "recommendation": "Add `<image:image><image:loc>https://...</image:loc></image:image>` tags within each product URL entry, or create a separate image sitemap."
+    },
+    {
+      "id": "SCHEMA-014",
+      "title": "FAQPage present but Google retired FAQ rich results",
+      "severity": "info",
+      "location": "/about/, /returns/, blog posts",
+      "description": "FAQPage schema is correctly implemented but Google retired FAQ rich results for ALL sites on May 7, 2026. No SERP feature is generated. However, the markup remains beneficial for AI/LLM citation and entity resolution.",
+      "recommendation": "Do NOT remove FAQPage markup. It still aids AI/LLM understanding. If adding new FAQPage purely for Google SERP benefit, note there is none -- use only if GEO/AI visibility is the goal."
+    },
+    {
+      "id": "SCHEMA-015",
+      "title": "All sitemap changefreq set to 'weekly'",
+      "severity": "low",
+      "location": "/sitemap.xml",
+      "description": "Every URL has changefreq=weekly. Static pages (privacy, returns) are unlikely to change weekly. Blog posts may change less often. Products can change daily (price/stock).",
+      "recommendation": "Set changefreq per content type: homepage=daily, products=daily, blog=weekly, categories=weekly, static pages=monthly."
+    }
+  ],
+  "summary": {
+    "total_findings": 15,
+    "critical": 4,
+    "high": 4,
+    "medium": 4,
+    "low": 1,
+    "info": 1,
+    "present_types": ["Organization", "Product", "Article", "FAQPage", "BreadcrumbList"],
+    "missing_types": ["WebSite", "LocalBusiness", "AggregateRating", "Review", "ItemList"],
+    "sitemap_urls_total": 1979,
+    "sitemap_blog_posts": 0,
+    "sitemap_issue_lastmod_stale": true
+  }
+}

@@ -73,8 +73,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full antialiased scroll-smooth">
       <head>
-        {/* Prevent hotlink blocking from external image hosts */}
-        <meta name="referrer" content="no-referrer" />
         {/* Preconnect for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -104,7 +102,7 @@ export default function RootLayout({
               logo: "https://www.bazaarnow.net/images/logo.png",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+92-300-1234567",
+                telephone: "+92-310-1418307",
                 contactType: "customer service",
                 availableLanguage: ["English", "Urdu"],
               },

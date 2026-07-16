@@ -364,6 +364,8 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                               <img
                                 src={product.images[0]}
                                 alt={product.name}
+                                width={200}
+                                height={200}
                                 className="w-full h-full object-cover"
                                 loading="lazy"
                               />

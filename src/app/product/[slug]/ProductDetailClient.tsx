@@ -119,6 +119,8 @@ export default function ProductDetailClient({
                   <img
                     src={product.images[selectedImage]}
                     alt={product.name}
+                    width={800}
+                    height={800}
                     className="w-full h-full object-cover"
                   />
                 ) : (
@@ -221,6 +223,8 @@ export default function ProductDetailClient({
                       <img
                         src={img}
                         alt={`${product.name} - View ${i + 1}`}
+                        width={150}
+                        height={150}
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -574,14 +578,19 @@ export default function ProductDetailClient({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Product",
+              "@id": `https://www.bazaarnow.net/product/${product.slug}/`,
               name: product.name,
-              description: product.description.replace(/[*_#\n]/g, " ").slice(0, 300),
+              url: `https://www.bazaarnow.net/product/${product.slug}/`,
+              description: product.description.replace(/[*_#\n]/g, " ").slice(0, 500),
               sku: product.sku || product.slug,
+              mpn: product.sku || product.slug,
               image: product.images,
               offers: {
                 "@type": "Offer",
                 priceCurrency: "PKR",
                 price: String(current),
+                priceValidUntil: new Date(new Date().getFullYear(), 11, 31).toISOString().split("T")[0],
+                url: `https://www.bazaarnow.net/product/${product.slug}/`,
                 availability: product.inStock
                   ? "https://schema.org/InStock"
                   : "https://schema.org/OutOfStock",

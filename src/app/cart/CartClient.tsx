@@ -95,6 +95,8 @@ export default function CartClient() {
                       <img
                         src={item.product.images[0]}
                         alt={item.product.name}
+                        width={200}
+                        height={200}
                         className="w-full h-full object-cover relative z-10"
                         onError={(e) => {
                           (e.target as HTMLImageElement).style.display = "none";

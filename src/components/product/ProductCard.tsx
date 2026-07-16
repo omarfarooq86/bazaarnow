@@ -99,6 +99,8 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
               <img
                 src={product.images[0]}
                 alt={product.name}
+                width={800}
+                height={800}
                 className={`w-full h-full object-cover transition-all duration-500 ${
                   isVideoPlaying
                     ? "opacity-0 scale-110"
