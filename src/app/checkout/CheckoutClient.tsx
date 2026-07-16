@@ -89,9 +89,9 @@ export default function CheckoutClient() {
   ];
 
   return (
-    <div className="container-custom py-8">
+    <div className="container-custom py-8 overflow-x-hidden">
       {/* Header */}
-      <div className="flex items-center justify-between mb-8">
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-8">
         <div>
           <h1 className="heading-2 text-dark">Checkout</h1>
           <p className="text-charcoal-400 text-sm mt-1">
@@ -100,21 +100,21 @@ export default function CheckoutClient() {
         </div>
         <Link
           href="/cart"
-          className="text-sm font-medium text-brand-500 hover:text-brand-600 flex items-center gap-1"
+          className="text-sm font-medium text-brand-500 hover:text-brand-600 flex items-center gap-1 flex-shrink-0"
         >
           <ArrowLeft className="w-4 h-4" />
           Back to Cart
         </Link>
       </div>
 
-      <div className="grid lg:grid-cols-3 gap-8">
+      <div className="grid lg:grid-cols-3 gap-6 md:gap-8 max-w-full">
         {/* Main form */}
-        <div className="lg:col-span-2 space-y-8">
+        <div className="lg:col-span-2 space-y-6 min-w-0">
           {/* Customer Info */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="rounded-2xl bg-white border border-charcoal-100 p-6"
+            className="rounded-2xl bg-white border border-charcoal-100 p-4 sm:p-6"
           >
             <h3 className="font-heading font-semibold text-lg text-dark mb-4 flex items-center gap-2">
               <User className="w-5 h-5 text-brand-500" />
@@ -222,7 +222,7 @@ export default function CheckoutClient() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="rounded-2xl bg-white border border-charcoal-100 p-6"
+            className="rounded-2xl bg-white border border-charcoal-100 p-4 sm:p-6"
           >
             <h3 className="font-heading font-semibold text-lg text-dark mb-4 flex items-center gap-2">
               <Banknote className="w-5 h-5 text-brand-500" />
@@ -233,7 +233,7 @@ export default function CheckoutClient() {
                 <button
                   key={method.id}
                   onClick={() => setPaymentType(method.id)}
-                  className={`w-full flex items-center gap-4 p-4 rounded-xl border-2 transition-all text-left ${
+                  className={`w-full flex items-center gap-3 p-3 sm:p-4 rounded-xl border-2 transition-all text-left ${
                     paymentType === method.id
                       ? "border-brand-500 bg-brand-50/50 shadow-sm"
                       : "border-charcoal-100 hover:border-charcoal-200"
@@ -275,12 +275,12 @@ export default function CheckoutClient() {
                     {config.bankDetails.map((bank) => (
                       <div
                         key={bank.bank}
-                        className="flex items-center justify-between py-2 border-b border-gold-100 last:border-0"
+                        className="flex items-start justify-between gap-2 py-2 border-b border-gold-100 last:border-0"
                       >
                         <div>
                           <p className="text-xs font-semibold text-dark">{bank.bank}</p>
                           <p className="text-xs text-charcoal-500">{bank.accountTitle}</p>
-                          <p className="text-xs font-mono text-charcoal-600 mt-0.5">
+                          <p className="text-xs font-mono text-charcoal-600 mt-0.5 break-all">
                             {bank.accountNumber}
                           </p>
                         </div>
@@ -306,9 +306,9 @@ export default function CheckoutClient() {
         </div>
 
         {/* Order Summary sidebar */}
-        <div className="lg:col-span-1">
+        <div className="lg:col-span-1 min-w-0">
           <div className="sticky top-28">
-            <div className="rounded-2xl bg-white border border-charcoal-100 p-6">
+            <div className="rounded-2xl bg-white border border-charcoal-100 p-4 sm:p-6">
               <h3 className="font-heading font-semibold text-lg text-dark mb-4">
                 Your Order
               </h3>
