@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -125,6 +126,7 @@ export default function RootLayout({
         <MobileNav />
         <WhatsAppFloat />
         <Analytics />
+        <GoogleAnalytics gaId="G-FT63CK3H50" />
       </body>
     </html>
   );
