@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "BazaarNow" }],
   metadataBase: new URL("https://www.bazaarnow.net"),
+  alternates: {
+    canonical: "./",
+  },
   openGraph: {
     type: "website",
     locale: "en_PK",
