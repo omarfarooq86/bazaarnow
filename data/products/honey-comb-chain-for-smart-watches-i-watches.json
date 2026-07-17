@@ -3,12 +3,10 @@
   "name": "HONEY COMB Chain for Smart watches - i watches",
   "category": "fashion",
   "price": 2202,
-  "description": "[video width=240 height=426 autoplay mp4=https://hhcnewapp.blr1.digitaloceanspaces.com/uploads/2023/02/300684681_1172733709951399_5917045271271888027_n.mp4][/video]\r\n\r\n&nbsp;",
+  "description": "&nbsp;",
   "features": [
-    "[video width=240 height=426 autoplay mp4=https://hhcnewapp",
     "digitaloceanspaces",
-    "com/uploads/2023/02/300684681_1172733709951399_5917045271271888027_n",
-    "mp4][/video]\r\n\r\n&nbsp;"
+    "com/uploads/2023/02/300684681_1172733709951399_5917045271271888027_n"
   ],
   "specifications": {
     "Product": "HONEY COMB Chain for Smart watches - i watches"
@@ -33,5 +31,6 @@
   ],
   "deliveryInfo": "Delivery in 2-4 working days across Pakistan",
   "sku": "hhc-279910",
-  "salePrice": 2107
+  "salePrice": 2107,
+  "videoUrl": "https://hhcnewapp.blr1.digitaloceanspaces.com/uploads/2023/02/300684681_1172733709951399_5917045271271888027_n.mp4"
 }
