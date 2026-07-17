@@ -243,7 +243,7 @@ export default function ProductDetailClient({
             <h1 className="heading-2 text-dark mb-4 break-words hyphens-auto">{product.name}</h1>
 
             {/* Rating */}
-            <div className="flex items-center gap-2 mb-4">
+            <div className="flex flex-wrap items-center gap-2 mb-4">
               <div className="flex items-center gap-0.5">
                 {[...Array(5)].map((_, i) => (
                   <Star
@@ -265,7 +265,7 @@ export default function ProductDetailClient({
             </div>
 
             {/* Price */}
-            <div className="flex items-baseline gap-3 mb-6">
+            <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-6">
               <span className="text-3xl font-bold text-brand-600">
                 {formatPrice(current)}
               </span>
@@ -368,15 +368,15 @@ export default function ProductDetailClient({
 
             {/* Delivery & Payment info */}
             <div className="grid sm:grid-cols-2 gap-3 mb-6">
-              <div className="flex items-center gap-3 p-3 rounded-xl bg-charcoal-50">
+              <div className="flex items-center gap-3 p-3 rounded-xl bg-charcoal-50 min-w-0">
                 <Truck className="w-5 h-5 text-brand-500 flex-shrink-0" />
-                <span className="text-xs text-charcoal-600">
+                <span className="text-xs text-charcoal-600 truncate">
                   {product.deliveryInfo}
                 </span>
               </div>
-              <div className="flex items-center gap-3 p-3 rounded-xl bg-charcoal-50">
+              <div className="flex items-center gap-3 p-3 rounded-xl bg-charcoal-50 min-w-0">
                 <ShieldCheck className="w-5 h-5 text-emerald-500 flex-shrink-0" />
-                <span className="text-xs text-charcoal-600">
+                <span className="text-xs text-charcoal-600 truncate">
                   {product.sku ? `SKU: ${product.sku}` : "1 Year Warranty"}
                 </span>
               </div>
@@ -391,7 +391,7 @@ export default function ProductDetailClient({
                 {config.paymentMethods.map((method) => (
                   <div
                     key={method.id}
-                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-charcoal-50 text-xs font-medium text-charcoal-600"
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-charcoal-50 text-xs font-medium text-charcoal-600 whitespace-nowrap"
                   >
                     {method.name}
                   </div>
