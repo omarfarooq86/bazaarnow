@@ -7,9 +7,9 @@ import Link from "next/link";
 import type { Product } from "@/types";
 import { formatPrice, getEffectivePrice, fuzzyMatch, findClosestMatch, getCategoryLabel } from "@/lib/utils";
 
-// Slim index fields: s=slug, n=name, c=category, p=price, d=salePrice, i=image
-interface SlimItem { s: string; n: string; c: string; p: number; d?: number; i: string; }
-interface SearchItem { slug: string; name: string; category: string; price: number; salePrice?: number; image: string; }
+// Slim index fields: s=slug, n=name, c=category, p=price, d=salePrice, i=image, v=videoUrl
+interface SlimItem { s: string; n: string; c: string; p: number; d?: number; i: string; v?: string; }
+interface SearchItem { slug: string; name: string; category: string; price: number; salePrice?: number; image: string; videoUrl?: string; }
 
 let searchCache: SlimItem[] | null = null;
 let categoryList: { slug: string; count: number }[] = [];
@@ -36,7 +36,7 @@ function preloadSearchIndex() {
 preloadSearchIndex();
 
 function expandItem(s: SlimItem): SearchItem {
-  return { slug: s.s, name: s.n, category: s.c, price: s.p, salePrice: s.d, image: s.i };
+  return { slug: s.s, name: s.n, category: s.c, price: s.p, salePrice: s.d, image: s.i, videoUrl: s.v || "" };
 }
 
 async function searchProducts(query: string): Promise<Product[]> {
@@ -56,7 +56,7 @@ async function searchProducts(query: string): Promise<Product[]> {
     })
     .map((p) => {
       const item = expandItem(p);
-      return { ...item, images: [item.image], description: "", features: [], specifications: {}, inStock: true, isFeatured: false, deliveryInfo: "" } as unknown as Product;
+      return { ...item, images: [item.image], videoUrl: item.videoUrl || "", description: "", features: [], specifications: {}, inStock: true, isFeatured: false, deliveryInfo: "" } as unknown as Product;
     });
 }
 
