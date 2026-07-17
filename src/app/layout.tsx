@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
@@ -126,6 +127,7 @@ export default function RootLayout({
         <MobileNav />
         <WhatsAppFloat />
         <Analytics />
+        <SpeedInsights />
         <GoogleAnalytics gaId="G-FT63CK3H50" />
       </body>
     </html>
