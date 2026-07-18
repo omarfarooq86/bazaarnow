@@ -25,7 +25,7 @@ import Link from "next/link";
 import { useCartStore } from "@/lib/cart";
 import { formatPrice, getEffectivePrice, calculateAdvanceDiscount } from "@/lib/utils";
 import { getSiteConfig } from "@/lib/config";
-import { openWhatsApp } from "@/lib/whatsapp";
+import { openWhatsApp, saveOrderToSheet } from "@/lib/whatsapp";
 import type { PaymentType, CustomerInfo } from "@/types";
 
 export default function CheckoutClient() {
@@ -73,6 +73,7 @@ export default function CheckoutClient() {
     setIsSubmitting(true);
     try {
       openWhatsApp(items, customer, paymentType);
+      saveOrderToSheet(items, customer, paymentType);
       clearCart();
     } finally {
       setIsSubmitting(false);

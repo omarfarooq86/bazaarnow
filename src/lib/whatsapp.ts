@@ -34,6 +34,9 @@ export function generateWhatsAppMessage(
     lines.push(
       `${index + 1}. ${item.product.name} x${item.quantity} — Rs. ${itemTotal.toLocaleString("en-PK")}`
     );
+    lines.push(
+      `   🔗 https://www.bazaarnow.net/product/${item.product.slug}/`
+    );
   });
 
   lines.push("");
@@ -80,6 +83,48 @@ export function generateWhatsAppMessage(
   }
 
   return encodeURIComponent(lines.join("\n"));
+}
+
+/**
+ * Send order data to Google Sheets via webhook
+ */
+export async function saveOrderToSheet(
+  items: CartItem[],
+  customer: CustomerInfo,
+  paymentType: PaymentType
+): Promise<void> {
+  const subtotal = items.reduce((total, item) => {
+    const { current } = getEffectivePrice(item.product.price, item.product.salePrice);
+    return total + current * item.quantity;
+  }, 0);
+
+  const isAdvance = paymentType === "advance";
+  const discount = isAdvance ? calculateAdvanceDiscount(subtotal) : 0;
+  const total = subtotal - discount;
+
+  const products = items
+    .map((item) => `${item.product.name} (x${item.quantity})`)
+    .join(", ");
+
+  try {
+    await fetch(
+      "https://script.google.com/macros/s/AKfycbwwMhKXDsWueid2JhLExY_BxmCpIlynkUE1bNWglYr5OCT9BeWpyFZvtf-EVcnfeLhwKQ/exec",
+      {
+        method: "POST",
+        body: JSON.stringify({
+          name: customer.name,
+          phone: customer.phone,
+          city: customer.city,
+          address: customer.address,
+          products: products,
+          total: total,
+          payment: paymentType,
+        }),
+      }
+    );
+  } catch (e) {
+    // Silent fail — order still goes through even if sheet fails
+  }
 }
 
 /**
