@@ -21,7 +21,12 @@
   "specifications": {
     "weight": "and"
   },
-  "images": [],
+  "images": [
+    "/images/products/aura-cream-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily--1.webp",
+    "/images/products/aura-cream-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily--2.webp",
+    "/images/products/aura-cream-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily--3.webp",
+    "/images/products/aura-cream-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily--4.webp"
+  ],
   "inStock": true,
   "stockCount": 20,
   "isFeatured": false,

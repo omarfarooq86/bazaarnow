@@ -21,7 +21,12 @@
   "specifications": {
     "weight": "and"
   },
-  "images": [],
+  "images": [
+    "/images/products/brown-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-g-1.webp",
+    "/images/products/brown-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-g-2.webp",
+    "/images/products/brown-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-g-3.webp",
+    "/images/products/brown-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-g-4.webp"
+  ],
   "inStock": true,
   "stockCount": 21,
   "isFeatured": false,

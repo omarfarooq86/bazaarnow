@@ -10,7 +10,23 @@
   "specifications": {
     "weight": "and"
   },
-  "images": [],
+  "images": [
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-1.png",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-2.jpg",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-3.jpg",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-4.jpg",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-5.jpg",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-6.jpg",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-7.jpg",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-8.jpg",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-9.jpg",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-10.jpg",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-11.webp",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-12.webp",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-13.webp",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-14.webp",
+    "/images/products/2-in-1-dumpling-samosa-maker-mini-manual-tortilla-dough-press-random-colors-15.webp"
+  ],
   "inStock": true,
   "stockCount": 11,
   "isFeatured": false,

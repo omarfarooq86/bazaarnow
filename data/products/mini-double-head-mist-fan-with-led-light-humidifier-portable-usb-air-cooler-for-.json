@@ -21,7 +21,17 @@
   "specifications": {
     "weight": "fan"
   },
-  "images": [],
+  "images": [
+    "/images/products/mini-double-head-mist-fan-with-led-light-humidifier-portable-usb-air-cooler-for--1.jpg",
+    "/images/products/mini-double-head-mist-fan-with-led-light-humidifier-portable-usb-air-cooler-for--2.jpg",
+    "/images/products/mini-double-head-mist-fan-with-led-light-humidifier-portable-usb-air-cooler-for--3.jpg",
+    "/images/products/mini-double-head-mist-fan-with-led-light-humidifier-portable-usb-air-cooler-for--4.jpg",
+    "/images/products/mini-double-head-mist-fan-with-led-light-humidifier-portable-usb-air-cooler-for--5.jpg",
+    "/images/products/mini-double-head-mist-fan-with-led-light-humidifier-portable-usb-air-cooler-for--6.jpg",
+    "/images/products/mini-double-head-mist-fan-with-led-light-humidifier-portable-usb-air-cooler-for--7.jpg",
+    "/images/products/mini-double-head-mist-fan-with-led-light-humidifier-portable-usb-air-cooler-for--8.jpg",
+    "/images/products/mini-double-head-mist-fan-with-led-light-humidifier-portable-usb-air-cooler-for--9.jpg"
+  ],
   "inStock": true,
   "stockCount": 17,
   "isFeatured": false,

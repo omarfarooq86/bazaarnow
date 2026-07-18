@@ -22,7 +22,12 @@
     "weight": "texture,",
     "color": "Waterproof,"
   },
-  "images": [],
+  "images": [
+    "/images/products/crazy-girl-36h-magic-waterproof-blush-long-lasting-3d-glow-makeup-for-girls-wome-1.webp",
+    "/images/products/crazy-girl-36h-magic-waterproof-blush-long-lasting-3d-glow-makeup-for-girls-wome-2.webp",
+    "/images/products/crazy-girl-36h-magic-waterproof-blush-long-lasting-3d-glow-makeup-for-girls-wome-3.webp",
+    "/images/products/crazy-girl-36h-magic-waterproof-blush-long-lasting-3d-glow-makeup-for-girls-wome-4.webp"
+  ],
   "inStock": true,
   "stockCount": 9,
   "isFeatured": false,

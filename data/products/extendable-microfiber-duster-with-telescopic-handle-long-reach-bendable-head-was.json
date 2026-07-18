@@ -10,7 +10,16 @@
   "specifications": {
     "Material": "Premium"
   },
-  "images": [],
+  "images": [
+    "/images/products/extendable-microfiber-duster-with-telescopic-handle-long-reach-bendable-head-was-1.jpg",
+    "/images/products/extendable-microfiber-duster-with-telescopic-handle-long-reach-bendable-head-was-2.jpg",
+    "/images/products/extendable-microfiber-duster-with-telescopic-handle-long-reach-bendable-head-was-3.jpg",
+    "/images/products/extendable-microfiber-duster-with-telescopic-handle-long-reach-bendable-head-was-4.jpg",
+    "/images/products/extendable-microfiber-duster-with-telescopic-handle-long-reach-bendable-head-was-5.jpg",
+    "/images/products/extendable-microfiber-duster-with-telescopic-handle-long-reach-bendable-head-was-6.jpg",
+    "/images/products/extendable-microfiber-duster-with-telescopic-handle-long-reach-bendable-head-was-7.jpg",
+    "/images/products/extendable-microfiber-duster-with-telescopic-handle-long-reach-bendable-head-was-8.webp"
+  ],
   "inStock": true,
   "stockCount": 25,
   "isFeatured": false,

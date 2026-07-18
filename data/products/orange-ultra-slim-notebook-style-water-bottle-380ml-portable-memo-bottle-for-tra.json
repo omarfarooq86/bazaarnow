@@ -21,7 +21,14 @@
   "specifications": {
     "Product": "Orange Ultra Slim Notebook Style Water Bottle 380ml | Portable Memo Bottle for Travel, School & Office"
   },
-  "images": [],
+  "images": [
+    "/images/products/orange-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-tra-1.webp",
+    "/images/products/orange-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-tra-2.webp",
+    "/images/products/orange-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-tra-3.webp",
+    "/images/products/orange-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-tra-4.webp",
+    "/images/products/orange-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-tra-5.webp",
+    "/images/products/orange-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-tra-6.webp"
+  ],
   "inStock": true,
   "stockCount": 25,
   "isFeatured": false,

@@ -21,7 +21,17 @@
   "specifications": {
     "weight": "body"
   },
-  "images": [],
+  "images": [
+    "/images/products/47-piece-foldable-wireless-electric-screwdriver-kit-with-adjustable-torque-usb-c-1.avif",
+    "/images/products/47-piece-foldable-wireless-electric-screwdriver-kit-with-adjustable-torque-usb-c-2.avif",
+    "/images/products/47-piece-foldable-wireless-electric-screwdriver-kit-with-adjustable-torque-usb-c-3.avif",
+    "/images/products/47-piece-foldable-wireless-electric-screwdriver-kit-with-adjustable-torque-usb-c-4.avif",
+    "/images/products/47-piece-foldable-wireless-electric-screwdriver-kit-with-adjustable-torque-usb-c-5.avif",
+    "/images/products/47-piece-foldable-wireless-electric-screwdriver-kit-with-adjustable-torque-usb-c-6.avif",
+    "/images/products/47-piece-foldable-wireless-electric-screwdriver-kit-with-adjustable-torque-usb-c-7.avif",
+    "/images/products/47-piece-foldable-wireless-electric-screwdriver-kit-with-adjustable-torque-usb-c-8.avif",
+    "/images/products/47-piece-foldable-wireless-electric-screwdriver-kit-with-adjustable-torque-usb-c-9.avif"
+  ],
   "inStock": true,
   "stockCount": 10,
   "isFeatured": false,

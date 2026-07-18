@@ -21,7 +21,14 @@
   "specifications": {
     "Product": "We Babe Bears Frosted Plastic Water Bottle with Straw 1000ml | Leakproof BPA-Free Cute Hydration Bottle"
   },
-  "images": [],
+  "images": [
+    "/images/products/we-babe-bears-frosted-plastic-water-bottle-with-straw-1000ml-leakproof-bpa-free--1.webp",
+    "/images/products/we-babe-bears-frosted-plastic-water-bottle-with-straw-1000ml-leakproof-bpa-free--2.webp",
+    "/images/products/we-babe-bears-frosted-plastic-water-bottle-with-straw-1000ml-leakproof-bpa-free--3.webp",
+    "/images/products/we-babe-bears-frosted-plastic-water-bottle-with-straw-1000ml-leakproof-bpa-free--4.webp",
+    "/images/products/we-babe-bears-frosted-plastic-water-bottle-with-straw-1000ml-leakproof-bpa-free--5.webp",
+    "/images/products/we-babe-bears-frosted-plastic-water-bottle-with-straw-1000ml-leakproof-bpa-free--6.webp"
+  ],
   "inStock": true,
   "stockCount": 27,
   "isFeatured": false,

@@ -21,7 +21,14 @@
   "specifications": {
     "weight": "and"
   },
-  "images": [],
+  "images": [
+    "/images/products/white-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-g-1.webp",
+    "/images/products/white-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-g-2.webp",
+    "/images/products/white-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-g-3.webp",
+    "/images/products/white-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-g-4.webp",
+    "/images/products/white-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-g-5.webp",
+    "/images/products/white-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-g-6.webp"
+  ],
   "inStock": true,
   "stockCount": 29,
   "isFeatured": false,

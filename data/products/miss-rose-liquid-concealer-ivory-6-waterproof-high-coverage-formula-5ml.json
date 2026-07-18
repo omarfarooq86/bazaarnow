@@ -21,7 +21,13 @@
   "specifications": {
     "weight": "texture"
   },
-  "images": [],
+  "images": [
+    "/images/products/miss-rose-liquid-concealer-ivory-6-waterproof-high-coverage-formula-5ml-1.webp",
+    "/images/products/miss-rose-liquid-concealer-ivory-6-waterproof-high-coverage-formula-5ml-2.webp",
+    "/images/products/miss-rose-liquid-concealer-ivory-6-waterproof-high-coverage-formula-5ml-3.webp",
+    "/images/products/miss-rose-liquid-concealer-ivory-6-waterproof-high-coverage-formula-5ml-4.webp",
+    "/images/products/miss-rose-liquid-concealer-ivory-6-waterproof-high-coverage-formula-5ml-5.webp"
+  ],
   "inStock": true,
   "stockCount": 23,
   "isFeatured": false,

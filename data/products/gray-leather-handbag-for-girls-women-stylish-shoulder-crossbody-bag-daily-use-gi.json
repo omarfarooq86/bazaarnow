@@ -21,7 +21,11 @@
   "specifications": {
     "weight": "and"
   },
-  "images": [],
+  "images": [
+    "/images/products/gray-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-gi-1.webp",
+    "/images/products/gray-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-gi-2.webp",
+    "/images/products/gray-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-gi-3.webp"
+  ],
   "inStock": true,
   "stockCount": 26,
   "isFeatured": false,

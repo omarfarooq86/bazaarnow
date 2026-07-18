@@ -21,7 +21,13 @@
   "specifications": {
     "material": "construction"
   },
-  "images": [],
+  "images": [
+    "/images/products/2-in-1-scalp-root-hair-oil-applicator-comb-hair-growth-scalp-care-massage-tool-1.jpg",
+    "/images/products/2-in-1-scalp-root-hair-oil-applicator-comb-hair-growth-scalp-care-massage-tool-2.jpg",
+    "/images/products/2-in-1-scalp-root-hair-oil-applicator-comb-hair-growth-scalp-care-massage-tool-3.jpg",
+    "/images/products/2-in-1-scalp-root-hair-oil-applicator-comb-hair-growth-scalp-care-massage-tool-4.jpg",
+    "/images/products/2-in-1-scalp-root-hair-oil-applicator-comb-hair-growth-scalp-care-massage-tool-5.jpg"
+  ],
   "inStock": true,
   "stockCount": 19,
   "isFeatured": false,

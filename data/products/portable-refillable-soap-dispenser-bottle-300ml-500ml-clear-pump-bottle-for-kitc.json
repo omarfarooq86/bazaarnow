@@ -21,7 +21,14 @@
   "specifications": {
     "Product": "Portable Refillable Soap Dispenser Bottle | 300ml 500ml Clear Pump Bottle for Kitchen Bathroom Shower Lotion Shampoo"
   },
-  "images": [],
+  "images": [
+    "/images/products/portable-refillable-soap-dispenser-bottle-300ml-500ml-clear-pump-bottle-for-kitc-1.jpg",
+    "/images/products/portable-refillable-soap-dispenser-bottle-300ml-500ml-clear-pump-bottle-for-kitc-2.jpg",
+    "/images/products/portable-refillable-soap-dispenser-bottle-300ml-500ml-clear-pump-bottle-for-kitc-3.jpg",
+    "/images/products/portable-refillable-soap-dispenser-bottle-300ml-500ml-clear-pump-bottle-for-kitc-4.jpg",
+    "/images/products/portable-refillable-soap-dispenser-bottle-300ml-500ml-clear-pump-bottle-for-kitc-5.jpg",
+    "/images/products/portable-refillable-soap-dispenser-bottle-300ml-500ml-clear-pump-bottle-for-kitc-6.jpg"
+  ],
   "inStock": true,
   "stockCount": 15,
   "isFeatured": false,

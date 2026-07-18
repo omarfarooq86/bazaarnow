@@ -21,7 +21,18 @@
   "specifications": {
     "Product": "Portable USB Air Cooler Fan"
   },
-  "images": [],
+  "images": [
+    "/images/products/portable-usb-air-cooler-fan-3-speed-mist-spray-rechargeable-random-color-1.jpg",
+    "/images/products/portable-usb-air-cooler-fan-3-speed-mist-spray-rechargeable-random-color-2.jpg",
+    "/images/products/portable-usb-air-cooler-fan-3-speed-mist-spray-rechargeable-random-color-3.jpg",
+    "/images/products/portable-usb-air-cooler-fan-3-speed-mist-spray-rechargeable-random-color-4.jpg",
+    "/images/products/portable-usb-air-cooler-fan-3-speed-mist-spray-rechargeable-random-color-5.jpg",
+    "/images/products/portable-usb-air-cooler-fan-3-speed-mist-spray-rechargeable-random-color-6.jpg",
+    "/images/products/portable-usb-air-cooler-fan-3-speed-mist-spray-rechargeable-random-color-7.jpg",
+    "/images/products/portable-usb-air-cooler-fan-3-speed-mist-spray-rechargeable-random-color-8.jpg",
+    "/images/products/portable-usb-air-cooler-fan-3-speed-mist-spray-rechargeable-random-color-9.jpg",
+    "/images/products/portable-usb-air-cooler-fan-3-speed-mist-spray-rechargeable-random-color-10.jpg"
+  ],
   "inStock": true,
   "stockCount": 27,
   "isFeatured": false,

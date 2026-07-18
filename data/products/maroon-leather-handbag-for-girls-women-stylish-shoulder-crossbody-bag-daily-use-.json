@@ -21,7 +21,13 @@
   "specifications": {
     "weight": "and"
   },
-  "images": [],
+  "images": [
+    "/images/products/maroon-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use--1.webp",
+    "/images/products/maroon-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use--2.webp",
+    "/images/products/maroon-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use--3.webp",
+    "/images/products/maroon-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use--4.webp",
+    "/images/products/maroon-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use--5.webp"
+  ],
   "inStock": true,
   "stockCount": 5,
   "isFeatured": false,

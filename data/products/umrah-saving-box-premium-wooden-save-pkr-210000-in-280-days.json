@@ -21,7 +21,12 @@
   "specifications": {
     "Product": "Umrah Saving Box"
   },
-  "images": [],
+  "images": [
+    "/images/products/umrah-saving-box-premium-wooden-save-pkr-210000-in-280-days-1.jpg",
+    "/images/products/umrah-saving-box-premium-wooden-save-pkr-210000-in-280-days-2.jpg",
+    "/images/products/umrah-saving-box-premium-wooden-save-pkr-210000-in-280-days-3.jpg",
+    "/images/products/umrah-saving-box-premium-wooden-save-pkr-210000-in-280-days-4.jpg"
+  ],
   "inStock": true,
   "stockCount": 22,
   "isFeatured": false,

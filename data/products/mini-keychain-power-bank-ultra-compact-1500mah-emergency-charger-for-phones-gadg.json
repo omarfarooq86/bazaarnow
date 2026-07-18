@@ -10,7 +10,15 @@
   "specifications": {
     "Material": "ABS"
   },
-  "images": [],
+  "images": [
+    "/images/products/mini-keychain-power-bank-ultra-compact-1500mah-emergency-charger-for-phones-gadg-1.jpg",
+    "/images/products/mini-keychain-power-bank-ultra-compact-1500mah-emergency-charger-for-phones-gadg-2.jpg",
+    "/images/products/mini-keychain-power-bank-ultra-compact-1500mah-emergency-charger-for-phones-gadg-3.jpg",
+    "/images/products/mini-keychain-power-bank-ultra-compact-1500mah-emergency-charger-for-phones-gadg-4.jpg",
+    "/images/products/mini-keychain-power-bank-ultra-compact-1500mah-emergency-charger-for-phones-gadg-5.jpg",
+    "/images/products/mini-keychain-power-bank-ultra-compact-1500mah-emergency-charger-for-phones-gadg-6.jpg",
+    "/images/products/mini-keychain-power-bank-ultra-compact-1500mah-emergency-charger-for-phones-gadg-7.jpg"
+  ],
   "inStock": true,
   "stockCount": 22,
   "isFeatured": false,

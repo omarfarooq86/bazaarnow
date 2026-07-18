@@ -10,7 +10,16 @@
   "specifications": {
     "color": "options"
   },
-  "images": [],
+  "images": [
+    "/images/products/water-ripple-lamp-16-color-rotating-led-night-light-with-remote-1.jpg",
+    "/images/products/water-ripple-lamp-16-color-rotating-led-night-light-with-remote-2.jpg",
+    "/images/products/water-ripple-lamp-16-color-rotating-led-night-light-with-remote-3.jpg",
+    "/images/products/water-ripple-lamp-16-color-rotating-led-night-light-with-remote-4.jpg",
+    "/images/products/water-ripple-lamp-16-color-rotating-led-night-light-with-remote-5.jpg",
+    "/images/products/water-ripple-lamp-16-color-rotating-led-night-light-with-remote-6.jpg",
+    "/images/products/water-ripple-lamp-16-color-rotating-led-night-light-with-remote-7.jpg",
+    "/images/products/water-ripple-lamp-16-color-rotating-led-night-light-with-remote-8.jpg"
+  ],
   "inStock": true,
   "stockCount": 5,
   "isFeatured": false,

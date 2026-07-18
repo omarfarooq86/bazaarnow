@@ -10,7 +10,13 @@
   "specifications": {
     "weight": "design"
   },
-  "images": [],
+  "images": [
+    "/images/products/led-disco-party-lights-crystal-magic-ball-3w-rgb-colorful-projection-lamp-for-pa-1.jpg",
+    "/images/products/led-disco-party-lights-crystal-magic-ball-3w-rgb-colorful-projection-lamp-for-pa-2.jpg",
+    "/images/products/led-disco-party-lights-crystal-magic-ball-3w-rgb-colorful-projection-lamp-for-pa-3.webp",
+    "/images/products/led-disco-party-lights-crystal-magic-ball-3w-rgb-colorful-projection-lamp-for-pa-4.jpg",
+    "/images/products/led-disco-party-lights-crystal-magic-ball-3w-rgb-colorful-projection-lamp-for-pa-5.jpg"
+  ],
   "inStock": true,
   "stockCount": 15,
   "isFeatured": false,

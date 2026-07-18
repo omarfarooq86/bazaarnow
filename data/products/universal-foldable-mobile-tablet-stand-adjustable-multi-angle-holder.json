@@ -10,7 +10,16 @@
   "specifications": {
     "weight": "yet"
   },
-  "images": [],
+  "images": [
+    "/images/products/universal-foldable-mobile-tablet-stand-adjustable-multi-angle-holder-1.jpg",
+    "/images/products/universal-foldable-mobile-tablet-stand-adjustable-multi-angle-holder-2.jpg",
+    "/images/products/universal-foldable-mobile-tablet-stand-adjustable-multi-angle-holder-3.jpg",
+    "/images/products/universal-foldable-mobile-tablet-stand-adjustable-multi-angle-holder-4.jpg",
+    "/images/products/universal-foldable-mobile-tablet-stand-adjustable-multi-angle-holder-5.jpg",
+    "/images/products/universal-foldable-mobile-tablet-stand-adjustable-multi-angle-holder-6.jpg",
+    "/images/products/universal-foldable-mobile-tablet-stand-adjustable-multi-angle-holder-7.jpg",
+    "/images/products/universal-foldable-mobile-tablet-stand-adjustable-multi-angle-holder-8.jpg"
+  ],
   "inStock": true,
   "stockCount": 12,
   "isFeatured": false,

@@ -21,7 +21,14 @@
   "specifications": {
     "Product": "Green Ultra Slim Notebook Style Water Bottle 380ml | Portable Memo Bottle for Travel, School & Office"
   },
-  "images": [],
+  "images": [
+    "/images/products/green-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trav-1.webp",
+    "/images/products/green-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trav-2.webp",
+    "/images/products/green-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trav-3.webp",
+    "/images/products/green-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trav-4.webp",
+    "/images/products/green-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trav-5.webp",
+    "/images/products/green-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trav-6.webp"
+  ],
   "inStock": true,
   "stockCount": 5,
   "isFeatured": false,

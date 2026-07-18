@@ -21,7 +21,12 @@
   "specifications": {
     "Product": "Miss Green FIT ME Waterproof Mascara & Eyeliner | 2-in-1 Long-Lasting Eye Makeup Duo"
   },
-  "images": [],
+  "images": [
+    "/images/products/miss-green-fit-me-waterproof-mascara-eyeliner-2-in-1-long-lasting-eye-makeup-duo-1.webp",
+    "/images/products/miss-green-fit-me-waterproof-mascara-eyeliner-2-in-1-long-lasting-eye-makeup-duo-2.webp",
+    "/images/products/miss-green-fit-me-waterproof-mascara-eyeliner-2-in-1-long-lasting-eye-makeup-duo-3.webp",
+    "/images/products/miss-green-fit-me-waterproof-mascara-eyeliner-2-in-1-long-lasting-eye-makeup-duo-4.webp"
+  ],
   "inStock": true,
   "stockCount": 6,
   "isFeatured": false,

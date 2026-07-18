@@ -21,7 +21,13 @@
   "specifications": {
     "Product": "Vacuum Sealer Hand Machine ZKFK-001 | Automatic Food Sealer with 5 Vacuum Bags for Fresh Food Storage"
   },
-  "images": [],
+  "images": [
+    "/images/products/vacuum-sealer-hand-machine-zkfk-001-automatic-food-sealer-with-5-vacuum-bags-for-1.webp",
+    "/images/products/vacuum-sealer-hand-machine-zkfk-001-automatic-food-sealer-with-5-vacuum-bags-for-2.webp",
+    "/images/products/vacuum-sealer-hand-machine-zkfk-001-automatic-food-sealer-with-5-vacuum-bags-for-3.webp",
+    "/images/products/vacuum-sealer-hand-machine-zkfk-001-automatic-food-sealer-with-5-vacuum-bags-for-4.webp",
+    "/images/products/vacuum-sealer-hand-machine-zkfk-001-automatic-food-sealer-with-5-vacuum-bags-for-5.webp"
+  ],
   "inStock": true,
   "stockCount": 14,
   "isFeatured": false,

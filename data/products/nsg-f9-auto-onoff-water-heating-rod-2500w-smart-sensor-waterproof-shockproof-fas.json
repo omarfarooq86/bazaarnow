@@ -21,7 +21,12 @@
   "specifications": {
     "Product": "NSG F9 Auto On/Off Water Heating Rod 2500W | Smart Sensor, Waterproof, Shockproof, Fast Heating"
   },
-  "images": [],
+  "images": [
+    "/images/products/nsg-f9-auto-onoff-water-heating-rod-2500w-smart-sensor-waterproof-shockproof-fas-1.webp",
+    "/images/products/nsg-f9-auto-onoff-water-heating-rod-2500w-smart-sensor-waterproof-shockproof-fas-2.webp",
+    "/images/products/nsg-f9-auto-onoff-water-heating-rod-2500w-smart-sensor-waterproof-shockproof-fas-3.webp",
+    "/images/products/nsg-f9-auto-onoff-water-heating-rod-2500w-smart-sensor-waterproof-shockproof-fas-4.webp"
+  ],
   "inStock": true,
   "stockCount": 28,
   "isFeatured": false,

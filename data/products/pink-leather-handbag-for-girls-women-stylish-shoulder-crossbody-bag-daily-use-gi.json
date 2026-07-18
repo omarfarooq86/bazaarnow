@@ -21,7 +21,13 @@
   "specifications": {
     "weight": "and"
   },
-  "images": [],
+  "images": [
+    "/images/products/pink-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-gi-1.webp",
+    "/images/products/pink-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-gi-2.webp",
+    "/images/products/pink-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-gi-3.webp",
+    "/images/products/pink-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-gi-4.webp",
+    "/images/products/pink-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-gi-5.webp"
+  ],
   "inStock": true,
   "stockCount": 12,
   "isFeatured": false,

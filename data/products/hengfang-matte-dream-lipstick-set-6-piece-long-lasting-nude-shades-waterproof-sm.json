@@ -10,7 +10,13 @@
   "specifications": {
     "weight": "and"
   },
-  "images": [],
+  "images": [
+    "/images/products/hengfang-matte-dream-lipstick-set-6-piece-long-lasting-nude-shades-waterproof-sm-1.webp",
+    "/images/products/hengfang-matte-dream-lipstick-set-6-piece-long-lasting-nude-shades-waterproof-sm-2.webp",
+    "/images/products/hengfang-matte-dream-lipstick-set-6-piece-long-lasting-nude-shades-waterproof-sm-3.webp",
+    "/images/products/hengfang-matte-dream-lipstick-set-6-piece-long-lasting-nude-shades-waterproof-sm-4.webp",
+    "/images/products/hengfang-matte-dream-lipstick-set-6-piece-long-lasting-nude-shades-waterproof-sm-5.webp"
+  ],
   "inStock": true,
   "stockCount": 5,
   "isFeatured": false,

@@ -21,7 +21,15 @@
   "specifications": {
     "Product": "Blue Ultra Slim Notebook Style Water Bottle 380ml | Portable Memo Bottle for Travel, School & Office"
   },
-  "images": [],
+  "images": [
+    "/images/products/blue-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trave-1.webp",
+    "/images/products/blue-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trave-2.webp",
+    "/images/products/blue-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trave-3.webp",
+    "/images/products/blue-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trave-4.webp",
+    "/images/products/blue-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trave-5.webp",
+    "/images/products/blue-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trave-6.webp",
+    "/images/products/blue-ultra-slim-notebook-style-water-bottle-380ml-portable-memo-bottle-for-trave-7.webp"
+  ],
   "inStock": true,
   "stockCount": 7,
   "isFeatured": false,

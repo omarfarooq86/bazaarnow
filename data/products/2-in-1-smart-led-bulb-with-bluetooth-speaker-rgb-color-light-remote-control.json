@@ -10,7 +10,17 @@
   "specifications": {
     "color": "in"
   },
-  "images": [],
+  "images": [
+    "/images/products/2-in-1-smart-led-bulb-with-bluetooth-speaker-rgb-color-light-remote-control-1.jpg",
+    "/images/products/2-in-1-smart-led-bulb-with-bluetooth-speaker-rgb-color-light-remote-control-2.jpg",
+    "/images/products/2-in-1-smart-led-bulb-with-bluetooth-speaker-rgb-color-light-remote-control-3.jpg",
+    "/images/products/2-in-1-smart-led-bulb-with-bluetooth-speaker-rgb-color-light-remote-control-4.jpg",
+    "/images/products/2-in-1-smart-led-bulb-with-bluetooth-speaker-rgb-color-light-remote-control-5.jpg",
+    "/images/products/2-in-1-smart-led-bulb-with-bluetooth-speaker-rgb-color-light-remote-control-6.jpg",
+    "/images/products/2-in-1-smart-led-bulb-with-bluetooth-speaker-rgb-color-light-remote-control-7.jpg",
+    "/images/products/2-in-1-smart-led-bulb-with-bluetooth-speaker-rgb-color-light-remote-control-8.jpg",
+    "/images/products/2-in-1-smart-led-bulb-with-bluetooth-speaker-rgb-color-light-remote-control-9.jpg"
+  ],
   "inStock": true,
   "stockCount": 22,
   "isFeatured": false,

@@ -10,7 +10,13 @@
   "specifications": {
     "Model": "Instant"
   },
-  "images": [],
+  "images": [
+    "/images/products/electric-instant-heating-faucet-digital-temperature-display-kitchen-bathroom-hot-1.webp",
+    "/images/products/electric-instant-heating-faucet-digital-temperature-display-kitchen-bathroom-hot-2.webp",
+    "/images/products/electric-instant-heating-faucet-digital-temperature-display-kitchen-bathroom-hot-3.webp",
+    "/images/products/electric-instant-heating-faucet-digital-temperature-display-kitchen-bathroom-hot-4.webp",
+    "/images/products/electric-instant-heating-faucet-digital-temperature-display-kitchen-bathroom-hot-5.webp"
+  ],
   "inStock": true,
   "stockCount": 27,
   "isFeatured": false,

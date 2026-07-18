@@ -10,7 +10,14 @@
   "specifications": {
     "weight": "&"
   },
-  "images": [],
+  "images": [
+    "/images/products/hair-beard-straightener-comb-for-men-multifunction-electric-hair-beard-styling-b-1.webp",
+    "/images/products/hair-beard-straightener-comb-for-men-multifunction-electric-hair-beard-styling-b-2.webp",
+    "/images/products/hair-beard-straightener-comb-for-men-multifunction-electric-hair-beard-styling-b-3.webp",
+    "/images/products/hair-beard-straightener-comb-for-men-multifunction-electric-hair-beard-styling-b-4.webp",
+    "/images/products/hair-beard-straightener-comb-for-men-multifunction-electric-hair-beard-styling-b-5.webp",
+    "/images/products/hair-beard-straightener-comb-for-men-multifunction-electric-hair-beard-styling-b-6.webp"
+  ],
   "inStock": true,
   "stockCount": 10,
   "isFeatured": false,

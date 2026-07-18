@@ -10,7 +10,15 @@
   "specifications": {
     "color": "Acrylic"
   },
-  "images": [],
+  "images": [
+    "/images/products/multicolor-acrylic-artificial-nails-kit-full-cover-nails-with-glue-24-shades-576-1.webp",
+    "/images/products/multicolor-acrylic-artificial-nails-kit-full-cover-nails-with-glue-24-shades-576-2.webp",
+    "/images/products/multicolor-acrylic-artificial-nails-kit-full-cover-nails-with-glue-24-shades-576-3.webp",
+    "/images/products/multicolor-acrylic-artificial-nails-kit-full-cover-nails-with-glue-24-shades-576-4.webp",
+    "/images/products/multicolor-acrylic-artificial-nails-kit-full-cover-nails-with-glue-24-shades-576-5.webp",
+    "/images/products/multicolor-acrylic-artificial-nails-kit-full-cover-nails-with-glue-24-shades-576-6.webp",
+    "/images/products/multicolor-acrylic-artificial-nails-kit-full-cover-nails-with-glue-24-shades-576-7.webp"
+  ],
   "inStock": true,
   "stockCount": 20,
   "isFeatured": false,

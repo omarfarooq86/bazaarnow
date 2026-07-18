@@ -10,7 +10,17 @@
   "specifications": {
     "Material": "Titanium"
   },
-  "images": [],
+  "images": [
+    "/images/products/foldable-car-windshield-umbrella-sunshade-uv-protection-heat-blocker-for-all-veh-1.webp",
+    "/images/products/foldable-car-windshield-umbrella-sunshade-uv-protection-heat-blocker-for-all-veh-2.jpg",
+    "/images/products/foldable-car-windshield-umbrella-sunshade-uv-protection-heat-blocker-for-all-veh-3.jpg",
+    "/images/products/foldable-car-windshield-umbrella-sunshade-uv-protection-heat-blocker-for-all-veh-4.webp",
+    "/images/products/foldable-car-windshield-umbrella-sunshade-uv-protection-heat-blocker-for-all-veh-5.webp",
+    "/images/products/foldable-car-windshield-umbrella-sunshade-uv-protection-heat-blocker-for-all-veh-6.webp",
+    "/images/products/foldable-car-windshield-umbrella-sunshade-uv-protection-heat-blocker-for-all-veh-7.jpg",
+    "/images/products/foldable-car-windshield-umbrella-sunshade-uv-protection-heat-blocker-for-all-veh-8.jpg",
+    "/images/products/foldable-car-windshield-umbrella-sunshade-uv-protection-heat-blocker-for-all-veh-9.jpg"
+  ],
   "inStock": true,
   "stockCount": 5,
   "isFeatured": false,

@@ -10,7 +10,15 @@
   "specifications": {
     "weight": "—"
   },
-  "images": [],
+  "images": [
+    "/images/products/reusable-facial-ice-roller-for-face-body-shrinks-pores-soothes-skin-enhances-glo-1.webp",
+    "/images/products/reusable-facial-ice-roller-for-face-body-shrinks-pores-soothes-skin-enhances-glo-2.webp",
+    "/images/products/reusable-facial-ice-roller-for-face-body-shrinks-pores-soothes-skin-enhances-glo-3.avif",
+    "/images/products/reusable-facial-ice-roller-for-face-body-shrinks-pores-soothes-skin-enhances-glo-4.jpg",
+    "/images/products/reusable-facial-ice-roller-for-face-body-shrinks-pores-soothes-skin-enhances-glo-5.webp",
+    "/images/products/reusable-facial-ice-roller-for-face-body-shrinks-pores-soothes-skin-enhances-glo-6.webp",
+    "/images/products/reusable-facial-ice-roller-for-face-body-shrinks-pores-soothes-skin-enhances-glo-7.jpg"
+  ],
   "inStock": true,
   "stockCount": 27,
   "isFeatured": false,

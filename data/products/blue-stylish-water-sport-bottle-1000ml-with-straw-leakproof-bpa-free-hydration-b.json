@@ -22,7 +22,11 @@
     "weight": "bottle",
     "color": "with"
   },
-  "images": [],
+  "images": [
+    "/images/products/blue-stylish-water-sport-bottle-1000ml-with-straw-leakproof-bpa-free-hydration-b-1.webp",
+    "/images/products/blue-stylish-water-sport-bottle-1000ml-with-straw-leakproof-bpa-free-hydration-b-2.jpg",
+    "/images/products/blue-stylish-water-sport-bottle-1000ml-with-straw-leakproof-bpa-free-hydration-b-3.jpg"
+  ],
   "inStock": true,
   "stockCount": 23,
   "isFeatured": false,
