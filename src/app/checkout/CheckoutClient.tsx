@@ -121,7 +121,7 @@ export default function CheckoutClient() {
               <User className="w-5 h-5 text-brand-500" />
               Customer Information
             </h3>
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="grid sm:grid-cols-2 gap-4 overflow-x-hidden">
               <div>
                 <label className="block text-xs font-semibold text-charcoal-500 mb-1.5">
                   Full Name *
@@ -229,7 +229,7 @@ export default function CheckoutClient() {
               <Banknote className="w-5 h-5 text-brand-500" />
               Payment Method
             </h3>
-            <div className="space-y-3">
+            <div className="space-y-3 overflow-x-hidden">
               {paymentMethods.map((method) => (
                 <button
                   key={method.id}
@@ -335,7 +335,7 @@ export default function CheckoutClient() {
                           />
                         )}
                       </div>
-                      <div className="flex-1 min-w-0">
+                      <div className="flex-1 min-w-0 max-w-[60%]">
                         <p className="text-xs font-medium text-dark truncate">
                           {item.product.name}
                         </p>
@@ -369,7 +369,7 @@ export default function CheckoutClient() {
                     <span>-{formatPrice(advanceDiscount)}</span>
                   </div>
                 )}
-                <div className="border-t border-charcoal-100 pt-2 flex justify-between font-bold text-dark text-base">
+                <div className="border-t border-charcoal-100 pt-2 flex justify-between font-bold text-dark text-base break-words">
                   <span>Total</span>
                   <span className="text-brand-600">{formatPrice(total)}</span>
                 </div>
