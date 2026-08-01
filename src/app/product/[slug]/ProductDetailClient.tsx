@@ -109,10 +109,10 @@ export default function ProductDetailClient({
         </nav>
       </div>
 
-      <div className="container-custom py-2 pb-12">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
+      <div className="container-custom py-2 pb-12 overflow-x-hidden">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 min-w-0">
           {/* Image Gallery */}
-          <div>
+          <div className="min-w-0">
             <div className="relative aspect-square rounded-2xl bg-charcoal-50 overflow-hidden mb-4">
               <div className="absolute inset-0 bg-gradient-to-br from-charcoal-100 to-charcoal-200 flex items-center justify-center">
                 {product.images[selectedImage] ? (
@@ -235,7 +235,7 @@ export default function ProductDetailClient({
           </div>
 
           {/* Product Info */}
-          <div>
+          <div className="min-w-0">
             {/* Category & name */}
             <p className="text-sm text-brand-500 font-semibold uppercase tracking-wider mb-2">
               {product.category.replace("-", " & ")}
@@ -402,9 +402,9 @@ export default function ProductDetailClient({
         </div>
 
         {/* Full Description & Specifications */}
-        <div className="mt-12 grid lg:grid-cols-3 gap-10">
+        <div className="mt-12 grid lg:grid-cols-3 gap-10 min-w-0">
           {/* Description */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 min-w-0">
             <h2 className="heading-3 text-dark mb-4">Product Description</h2>
             <div className="text-charcoal-600 space-y-4">
               {(() => {
