@@ -2,7 +2,7 @@
   {
     "slug": "fashion",
     "name": "Fashion",
-    "description": "Clothing, shoes, watches, and accessories for men & women",
+    "description": "Pakistan's largest online fashion collection with 798 products — watches, handbags, wallets, clothing, shoes, and accessories for men and women. From Cartier-style watches at Rs. 3,900 to premium leather handbags, designer tote sets, winter jackets, and summer sandals. Every product listed with actual measurements and fabric details. Free delivery to 100+ cities. COD available on all orders. 5% discount on advance payment via JazzCash, EasyPaisa, or bank transfer.",
     "image": "/images/categories/fashion.jpg",
     "icon": "Shirt",
     "productCount": 798
@@ -10,7 +10,7 @@
   {
     "slug": "home-living",
     "name": "Home & Living",
-    "description": "Furniture, decor, kitchen, and home essentials",
+    "description": "477 home products — wall decor, furniture, kitchen tools, water bottles, storage solutions, and decorative accessories. Find 3D wall panels, foldable tables, portable blenders, LED night lamps, Islamic wall art, and modern organizers. Every product delivered free to your doorstep. Whether you're decorating a new house or upgrading your kitchen, our Home & Living section has budget-friendly options starting from Rs. 500. 7-day return policy on all items.",
     "image": "/images/categories/home-living.jpg",
     "icon": "Home",
     "productCount": 477
@@ -18,7 +18,7 @@
   {
     "slug": "beauty",
     "name": "Beauty & Care",
-    "description": "Skincare, makeup, hair, and personal care products",
+    "description": "397 beauty and personal care products — skincare, makeup, hair care, and grooming essentials. Shop Korean vitamin C creams, matte lipstick sets, organic face masks, liquid concealers, eyebrow pencils, and professional makeup brush kits. All products are BazaarNow-verified with detailed ingredient lists and usage instructions. From Rs. 600 daily essentials to Rs. 4,000 premium skincare sets. Free delivery. Cash on delivery available.",
     "image": "/images/categories/beauty.jpg",
     "icon": "Sparkles",
     "productCount": 397
@@ -26,7 +26,7 @@
   {
     "slug": "electronics",
     "name": "Electronics",
-    "description": "Smartphones, gadgets, audio, and accessories",
+    "description": "259 electronics and gadgets — wireless earbuds with ANC, smartwatches with GPS, fast chargers, USB cables, car accessories, phone cases, Bluetooth speakers, and LED bike lights. Every product listed with actual technical specifications: Bluetooth version, battery mAh, driver size, and charging speed. No vague 'premium quality' claims. Just real specs and honest prices. COD available so you can test before paying. 5% off on advance payment.",
     "image": "/images/categories/electronics.jpg",
     "icon": "Smartphone",
     "productCount": 259
@@ -34,7 +34,7 @@
   {
     "slug": "kids",
     "name": "Kids & Toys",
-    "description": "Toys, games, and children's essentials",
+    "description": "27 kids products — building blocks tables, LCD writing tablets, school bag sets, fairy wings, winter tracksuits, and educational toys. Safe, non-toxic materials with age recommendations on every product. Perfect for birthdays, Eid gifts, and everyday learning through play. Free delivery across Pakistan. 7-day return window if the kids don't love it. (They will. But the return window is there just in case.)",
     "image": "/images/categories/kids.jpg",
     "icon": "Baby",
     "productCount": 27
@@ -42,7 +42,7 @@
   {
     "slug": "kitchen",
     "name": "Kitchen & Dining",
-    "description": "Cookware, appliances, and dining sets",
+    "description": "4 kitchen essentials — professional blenders, dumpling makers, mandoline slicers, and food preparation tools. Small but quality collection of everyday kitchen helpers. Free delivery. COD available.",
     "image": "/images/categories/kitchen.jpg",
     "icon": "UtensilsCrossed",
     "productCount": 4
@@ -50,7 +50,7 @@
   {
     "slug": "sports",
     "name": "Sports & Fitness",
-    "description": "Equipment, activewear, and supplements",
+    "description": "2 sports products — posture correctors and fitness accessories for everyday health and comfort. Small but practical collection. Free delivery. 7-day returns.",
     "image": "/images/categories/sports.jpg",
     "icon": "Dumbbell",
     "productCount": 2
@@ -58,7 +58,7 @@
   {
     "slug": "groceries",
     "name": "Groceries",
-    "description": "Food, beverages, and daily essentials",
+    "description": "Coming soon — food, beverages, and daily essentials. This category is currently being stocked. Check back or browse our other 7 categories with 1,964 products available now.",
     "image": "/images/categories/groceries.jpg",
     "icon": "ShoppingBasket",
     "productCount": 0

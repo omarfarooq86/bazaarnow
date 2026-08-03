@@ -63,7 +63,7 @@ export default function CategoryClient({
             Back to Home
           </Link>
           <h1 className="heading-1 text-white mb-2">{category.name}</h1>
-          <p className="text-charcoal-300 text-base max-w-xl">
+          <p className="text-charcoal-300 text-base max-w-2xl leading-relaxed">
             {category.description}
           </p>
           <p className="text-charcoal-400 text-sm mt-3">
