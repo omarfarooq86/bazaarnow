@@ -43,6 +43,47 @@ export function truncate(text: string, maxLength: number): string {
   return text.slice(0, maxLength).replace(/\s+\S*$/, "") + "...";
 }
 
+const NAME_SEPARATOR = /\s*[|–—]\s*|\s+-\s+/;
+const TRAILING_PUNCT = /[\s,;:.\-–—]+$/;
+// Packaging counts that lead many supplier names: "01 Pair - Silicone Foot Care
+// Socks…". Left alone, the "head" of that name is the string "01 Pair", which
+// makes a useless title and a nonsense FAQ question.
+const QUANTITY_PREFIX = /^\s*\d*\s*(pc|pcs|piece|pieces|pair|pairs|pack|packs|set|sets|combo|pkt)\b\s*[-–—|]?\s*/i;
+
+/**
+ * Product names are long supplier strings: a readable head, then a spec dump
+ * after the first pipe or dash. Titles and FAQ questions need the head only,
+ * cut at a word boundary - never mid-word the way a raw slice() does.
+ */
+export function shortProductName(name: string, max = 30): string {
+  const full = (name || "").trim();
+
+  // Drop a leading packaging count, but only when what remains still identifies
+  // the product - "1 Pc Car Scratch Repair Pen…" keeps its meaning, whereas a
+  // two-word leftover would not.
+  const stripped = full.replace(QUANTITY_PREFIX, "").trim();
+  const base = stripped.length >= 20 ? stripped : full;
+
+  const head = (base.split(NAME_SEPARATOR)[0] || "").trim().replace(TRAILING_PUNCT, "");
+  // A head shorter than this is a fragment ("Mother", "New"), so take the whole
+  // name instead and let the word-boundary cut do the work.
+  const source = head.length >= 12 ? head : base;
+
+  if (source.length <= max) return source.replace(TRAILING_PUNCT, "");
+  const cut = source.slice(0, max);
+  const lastSpace = cut.lastIndexOf(" ");
+  let out = (lastSpace > 10 ? cut.slice(0, lastSpace) : cut).replace(TRAILING_PUNCT, "");
+
+  // The cut can land on a short word that only reads as complete because the
+  // rest of its phrase is beyond the budget - "…Socks Anti", "…Repair Pen,
+  // Deep". Drop it; what precedes still identifies the product.
+  const words = out.split(" ");
+  if (words.length > 2 && words[words.length - 1].length <= 4) {
+    out = words.slice(0, -1).join(" ").replace(TRAILING_PUNCT, "");
+  }
+  return out;
+}
+
 /**
  * Get the discounted price or original price
  */

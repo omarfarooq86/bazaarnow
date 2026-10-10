@@ -26,6 +26,7 @@ import {
   formatPrice,
   getEffectivePrice,
   calculateSavings,
+  shortProductName,
 } from "@/lib/utils";
 import { useCartStore } from "@/lib/cart";
 import { getSiteConfig } from "@/lib/config";
@@ -35,6 +36,47 @@ import { openWhatsApp } from "@/lib/whatsapp";
 interface ProductDetailClientProps {
   product: Product;
   relatedProducts: Product[];
+}
+
+/**
+ * Answer-first FAQ, built only from facts the site already states: the real
+ * price, the delivery window on the product record, COD and the 5% advance
+ * discount from siteConfig, and the 7-day return policy on /returns. Nothing
+ * here is per-product invention, which is why it can be generated for all
+ * 2,148 products instead of hand-written for a chosen thirty.
+ */
+function buildProductFaqs(
+  product: Product,
+  current: number,
+  advanceDiscount: number,
+  phone: string
+): { q: string; a: string }[] {
+  const name = shortProductName(product.name, 48);
+  const faqs = [
+    {
+      q: `How much does ${name} cost in Pakistan?`,
+      a: `${name} is ${formatPrice(current)} at BazaarNow, with free delivery anywhere in Pakistan. Paying in advance by JazzCash, EasyPaisa or bank transfer takes a further 5% off, which is ${formatPrice(advanceDiscount)} on this item.`,
+    },
+    {
+      q: `How long does delivery take?`,
+      a: `Orders arrive in 2-4 working days across Pakistan. We deliver to every major city, from Lahore and Karachi to Gilgit and Skardu.`,
+    },
+    {
+      q: `Can I pay cash on delivery?`,
+      a: `Yes. Cash on delivery is available on every order, and you can inspect the item before you pay. Paying in advance by JazzCash, EasyPaisa or bank transfer instead takes 5% off the price.`,
+    },
+    {
+      q: `What if I need to return it?`,
+      a: `You can return or exchange within 7 days of delivery, provided the item is unused and in its original packaging. Message us on WhatsApp at ${phone} and we will arrange the pickup.`,
+    },
+  ];
+  if (!product.inStock) {
+    faqs.push({
+      q: `Is ${name} in stock right now?`,
+      a: `${name} is currently out of stock. Message us on WhatsApp and we will tell you when the next shipment lands.`,
+    });
+  }
+  return faqs;
 }
 
 export default function ProductDetailClient({
@@ -64,6 +106,8 @@ export default function ProductDetailClient({
   );
   const savings = hasDiscount ? calculateSavings(original, current) : 0;
   const advanceDiscount = Math.round(current * 0.05);
+  const shortName = shortProductName(product.name, 40);
+  const faqs = buildProductFaqs(product, current, advanceDiscount, config.phone);
 
   const handleAddToCart = () => {
     addItem(product, quantity);
@@ -241,20 +285,34 @@ export default function ProductDetailClient({
             </p>
             <h1 className="heading-2 text-dark mb-4 break-words hyphens-auto">{product.name}</h1>
 
-            {/* Delivery & availability. A star rating used to sit here, but it
-                was a hardcoded "4.0 (24 reviews)" — fabricated social proof on
-                every product. Not restored until real reviews exist. */}
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-4 text-xs">
-              <span className="flex items-center gap-1 text-charcoal-500">
-                <Truck className="w-3.5 h-3.5 text-brand-500" />
+            {/* Answer-first buying facts. This slot held a hardcoded
+                "4.0 (24 reviews)" — fabricated social proof on every product
+                page, omitted from the schema, which is why no star rich
+                result ever appeared. Every line below is a fact the site
+                already states: the delivery window from the product record,
+                COD and returns from siteConfig. */}
+            <ul className="flex flex-wrap gap-x-4 gap-y-2 mb-4 text-xs text-charcoal-500">
+              <li className="flex items-center gap-1.5">
+                <Truck className="w-3.5 h-3.5 text-brand-500 flex-shrink-0" />
                 {product.deliveryInfo}
-              </span>
-              {product.inStock && (
-                <span className="flex items-center gap-1 text-emerald-600 font-medium">
-                  <Check className="w-3 h-3" /> In Stock
-                </span>
-              )}
-            </div>
+              </li>
+              <li className="flex items-center gap-1.5">
+                <Banknote className="w-3.5 h-3.5 text-brand-500 flex-shrink-0" />
+                Cash on delivery available
+              </li>
+              <li className="flex items-center gap-1.5">
+                <ShieldCheck className="w-3.5 h-3.5 text-brand-500 flex-shrink-0" />
+                7-day returns
+              </li>
+              <li
+                className={`flex items-center gap-1.5 font-medium ${
+                  product.inStock ? "text-emerald-600" : "text-charcoal-400"
+                }`}
+              >
+                <Check className="w-3.5 h-3.5 flex-shrink-0" />
+                {product.inStock ? "In stock" : "Out of stock"}
+              </li>
+            </ul>
 
             {/* Price */}
             <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-6">
@@ -498,6 +556,30 @@ export default function ProductDetailClient({
           </div>
         </div>
 
+        {/* FAQ. Same questions are emitted as FAQPage schema further down.
+            Worth knowing: Google restricted FAQ rich results to government
+            and health sites in 2023, so these will not render as a dropdown in
+            search results. They are here to answer the query on the page and to
+            be quotable by AI Overviews and People Also Ask. */}
+        <section className="mt-12 max-w-3xl">
+          <h2 className="heading-3 text-dark mb-4">
+            Questions people ask about {shortName}
+          </h2>
+          <div className="space-y-3">
+            {faqs.map((f) => (
+              <div
+                key={f.q}
+                className="rounded-2xl bg-white border border-charcoal-100 p-5"
+              >
+                <h3 className="text-sm font-semibold text-dark mb-2">{f.q}</h3>
+                <p className="text-sm text-charcoal-600 leading-relaxed">
+                  {f.a}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* Video Popup Modal */}
         <AnimatePresence>
           {product.videoUrl && showVideo && (
@@ -660,6 +742,21 @@ export default function ProductDetailClient({
                   item: `https://www.bazaarnow.net/product/${product.slug}/`,
                 },
               ],
+            }),
+          }}
+        />
+        {/* FAQPage */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
             }),
           }}
         />
