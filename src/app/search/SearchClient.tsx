@@ -131,7 +131,7 @@ export default function SearchClient() {
             type="text"
             value={query}
             onChange={(e) => handleInput(e.target.value)}
-            placeholder="Search 1,964 products..."
+            placeholder="Search 2,148 products..."
             className="w-full pl-12 pr-4 py-3.5 rounded-2xl border-2 border-charcoal-100 focus:border-brand-400 text-base outline-none transition-colors bg-white"
             autoFocus
           />
@@ -142,7 +142,7 @@ export default function SearchClient() {
       {!hasSearched && (
         <div className="text-center py-12">
           <Search className="w-16 h-16 text-charcoal-200 mx-auto mb-4" />
-          <h2 className="text-lg font-semibold text-dark mb-2">Search 1,964 Products</h2>
+          <h2 className="text-lg font-semibold text-dark mb-2">Search 2,148 Products</h2>
           <p className="text-charcoal-400 mb-6">Type at least 2 characters to search</p>
           <p className="text-xs font-semibold text-charcoal-400 uppercase tracking-wider mb-3 flex items-center justify-center gap-1.5">
             <TrendingUp className="w-3.5 h-3.5" />

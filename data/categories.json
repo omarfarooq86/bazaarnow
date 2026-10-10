@@ -2,42 +2,42 @@
   {
     "slug": "fashion",
     "name": "Fashion",
-    "description": "Pakistan's largest online fashion collection with 798 products — watches, handbags, wallets, clothing, shoes, and accessories for men and women. From Cartier-style watches at Rs. 3,900 to premium leather handbags, designer tote sets, winter jackets, and summer sandals. Every product listed with actual measurements and fabric details. Free delivery to 100+ cities. COD available on all orders. 5% discount on advance payment via JazzCash, EasyPaisa, or bank transfer.",
+    "description": "Pakistan's largest online fashion collection with 812 products — watches, handbags, wallets, clothing, shoes, and accessories for men and women. From Cartier-style watches at Rs. 3,900 to premium leather handbags, designer tote sets, winter jackets, and summer sandals. Every product listed with actual measurements and fabric details. Free delivery to 100+ cities. COD available on all orders. 5% discount on advance payment via JazzCash, EasyPaisa, or bank transfer.",
     "image": "/images/categories/fashion.jpg",
     "icon": "Shirt",
-    "productCount": 798
+    "productCount": 812
   },
   {
     "slug": "home-living",
     "name": "Home & Living",
-    "description": "477 home products — wall decor, furniture, kitchen tools, water bottles, storage solutions, and decorative accessories. Find 3D wall panels, foldable tables, portable blenders, LED night lamps, Islamic wall art, and modern organizers. Every product delivered free to your doorstep. Whether you're decorating a new house or upgrading your kitchen, our Home & Living section has budget-friendly options starting from Rs. 500. 7-day return policy on all items.",
+    "description": "516 home products — wall decor, furniture, kitchen tools, water bottles, storage solutions, and decorative accessories. Find 3D wall panels, foldable tables, portable blenders, LED night lamps, Islamic wall art, and modern organizers. Every product delivered free to your doorstep. Whether you're decorating a new house or upgrading your kitchen, our Home & Living section has budget-friendly options starting from Rs. 500. 7-day return policy on all items.",
     "image": "/images/categories/home-living.jpg",
     "icon": "Home",
-    "productCount": 477
+    "productCount": 516
   },
   {
     "slug": "beauty",
     "name": "Beauty & Care",
-    "description": "397 beauty and personal care products — skincare, makeup, hair care, and grooming essentials. Shop Korean vitamin C creams, matte lipstick sets, organic face masks, liquid concealers, eyebrow pencils, and professional makeup brush kits. All products are BazaarNow-verified with detailed ingredient lists and usage instructions. From Rs. 600 daily essentials to Rs. 4,000 premium skincare sets. Free delivery. Cash on delivery available.",
+    "description": "491 beauty and personal care products — skincare, makeup, hair care, and grooming essentials. Shop Korean vitamin C creams, matte lipstick sets, organic face masks, liquid concealers, eyebrow pencils, and professional makeup brush kits. All products are BazaarNow-verified with detailed ingredient lists and usage instructions. From Rs. 600 daily essentials to Rs. 4,000 premium skincare sets. Free delivery. Cash on delivery available.",
     "image": "/images/categories/beauty.jpg",
     "icon": "Sparkles",
-    "productCount": 397
+    "productCount": 491
   },
   {
     "slug": "electronics",
     "name": "Electronics",
-    "description": "259 electronics and gadgets — wireless earbuds with ANC, smartwatches with GPS, fast chargers, USB cables, car accessories, phone cases, Bluetooth speakers, and LED bike lights. Every product listed with actual technical specifications: Bluetooth version, battery mAh, driver size, and charging speed. No vague 'premium quality' claims. Just real specs and honest prices. COD available so you can test before paying. 5% off on advance payment.",
+    "description": "293 electronics and gadgets — wireless earbuds with ANC, smartwatches with GPS, fast chargers, USB cables, car accessories, phone cases, Bluetooth speakers, and LED bike lights. Every product listed with actual technical specifications: Bluetooth version, battery mAh, driver size, and charging speed. No vague 'premium quality' claims. Just real specs and honest prices. COD available so you can test before paying. 5% off on advance payment.",
     "image": "/images/categories/electronics.jpg",
     "icon": "Smartphone",
-    "productCount": 259
+    "productCount": 293
   },
   {
     "slug": "kids",
     "name": "Kids & Toys",
-    "description": "27 kids products — building blocks tables, LCD writing tablets, school bag sets, fairy wings, winter tracksuits, and educational toys. Safe, non-toxic materials with age recommendations on every product. Perfect for birthdays, Eid gifts, and everyday learning through play. Free delivery across Pakistan. 7-day return window if the kids don't love it. (They will. But the return window is there just in case.)",
+    "description": "30 kids products — building blocks tables, LCD writing tablets, school bag sets, fairy wings, winter tracksuits, and educational toys. Safe, non-toxic materials with age recommendations on every product. Perfect for birthdays, Eid gifts, and everyday learning through play. Free delivery across Pakistan. 7-day return window if the kids don't love it. (They will. But the return window is there just in case.)",
     "image": "/images/categories/kids.jpg",
     "icon": "Baby",
-    "productCount": 27
+    "productCount": 30
   },
   {
     "slug": "kitchen",
@@ -58,7 +58,7 @@
   {
     "slug": "groceries",
     "name": "Groceries",
-    "description": "Coming soon — food, beverages, and daily essentials. This category is currently being stocked. Check back or browse our other 7 categories with 1,964 products available now.",
+    "description": "Coming soon — food, beverages, and daily essentials. This category is currently being stocked. Check back or browse our other 7 categories with 2,148 products available now.",
     "image": "/images/categories/groceries.jpg",
     "icon": "ShoppingBasket",
     "productCount": 0

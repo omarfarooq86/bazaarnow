@@ -202,7 +202,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                 type="text"
                 value={query}
                 onChange={(e) => handleSearch(e.target.value)}
-                placeholder="Search 1,964 products..."
+                placeholder="Search 2,148 products..."
                 className="flex-1 text-base outline-none text-dark placeholder:text-charcoal-300 bg-transparent"
               />
               <kbd className="hidden sm:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[0.6rem] font-mono text-charcoal-400 bg-charcoal-100 border border-charcoal-200">
