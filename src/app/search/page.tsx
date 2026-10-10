@@ -5,6 +5,9 @@ import SearchClient from "./SearchClient";
 export const metadata: Metadata = {
   title: "Search Products",
   description: "Search across all products at BazaarNow.",
+  // Search result pages are infinite thin permutations. Keep them crawlable
+  // (follow) so link equity still flows, but out of the index.
+  robots: { index: false, follow: true },
 };
 
 export default function SearchPage() {

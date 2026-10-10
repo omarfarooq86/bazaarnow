@@ -12,6 +12,9 @@ module.exports = {
       {
         userAgent: "*",
         allow: "/",
+        // Belt-and-braces alongside the per-page `robots: { index: false }`
+        // metadata. Prefix match, so it covers the trailing-slash form too.
+        disallow: ["/search", "/cart", "/checkout"],
       },
     ],
     additionalSitemaps: ["https://www.bazaarnow.net/sitemap.xml"],

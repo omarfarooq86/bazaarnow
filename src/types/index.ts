@@ -86,15 +86,6 @@ export interface CustomerInfo {
   notes?: string;
 }
 
-export interface Testimonial {
-  id: string;
-  name: string;
-  city: string;
-  rating: number;
-  text: string;
-  avatar: string;
-}
-
 export interface BlogIndex {
   slug: string;
   title: string;

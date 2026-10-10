@@ -16,7 +16,6 @@ import {
   Check,
   ChevronLeft,
   ChevronRight,
-  Star,
   Smartphone,
   Building2,
   Play,
@@ -242,23 +241,16 @@ export default function ProductDetailClient({
             </p>
             <h1 className="heading-2 text-dark mb-4 break-words hyphens-auto">{product.name}</h1>
 
-            {/* Rating */}
-            <div className="flex flex-wrap items-center gap-2 mb-4">
-              <div className="flex items-center gap-0.5">
-                {[...Array(5)].map((_, i) => (
-                  <Star
-                    key={i}
-                    className={`w-4 h-4 ${
-                      i < 4
-                        ? "text-gold-400 fill-gold-400"
-                        : "text-charcoal-200"
-                    }`}
-                  />
-                ))}
-              </div>
-              <span className="text-sm text-charcoal-400">4.0 (24 reviews)</span>
+            {/* Delivery & availability. A star rating used to sit here, but it
+                was a hardcoded "4.0 (24 reviews)" — fabricated social proof on
+                every product. Not restored until real reviews exist. */}
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-4 text-xs">
+              <span className="flex items-center gap-1 text-charcoal-500">
+                <Truck className="w-3.5 h-3.5 text-brand-500" />
+                {product.deliveryInfo}
+              </span>
               {product.inStock && (
-                <span className="flex items-center gap-1 text-xs text-emerald-600 font-medium">
+                <span className="flex items-center gap-1 text-emerald-600 font-medium">
                   <Check className="w-3 h-3" /> In Stock
                 </span>
               )}
@@ -594,9 +586,44 @@ export default function ProductDetailClient({
                 availability: product.inStock
                   ? "https://schema.org/InStock"
                   : "https://schema.org/OutOfStock",
+                itemCondition: "https://schema.org/NewCondition",
                 seller: {
                   "@type": "Organization",
                   name: "BazaarNow",
+                },
+                // Free delivery across Pakistan in 2-4 working days. Both facts
+                // are stated on /about and in data/site-config.json. handlingTime
+                // is deliberately omitted — no real handling-time figure exists.
+                shippingDetails: {
+                  "@type": "OfferShippingDetails",
+                  shippingRate: {
+                    "@type": "MonetaryAmount",
+                    value: 0,
+                    currency: "PKR",
+                  },
+                  shippingDestination: {
+                    "@type": "DefinedRegion",
+                    addressCountry: "PK",
+                  },
+                  deliveryTime: {
+                    "@type": "ShippingDeliveryTime",
+                    transitTime: {
+                      "@type": "QuantitativeValue",
+                      minValue: 2,
+                      maxValue: 4,
+                      unitCode: "DAY",
+                    },
+                  },
+                },
+                // 7-day return window, confirmed on /returns and /about. returnFees
+                // is omitted on purpose: pickup is free only in major cities, so a
+                // blanket FreeReturn would overstate the policy.
+                hasMerchantReturnPolicy: {
+                  "@type": "MerchantReturnPolicy",
+                  applicableCountry: "PK",
+                  returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
+                  merchantReturnDays: 7,
+                  returnMethod: "https://schema.org/ReturnByMail",
                 },
               },
               brand: {
@@ -618,19 +645,19 @@ export default function ProductDetailClient({
                   "@type": "ListItem",
                   position: 1,
                   name: "Home",
-                  item: "https://www.bazaarnow.net",
+                  item: "https://www.bazaarnow.net/",
                 },
                 {
                   "@type": "ListItem",
                   position: 2,
                   name: product.category.replace("-", " & "),
-                  item: `https://www.bazaarnow.net/category/${product.category}`,
+                  item: `https://www.bazaarnow.net/category/${product.category}/`,
                 },
                 {
                   "@type": "ListItem",
                   position: 3,
                   name: product.name,
-                  item: `https://www.bazaarnow.net/product/${product.slug}`,
+                  item: `https://www.bazaarnow.net/product/${product.slug}/`,
                 },
               ],
             }),

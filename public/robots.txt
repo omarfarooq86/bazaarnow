@@ -1,6 +1,9 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /search
+Disallow: /cart
+Disallow: /checkout
 
 # Host
 Host: https://www.bazaarnow.net

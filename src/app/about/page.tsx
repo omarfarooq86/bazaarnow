@@ -7,6 +7,7 @@ import {
   HeadphonesIcon,
   Star,
 } from "lucide-react";
+import { getSiteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
+  const config = getSiteConfig();
+
   return (
     <>
       {/* Hero */}
@@ -126,9 +129,10 @@ export default function AboutPage() {
                 <li>For hygiene reasons, certain items (undergarments, cosmetics) cannot be returned once opened</li>
               </ul>
               <p>
-                <strong>How to Return:</strong> Contact us via WhatsApp at
-                0300 1234567 or email hello@www.bazaarnow.net. Our team will guide
-                you through the process.
+                <strong>How to Return:</strong> Contact us via WhatsApp at{" "}
+                <strong>{config.phone}</strong> or email{" "}
+                <strong>{config.email}</strong>. Our team will guide you through
+                the process.
               </p>
             </div>
           </div>

@@ -4,6 +4,7 @@ import CheckoutClient from "./CheckoutClient";
 export const metadata: Metadata = {
   title: "Checkout",
   description: "Complete your order via WhatsApp. COD and advance payment options available.",
+  robots: { index: false, follow: true },
 };
 
 export default function CheckoutPage() {

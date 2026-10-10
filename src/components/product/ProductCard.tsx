@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ShoppingBag, Eye, Heart, Star } from "lucide-react";
+import { ShoppingBag, Eye, Heart, Truck } from "lucide-react";
 import type { Product } from "@/types";
 import { formatPrice, getEffectivePrice, calculateSavings } from "@/lib/utils";
 import { useCartStore } from "@/lib/cart";
@@ -202,16 +202,12 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
           <h3 className="text-sm font-semibold text-dark leading-tight mb-1.5 line-clamp-2 group-hover:text-brand-600 transition-colors">
             {product.name}
           </h3>
-          <div className="flex items-center gap-1 mb-2">
-            {[...Array(5)].map((_, i) => (
-              <Star
-                key={i}
-                className={`w-3 h-3 ${
-                  i < 4 ? "text-gold-400 fill-gold-400" : "text-charcoal-200"
-                }`}
-              />
-            ))}
-            <span className="text-xs text-charcoal-400 ml-1">(4.0)</span>
+          {/* Delivery note. This slot used to hold a hardcoded 4-star "(4.0)"
+              rating on every card — fabricated, and omitted from the Product
+              schema, so what shoppers saw never matched what Google saw. */}
+          <div className="flex items-center gap-1 mb-2 text-xs text-charcoal-400">
+            <Truck className="w-3 h-3 text-brand-500 flex-shrink-0" />
+            <span>Free delivery</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-base font-bold text-brand-600">

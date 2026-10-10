@@ -17,12 +17,21 @@ Read these files in order before writing a single word:
 | Order | File | What It Contains |
 |-------|------|-----------------|
 | 1 | `blog-post.md` | Full 4-phase workflow (research → write → SEO → Lighthouse) |
-| 2 | `voice.md` | Brand voice — sentence rhythm, word choices, anti-patterns |
-| 3 | `humour.md` | Humour rules — dad jokes, self-deprecation, parenthetical asides |
-| 4 | `opinions.md` | Strong opinions — "don't buy from us if," industry critiques |
-| 5 | `stats.md` | Canonical numbers — use exact figures, never round |
-| 6 | `stories.md` | Real anecdotes — adapt these, don't invent new ones |
+| 2 | `References/voice.md` | Brand voice — sentence rhythm, word choices, anti-patterns |
+| 3 | `References/humour.md` | Humour rules — dad jokes, self-deprecation, parenthetical asides |
+| 4 | `References/opinions.md` | Strong opinions — "don't buy from us if," industry critiques |
+| 5 | `References/stats.md` | Canonical numbers — use exact figures, never round |
+| 6 | `References/stories.md` | Real anecdotes — adapt these, don't invent new ones |
 | 7 | `on-page-seo.md` | **52-point SEO checklist — every item must pass** |
+
+> **Read `References/*.md` as rules, not as facts.** Every one of them is written
+> against a worked example — a Melbourne plumber called Marco. Its numbers
+> (18,420 jobs, $149 flat, VIC-PL-48217, the Prahran service area) belong to that
+> example and must never appear in BazaarNow content. What transfers is the
+> *craft*: sentence rhythm, humour beats, heading style, and the "tell people when
+> not to buy" instinct. BazaarNow's real facts live in `data/site-config.json`,
+> `data/blog/`, and the published posts — "the plumber is just an example. You
+> will use the rules for the topic given to you" is stated at the top of each.
 
 ### Keyword Selection
 
