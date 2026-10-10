@@ -64,9 +64,18 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
+    // All three used to point at favicon.svg. That left /favicon.ico 404ing for
+    // anything that probes the conventional path - including Google's crawler,
+    // which uses the favicon shown beside mobile search results - and left iOS
+    // with a blank tile, since it cannot render SVG for apple-touch-icon.
+    // Rasterised from the same mark by scripts/build-icons.mjs.
+    icon: [
+      { url: "/favicon.ico", sizes: "16x16 32x32 48x48" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
 };
 
