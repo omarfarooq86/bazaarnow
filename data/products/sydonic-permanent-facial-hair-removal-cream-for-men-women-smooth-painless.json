@@ -21,7 +21,13 @@
   "specifications": {
     "Material": "Skin-friendly"
   },
-  "images": [],
+  "images": [
+    "/images/products/sydonic-permanent-facial-hair-removal-cream-for-men-women-smooth-painless-1.webp",
+    "/images/products/sydonic-permanent-facial-hair-removal-cream-for-men-women-smooth-painless-2.webp",
+    "/images/products/sydonic-permanent-facial-hair-removal-cream-for-men-women-smooth-painless-3.webp",
+    "/images/products/sydonic-permanent-facial-hair-removal-cream-for-men-women-smooth-painless-4.webp",
+    "/images/products/sydonic-permanent-facial-hair-removal-cream-for-men-women-smooth-painless-5.webp"
+  ],
   "inStock": true,
   "stockCount": 8,
   "isFeatured": false,

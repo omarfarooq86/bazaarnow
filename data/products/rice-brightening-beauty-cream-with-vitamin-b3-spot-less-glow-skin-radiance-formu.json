@@ -21,7 +21,12 @@
   "specifications": {
     "weight": "Beauty"
   },
-  "images": [],
+  "images": [
+    "/images/products/rice-brightening-beauty-cream-with-vitamin-b3-spot-less-glow-skin-radiance-formu-1.webp",
+    "/images/products/rice-brightening-beauty-cream-with-vitamin-b3-spot-less-glow-skin-radiance-formu-2.webp",
+    "/images/products/rice-brightening-beauty-cream-with-vitamin-b3-spot-less-glow-skin-radiance-formu-3.webp",
+    "/images/products/rice-brightening-beauty-cream-with-vitamin-b3-spot-less-glow-skin-radiance-formu-4.webp"
+  ],
   "inStock": true,
   "stockCount": 11,
   "isFeatured": false,

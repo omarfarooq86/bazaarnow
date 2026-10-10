@@ -32,6 +32,13 @@ function parseCSV(text) {
   if (f.length || row.length) { row.push(f); rows.push(row); }
   return rows;
 }
+// Split an `Images` cell into URLs. Supplier filenames contain commas
+// (e.g. "RefreshingCleanserBright,ClearSkin(83)_1770025834.webp"), so a bare
+// split(",") truncates every URL to its directory prefix and 404s on download.
+// The real delimiter is a comma immediately followed by a scheme.
+const splitImageCell = (cell) =>
+  (cell || "").split(/,(?=https?:)/).map((u) => u.trim()).filter((u) => u.startsWith("http"));
+
 const normName = (s) => (s || "").toLowerCase().replace(/&amp;/g, "&").replace(/[^a-z0-9]+/g, " ").trim();
 
 // convert HTML to readable plain text, KEEPING line structure
@@ -52,15 +59,27 @@ function htmlToText(html) {
 }
 
 function slugify(text) {
-  return (text || "")
+  const s = (text || "")
     .toLowerCase()
     .replace(/&amp;/g, " and ")
     .replace(/[^a-z0-9\s-]/g, "")
     .replace(/[\s_]+/g, "-")
     .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "")
-    .substring(0, 80)
-    .replace(/-+$/g, "");
+    .replace(/^-|-$/g, "");
+  return truncateSlug(s);
+}
+
+// Cut to the last whole word at or under MAX. A bare substring(0, MAX) leaves
+// slugs ending mid-word (…quartz-wrist-, …daily-wear-stret). Only back up a word
+// when the cut genuinely lands mid-word.
+const MAX_SLUG_LEN = 80;
+function truncateSlug(s, max = MAX_SLUG_LEN) {
+  if (s.length <= max) return s;
+  const cut = s.slice(0, max);
+  if (cut.endsWith("-")) return cut.replace(/-+$/g, ""); // already on a boundary
+  if (s[max] === "-") return cut;                        // word ends exactly at max
+  const lastDash = cut.lastIndexOf("-");                 // mid-word: drop the stub
+  return lastDash > 0 ? cut.slice(0, lastDash) : cut;
 }
 
 // CSV Categories -> site category, honouring the site's existing prefix convention
@@ -145,7 +164,7 @@ for (let i = 1; i < rows.length; i++) {
     desc: col(r, "Description"),
     price: parseFloat(col(r, "Regular price")) || 0,
     inStock: col(r, "In stock?") === "1",
-    images: col(r, "Images").split(",").map((u) => u.trim()).filter((u) => u.startsWith("http")),
+    images: splitImageCell(col(r, "Images")),
     categories: col(r, "Categories"),
     norm: normName(name),
   });

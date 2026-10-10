@@ -20,12 +20,12 @@
     "Weight": "100g"
   },
   "images": [
-    "/images/products/teashell-niacinamide-skin-brightening-soap-face-body-brightening-bar-with-niacin-5.webp",
-    "/images/products/teashell-niacinamide-skin-brightening-soap-face-body-brightening-bar-with-niacin-6.webp",
-    "/images/products/teashell-niacinamide-skin-brightening-soap-face-body-brightening-bar-with-niacin-2.webp",
     "/images/products/teashell-niacinamide-skin-brightening-soap-face-body-brightening-bar-with-niacin-1.webp",
+    "/images/products/teashell-niacinamide-skin-brightening-soap-face-body-brightening-bar-with-niacin-2.webp",
     "/images/products/teashell-niacinamide-skin-brightening-soap-face-body-brightening-bar-with-niacin-3.webp",
-    "/images/products/teashell-niacinamide-skin-brightening-soap-face-body-brightening-bar-with-niacin-4.webp"
+    "/images/products/teashell-niacinamide-skin-brightening-soap-face-body-brightening-bar-with-niacin-4.webp",
+    "/images/products/teashell-niacinamide-skin-brightening-soap-face-body-brightening-bar-with-niacin-5.webp",
+    "/images/products/teashell-niacinamide-skin-brightening-soap-face-body-brightening-bar-with-niacin-6.webp"
   ],
   "inStock": true,
   "stockCount": 28,

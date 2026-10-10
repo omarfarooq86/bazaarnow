@@ -15,11 +15,11 @@ import p9 from "@/../data/products/1-pc-kashees-concealer-achieve-flawless-skin-
 import p10 from "@/../data/products/1-pc-neofit-ortho-support-series-elbow-support-for-compression-and-stability.json";
 import p11 from "@/../data/products/1-pc-silk-satin-bow-tie-maxi-night-dress-elegant-short-sleeve-women-nighty-free-.json";
 import p12 from "@/../data/products/1-pc-wedding-led-net-mesh-string-lights-fairy-string-lights-with-88-lights-for-w.json";
-import p13 from "@/../data/products/1-piece-cerave-halawa-finger-wax-formulated-with-nourishing-ingredients-ideal-fo.json";
+import p13 from "@/../data/products/1-piece-cerave-halawa-finger-wax-formulated-with-nourishing-ingredients-ideal.json";
 import p14 from "@/../data/products/1-piece-miss-rose-high-beam-liquid-highlighter-radiance-in-every-drop-10ml.json";
 import p15 from "@/../data/products/1-piece-pixi-on-the-glow-blush-stick-for-girls-makeup-blush-on-the-glow-cheeks-a.json";
 import p16 from "@/../data/products/1-piece-refillable-fancy-spinner-light-lighter-best-quality-light-lighter-lighte.json";
-import p17 from "@/../data/products/1-piece-silkfull-tube-makeup-foundation-waterproof-best-quality-long-lasting-fou.json";
+import p17 from "@/../data/products/1-piece-silkfull-tube-makeup-foundation-waterproof-best-quality-long-lasting.json";
 import p18 from "@/../data/products/10-dish-washing-cleaning-cloth-metal-wire-dish-cleaning-cloth-durable-scratch-fr.json";
 import p19 from "@/../data/products/10-inch-large-portable-air-conditioner-fan-usb-electric-fan-with-led-night-light.json";
 import p20 from "@/../data/products/10-inch-led-ring-light-kit-for-video-making-photography-adjustable-brightness-co.json";
@@ -32,7 +32,7 @@ import p26 from "@/../data/products/100-pcs-disposable-food-cover-plastic-bags-t
 import p27 from "@/../data/products/100-pcs-disposable-food-cover-plastic-shopper-bags-hygienic-lightweight-multi-pu.json";
 import p28 from "@/../data/products/100ml-adore-vita-soft-petroleum-jellies-premium-quality-smooth-texture-gentle-fo.json";
 import p29 from "@/../data/products/10pcs-kitchen-plate-dumpling-maker-set-food-grade-multi-use-random-colors.json";
-import p30 from "@/../data/products/12-in-1-home-tool-kit-multi-purpose-household-repair-tool-set-hardware-toolkit-w.json";
+import p30 from "@/../data/products/12-in-1-home-tool-kit-multi-purpose-household-repair-tool-set-hardware-toolkit.json";
 import p31 from "@/../data/products/12-inch-multi-color-lcd-writing-tablet-top-quality-reusable-drawing-note-taking-.json";
 import p32 from "@/../data/products/12-pcs-mocallure-matte-liquid-lipstick-set-high-pigment-waterproof-long-lasting.json";
 import p33 from "@/../data/products/12-pcs-press-on-nails-set-with-floral-design-rhinestone-decoration-reusable-fals.json";
@@ -123,7 +123,7 @@ import p117 from "@/../data/products/3-pc-ferrari-wall-dcor-photo-tiles-elegant-
 import p118 from "@/../data/products/3-pc-horse-wall-dcor-photo-tiles-elegant-design-selfadhesive-double-tape-size-8x.json";
 import p119 from "@/../data/products/3-pcs-luxurious-silk-net-black-lace-womens-sleepwear-set-top-short-gown-nightwea.json";
 import p120 from "@/../data/products/3-pcs-luxury-silk-nightwear-set-with-lace-trim-satin-sleepwear-for-women-free-si.json";
-import p121 from "@/../data/products/3-pcs-of-mens-summer-cotton-sando-vest-sleeveless-tank-top-breathable-soft-light.json";
+import p121 from "@/../data/products/3-pcs-of-mens-summer-cotton-sando-vest-sleeveless-tank-top-breathable-soft.json";
 import p122 from "@/../data/products/3-pcs-premium-silk-net-black-lace-womens-sleepwear-set-top-trouser-gown-size-fre.json";
 import p123 from "@/../data/products/3-pcs-premium-silk-nightwear-set-with-lace-satin-camisole-shorts-sleepwear-free-.json";
 import p124 from "@/../data/products/3-pcs-premium-silk-satin-nightwear-set-with-lace-trim-for-women-camisole-shorts-.json";
@@ -206,7 +206,7 @@ import p200 from "@/../data/products/4-lens-flasher-fog-light-40w-dual-color-whi
 import p201 from "@/../data/products/4-pcs-punch-free-screw-hanger-non-marking-wall-hook-stickers-heavy-duty-picture-.json";
 import p202 from "@/../data/products/4-pcs-style-satin-lingerie-set-bikini-slip-dress-robe-combo-free-size-dc-4001.json";
 import p203 from "@/../data/products/4-piece-multicolor-hair-clip-card-kids-accessories-hair-pin.json";
-import p204 from "@/../data/products/4-piece-school-bag-set-backpack-children-school-bags-for-girls-boys-canvas-schoo.json";
+import p204 from "@/../data/products/4-piece-school-bag-set-backpack-children-school-bags-for-girls-boys-canvas.json";
 import p205 from "@/../data/products/4-piece-school-bag-set-stylish-amp-practical-new-arrival-2024.json";
 import p206 from "@/../data/products/4-piece-womens-transparent-net-gown-set-soft-lace-robe-with-silk-inner-bra-panty.json";
 import p207 from "@/../data/products/4-tip-tattoo-pen-4-tip-tattoo-eyebrow-pen-eyebrow-pencil-creates-natural-makeup-.json";
@@ -255,7 +255,7 @@ import p249 from "@/../data/products/6-piece-ear-wax-cleaning-kit-portable-easy-
 import p250 from "@/../data/products/6-row-transparent-self-adhesive-wall-hooks-multi-purpose-clothes-coats-towels-ke.json";
 import p251 from "@/../data/products/6-row-transparent-wall-hooks-self-adhesive-clothes-coat-door-hanger-towel-key-ho.json";
 import p252 from "@/../data/products/65-inch-multi-color-lcd-writing-tablet-premium-quality-random-colors-reusable-dr.json";
-import p253 from "@/../data/products/6x6-inches-led-acrylic-writing-board-with-usb-light-7-colorful-erasable-pens-mes.json";
+import p253 from "@/../data/products/6x6-inches-led-acrylic-writing-board-with-usb-light-7-colorful-erasable-pens.json";
 import p254 from "@/../data/products/7-ft-ring-light-stand-for-photography-video-professional-grade-adjustable-stand.json";
 import p255 from "@/../data/products/7-piece-satin-sleepwear-lingerie-set-for-women-luxury-nightwear-collection-with-.json";
 import p256 from "@/../data/products/75-nano-hydroxyapatite-toothpaste-deep-cleaning-advanced-enamel-protection-fluor.json";
@@ -273,7 +273,7 @@ import p267 from "@/../data/products/9-inch-mist-fan-portable-air-conditioner-fa
 import p268 from "@/../data/products/9-pcs-makeup-brush-set-professional-beauty-tools-for-foundation-blending-contour.json";
 import p269 from "@/../data/products/96-pcs-fake-nails-set-nude-red-amp-multicolor-abs-plastic-nail-tips-durable-amp-.json";
 import p270 from "@/../data/products/a-luxurious-blend-of-iconic-designer-style-plush-comfort-and-premium-crafted-sue.json";
-import p271 from "@/../data/products/a-radiant-oasis-of-hydration-dove-rich-care-body-cream-48h-moisture-deep-nourish.json";
+import p271 from "@/../data/products/a-radiant-oasis-of-hydration-dove-rich-care-body-cream-48h-moisture-deep.json";
 import p272 from "@/../data/products/a58-plus-6-in-1-smartwatch-for-women-best-quality-smart-watch-for-girls-perfect-.json";
 import p273 from "@/../data/products/a7-led-starry-projection-light-with-remote-control-usb-galaxy-night-lamp.json";
 import p274 from "@/../data/products/a8501-las-ladies-fancy-rimless-sunglasses-stylish-fashion-eyewear-with-gradient-.json";
@@ -289,7 +289,7 @@ import p283 from "@/../data/products/acrylic-ring-mirror-wall-decor.json";
 import p284 from "@/../data/products/acrylic-sticky-heart-15-inch.json";
 import p285 from "@/../data/products/adjustable-3d-knee-support-band-with-patella-gel-pad-anti-slip-grip.json";
 import p286 from "@/../data/products/adjustable-back-posture-corrector-for-men-women-comfortable-and-breathable-suppo.json";
-import p287 from "@/../data/products/adjustable-back-support-belt-posture-corrector-spine-shoulder-support-brace-brea.json";
+import p287 from "@/../data/products/adjustable-back-support-belt-posture-corrector-spine-shoulder-support-brace.json";
 import p288 from "@/../data/products/adjustable-hand-grip-strengthener-finger-exerciser-hand-therapy-trainer-grip-str.json";
 import p289 from "@/../data/products/adjustable-hook-waist-slimming-belt-body-shaper-belly-tummy-abdomen-control-burn.json";
 import p290 from "@/../data/products/adjustable-mobile-phone-stand-with-flexible-gooseneck-arm-for-recording-live-str.json";
@@ -398,7 +398,7 @@ import p392 from "@/../data/products/batool-2-piece-stitched-winter-suit-black-c
 import p393 from "@/../data/products/bazooka-bubble-water-gun-bubble-blaster-toy-for-kids-outdoor-fun.json";
 import p394 from "@/../data/products/bb-makeup-foundation-bright-smooth-bb-cream-35ml-waterproof-long-lasting-natural.json";
 import p395 from "@/../data/products/bb-waterproof-liquid-foundation-full-coverage-matte-finish-long-lasting-oil-cont.json";
-import p396 from "@/../data/products/be-beauty-derma-x-base-long-lasting-amp-waterproof-base-suitable-for-all-skin-ty.json";
+import p396 from "@/../data/products/be-beauty-derma-x-base-long-lasting-amp-waterproof-base-suitable-for-all-skin.json";
 import p397 from "@/../data/products/beaded-stretch-bracelet-fashion-accessory.json";
 import p398 from "@/../data/products/beast-mode-sando-tank-top-for-men-navy-blue-workout-tank-top-gym-shirts-for-men.json";
 import p399 from "@/../data/products/beautiful-butterfly-hand-charm-bracelet-for-girls-elegant-alloy-bracelet-golden-.json";
@@ -423,7 +423,7 @@ import p417 from "@/../data/products/bismillah-alhamdulillah-mountain-scene-wall
 import p418 from "@/../data/products/black-510ml-stainless-steel-vacuum-insulated-thermos-flask-travel-mug-with-tempe.json";
 import p419 from "@/../data/products/black-a9-pro-anc-bluetooth-54-wireless-earbuds-with-smart-screen-and-active-nois.json";
 import p420 from "@/../data/products/black-apple-watch-milanese-magnetic-loop-strap-stainless-steel-band-42mm-44mm-45.json";
-import p421 from "@/../data/products/black-bhunae-patta-flat-sandals-with-golden-braided-accent-elegant-comfortable-f.json";
+import p421 from "@/../data/products/black-bhunae-patta-flat-sandals-with-golden-braided-accent-elegant-comfortable.json";
 import p422 from "@/../data/products/black-bunny-printed-kids-tracksuit-winter-fleece-sweatshirt-trouser-set-for-boys.json";
 import p423 from "@/../data/products/black-car-unisex-perfume-100ml-long-lasting-fresh-woody-fragrance-for-men-women.json";
 import p424 from "@/../data/products/black-cat-printed-kids-tracksuit-winter-fleece-sweatshirt-trouser-set-for-boys-g.json";
@@ -508,7 +508,7 @@ import p502 from "@/../data/products/car-seat-belt-clip-extender-safety-lock-buc
 import p503 from "@/../data/products/car-theme-birthday-party-decoration-set-60-pcs-for-kids-boys-girls.json";
 import p504 from "@/../data/products/carrera-calibre-5-luxury-swiss-watch-with-leather-strap-mens-watch-wrist-watch-b.json";
 import p505 from "@/../data/products/cart-jeans-organizer-6-grids-foldable-organize-70-gsm-random-colors.json";
-import p506 from "@/../data/products/cartier-style-rectangular-analog-watch-for-men-brown-leather-strap-quartz-wrist-.json";
+import p506 from "@/../data/products/cartier-style-rectangular-analog-watch-for-men-brown-leather-strap-quartz-wrist.json";
 import p507 from "@/../data/products/cashmere-plean-scarf.json";
 import p508 from "@/../data/products/casual-use-creamy-lipstick-bold-amp-smooth-shades-of-red-long-lasting-moisturizi.json";
 import p509 from "@/../data/products/catapult-gun-aircraft-toy-for-kids-foam-airplane-launcher-glider-flying-toy-2-in.json";
@@ -658,7 +658,7 @@ import p652 from "@/../data/products/double-wall-stainless-steel-water-bottle-va
 import p653 from "@/../data/products/dove-nourishing-body-care-beauty-cream-providing-soft-skin-hydration-gentle-touc.json";
 import p654 from "@/../data/products/dr-alies-professional-beard-growth-oil-natural-beard-care-oil-for-patchy-thin-be.json";
 import p655 from "@/../data/products/dr-althea-345-relief-serum-hydrating-calming-serum-with-tea-tree-leaf-water-cera.json";
-import p656 from "@/../data/products/dr-rashel-fairness-whitening-day-cream-brightening-hydrating-formula-with-arbuti.json";
+import p656 from "@/../data/products/dr-rashel-fairness-whitening-day-cream-brightening-hydrating-formula-with.json";
 import p657 from "@/../data/products/dr-rashel-vitamin-c-brightening-anti-aging-day-cream-spf-protection-radiant-glow.json";
 import p658 from "@/../data/products/dr-rashel-vitamin-c-brightening-anti-aging-face-serum-skin-radiance-wrinkle-repa.json";
 import p659 from "@/../data/products/dr-rashel-vitamin-c-brightening-anti-aging-night-cream-deep-repair-skin-renewal.json";
@@ -670,7 +670,7 @@ import p664 from "@/../data/products/dr-rubina-weight-loss-solution-herbal-slimm
 import p665 from "@/../data/products/dragon-ranee-matte-lipstick-pack-of-3-waterproof-lip-amp-cheek-tint-set-for-girl.json";
 import p666 from "@/../data/products/drawer-organizer-board-storage-box-adjustable-clapboard-divider-set-4-pcs.json";
 import p667 from "@/../data/products/dream-curve-3-pieces-nightwear-set-for-women-free-size-soft-jersey-interlock-nig.json";
-import p668 from "@/../data/products/dunbollu-premium-gold-zip-wallet-for-men-women-6-card-slots-coin-pocket-cash-com.json";
+import p668 from "@/../data/products/dunbollu-premium-gold-zip-wallet-for-men-women-6-card-slots-coin-pocket-cash.json";
 import p669 from "@/../data/products/dunlandi-24v-cordless-drill-machine-set-2-batteries-complete-diy-tool-kit.json";
 import p670 from "@/../data/products/durable-mouse-trap-reusable-rodent-catcher-for-home-kitchen-and-office-use-with-.json";
 import p671 from "@/../data/products/durable-tactical-rifle-sling-for-hunting-amp-training-adjustable-bungee-quick-de.json";
@@ -681,7 +681,7 @@ import p675 from "@/../data/products/ear-wax-cleaning-kit-6-pcs-ear-pick-tools-w
 import p676 from "@/../data/products/ease-natural-hair-regrowth-nourishment-oil-strengthens-roots-reduces-hair-fall-1.json";
 import p677 from "@/../data/products/eco-fresh-whitening-scrub-300ml-deep-cleansing-brightening-face-and-body-scrub.json";
 import p678 from "@/../data/products/ecoco-tissue-box-with-multifunctional-storage-drawer-creative-desk-organizer-tis.json";
-import p679 from "@/../data/products/ecosystem-fruit-vinegar-hair-color-gel-dye-nourishing-long-lasting-hair-color-wi.json";
+import p679 from "@/../data/products/ecosystem-fruit-vinegar-hair-color-gel-dye-nourishing-long-lasting-hair-color.json";
 import p680 from "@/../data/products/ecrin-cool-styling-hair-gel-280ml-with-active-collagen-strong-hold-cool-fresh-ef.json";
 import p681 from "@/../data/products/ecrin-hair-removal-spray-for-men-women-fast-gentle-hair-remover-100ml.json";
 import p682 from "@/../data/products/efficient-egg-opener-egg-shell-cracker-tool-stainless-steel-egg-shell-opener-kit.json";
@@ -739,7 +739,7 @@ import p733 from "@/../data/products/eyebrow-pen-instant-brow-brush-liquid-eyebr
 import p734 from "@/../data/products/eyes-color-lenses-eye-lenses-for-girls-amp-boys-grey-blue-green-brown.json";
 import p735 from "@/../data/products/f3-mobile-screen-magnifier-enlarged-mobile-screen-amplifier-eye-protection-rando.json";
 import p736 from "@/../data/products/f3-mobile-screen-magnifier-enlarged-mobile-screen-amplifier-large-screen-eyes-pr.json";
-import p737 from "@/../data/products/face-wash-chando-naturals-aloe-vera-beauty-face-wash-100ml-gentle-hydrating-clea.json";
+import p737 from "@/../data/products/face-wash-chando-naturals-aloe-vera-beauty-face-wash-100ml-gentle-hydrating.json";
 import p738 from "@/../data/products/face-wash-chando-naturals-charcoal-blackheads-control-face-wash-100ml-daily-clea.json";
 import p739 from "@/../data/products/face-wash-chando-naturals-lemon-oil-control-face-wash-100ml-gentle-cleanser-for-.json";
 import p740 from "@/../data/products/face-wash-chando-naturals-mint-cool-anti-microbial-face-wash-100ml-daily-cleanse.json";
@@ -751,7 +751,7 @@ import p745 from "@/../data/products/fashion-sweatshirt-pajama-tracksuit-for-kid
 import p746 from "@/../data/products/fashion-womens-travel-backpack-stylish-large-capacity-detachable-small-bag-inclu.json";
 import p747 from "@/../data/products/fashionable-amp-premium-quality-stay-stylish-with-a-black-lining-printed-zipper-.json";
 import p748 from "@/../data/products/fast-nail-fungus-treatment-serum-nail-repair-essence-for-fingernails-toenails-na.json";
-import p749 from "@/../data/products/fdm-mens-underwear-comfortable-breathable-innerwear-soft-fabric-daily-wear-stret.json";
+import p749 from "@/../data/products/fdm-mens-underwear-comfortable-breathable-innerwear-soft-fabric-daily-wear.json";
 import p750 from "@/../data/products/feg-plus-hair-growth-spray-50ml-anti-hair-loss-regrowth-solution.json";
 import p751 from "@/../data/products/fine-roots-anti-hair-fall-shampoo-providing-gentle-care-nourishing-formula-stren.json";
 import p752 from "@/../data/products/fine-roots-hair-oil-providing-gentle-care-nourishing-formula-strengthening-healt.json";
@@ -811,7 +811,7 @@ import p805 from "@/../data/products/girls-soft-plush-half-finger-gloves-warm-fu
 import p806 from "@/../data/products/girls-stylish-half-sleeve-t-shirt-soft-fabric-trendy-look.json";
 import p807 from "@/../data/products/glass-crack-nano-repair-fluid-for-car-windshield-smooth-application-compact-desi.json";
 import p808 from "@/../data/products/glow-clean-charcoal-face-wash-deep-cleansing-oil-control-pore-care.json";
-import p809 from "@/../data/products/glow-white-korean-whitening-gold-cream-for-radiant-bright-and-nourished-skin-car.json";
+import p809 from "@/../data/products/glow-white-korean-whitening-gold-cream-for-radiant-bright-and-nourished-skin.json";
 import p810 from "@/../data/products/gluta-white-day-night-cream-whitening-anti-aging-hydrating-50g-face-care.json";
 import p811 from "@/../data/products/gluta-white-face-glowing-serum-glutathione-brightening-hydrating-30ml-skincare.json";
 import p812 from "@/../data/products/gluta-white-face-wash-deep-cleansing-brightening-oil-control-gentle-daily-cleans.json";
@@ -969,7 +969,7 @@ import p963 from "@/../data/products/jersey-sequins-padded-bra-stylish-comfortab
 import p964 from "@/../data/products/jersey-soft-fabric-non-padded-bra-for-women-plain-comfortable-amp-lightweight-ev.json";
 import p965 from "@/../data/products/jersey-weight-dont-lift-design-white-printed-gym-sando-tanks-top-for-men.json";
 import p966 from "@/../data/products/jet-torch-playing-card-lighter-green-flame-ace-card-lighter-windproof-refillable.json";
-import p967 from "@/../data/products/jolen-creme-bleach-lightens-dark-hair-on-face-and-body-gentle-effective-formula-.json";
+import p967 from "@/../data/products/jolen-creme-bleach-lightens-dark-hair-on-face-and-body-gentle-effective-formula.json";
 import p968 from "@/../data/products/jungle-theme-birthday-party-decoration-set-50-pcs-for-kids-boys-girls-animal-saf.json";
 import p969 from "@/../data/products/just-take-it-easy-printed-t-shirt-cotton-jersey-casual-wear-comfortable-stylish.json";
 import p970 from "@/../data/products/k12-portable-speaker-with-mic-karaoke-microphone-with-speaker-portable-wireless-.json";
@@ -1059,7 +1059,7 @@ import p1053 from "@/../data/products/kryolan-tv-paint-stick-best-quality-paint-
 import p1054 from "@/../data/products/kryolan-tv-paint-stick-foundation-offering-professional-coverage-with-smooth-app.json";
 import p1055 from "@/../data/products/laban-infant-milk-formula-stage-1-2-3-baby-milk-powder-for-healthy-growth.json";
 import p1056 from "@/../data/products/labubu-style-cute-double-padded-bra-panty-set-for-women-soft-wool-material-comfo.json";
-import p1057 from "@/../data/products/labubu-theme-foil-balloon-set-5-pcs-birthday-party-decoration-kit-for-kids-labub.json";
+import p1057 from "@/../data/products/labubu-theme-foil-balloon-set-5-pcs-birthday-party-decoration-kit-for-kids.json";
 import p1058 from "@/../data/products/lace-serenity-3-piece-nightwear-set-for-women-free-size-soft-jersey-interlock-ni.json";
 import p1059 from "@/../data/products/ladies-casual-party-wear-flat-slippers-stylish-elastic-work-design-comfortable-i.json";
 import p1060 from "@/../data/products/ladies-handbag-with-match-small-pouch-elegant-design-premium-quality.json";
@@ -1184,7 +1184,7 @@ import p1178 from "@/../data/products/maroon-elegant-cat-handle-handbag-for-girl
 import p1179 from "@/../data/products/maroon-leather-handbag-for-girls-women-stylish-shoulder-crossbody-bag-daily-use-.json";
 import p1180 from "@/../data/products/maroon-luxury-fashion-hand-bag-for-girls-ladies-stylish-shoulder-crossbody-bag-l.json";
 import p1181 from "@/../data/products/masarrat-misbah-original-silk-foundation-shine-and-moisturize-35ml.json";
-import p1182 from "@/../data/products/mashallah-safety-pin-with-rhinestone-bear-charm-islamic-baby-gift-protection-acc.json";
+import p1182 from "@/../data/products/mashallah-safety-pin-with-rhinestone-bear-charm-islamic-baby-gift-protection.json";
 import p1183 from "@/../data/products/master-a-hypodermic-syringe-precision-safety-comfort-for-medical-professionals-d.json";
 import p1184 from "@/../data/products/matte-liquid-foundation-with-spf15-full-coverage-long-lasting.json";
 import p1185 from "@/../data/products/matte-silky-texture-liquid-blush-natural-long-lasting-matte-cheek-liquid-blusher.json";
@@ -1203,7 +1203,7 @@ import p1197 from "@/../data/products/mens-autumn-winter-long-sleeve-striped-t-s
 import p1198 from "@/../data/products/mens-black-printed-tracksuit-trendy-design-casual-comfortable-style.json";
 import p1199 from "@/../data/products/mens-comfortable-boots-beige-delta.json";
 import p1200 from "@/../data/products/mens-comfortable-boots-black-delta.json";
-import p1201 from "@/../data/products/mens-grey-cotton-sports-shorts-with-printed-a-logo-casual-gym-running-training-s.json";
+import p1201 from "@/../data/products/mens-grey-cotton-sports-shorts-with-printed-a-logo-casual-gym-running-training.json";
 import p1202 from "@/../data/products/mens-half-sleeves-printed-jersey-t-shirt-round-neck-soft-fabric-summer-casual-we.json";
 import p1203 from "@/../data/products/mens-hoodie-high-quality-imported-casual-pull-over-hoodie-french-fleece-fabric-s.json";
 import p1204 from "@/../data/products/mens-large-capacity-leather-wallet-zipper-closure-multiple-card-slots-stylish-du.json";
@@ -1299,7 +1299,7 @@ import p1293 from "@/../data/products/motorcycle-goggles-with-removable-full-fac
 import p1294 from "@/../data/products/motorcycle-led-turn-signal-light-supports-12v-to-24v-flashing-indicator-drl-brak.json";
 import p1295 from "@/../data/products/motorcycle-robot-dual-colour-led-work-amp-driving-lights-5000k6500k-two-color-ex.json";
 import p1296 from "@/../data/products/moving-sand-art-picture-3d-dynamic-deep-sea-sandscape-with-display-stand-random-.json";
-import p1297 from "@/../data/products/mubah-color-spray-300g-quick-dry-fade-resistant-smooth-finish-color-spray-for-vi.json";
+import p1297 from "@/../data/products/mubah-color-spray-300g-quick-dry-fade-resistant-smooth-finish-color-spray-for.json";
 import p1298 from "@/../data/products/multi-angle-360-rotating-metal-phone-tablet-stand-foldable-universal-elegant.json";
 import p1299 from "@/../data/products/multi-color-braided-design-keychain-best-quality-keychain-random-color.json";
 import p1300 from "@/../data/products/multi-compartment-college-office-backpack.json";
@@ -1697,7 +1697,7 @@ import p1691 from "@/../data/products/royal-oval-garbage-pedal-bin-with-inner-bu
 import p1692 from "@/../data/products/royal-wooden-trash-bin-with-lid-minimalist-dustbin-for-kitchen-bedroom-office.json";
 import p1693 from "@/../data/products/royals-8l-modern-nordic-trash-bin-with-push-mechanism-elevated-legs.json";
 import p1694 from "@/../data/products/rtj-181-elegant-zircon-korean-watch-stylish-fashion-accessory-classic-timepiece-.json";
-import p1695 from "@/../data/products/rust-paint-metallic-paint-anti-rust-protection-coating-for-removing-rust-from-me.json";
+import p1695 from "@/../data/products/rust-paint-metallic-paint-anti-rust-protection-coating-for-removing-rust-from.json";
 import p1696 from "@/../data/products/rustic-finish-long-wallet-with-vintage-texture-design-12-card-slots-2-cash-compa.json";
 import p1697 from "@/../data/products/s-shape-crystal-leaf-drop-elegant-pearl-zircon-korean-earing.json";
 import p1698 from "@/../data/products/s925-elegant-butterfly-with-pearl-tassels-drop-earrings-delicate-feminine-stylis.json";
@@ -1832,7 +1832,7 @@ import p1826 from "@/../data/products/stanley-x-loveshackfancy-limited-edition-4
 import p1827 from "@/../data/products/star-master-projector-night-lamp-360-rotating-led-moon-starry-sky-projector-usb.json";
 import p1828 from "@/../data/products/star-pink-stylish-stanley-barbie-tumbler-h20-tumbler-118l-limited-edition-double.json";
 import p1829 from "@/../data/products/star-printed-sweatshirt-pajama-trouser-tracksuit-for-kids-winter-warm-fleece-clo.json";
-import p1830 from "@/../data/products/star-sterile-latex-surgical-gloves-designed-for-professional-use-with-quality-la.json";
+import p1830 from "@/../data/products/star-sterile-latex-surgical-gloves-designed-for-professional-use-with-quality.json";
 import p1831 from "@/../data/products/starlink-style-fast-charging-cable-braided-high-speed-charging-data-cable-durabl.json";
 import p1832 from "@/../data/products/starry-haze-3-piece-nightwear-set-for-women-free-size-soft-jersey-interlock-nigh.json";
 import p1833 from "@/../data/products/start-with-bismillah-end-with-alhamdulillah-islamic-calligraphy-3d-acrylic-wall-.json";
@@ -1957,7 +1957,7 @@ import p1951 from "@/../data/products/tumbler-half-size-carrier-bag-portable-dur
 import p1952 from "@/../data/products/tummy-and-hip-lift-pants-purasar-tummy-pants-purasar-shapewear-wistfulwinds-tumm.json";
 import p1953 from "@/../data/products/tummy-trimmer-foot-pedal-resistance-band-elastic-sit-up-pull-rope-fitness-yoga-t.json";
 import p1954 from "@/../data/products/tummy-trimmer-spring-bally-fat-burner-home-gym-workout-for-weight-loss.json";
-import p1955 from "@/../data/products/turbofan-rechargeable-mini-cooling-fan-portable-handheld-usb-turbo-fan-with-3-sp.json";
+import p1955 from "@/../data/products/turbofan-rechargeable-mini-cooling-fan-portable-handheld-usb-turbo-fan-with-3.json";
 import p1956 from "@/../data/products/turkish-design-ring-elegant-traditional-jewelry-stylish-durable-accessory-for-me.json";
 import p1957 from "@/../data/products/tuz-liquid-blush.json";
 import p1958 from "@/../data/products/tuz-long-lasting-liquid-blush-flawless-coverage-natural-tint-easy-blend-smooth-a.json";

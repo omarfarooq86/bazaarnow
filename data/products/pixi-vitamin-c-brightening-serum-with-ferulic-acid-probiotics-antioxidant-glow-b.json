@@ -19,7 +19,13 @@
   "specifications": {
     "Product": "Pixi Vitamin C Brightening Serum with Ferulic Acid & Probiot"
   },
-  "images": [],
+  "images": [
+    "/images/products/pixi-vitamin-c-brightening-serum-with-ferulic-acid-probiotics-antioxidant-glow-b-1.webp",
+    "/images/products/pixi-vitamin-c-brightening-serum-with-ferulic-acid-probiotics-antioxidant-glow-b-2.webp",
+    "/images/products/pixi-vitamin-c-brightening-serum-with-ferulic-acid-probiotics-antioxidant-glow-b-3.webp",
+    "/images/products/pixi-vitamin-c-brightening-serum-with-ferulic-acid-probiotics-antioxidant-glow-b-4.webp",
+    "/images/products/pixi-vitamin-c-brightening-serum-with-ferulic-acid-probiotics-antioxidant-glow-b-5.webp"
+  ],
   "inStock": true,
   "stockCount": 20,
   "isFeatured": false,

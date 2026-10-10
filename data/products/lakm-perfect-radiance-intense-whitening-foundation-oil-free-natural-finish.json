@@ -19,7 +19,12 @@
   "specifications": {
     "weight": "foundation"
   },
-  "images": [],
+  "images": [
+    "/images/products/lakm-perfect-radiance-intense-whitening-foundation-oil-free-natural-finish-1.webp",
+    "/images/products/lakm-perfect-radiance-intense-whitening-foundation-oil-free-natural-finish-2.webp",
+    "/images/products/lakm-perfect-radiance-intense-whitening-foundation-oil-free-natural-finish-3.webp",
+    "/images/products/lakm-perfect-radiance-intense-whitening-foundation-oil-free-natural-finish-4.webp"
+  ],
   "inStock": true,
   "stockCount": 8,
   "isFeatured": false,

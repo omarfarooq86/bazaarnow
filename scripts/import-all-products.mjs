@@ -71,13 +71,26 @@ function sanitize(str) {
 
 // Slugify
 function slugify(text) {
-  return text
+  const s = text
     .toLowerCase()
     .replace(/[^a-z0-9\s-]/g, "")
     .replace(/[\s_]+/g, "-")
     .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "")
-    .substring(0, 80);
+    .replace(/^-|-$/g, "");
+  return truncateSlug(s);
+}
+
+// Cut to the last whole word at or under MAX. A bare substring(0, MAX) leaves
+// slugs ending mid-word (…quartz-wrist-, …daily-wear-stret), which looks broken
+// in the SERP. Only back up a word when the cut genuinely lands mid-word.
+const MAX_SLUG_LEN = 80;
+function truncateSlug(s, max = MAX_SLUG_LEN) {
+  if (s.length <= max) return s;
+  const cut = s.slice(0, max);
+  if (cut.endsWith("-")) return cut.replace(/-+$/g, ""); // already on a boundary
+  if (s[max] === "-") return cut;                        // word ends exactly at max
+  const lastDash = cut.lastIndexOf("-");                 // mid-word: drop the stub
+  return lastDash > 0 ? cut.slice(0, lastDash) : cut;
 }
 
 // Category mapping

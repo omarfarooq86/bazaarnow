@@ -10,7 +10,12 @@
   "specifications": {
     "Color": "Stick,"
   },
-  "images": [],
+  "images": [
+    "/images/products/brown-temporary-hair-color-stick-long-lasting-gray-coverage-hair-touch-up-wand-2-1.webp",
+    "/images/products/brown-temporary-hair-color-stick-long-lasting-gray-coverage-hair-touch-up-wand-2-2.webp",
+    "/images/products/brown-temporary-hair-color-stick-long-lasting-gray-coverage-hair-touch-up-wand-2-3.webp",
+    "/images/products/brown-temporary-hair-color-stick-long-lasting-gray-coverage-hair-touch-up-wand-2-4.webp"
+  ],
   "inStock": true,
   "stockCount": 9,
   "isFeatured": false,

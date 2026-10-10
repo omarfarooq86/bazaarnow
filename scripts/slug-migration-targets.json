@@ -1,0 +1,208 @@
+{
+  "note": "Product slugs carrying >=10 impressions over 2026-07-12..2026-10-10 whose URLs are truncated at the 80-char import limit. Derived from the GSC page export. Consumed by scripts/migrate-slugs.mjs.",
+  "window": {
+    "from": "2026-07-12",
+    "to": "2026-10-10"
+  },
+  "count": 33,
+  "targets": [
+    {
+      "slug": "cartier-style-rectangular-analog-watch-for-men-brown-leather-strap-quartz-wrist-",
+      "impressions": 102,
+      "clicks": 1,
+      "position": 10
+    },
+    {
+      "slug": "be-beauty-derma-x-base-long-lasting-amp-waterproof-base-suitable-for-all-skin-ty",
+      "impressions": 51,
+      "clicks": 0,
+      "position": 8.5
+    },
+    {
+      "slug": "star-sterile-latex-surgical-gloves-designed-for-professional-use-with-quality-la",
+      "impressions": 36,
+      "clicks": 1,
+      "position": 17.6
+    },
+    {
+      "slug": "fdm-mens-underwear-comfortable-breathable-innerwear-soft-fabric-daily-wear-stret",
+      "impressions": 35,
+      "clicks": 1,
+      "position": 7.5
+    },
+    {
+      "slug": "dr-rubina-weight-loss-solution-herbal-slimming-digestion-energy-support-formula",
+      "impressions": 35,
+      "clicks": 0,
+      "position": 7
+    },
+    {
+      "slug": "adjustable-back-support-belt-posture-corrector-spine-shoulder-support-brace-brea",
+      "impressions": 27,
+      "clicks": 1,
+      "position": 13.6
+    },
+    {
+      "slug": "gluta-white-night-cream-advanced-brightening-anti-aging-formula-with-glutathione",
+      "impressions": 25,
+      "clicks": 1,
+      "position": 34.6
+    },
+    {
+      "slug": "ecosystem-fruit-vinegar-hair-color-gel-dye-nourishing-long-lasting-hair-color-wi",
+      "impressions": 22,
+      "clicks": 1,
+      "position": 8
+    },
+    {
+      "slug": "black-bhunae-patta-flat-sandals-with-golden-braided-accent-elegant-comfortable-f",
+      "impressions": 21,
+      "clicks": 1,
+      "position": 10.4
+    },
+    {
+      "slug": "eco-fresh-whitening-scrub-300ml-deep-cleansing-brightening-face-and-body-scrub",
+      "impressions": 20,
+      "clicks": 0,
+      "position": 6.1
+    },
+    {
+      "slug": "jolen-creme-bleach-lightens-dark-hair-on-face-and-body-gentle-effective-formula-",
+      "impressions": 19,
+      "clicks": 0,
+      "position": 38.8
+    },
+    {
+      "slug": "3-pcs-of-mens-summer-cotton-sando-vest-sleeveless-tank-top-breathable-soft-light",
+      "impressions": 18,
+      "clicks": 1,
+      "position": 10.6
+    },
+    {
+      "slug": "mashallah-safety-pin-with-rhinestone-bear-charm-islamic-baby-gift-protection-acc",
+      "impressions": 18,
+      "clicks": 0,
+      "position": 8.1
+    },
+    {
+      "slug": "glow-white-korean-whitening-gold-cream-for-radiant-bright-and-nourished-skin-car",
+      "impressions": 17,
+      "clicks": 0,
+      "position": 42.3
+    },
+    {
+      "slug": "kids-reusable-baby-diaper-and-training-pants-soft-comfortable-washable-for-daily",
+      "impressions": 17,
+      "clicks": 0,
+      "position": 6
+    },
+    {
+      "slug": "labubu-theme-foil-balloon-set-5-pcs-birthday-party-decoration-kit-for-kids-labub",
+      "impressions": 16,
+      "clicks": 2,
+      "position": 4.6
+    },
+    {
+      "slug": "1-piece-silkfull-tube-makeup-foundation-waterproof-best-quality-long-lasting-fou",
+      "impressions": 15,
+      "clicks": 0,
+      "position": 7.1
+    },
+    {
+      "slug": "dunbollu-premium-gold-zip-wallet-for-men-women-6-card-slots-coin-pocket-cash-com",
+      "impressions": 15,
+      "clicks": 0,
+      "position": 7.7
+    },
+    {
+      "slug": "mandelic-clear-intensely-revitalizing-cream-advanced-brightening-dark-spot-care",
+      "impressions": 15,
+      "clicks": 0,
+      "position": 7.9
+    },
+    {
+      "slug": "1-pc-kashees-concealer-achieve-flawless-skin-with-kashees-concealer-best-quality",
+      "impressions": 14,
+      "clicks": 0,
+      "position": 9.4
+    },
+    {
+      "slug": "dr-rashel-fairness-whitening-day-cream-brightening-hydrating-formula-with-arbuti",
+      "impressions": 14,
+      "clicks": 0,
+      "position": 6.1
+    },
+    {
+      "slug": "1-piece-cerave-halawa-finger-wax-formulated-with-nourishing-ingredients-ideal-fo",
+      "impressions": 13,
+      "clicks": 0,
+      "position": 8.8
+    },
+    {
+      "slug": "4-piece-school-bag-set-backpack-children-school-bags-for-girls-boys-canvas-schoo",
+      "impressions": 13,
+      "clicks": 0,
+      "position": 8.1
+    },
+    {
+      "slug": "6x6-inches-led-acrylic-writing-board-with-usb-light-7-colorful-erasable-pens-mes",
+      "impressions": 13,
+      "clicks": 0,
+      "position": 4.5
+    },
+    {
+      "slug": "a9-1080p-hd-magnetic-wifi-mini-camera-wireless-security-camera-with-night-vision",
+      "impressions": 13,
+      "clicks": 0,
+      "position": 52
+    },
+    {
+      "slug": "mens-grey-cotton-sports-shorts-with-printed-a-logo-casual-gym-running-training-s",
+      "impressions": 13,
+      "clicks": 0,
+      "position": 9.3
+    },
+    {
+      "slug": "barkat-buffalo-desi-ghee-premium-traditional-pure-ghee-for-cooking-frying-sweets",
+      "impressions": 12,
+      "clicks": 2,
+      "position": 12.3
+    },
+    {
+      "slug": "rust-paint-metallic-paint-anti-rust-protection-coating-for-removing-rust-from-me",
+      "impressions": 12,
+      "clicks": 1,
+      "position": 9.2
+    },
+    {
+      "slug": "face-wash-chando-naturals-aloe-vera-beauty-face-wash-100ml-gentle-hydrating-clea",
+      "impressions": 12,
+      "clicks": 0,
+      "position": 21.2
+    },
+    {
+      "slug": "12-in-1-home-tool-kit-multi-purpose-household-repair-tool-set-hardware-toolkit-w",
+      "impressions": 11,
+      "clicks": 1,
+      "position": 4.8
+    },
+    {
+      "slug": "a-radiant-oasis-of-hydration-dove-rich-care-body-cream-48h-moisture-deep-nourish",
+      "impressions": 11,
+      "clicks": 0,
+      "position": 4.4
+    },
+    {
+      "slug": "turbofan-rechargeable-mini-cooling-fan-portable-handheld-usb-turbo-fan-with-3-sp",
+      "impressions": 10,
+      "clicks": 1,
+      "position": 10.5
+    },
+    {
+      "slug": "mubah-color-spray-300g-quick-dry-fade-resistant-smooth-finish-color-spray-for-vi",
+      "impressions": 10,
+      "clicks": 0,
+      "position": 6.2
+    }
+  ]
+}

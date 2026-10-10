@@ -42,3 +42,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# catalogue sync — generated intermediate reports and run logs.
+# These are regenerable: sync-csv-catalog.mjs writes sync-preview.json, and the
+# analysis scripts write the rest. The scripts themselves are committed.
+/scripts/sync-preview.json
+/scripts/name-overlap-report.json
+/scripts/csv-diff-report.json
+/scripts/csv-diff-report.txt
+/scripts/csv-site-map.json
+/scripts/action-plan.json
+/scripts/renumber-variant-split.json
+/scripts/add-duplicate-check.json
+/scripts/*.log
+
+# large supplier exports, kept locally rather than in git (23 MB)
+/woocom_products_export_new.csv

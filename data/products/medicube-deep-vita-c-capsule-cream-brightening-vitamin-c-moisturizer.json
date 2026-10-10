@@ -10,7 +10,12 @@
   "specifications": {
     "weight": "hydration"
   },
-  "images": [],
+  "images": [
+    "/images/products/medicube-deep-vita-c-capsule-cream-brightening-vitamin-c-moisturizer-1.webp",
+    "/images/products/medicube-deep-vita-c-capsule-cream-brightening-vitamin-c-moisturizer-2.webp",
+    "/images/products/medicube-deep-vita-c-capsule-cream-brightening-vitamin-c-moisturizer-3.webp",
+    "/images/products/medicube-deep-vita-c-capsule-cream-brightening-vitamin-c-moisturizer-4.webp"
+  ],
   "inStock": true,
   "stockCount": 29,
   "isFeatured": false,

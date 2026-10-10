@@ -11,6 +11,11 @@ const problems = { unreadable: [], missingLocalImage: [], remoteImage: [], noIma
 const slugs = new Map(), skus = new Map();
 let missingCount = 0, remoteCount = 0, noImgCount = 0;
 
+// images[i] should be `{slug}-{i+1}.ext`. A shuffled array silently makes a
+// random photo the gallery and OG thumbnail, so it is worth failing on.
+const slugRe = (slug) => new RegExp(`^${slug.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}-(\\d+)\\.[a-z]+$`, "i");
+const unorderedProducts = [];
+
 for (const f of files) {
   let p;
   try { p = JSON.parse(fs.readFileSync(path.join(PRODUCTS_DIR, f), "utf-8")); }
@@ -26,6 +31,16 @@ for (const f of files) {
 
   const imgs = p.images || [];
   if (!imgs.length) { problems.noImage.push(p.slug); noImgCount++; }
+  if (imgs.length > 1) {
+    const idx = imgs.map((img) => {
+      const m = slugRe(p.slug).exec(String(img).replace("/images/products/", ""));
+      return m ? Number(m[1]) : NaN;
+    });
+    // Products using another naming scheme (e.g. UUID filenames) yield no
+    // indices and are skipped. Gaps are fine; a shuffle is not.
+    const ascending = idx.every((n, i) => i === 0 || n > idx[i - 1]);
+    if (idx.every(Number.isFinite) && !ascending) unorderedProducts.push(p.slug);
+  }
   for (const img of imgs) {
     if (/^https?:/.test(img)) { problems.remoteImage.push(`${p.slug} -> ${img}`); remoteCount++; continue; }
     const rel = img.replace(/^\//, "");
@@ -44,6 +59,11 @@ console.log();
 console.log(`products w/o image : ${noImgCount}`);
 console.log(`remote image refs  : ${remoteCount}`);
 console.log(`missing local files: ${missingCount}`);
+console.log(`out-of-order image : ${unorderedProducts.length}${unorderedProducts.length ? "  (images[i] should be -" + "{i+1})" : ""}`);
+if (unorderedProducts.length) {
+  console.log(`--- first 10 ---`);
+  unorderedProducts.slice(0, 10).forEach((s) => console.log("   " + s));
+}
 console.log();
 console.log(`unreadable JSON    : ${problems.unreadable.length}`);
 console.log(`duplicate slugs    : ${problems.dupSlug.length}`);
@@ -68,6 +88,7 @@ console.log(`search-index w/o image: ${idxNoImg}`);
 
 const ok = problems.unreadable.length === 0 && problems.dupSlug.length === 0 &&
   problems.missingLocalImage.length === 0 && problems.remoteImage.length === 0 &&
-  problems.badPrice.length === 0 && idx.length === files.length;
+  problems.badPrice.length === 0 && idx.length === files.length &&
+  unorderedProducts.length === 0;
 console.log(`\nRESULT: ${ok ? "PASS" : "ISSUES FOUND (see above)"}`);
 process.exit(ok ? 0 : 1);
