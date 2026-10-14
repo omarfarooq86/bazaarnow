@@ -98,11 +98,14 @@ export interface BlogIndex {
 }
 
 export interface BlogSection {
-  type: "opening" | "tldr" | "heading" | "subheading" | "paragraph" | "list" | "orderedList" | "faq" | "signoff";
+  type: "opening" | "tldr" | "heading" | "subheading" | "paragraph" | "list" | "orderedList" | "faq" | "signoff" | "table";
   content?: string;
   title?: string;
   text?: string;
   items?: (string | { q: string; a: string })[];
+  /** Table section: header cells, and one array of cells per row. */
+  head?: string[];
+  rows?: string[][];
 }
 
 export interface BlogPost {

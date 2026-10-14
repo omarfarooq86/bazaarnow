@@ -140,6 +140,50 @@ function renderSection(section: BlogSection, index: number) {
         </div>
       );
 
+    case "table":
+      // Built for the "price in Pakistan" hubs, which live or die on a real
+      // price table. Kept to a few short columns so it fits a 360px viewport
+      // without horizontal scrolling.
+      return (
+        <div key={index} className="mb-8">
+          {section.title && (
+            <p className="text-xs font-semibold text-charcoal-400 uppercase tracking-wider mb-2">
+              {section.title}
+            </p>
+          )}
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr>
+                {(section.head || []).map((h) => (
+                  <th
+                    key={h}
+                    className="text-left font-semibold text-dark p-2.5 bg-charcoal-50 border-b border-charcoal-100"
+                  >
+                    {h}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {(section.rows || []).map((row, r) => (
+                <tr key={r} className={r % 2 ? "bg-charcoal-50/50" : ""}>
+                  {row.map((cell, c) => (
+                    <td
+                      key={c}
+                      className={`p-2.5 text-charcoal-600 border-b border-charcoal-100 align-top ${
+                        c === 0 ? "text-dark" : ""
+                      }`}
+                    >
+                      {renderContent(cell)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+
     case "signoff":
       return (
         <div key={index} className="mt-10 p-6 rounded-2xl bg-dark text-white">

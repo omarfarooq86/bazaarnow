@@ -11,6 +11,14 @@ export const metadata: Metadata = {
     title: "BazaarNow Blog — Online Shopping Guides Pakistan",
     description:
       "Tips, guides, and honest advice about online shopping in Pakistan.",
+    images: [{ url: "/images/blog/wall-clock-price-pakistan.jpg", width: 1200, height: 630, alt: "BazaarNow blog" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BazaarNow Blog — Online Shopping Guides Pakistan",
+    description:
+      "Tips, guides, and honest advice about online shopping in Pakistan.",
+    images: ["/images/blog/wall-clock-price-pakistan.jpg"],
   },
 };
 
