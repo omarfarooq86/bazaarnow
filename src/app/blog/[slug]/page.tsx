@@ -1,7 +1,23 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getBlogPostBySlug, getBlogPostContent } from "@/lib/blog";
+import {
+  getBlogPostBySlug,
+  getBlogPostContent,
+  getBlogPosts,
+} from "@/lib/blog";
 import BlogPostClient from "./BlogPostClient";
+
+/**
+ * Without this the route rendered dynamically (ƒ), which cost twice over:
+ * next-sitemap only enumerates the *static* build paths, so not one of the posts
+ * ever reached sitemap.xml — every product did, because /product/[slug] is
+ * statically generated — and each request re-rendered instead of serving a
+ * cached page. The content is local JSON, so there is nothing to gain from
+ * rendering on demand.
+ */
+export function generateStaticParams() {
+  return getBlogPosts().map((post) => ({ slug: post.slug }));
+}
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
