@@ -39,6 +39,27 @@ Read these files in order before writing a single word:
 - Pick a primary keyword from `keywords.csv` that is NOT in `used-keywords.md`
 - Immediately add the chosen keyword to `used-keywords.md` with today's date
 
+**`keywords.csv` columns:** `keyword,impressions,clicks,ctr,position,status`.
+These are **measured Google Search Console totals**, not estimates — the file was
+rebuilt on 2026-10-15 because the previous `volume` column (high/medium/low) had no
+data source behind it and was badly wrong. 38 of the 39 keywords it listed had
+**zero** GSC impressions over 16 months, several of them labelled "high volume".
+
+Two things to know before picking from it:
+
+1. **It only lists queries the site already appeared for.** GSC reports impressions,
+   not search demand. `status: no-impressions` means *no visibility*, which could mean
+   either nobody searches it or the site ranks too deep to be seen. GSC cannot tell
+   the two apart — do not read it as "no demand".
+2. **Favour `status` values that are winnable.** `page-2` (position 11-20) is the best
+   target: real, measured demand that is one push from page 1. `top-10` is already
+   ranking. Prefer rows with higher `impressions`; a position derived from a single
+   impression is noise, not a ranking.
+
+Before targeting a head term, check its row. `online shopping pakistan` sits at
+`no-impressions` — it is worth having on the homepage as a long-term play, but it is
+not winnable now and should not drive a blog post.
+
 ### Content Rules (Non-Negotiable)
 
 - Answer first, then context. Short sentences (under 18 words mostly)

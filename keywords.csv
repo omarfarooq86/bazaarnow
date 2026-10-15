@@ -1,40 +1,131 @@
-keyword,category,volume,intent
-online shopping pakistan,ecommerce,high,transactional
-cash on delivery pakistan,payment,high,transactional
-buy clothes online pakistan,fashion,high,transactional
-best online shopping sites in pakistan,ecommerce,high,commercial
-online shopping pakistan cash on delivery,ecommerce,high,transactional
-cheap online shopping pakistan,ecommerce,medium,transactional
-buy electronics online pakistan,electronics,medium,transactional
-buy watches online pakistan,fashion,medium,transactional
-online mobile shopping pakistan,electronics,high,transactional
-buy handbags online pakistan,fashion,medium,transactional
-ladies dress online shopping pakistan,fashion,high,transactional
-online shopping apps pakistan,ecommerce,medium,commercial
-how to pay with jazzcash online,payment,medium,informational
-easypaisa online payment pakistan,payment,medium,informational
-best online store for clothes pakistan,fashion,medium,commercial
-buy skincare products online pakistan,beauty,medium,transactional
-online grocery shopping pakistan,groceries,medium,transactional
-buy kids toys online pakistan,kids,medium,transactional
-home decor online shopping pakistan,home-living,medium,transactional
-buy shoes online pakistan,fashion,high,transactional
-online shopping with free delivery pakistan,ecommerce,medium,transactional
-how to shop online safely in pakistan,ecommerce,low,informational
-best deals online pakistan,ecommerce,medium,commercial
-eid sale online pakistan,ecommerce,high,transactional
-ramadan deals online pakistan,ecommerce,medium,commercial
-buy gifts online pakistan,ecommerce,medium,transactional
-online shopping for men pakistan,fashion,medium,transactional
-kitchen appliances online pakistan,kitchen,medium,transactional
-buy cosmetics online pakistan,beauty,medium,transactional
-sports equipment online pakistan,sports,low,transactional
-winter clothes online shopping pakistan,fashion,medium,transactional
-summer sale online pakistan,ecommerce,medium,commercial
-new arrival dresses online pakistan,fashion,medium,commercial
-designer bags online pakistan,fashion,medium,transactional
-affordable online shopping pakistan,ecommerce,medium,transactional
-online shop with jazzcash payment,ecommerce,medium,transactional
-online store with bank transfer pakistan,ecommerce,low,transactional
-best online shopping deals in pakistan,ecommerce,medium,commercial
-buy furniture online pakistan,home-living,medium,transactional
+keyword,impressions,clicks,ctr,position,status
+sando for men,43,0,0.0%,34.4,page-3
+bleu de chanel price in pakistan,22,0,0.0%,48.4,page-3
+captain vest pakistan,21,0,0.0%,9.4,top-10
+be beauty derma x base,20,0,0.0%,8.2,top-10
+evaluate the personal care company olay on best soap for skin,19,0,0.0%,10.1,page-2
+"""wooden acrylic"" eidi card",18,0,0.0%,8.3,top-10
+bazaarnow,16,6,37.5%,4.3,top-10
+bazaar now,14,2,14.3%,3.9,top-10
+glow white cream,14,0,0.0%,46.7,page-3
+bleu de chanel,14,0,0.0%,82.7,deep
+1080p magnetic wifi mini camera,13,0,0.0%,52.0,deep
+etude loose powder price in pakistan,12,1,8.3%,10.0,top-10
+gluta white advance night cream price in pakistan,11,1,9.1%,13.3,page-2
+urapra glycolic acid toner price in pakistan,11,0,0.0%,15.2,page-2
+ecosystem fruit vinegar hair dye,10,0,0.0%,9.8,top-10
+keel wala bracelet,9,0,0.0%,6.3,top-10
+dunlandi cordless drill,9,0,0.0%,9.7,top-10
+gluta white cream price in pakistan,8,0,0.0%,46.2,page-3
+fashion,8,0,0.0%,75.1,deep
+labubu balloons,7,0,0.0%,6.0,top-10
+laban 1,7,0,0.0%,10.6,page-2
+jolen bleach price in pakistan,7,0,0.0%,39.1,page-3
+jolen bleach cream price in pakistan,7,0,0.0%,43.9,page-3
+channel blue perfume price,7,0,0.0%,50.1,deep
+sterile gloves,7,0,0.0%,57.0,deep
+price in pakistan,6,0,0.0%,6.0,top-10
+laban 2,6,0,0.0%,8.8,top-10
+bleu de chanel price,6,0,0.0%,42.8,page-3
+mutual love perfume price in pakistan,6,0,0.0%,50.2,deep
+cadmon tea,6,0,0.0%,59.3,deep
+online fashion,6,0,0.0%,93.5,deep
+mandelic clear cream price in pakistan lahore,5,0,0.0%,5.6,top-10
+ai84089,5,0,0.0%,7.0,top-10
+price,5,0,0.0%,10.2,page-2
+golrang shampoo price in pakistan,5,0,0.0%,19.4,page-2
+bleu chanel perfume price in pakistan,5,0,0.0%,46.4,page-3
+mutual love perfume,5,0,0.0%,56.6,deep
+cardamom tea,5,0,0.0%,59.6,deep
+hismiles v34,5,0,0.0%,66.6,deep
+tile reform glue,4,0,0.0%,7.0,top-10
+be beauty derma x foundation,4,0,0.0%,7.2,top-10
+ai54289,4,0,0.0%,9.5,top-10
+squeegee,4,0,0.0%,24.5,page-3
+twister,4,0,0.0%,24.8,page-3
+baellerry wallet,4,0,0.0%,46.8,page-3
+sports grey,3,0,0.0%,1.0,top-10
+buds pro 5 price in pakistan,3,0,0.0%,10.0,top-10
+floor squeegee,3,0,0.0%,10.0,top-10
+mandelic clear cream ingredients,3,0,0.0%,10.3,page-2
+ronin usb,3,0,0.0%,25.0,page-3
+cotton sanitary pads,3,0,0.0%,35.7,page-3
+sultan perfume,3,0,0.0%,38.0,page-3
+sando shirt for men,3,0,0.0%,38.7,page-3
+urapra glycolic acid price in pakistan,3,0,0.0%,39.0,page-3
+bleu de chanel parfum price in pakistan,3,0,0.0%,44.3,page-3
+blue the chanel perfume price in pakistan,3,0,0.0%,44.7,page-3
+chanel blue perfume price in pakistan,3,0,0.0%,44.7,page-3
+bleu de chanel price pakistan,3,0,0.0%,45.0,page-3
+kryolan tv paint stick,3,0,0.0%,61.3,deep
+diabetic foot cream,3,0,0.0%,68.7,deep
+eventone,3,0,0.0%,73.3,deep
+bazar now,2,0,0.0%,3.0,top-10
+bazaarnova,2,0,0.0%,5.0,top-10
+hyban milk,2,0,0.0%,5.0,top-10
+now,2,0,0.0%,6.5,top-10
+welcome to our home the sweet family,2,0,0.0%,6.5,top-10
+ai54089,2,0,0.0%,8.0,top-10
+evaluate the personal care company olay on no. 1 soap,2,0,0.0%,9.5,top-10
+cerave finger wax price in pakistan,2,0,0.0%,11.0,page-2
+protein golrang multivitamin shampoo,2,0,0.0%,11.0,page-2
+balisi wallet price in pakistan,2,0,0.0%,19.5,page-2
+golrang shampoo,2,0,0.0%,22.5,page-3
+always cotton soft pads price in pakistan,2,0,0.0%,28.0,page-3
+chanel bleu de chanel price,2,0,0.0%,31.0,page-3
+tv paint stick price in pakistan,2,0,0.0%,32.0,page-3
+buy now pakistan,2,0,0.0%,36.0,page-3
+jolen bleach,2,0,0.0%,40.0,page-3
+flexible sanding block,2,0,0.0%,40.5,page-3
+flex tape,2,0,0.0%,42.0,page-3
+chanel bleu de chanel parfum spray,2,0,0.0%,42.5,page-3
+adorevita,2,0,0.0%,45.0,page-3
+blue de chanel perfume price in pakistan,2,0,0.0%,46.0,page-3
+jolen bleach cream,2,0,0.0%,46.5,page-3
+bleu de chanel perfume price in pakistan,2,0,0.0%,47.0,page-3
+gluta white cream,2,0,0.0%,51.5,deep
+gulta white cream,2,0,0.0%,57.5,deep
+chando face wash,2,0,0.0%,60.0,deep
+sando shirt,2,0,0.0%,63.5,deep
+verabeau.com,2,0,0.0%,70.0,deep
+bleu de chanel eau de parfum,2,0,0.0%,75.5,deep
+cerave resurfacing retinol serum price in pakistan,2,0,0.0%,79.0,deep
+online shopping pakistan,0,0,0.0%,,no-impressions
+cash on delivery pakistan,1,0,0.0%,43.0,page-3
+buy clothes online pakistan,0,0,0.0%,,no-impressions
+best online shopping sites in pakistan,0,0,0.0%,,no-impressions
+online shopping pakistan cash on delivery,0,0,0.0%,,no-impressions
+cheap online shopping pakistan,0,0,0.0%,,no-impressions
+buy electronics online pakistan,0,0,0.0%,,no-impressions
+buy watches online pakistan,0,0,0.0%,,no-impressions
+online mobile shopping pakistan,0,0,0.0%,,no-impressions
+buy handbags online pakistan,0,0,0.0%,,no-impressions
+ladies dress online shopping pakistan,0,0,0.0%,,no-impressions
+online shopping apps pakistan,0,0,0.0%,,no-impressions
+how to pay with jazzcash online,0,0,0.0%,,no-impressions
+easypaisa online payment pakistan,0,0,0.0%,,no-impressions
+best online store for clothes pakistan,0,0,0.0%,,no-impressions
+buy skincare products online pakistan,0,0,0.0%,,no-impressions
+online grocery shopping pakistan,0,0,0.0%,,no-impressions
+buy kids toys online pakistan,0,0,0.0%,,no-impressions
+home decor online shopping pakistan,0,0,0.0%,,no-impressions
+buy shoes online pakistan,0,0,0.0%,,no-impressions
+online shopping with free delivery pakistan,0,0,0.0%,,no-impressions
+how to shop online safely in pakistan,0,0,0.0%,,no-impressions
+best deals online pakistan,0,0,0.0%,,no-impressions
+eid sale online pakistan,0,0,0.0%,,no-impressions
+ramadan deals online pakistan,0,0,0.0%,,no-impressions
+buy gifts online pakistan,0,0,0.0%,,no-impressions
+online shopping for men pakistan,0,0,0.0%,,no-impressions
+kitchen appliances online pakistan,0,0,0.0%,,no-impressions
+buy cosmetics online pakistan,0,0,0.0%,,no-impressions
+sports equipment online pakistan,0,0,0.0%,,no-impressions
+winter clothes online shopping pakistan,0,0,0.0%,,no-impressions
+summer sale online pakistan,0,0,0.0%,,no-impressions
+new arrival dresses online pakistan,0,0,0.0%,,no-impressions
+designer bags online pakistan,0,0,0.0%,,no-impressions
+affordable online shopping pakistan,0,0,0.0%,,no-impressions
+online shop with jazzcash payment,0,0,0.0%,,no-impressions
+online store with bank transfer pakistan,0,0,0.0%,,no-impressions
+best online shopping deals in pakistan,0,0,0.0%,,no-impressions
+buy furniture online pakistan,0,0,0.0%,,no-impressions
