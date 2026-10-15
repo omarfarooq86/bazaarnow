@@ -42,5 +42,19 @@
     "Bhakkar", "Arif Wala", "Sambrial", "Jatoi", "Haroonabad",
     "Narowal", "Bhalwal", "Gilgit", "Skardu", "Hunza"
   ],
-  "deliveryTime": "2-4 working days"
+  "deliveryTime": "2-4 working days",
+  "deliveryOptions": [
+    {
+      "id": "normal",
+      "name": "Normal Delivery",
+      "desc": "2-4 working days — delivery already included in the price",
+      "fee": 0
+    },
+    {
+      "id": "fast",
+      "name": "Fast Delivery",
+      "desc": "1-2 working days — priority courier",
+      "fee": 150
+    }
+  ]
 }

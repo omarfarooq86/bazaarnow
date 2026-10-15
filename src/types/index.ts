@@ -55,7 +55,23 @@ export interface SiteConfig {
   bankDetails: BankDetail[];
   deliveryCities: string[];
   deliveryTime: string;
+  deliveryOptions: DeliveryOption[];
 }
+
+/**
+ * Standard delivery is prepaid — Rs. 150 sits inside every product price — so the
+ * fee here is only the *extra* charged at checkout. "normal" is 0 by design; the
+ * customer is not billed twice for the same courier.
+ */
+export interface DeliveryOption {
+  id: DeliveryType;
+  name: string;
+  desc: string;
+  /** Additional charge at checkout. 0 for normal delivery. */
+  fee: number;
+}
+
+export type DeliveryType = "normal" | "fast";
 
 export interface PaymentMethod {
   id: string;

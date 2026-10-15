@@ -20,21 +20,27 @@ import {
   User,
   FileText,
   Copy,
+  Zap,
 } from "lucide-react";
 import Link from "next/link";
 import { useCartStore } from "@/lib/cart";
 import { formatPrice, getEffectivePrice, calculateAdvanceDiscount } from "@/lib/utils";
 import { getSiteConfig } from "@/lib/config";
 import { openWhatsApp, saveOrderToSheet } from "@/lib/whatsapp";
-import type { PaymentType, CustomerInfo } from "@/types";
+import type { PaymentType, CustomerInfo, DeliveryType } from "@/types";
 
 export default function CheckoutClient() {
   const router = useRouter();
-  const { items, getSubtotal, clearCart } = useCartStore();
+  const { items, getSubtotal, clearCart, _hasHydrated } = useCartStore();
   const subtotal = getSubtotal();
   const config = getSiteConfig();
 
   const [paymentType, setPaymentType] = useState<PaymentType>("cod");
+  const [deliveryType, setDeliveryType] = useState<DeliveryType>("normal");
+  // Revealed once the customer starts filling the address. Deliberately sticky: it never
+  // hides again, so editing the address can't silently change the total the customer
+  // already agreed to. Normal is Rs. 0, so an untouched selector costs them nothing.
+  const [showDelivery, setShowDelivery] = useState(false);
   const [customer, setCustomer] = useState<CustomerInfo>({
     name: "",
     phone: "",
@@ -45,14 +51,24 @@ export default function CheckoutClient() {
   const [formErrors, setFormErrors] = useState<Partial<Record<keyof CustomerInfo, string>>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  const selectedDelivery =
+    config.deliveryOptions.find((option) => option.id === deliveryType) ??
+    config.deliveryOptions[0];
+  // Only the extra is charged here — standard delivery is already inside the prices.
+  const deliveryFee = selectedDelivery?.fee ?? 0;
+
   const advanceDiscount = calculateAdvanceDiscount(subtotal);
-  const total = paymentType === "advance" ? subtotal - advanceDiscount : subtotal;
+  const total =
+    subtotal + deliveryFee - (paymentType === "advance" ? advanceDiscount : 0);
 
   useEffect(() => {
-    if (items.length === 0) {
+    // Only redirect once the persisted cart has actually loaded. Deciding any earlier
+    // reads an empty cart on first paint and bounces a direct hit on /checkout — or a
+    // plain refresh with a full cart — straight back to /cart.
+    if (_hasHydrated && items.length === 0) {
       router.push("/cart");
     }
-  }, [items, router]);
+  }, [_hasHydrated, items, router]);
 
   const validateForm = (): boolean => {
     const errors: Partial<Record<keyof CustomerInfo, string>> = {};
@@ -72,8 +88,8 @@ export default function CheckoutClient() {
     if (!validateForm()) return;
     setIsSubmitting(true);
     try {
-      openWhatsApp(items, customer, paymentType);
-      saveOrderToSheet(items, customer, paymentType);
+      openWhatsApp(items, customer, paymentType, deliveryType);
+      saveOrderToSheet(items, customer, paymentType, deliveryType);
       clearCart();
     } finally {
       setIsSubmitting(false);
@@ -167,7 +183,10 @@ export default function CheckoutClient() {
                 <input
                   type="text"
                   value={customer.address}
-                  onChange={(e) => setCustomer({ ...customer, address: e.target.value })}
+                  onChange={(e) => {
+                    setCustomer({ ...customer, address: e.target.value });
+                    if (e.target.value.trim()) setShowDelivery(true);
+                  }}
                   placeholder="House #, Street, Area"
                   className={`w-full px-4 py-2.5 rounded-xl border text-sm outline-none transition-colors ${
                     formErrors.address
@@ -179,6 +198,64 @@ export default function CheckoutClient() {
                   <p className="text-xs text-crimson-500 mt-1">{formErrors.address}</p>
                 )}
               </div>
+
+              {/* Delivery speed — appears once we know where it's going */}
+              <AnimatePresence>
+                {showDelivery && (
+                  <motion.div
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: "auto" }}
+                    className="sm:col-span-2 overflow-hidden"
+                  >
+                    <p className="text-xs font-semibold text-charcoal-500 mb-2 flex items-center gap-1.5">
+                      <Truck className="w-3.5 h-3.5 text-brand-500" />
+                      How fast do you need it?
+                    </p>
+                    <div className="grid sm:grid-cols-2 gap-3">
+                      {config.deliveryOptions.map((option) => (
+                        <button
+                          key={option.id}
+                          type="button"
+                          onClick={() => setDeliveryType(option.id)}
+                          className={`flex items-start gap-3 p-3 rounded-xl border-2 transition-all text-left ${
+                            deliveryType === option.id
+                              ? "border-brand-500 bg-brand-50/50 shadow-sm"
+                              : "border-charcoal-100 hover:border-charcoal-200"
+                          }`}
+                        >
+                          <div
+                            className={`w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0 ${
+                              deliveryType === option.id
+                                ? "bg-brand-500 text-white"
+                                : "bg-charcoal-100 text-charcoal-500"
+                            }`}
+                          >
+                            {option.id === "fast" ? (
+                              <Zap className="w-4 h-4" />
+                            ) : (
+                              <Truck className="w-4 h-4" />
+                            )}
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <p className="text-sm font-semibold text-dark">{option.name}</p>
+                            <p className="text-xs text-charcoal-400 leading-snug">{option.desc}</p>
+                            <p
+                              className={`text-xs font-semibold mt-1 ${
+                                option.fee > 0 ? "text-brand-600" : "text-emerald-600"
+                              }`}
+                            >
+                              {option.fee > 0 ? `+ ${formatPrice(option.fee)}` : "No extra charge"}
+                            </p>
+                          </div>
+                          {deliveryType === option.id && (
+                            <Check className="w-4 h-4 text-brand-500 flex-shrink-0 mt-0.5" />
+                          )}
+                        </button>
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
               <div>
                 <label className="block text-xs font-semibold text-charcoal-500 mb-1.5">
                   City *
@@ -357,8 +434,14 @@ export default function CheckoutClient() {
                   <span>{formatPrice(subtotal)}</span>
                 </div>
                 <div className="flex justify-between text-charcoal-600">
-                  <span>Delivery</span>
-                  <span className="text-emerald-600 font-medium">Free</span>
+                  <span>{selectedDelivery?.name ?? "Delivery"}</span>
+                  {deliveryFee > 0 ? (
+                    <span className="font-medium">{formatPrice(deliveryFee)}</span>
+                  ) : (
+                    // "Included", not "Free" — the courier cost is real, it is just
+                    // already inside the product prices.
+                    <span className="text-emerald-600 font-medium">Included</span>
+                  )}
                 </div>
                 {paymentType === "advance" && (
                   <div className="flex justify-between text-emerald-600">

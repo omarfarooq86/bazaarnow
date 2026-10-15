@@ -1,6 +1,6 @@
-import type { CartItem, CustomerInfo, PaymentType } from "@/types";
+import type { CartItem, CustomerInfo, PaymentType, DeliveryType } from "@/types";
 import { calculateAdvanceDiscount, getEffectivePrice } from "./utils";
-import { getSiteConfig } from "./config";
+import { getSiteConfig, getDeliveryFee } from "./config";
 
 /**
  * Generate a formatted WhatsApp order message
@@ -8,7 +8,8 @@ import { getSiteConfig } from "./config";
 export function generateWhatsAppMessage(
   items: CartItem[],
   customer: CustomerInfo,
-  paymentType: PaymentType
+  paymentType: PaymentType,
+  deliveryType: DeliveryType = "normal"
 ): string {
   const config = getSiteConfig();
   const subtotal = items.reduce((total, item) => {
@@ -18,7 +19,10 @@ export function generateWhatsAppMessage(
 
   const isAdvance = paymentType === "advance";
   const discount = isAdvance ? calculateAdvanceDiscount(subtotal) : 0;
-  const total = subtotal - discount;
+  const deliveryFee = getDeliveryFee(deliveryType);
+  const deliveryName =
+    config.deliveryOptions.find((o) => o.id === deliveryType)?.name ?? "Normal Delivery";
+  const total = subtotal + deliveryFee - discount;
 
   const lines: string[] = [];
 
@@ -42,15 +46,20 @@ export function generateWhatsAppMessage(
   lines.push("");
   lines.push("---");
   lines.push(`*Subtotal:* Rs. ${subtotal.toLocaleString("en-PK")}`);
+  // Normal delivery costs nothing extra — the Rs. 150 courier cost is already inside
+  // the product prices. Saying "Free" here would misrepresent that.
+  lines.push(
+    deliveryFee > 0
+      ? `*Delivery:* ${deliveryName} — Rs. ${deliveryFee.toLocaleString("en-PK")}`
+      : `*Delivery:* ${deliveryName} (included in price)`
+  );
+  lines.push(`*Payment:* ${isAdvance ? "Advance Payment" : "Cash on Delivery"}`);
 
   if (isAdvance) {
-    lines.push(`*Payment:* Advance Payment`);
     lines.push(`*Discount (5%):* -Rs. ${discount.toLocaleString("en-PK")}`);
-    lines.push(`*Total After Discount:* Rs. ${total.toLocaleString("en-PK")}`);
-  } else {
-    lines.push(`*Payment:* Cash on Delivery`);
-    lines.push(`*Total:* Rs. ${total.toLocaleString("en-PK")}`);
   }
+
+  lines.push(`*Total:* Rs. ${total.toLocaleString("en-PK")}`);
 
   lines.push("");
   lines.push("---");
@@ -87,11 +96,16 @@ export function generateWhatsAppMessage(
 
 /**
  * Send order data to Google Sheets via webhook
+ *
+ * This recomputes the total rather than receiving it, so the delivery fee has to be
+ * added here too — otherwise the sheet records a total that omits it and disagrees
+ * with the WhatsApp message for the same order.
  */
 export async function saveOrderToSheet(
   items: CartItem[],
   customer: CustomerInfo,
-  paymentType: PaymentType
+  paymentType: PaymentType,
+  deliveryType: DeliveryType = "normal"
 ): Promise<void> {
   const subtotal = items.reduce((total, item) => {
     const { current } = getEffectivePrice(item.product.price, item.product.salePrice);
@@ -100,7 +114,8 @@ export async function saveOrderToSheet(
 
   const isAdvance = paymentType === "advance";
   const discount = isAdvance ? calculateAdvanceDiscount(subtotal) : 0;
-  const total = subtotal - discount;
+  const deliveryFee = getDeliveryFee(deliveryType);
+  const total = subtotal + deliveryFee - discount;
 
   const products = items
     .map((item) => `${item.product.name} (x${item.quantity})`)
@@ -119,6 +134,8 @@ export async function saveOrderToSheet(
           products: products,
           total: total,
           payment: paymentType,
+          delivery: deliveryType,
+          deliveryFee: deliveryFee,
         }),
       }
     );
@@ -133,10 +150,11 @@ export async function saveOrderToSheet(
 export function openWhatsApp(
   items: CartItem[],
   customer: CustomerInfo,
-  paymentType: PaymentType
+  paymentType: PaymentType,
+  deliveryType: DeliveryType = "normal"
 ): void {
   const config = getSiteConfig();
-  const message = generateWhatsAppMessage(items, customer, paymentType);
+  const message = generateWhatsAppMessage(items, customer, paymentType, deliveryType);
   const url = `https://wa.me/${config.whatsapp}?text=${message}`;
   window.open(url, "_blank");
 }

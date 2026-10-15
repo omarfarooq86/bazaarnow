@@ -17,8 +17,15 @@ import { useCartStore } from "@/lib/cart";
 import { formatPrice, getEffectivePrice } from "@/lib/utils";
 
 export default function CartClient() {
-  const { items, removeItem, updateQuantity, getSubtotal } = useCartStore();
+  const { items, removeItem, updateQuantity, getSubtotal, _hasHydrated } = useCartStore();
   const subtotal = getSubtotal();
+
+  // Same trap as /checkout: until the persisted cart loads, every cart looks empty.
+  // Rendering the empty state here would flash "Your Cart is Empty" over a full cart
+  // on every hard refresh.
+  if (!_hasHydrated) {
+    return null;
+  }
 
   if (items.length === 0) {
     return (
