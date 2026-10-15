@@ -16,6 +16,16 @@ const APPLY = process.argv.includes("--apply");
 const CSV_PATH = "All_Products_CSV_for_WooCommerce.csv";
 const PRODUCTS_DIR = path.join(process.cwd(), "data", "products");
 const KEEP_EXCEPTIONS = new Set(["KIDS-BBT-001"]);
+
+// The delivery markup carries the courier cost inside the product price, so standard
+// delivery can honestly be shown as included at checkout. It is a flat Rs. 150 added
+// AFTER the margin multiplier, never before — applying it first would let the
+// multiplier scale it, and new products would not match the rest of the catalogue.
+//
+// It lives here rather than in All_Products_CSV_for_WooCommerce.csv because that file
+// is an *input* (this script only ever reads it) holding supplier prices. Baking a
+// business rule into source data is how the markup ends up applied twice.
+const DELIVERY_MARKUP = 150;
 const PRICE_MULTIPLIER = 1.2;
 
 // ---------- helpers ----------
@@ -222,7 +232,7 @@ for (const c of add) {
     slug,
     name: c.name,
     category: mapCategory(c.categories, c.sku),
-    price: Math.max(1, Math.round(c.price * PRICE_MULTIPLIER)),
+    price: Math.max(1, Math.round(c.price * PRICE_MULTIPLIER) + DELIVERY_MARKUP),
     description,
     features,
     specifications: extractSpecs(description, c.name),

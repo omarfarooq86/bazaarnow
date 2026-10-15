@@ -1,6 +1,16 @@
 import fs from "fs";
 import path from "path";
 
+// The flat Rs. 150 delivery markup that carries the courier cost inside each product
+// price. Applied AFTER the margin multiplier — applying it before would let the
+// multiplier scale it and new products would not match the rest of the catalogue.
+//
+// NOTE: this script is a FULL REBUILD. It rewrites every product it generates and
+// drops fields the CSV does not carry (notably salePrice), so re-running it changes
+// far more than prices — see the header of add-delivery-markup.mjs. Prefer
+// sync-csv-catalog.mjs, which leaves existing products' prices untouched.
+const DELIVERY_MARKUP = 150;
+
 const csvPath = path.join(process.cwd(), "All_Products_CSV_for_WooCommerce.csv");
 const productsDir = path.join(process.cwd(), "data", "products");
 const raw = fs.readFileSync(csvPath, "utf-8");
@@ -164,7 +174,7 @@ for (const p of products) {
 
   // Generate product
   const slug = slugify(name);
-  const price = Math.round((parseFloat(p["Regular price"]) || 999) * 1.3);
+  const price = Math.round((parseFloat(p["Regular price"]) || 999) * 1.3) + DELIVERY_MARKUP;
   const images = (p["Images"] || "")
     .split(",")
     .map(u => u.trim())

@@ -1,7 +1,14 @@
 // Add the Rs. 150 delivery markup to every catalogue price.
 //
 //   node scripts/add-delivery-markup.mjs            # DRY RUN (default, writes nothing)
-//   node scripts/add-delivery-markup.mjs --apply    # back up the CSV, then write everything
+//   node scripts/add-delivery-markup.mjs --apply    # write the new prices
+//
+// This is the one-time migration that introduced the markup on 2026-10-15. It only
+// touches data/products/*.json, which is the live catalogue. The markup is NOT written
+// into All_Products_CSV_for_WooCommerce.csv: that file is an *input* holding supplier
+// prices, and a business rule baked into source data is how the markup gets applied
+// twice. Importers apply it instead, as a DELIVERY_MARKUP constant added after their
+// margin multiplier.
 //
 // Why this exists
 // ---------------
@@ -18,46 +25,22 @@
 // catalogue and collect nothing. Both fields move by the same absolute Rs. 150, which
 // also nudges each discount percentage slightly down - the honest direction.
 //
-// Known consequence
-// -----------------
-// import-all-products.mjs multiplies the CSV's Regular price by ~1.3 on import (and
-// sync-csv-catalog.mjs by 1.2). So a product imported *in future* from this bumped CSV
-// gets the markup scaled too: 150 x 1.3 = Rs. 195 baked in, not Rs. 150. Existing
-// products are unaffected. That is a real (if mild) inconsistency - it is left alone
-// deliberately rather than changing the importers' pricing model as a side effect.
+// A warning about the importers
+// -----------------------------
+// The catalogue's prices are a historical patchwork: measured against the CSV, only
+// 197 of 729 matched products follow the sync script's round(csv x 1.2) + markup rule.
+// The rest came from earlier import runs with different multipliers. So ANY full
+// re-import rewrites prices that no single formula reproduces, quite apart from the
+// markup. sync-csv-catalog.mjs is the safe path - it leaves existing products' prices
+// untouched and only prices genuinely new ones. import-csv.mjs and
+// import-all-products.mjs are full rebuilds and will also drop salePrice, which the
+// CSV does not carry.
 import fs from "fs";
 import path from "path";
 
 const APPLY = process.argv.includes("--apply");
 const MARKUP = 150;
 const PRODUCTS_DIR = path.join(process.cwd(), "data", "products");
-const CSV_PATH = path.join(process.cwd(), "All_Products_CSV_for_WooCommerce.csv");
-const CSV_BACKUP = CSV_PATH + ".bak";
-
-// ---------- CSV helpers ----------
-// Same parser as sync-csv-catalog.mjs. The Description column contains embedded
-// commas and newlines, so a naive split(",") would shred the file.
-function parseCSV(text) {
-  const rows = []; let row = [], f = "", q = false;
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i];
-    if (q) { if (c === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; }
-    else if (c === '"') q = true;
-    else if (c === ",") { row.push(f); f = ""; }
-    else if (c === "\n") { row.push(f); rows.push(row); row = []; f = ""; }
-    else if (c !== "\r") f += c;
-  }
-  if (f.length || row.length) { row.push(f); rows.push(row); }
-  return rows;
-}
-
-// This CSV quotes every field and uses LF with a trailing newline. Verified before
-// writing this script: an all-quoted round-trip of the unmodified file is byte-for-byte
-// identical to the original, so rewriting this way produces a diff containing only the
-// price changes - no reformatting noise, and no risk of a quoting bug corrupting a file
-// that is the master for the live WooCommerce store.
-const quoteCell = (s) => '"' + String(s).replace(/"/g, '""') + '"';
-const serializeCSV = (rows) => rows.map((r) => r.map(quoteCell).join(",")).join("\n") + "\n";
 
 // ---------- product JSON ----------
 const files = fs.readdirSync(PRODUCTS_DIR).filter((f) => f.endsWith(".json")).sort();
@@ -93,63 +76,6 @@ for (const f of files) {
   touched++;
 }
 
-// ---------- master CSV ----------
-let csvReport = null;
-if (fs.existsSync(CSV_PATH)) {
-  const original = fs.readFileSync(CSV_PATH, "utf-8");
-  const rows = parseCSV(original);
-  const header = rows[0];
-  const priceCol = header.indexOf("Regular price");
-  const origRowCount = rows.length;
-  const origColCounts = [...new Set(rows.map((r) => r.length))];
-
-  if (priceCol === -1) {
-    csvReport = { error: 'No "Regular price" column found - CSV left untouched.' };
-  } else {
-    let changed = 0, nonNumeric = [];
-    for (let i = 1; i < rows.length; i++) {
-      const cell = (rows[i][priceCol] || "").trim();
-      if (!cell) continue;
-      const n = parseFloat(cell);
-      if (!Number.isFinite(n)) { nonNumeric.push({ row: i + 1, value: cell }); continue; }
-      rows[i][priceCol] = String(Math.round(n) + MARKUP);
-      changed++;
-    }
-
-    const serialized = serializeCSV(rows);
-    const checkRows = parseCSV(serialized);
-    const newColCounts = [...new Set(checkRows.map((r) => r.length))];
-
-    // Verify the rewrite before trusting it: same shape in, same shape out.
-    const shapeOk =
-      checkRows.length === origRowCount &&
-      JSON.stringify(newColCounts) === JSON.stringify(origColCounts);
-
-    csvReport = {
-      priceCol,
-      products: origRowCount - 1,
-      changed,
-      nonNumeric,
-      shapeOk,
-      origRowCount,
-      newRowCount: checkRows.length,
-      colCounts: origColCounts,
-    };
-
-    if (APPLY) {
-      if (!shapeOk) {
-        throw new Error(
-          `CSV shape changed after rewrite (rows ${origRowCount} -> ${checkRows.length}, ` +
-            `cols ${JSON.stringify(origColCounts)} -> ${JSON.stringify(newColCounts)}). ` +
-            `Refusing to write.`
-        );
-      }
-      if (!fs.existsSync(CSV_BACKUP)) fs.writeFileSync(CSV_BACKUP, original, "utf-8");
-      fs.writeFileSync(CSV_PATH, serialized, "utf-8");
-    }
-  }
-}
-
 // ---------- report ----------
 const mean = (a) => (a.length ? Math.round(a.reduce((x, y) => x + y, 0) / a.length) : 0);
 const sorted = [...before].sort((a, b) => a - b);
@@ -171,20 +97,6 @@ console.log(`  price max                Rs. ${sorted[sorted.length - 1]}  ->  Rs
 console.log(`  price mean               Rs. ${mean(before)}  ->  Rs. ${mean(after)}`);
 if (missingPrice) console.log(`  no numeric price         ${missingPrice} (skipped)`);
 console.log("");
-console.log(path.basename(CSV_PATH));
-if (!csvReport) {
-  console.log("  not found - skipped");
-} else if (csvReport.error) {
-  console.log(`  ${csvReport.error}`);
-} else {
-  console.log(`  products                 ${csvReport.products}`);
-  console.log(`  prices updated           ${csvReport.changed}`);
-  console.log(`  shape check              rows ${csvReport.origRowCount} -> ${csvReport.newRowCount}, cols ${JSON.stringify(csvReport.colCounts)}  ${csvReport.shapeOk ? "OK" : "FAILED"}`);
-  if (csvReport.nonNumeric.length) {
-    console.log(`  non-numeric prices kept  ${csvReport.nonNumeric.length} (${csvReport.nonNumeric.slice(0, 3).map((n) => `row ${n.row}: ${n.value}`).join(", ")})`);
-  }
-  if (APPLY) console.log(`  backup                   ${path.basename(CSV_BACKUP)}`);
-}
 if (skipped.length) {
   console.log("");
   console.log(`Skipped ${skipped.length} file(s):`);
