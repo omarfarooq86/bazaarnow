@@ -39,26 +39,47 @@ Read these files in order before writing a single word:
 - Pick a primary keyword from `keywords.csv` that is NOT in `used-keywords.md`
 - Immediately add the chosen keyword to `used-keywords.md` with today's date
 
-**`keywords.csv` columns:** `keyword,impressions,clicks,ctr,position,status`.
-These are **measured Google Search Console totals**, not estimates — the file was
-rebuilt on 2026-10-15 because the previous `volume` column (high/medium/low) had no
-data source behind it and was badly wrong. 38 of the 39 keywords it listed had
-**zero** GSC impressions over 16 months, several of them labelled "high volume".
+**`keywords.csv` columns:** `keyword,volume,difficulty,gsc_impressions,gsc_position,status`.
 
-Two things to know before picking from it:
+- `volume` and `difficulty` are **DataForSEO** figures for Pakistan/English, measured
+  2026-10-15. `volume` is monthly searches; `difficulty` is 0–100 (keyword difficulty).
+- `gsc_*` is the site's own standing from Google Search Console over 16 months, where
+  it has one. Blank means the site has never appeared for that keyword.
+- Rows are sorted so the winnable ones are at the top.
 
-1. **It only lists queries the site already appeared for.** GSC reports impressions,
-   not search demand. `status: no-impressions` means *no visibility*, which could mean
-   either nobody searches it or the site ranks too deep to be seen. GSC cannot tell
-   the two apart — do not read it as "no demand".
-2. **Favour `status` values that are winnable.** `page-2` (position 11-20) is the best
-   target: real, measured demand that is one push from page 1. `top-10` is already
-   ranking. Prefer rows with higher `impressions`; a position derived from a single
-   impression is noise, not a ranking.
+**This file was rebuilt twice on 2026-10-15.** The original `volume` column
+(high/medium/low) had no data source behind it and was badly wrong — 38 of its 39
+keywords had *zero* GSC impressions in 16 months, several labelled "high". The first
+rebuild used GSC alone, which was also wrong: GSC only reports queries the site
+already appears for, so it made every head term look worthless. The current version
+uses DataForSEO for demand and GSC for the site's current position.
 
-Before targeting a head term, check its row. `online shopping pakistan` sits at
-`no-impressions` — it is worth having on the homepage as a long-term play, but it is
-not winnable now and should not drive a blog post.
+**Read `status` before picking:**
+
+| status | meaning |
+|---|---|
+| `winnable` | difficulty ≤ 40 with real volume — start here |
+| `unknown-difficulty` | demand exists but DataForSEO has no difficulty score; these are usually branded product or long-tail terms, and the pages ranking are often weak |
+| `contested` | real volume, difficulty 41–55; needs a genuinely good page |
+| `hard` | difficulty > 55 — do not target with a blog post |
+| `no-demand` | volume under 30/month. Not worth a post |
+| `no-data` | no volume figure available. Check GSC impressions before writing |
+
+Two traps to avoid, both of which have already burned this project:
+
+1. **A long-tail variant reporting more volume than its own head term is wrong.** When
+   a query is too rare to measure, Google Ads returns the volume of the broader keyword
+   it is bucketed with. `urapra glycolic acid toner price in pakistan` reported
+   2,400/month while its own head term reported 1,600 — and the site's GSC shows 11
+   impressions in 16 months, implying roughly 50–100/month. Sanity-check any figure
+   against GSC before building a strategy on it.
+2. **`no-data` is not `no-demand`.** A blank volume can mean nobody searches it, or
+   that DataForSEO has no coverage. GSC impressions are the tiebreaker.
+
+Before targeting a head term, check its row. `online shopping in pakistan` is
+`contested` at difficulty 45 with 6,600/month — worth having on the homepage as a
+long-term play, but the evidence points at a listicle page rather than a homepage to
+win it.
 
 ### Content Rules (Non-Negotiable)
 
