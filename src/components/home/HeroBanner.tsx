@@ -138,8 +138,11 @@ export default function HeroBanner() {
                     </span>
                   </motion.div>
 
-                  {/* Main heading */}
-                  <motion.h1
+                  {/* Campaign headline, not the page heading — this rotates between
+                      five banners, so as an h1 it left the homepage with no stable
+                      heading. The page's real h1 lives in the "Why Choose Us"
+                      section. */}
+                  <motion.h2
                     initial={{ opacity: 0, y: 12 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.15 }}
@@ -151,7 +154,7 @@ export default function HeroBanner() {
                     <span className="opacity-80 font-semibold">
                       {banner.title.split(" ").slice(3).join(" ")}
                     </span>
-                  </motion.h1>
+                  </motion.h2>
 
                   {/* Subtitle */}
                   <motion.p

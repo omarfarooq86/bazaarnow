@@ -1,9 +1,32 @@
 import { Suspense } from "react";
+import type { Metadata } from "next";
 import HeroBanner from "@/components/home/HeroBanner";
 import CategoryGrid from "@/components/home/CategoryGrid";
 import FeaturedProducts from "@/components/home/FeaturedProducts";
 import OfferBanner from "@/components/home/OfferBanner";
 import { Banknote, Truck, ShieldCheck, RefreshCw } from "lucide-react";
+
+/**
+ * The homepage previously had no metadata of its own, so it inherited the root
+ * layout's brand-only title ("BazaarNow — Pakistan Ka Apna Bazaar"), which targets
+ * no search term at all. This gives the page the head term it should be competing
+ * for.
+ *
+ * `absolute` is required: the root layout sets a "%s | BazaarNow" title template,
+ * so a plain string here would render the brand twice.
+ */
+export const metadata: Metadata = {
+  title: {
+    absolute: "Online Shopping in Pakistan — Free Delivery, COD | BazaarNow",
+  },
+  description:
+    "Online shopping in Pakistan at BazaarNow — cash on delivery, free nationwide delivery in 2-4 working days, 7-day returns and 5% off on advance payment.",
+  openGraph: {
+    title: "Online Shopping in Pakistan — BazaarNow",
+    description:
+      "Cash on delivery, free nationwide delivery in 2-4 working days, 7-day returns and 5% off when you pay in advance.",
+  },
+};
 
 export default function HomePage() {
   return (
@@ -73,14 +96,19 @@ export default function HomePage() {
             <span className="text-xs font-semibold text-brand-500 uppercase tracking-wider">
               Why Choose Us
             </span>
-            <h2 className="heading-2 text-dark mt-2 mb-4">
-              Pakistan&apos;s Most Trusted Online Bazaar
-            </h2>
+            {/* The page's only h1. The hero above rotates campaign headlines, so it
+                is an h2 — two h1s on one page would just dilute both. */}
+            <h1 className="heading-2 text-dark mt-2 mb-4">
+              Online Shopping in Pakistan, Without the Guesswork
+            </h1>
             <p className="text-charcoal-500 text-base leading-relaxed mb-8">
-              We bring you premium quality products at the best prices with free
-              delivery across Pakistan. Shop with confidence — pay cash on
-              delivery or get 5% off on advance payments via JazzCash, EasyPaisa
-              or bank transfer.
+              BazaarNow is online shopping in Pakistan the way it should work:
+              real products, real prices, no surprises. We stock fashion,
+              electronics, beauty and home essentials, deliver free to 100+
+              cities, and let you pay cash on delivery. Prefer to pay upfront?
+              Take 5% off with JazzCash, EasyPaisa or bank transfer. Most orders
+              arrive in 2-4 working days, and every one of them is covered by our
+              7-day return policy.
             </p>
             <div className="grid sm:grid-cols-3 gap-6 text-left">
               {[
