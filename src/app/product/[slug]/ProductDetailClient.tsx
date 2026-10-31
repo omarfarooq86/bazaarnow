@@ -527,33 +527,38 @@ export default function ProductDetailClient({
             )}
           </div>
 
-          {/* Specifications sidebar */}
-          <div>
-            <h2 className="heading-3 text-dark mb-4">Specifications</h2>
-            <div className="rounded-2xl bg-white border border-charcoal-100 overflow-hidden">
-              <table className="w-full table-fixed">
-                <tbody>
-                  {Object.entries(product.specifications).map(
-                    ([key, value], i) => (
-                      <tr
-                        key={key}
-                        className={
-                          i % 2 === 0 ? "bg-charcoal-50/50" : "bg-white"
-                        }
-                      >
-                        <td className="px-3 py-3 text-xs font-semibold text-charcoal-600 break-words w-2/5">
-                          {key}
-                        </td>
-                        <td className="px-3 py-3 text-xs text-charcoal-500 break-words w-3/5">
-                          {value}
-                        </td>
-                      </tr>
-                    )
-                  )}
-                </tbody>
-              </table>
+          {/* Specifications sidebar. Hidden entirely when there are none — most of
+              the catalogue had its auto-extracted specs cleared as debris, so an
+              unconditional block would leave ~1,585 pages with an empty "Specifications"
+              heading and a blank table. */}
+          {Object.keys(product.specifications ?? {}).length > 0 && (
+            <div>
+              <h2 className="heading-3 text-dark mb-4">Specifications</h2>
+              <div className="rounded-2xl bg-white border border-charcoal-100 overflow-hidden">
+                <table className="w-full table-fixed">
+                  <tbody>
+                    {Object.entries(product.specifications).map(
+                      ([key, value], i) => (
+                        <tr
+                          key={key}
+                          className={
+                            i % 2 === 0 ? "bg-charcoal-50/50" : "bg-white"
+                          }
+                        >
+                          <td className="px-3 py-3 text-xs font-semibold text-charcoal-600 break-words w-2/5">
+                            {key}
+                          </td>
+                          <td className="px-3 py-3 text-xs text-charcoal-500 break-words w-3/5">
+                            {value}
+                          </td>
+                        </tr>
+                      )
+                    )}
+                  </tbody>
+                </table>
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         {/* FAQ. Same questions are emitted as FAQPage schema further down.

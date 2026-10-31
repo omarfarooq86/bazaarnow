@@ -19,8 +19,8 @@
     "Clean blades after every use"
   ],
   "specifications": {
-    "weight": "grip",
-    "color": "availability",
+    "Weight": "grip",
+    "Color": "availability",
     "Material": "High-carbon"
   },
   "images": [
