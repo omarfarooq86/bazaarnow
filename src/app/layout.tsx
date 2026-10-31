@@ -7,6 +7,14 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import MobileNav from "@/components/layout/MobileNav";
 import WhatsAppFloat from "@/components/ui/WhatsAppFloat";
+import { getSiteConfig } from "@/lib/config";
+
+// Derived from site-config rather than hardcoded. These three URLs had drifted
+// apart: the structured data advertised @bazaarnow on Instagram and TikTok while
+// the config and checkout copy said @bazaarnowpk — and neither Instagram handle
+// belonged to this business. One source of truth means that cannot recur.
+const { social } = getSiteConfig();
+const sameAs = Object.values(social).filter(Boolean) as string[];
 
 export const metadata: Metadata = {
   title: {
@@ -120,11 +128,7 @@ export default function RootLayout({
                 contactType: "customer service",
                 availableLanguage: ["English", "Urdu"],
               },
-              sameAs: [
-                "https://facebook.com/bazaarnow",
-                "https://instagram.com/bazaarnow",
-                "https://tiktok.com/@bazaarnow",
-              ],
+              sameAs,
             }),
           }}
         />

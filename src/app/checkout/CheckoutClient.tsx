@@ -21,6 +21,7 @@ import {
   FileText,
   Copy,
   Zap,
+  ThumbsUp,
 } from "lucide-react";
 import Link from "next/link";
 import { useCartStore } from "@/lib/cart";
@@ -469,14 +470,28 @@ export default function CheckoutClient() {
                 {isSubmitting ? "Opening WhatsApp..." : "Order via WhatsApp"}
               </motion.button>
 
-              {/* Social sharing */}
+              {/* Facebook follow + share. Asks for the follow first — it is one tap,
+                  where "share your unboxing and tag us" is three. The URL comes from
+                  site-config so it cannot drift out of sync with the rest of the site. */}
               <div className="mt-4 p-3 rounded-xl bg-brand-50 border border-brand-100 text-center">
                 <p className="text-[0.7rem] font-semibold text-brand-700 mb-1">
-                  Share your order & get a discount
+                  Like us on Facebook & get a discount
                 </p>
-                <p className="text-[0.6rem] text-brand-600">
-                  Tag @bazaarnowpk on Instagram or Facebook with your unboxing. We'll DM you a discount code for your next order.
+                <p className="text-[0.6rem] text-brand-600 mb-2">
+                  Follow our page, then tag us in your unboxing photos. We&apos;ll
+                  send a discount code for your next order.
                 </p>
+                {config.social.facebook && (
+                  <a
+                    href={config.social.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-[0.65rem] font-semibold text-brand-700 underline hover:text-brand-600"
+                  >
+                    <ThumbsUp className="w-3.5 h-3.5" />
+                    Follow BazaarNow on Facebook
+                  </a>
+                )}
               </div>
 
               {/* Inventory notice */}

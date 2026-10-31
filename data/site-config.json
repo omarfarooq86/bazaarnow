@@ -8,9 +8,7 @@
   "email": "omee00@gmail.com",
   "address": "Lahore, Pakistan",
   "social": {
-    "facebook": "https://facebook.com/bazaarnow",
-    "instagram": "https://instagram.com/bazaarnowpk",
-    "tiktok": "https://tiktok.com/@bazaarnowpk"
+    "facebook": "https://facebook.com/bazaarnow"
   },
   "paymentMethods": [
     { "id": "cod", "name": "Cash on Delivery", "icon": "Banknote", "type": "cod" },

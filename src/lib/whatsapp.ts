@@ -73,9 +73,16 @@ export function generateWhatsAppMessage(
     lines.push(`Notes: ${customer.notes}`);
   }
 
-  lines.push("");
-  lines.push("---");
-  lines.push("*Help us grow!* Share your order on Instagram or Facebook and tag us @bazaarnowpk. Customers who share get a special discount on their next order.");
+  // Follow first, share second: one tap versus three. The URL is a real link here,
+  // which is the whole point — WhatsApp renders it tappable, and the old copy asked
+  // customers to tag a handle that did not exist.
+  if (config.social.facebook) {
+    lines.push("");
+    lines.push("---");
+    lines.push(
+      `*Help us grow!* Follow us on Facebook: ${config.social.facebook}\nTag us in your unboxing photos and we'll send a discount code for your next order.`
+    );
+  }
 
   if (isAdvance) {
     lines.push("");
