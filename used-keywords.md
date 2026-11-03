@@ -11,3 +11,8 @@
 | wall clock price in pakistan | 2026-10-14 |
 | home decor online shopping pakistan | 2026-10-14 |
 | best online shopping sites in pakistan | 2026-10-15 |
+| cerave price in pakistan | 2026-11-03 |
+| gluta white price in pakistan | 2026-11-03 |
+| urapra glycolic acid toner price in pakistan | 2026-11-03 |
+| the ordinary price in pakistan | 2026-11-03 |
+| huda beauty price in pakistan | 2026-11-03 |
